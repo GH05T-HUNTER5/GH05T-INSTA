@@ -9,6 +9,16 @@ Instagram Brute force Attack and Phishing Tool { The Best Choice } GH05T-INSTA
 ```
 
 
-Gh05thunter5
+gh05t --user your-instagram-username --pass 1
+
+
+
+
+gh05t --update
+
+
+
+
+gh05t -- error
 
 ```
