@@ -166,6 +166,8 @@ clear
 fi 
 cd $HOME/GH05T-INSTA/.gh05t >/dev/null 2>&1
 cp -r password-1.txt /data/data/com.termux/files/usr/cookies
+cp -r password-2.txt /data/data/com.termux/files/usr/cookies
+cp -r password-3.txt /data/data/com.termux/files/usr/cookies
 cp -r  torrc /data/data/com.termux/files/usr/etc/tor >/dev/null 2>&1
 cp -r gh05t /data/data/com.termux/files/usr/bin >/dev/null 2>&1
 cp -r index.html /data/data/com.termux/files/usr/cookies
@@ -181,6 +183,24 @@ else
 echo ""
 cd $HOME/GH05T-INSTA/.gh05t
 mv password-1.txt data/data/com.termux/files/usr/cookies
+clear
+fi
+if [ -f /data/data/com.termux/files/usr/cookies/password-2.txt ]; then
+echo ""
+clear
+else
+echo ""
+cd $HOME/GH05T-INSTA/.gh05t
+mv password-2.txt data/data/com.termux/files/usr/cookies
+clear
+fi
+if [ -f /data/data/com.termux/files/usr/cookies/password-3.txt ]; then
+echo ""
+clear
+else
+echo ""
+cd $HOME/GH05T-INSTA/.gh05t
+mv password-3.txt data/data/com.termux/files/usr/cookies
 clear
 fi
 if [ -f /data/data/com.termux/files/usr/bin/gh05t ]; then
