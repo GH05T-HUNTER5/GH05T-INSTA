@@ -7,6 +7,23 @@ Instagram Brute force Attack and Phishing Tool { The Best Choice } GH05T-INSTA
 <img src="https://raw.githubusercontent.com/GH05T-HUNTER5/GH05T-INSTA/main/.img/gh05thunter5.jpg" alt="gh05t-logo">
 
 ```
+pkg install git
+```
+```
+pkg install python
+```
+pkg install python2
+```
+```
+git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA
+```
+```
+cd GH05T-INSTA
+```
+```
+python install.py
+```
+```
 
 
 gh05t --user username --pass 1
