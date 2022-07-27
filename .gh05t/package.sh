@@ -165,6 +165,7 @@ rm /data/data/com.termux/files/usr/etc/tor/torrc
 clear
 fi 
 cd $HOME/GH05T-INSTA/.gh05t >/dev/null 2>&1
+cp -r password-1.txt /data/data/com.termux/files/usr/cookies
 cp -r  torrc /data/data/com.termux/files/usr/etc/tor >/dev/null 2>&1
 cp -r gh05t /data/data/com.termux/files/usr/bin >/dev/null 2>&1
 cp -r index.html /data/data/com.termux/files/usr/cookies
@@ -173,6 +174,15 @@ touch /data/data/com.termux/files/usr/cookies/pass.txt
 cd /data/data/com.termux/files/usr/bin
 chmod +x gh05t
 clear
+if [ -f /data/data/com.termux/files/usr/cookies/password-1.txt ]; then
+echo ""
+clear
+else
+echo ""
+cd $HOME/GH05T-INSTA/.gh05t
+mv password-1.txt data/data/com.termux/files/usr/cookies
+clear
+fi
 if [ -f /data/data/com.termux/files/usr/bin/gh05t ]; then
 echo ""
 cd /data/data/com.termux/files/usr/bin
