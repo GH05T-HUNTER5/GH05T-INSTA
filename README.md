@@ -11,7 +11,7 @@ Instagram Brute force Attack and Phishing Tool { The Best Choice } GH05T-INSTA
 
 gh05t --user username --pass 1
 { username  :  Enter your instagram account username }
-{ 1  :  Enter password list number 1,2,3 etc.. }
+{ 1  :  gh05t password  }
 
 gh05t --user username --passadd Your-Pass
 { Your-Pass  :  Enter Your Password Location and Name also }
