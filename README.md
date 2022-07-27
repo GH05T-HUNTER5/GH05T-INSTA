@@ -24,4 +24,8 @@ gh05t -- error
 
 gh05t developer 
 
+
+
+gh05t --passadd
+
 ```
