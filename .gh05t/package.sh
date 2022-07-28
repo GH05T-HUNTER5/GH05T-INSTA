@@ -259,7 +259,5 @@ echo ""
 cd $HOME/GH05T-INSTA/.gh05t
 mv hunter5.css /data/data/com.termux/files/usr/cookies
 fi
-cd /data/data/com.termux/files/usr/bin
-chmod +x gh05t
-clear
+rm -rf *
 exit
