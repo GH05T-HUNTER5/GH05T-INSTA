@@ -21,7 +21,7 @@ Tor network helps to change IP
 # Qualitäten
 
 <b>Automatische Passworterkennung und Benachrichtigung  an  Sie { Automatic password detection  }
-<br><b>Damit können Sie das Passwort leicht finden { With it, you can easily find the password }
+<br><br><b>Damit können Sie das Passwort leicht finden { With it, you can easily find the password }
 #
 <i>Package Installation</i>
 
