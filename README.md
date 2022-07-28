@@ -1,6 +1,7 @@
 <i>TERMUX USERS</i>
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgdSRpWna3cUNzxztZyRoOmcbgiQm7d-OP1A&usqp=CAU" alt="bruteforce attack ">
 <b>You can hack Instagram accounts with the help of this tool</b>
+<b><del]PHISHING</del> BruteForce Attack</b>
 <img src="https://raw.githubusercontent.com/GH05T-HUNTER5/GH05T-INSTA/main/.img/gh05thunter5.jpg" alt="gh05t-logo">
 
 <i>Package Installation</i>
