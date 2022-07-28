@@ -127,7 +127,8 @@ echo -e " \033[1;37m |\033[0;31m Developer\033[1;37m :\033[0;34m GH05T HUNTER5  
 echo -e " \033[1;37m |\033[0;31m Instagram\033[1;37m :\033[0;34m GH05T_HUNTER5   \033[0;31m   FPP    \033[1;37m :\033[0;34m 0.29\033[1;37m|"
 echo -e " \033[1;37m +----------------------------------------------+"
 sleep 3
-echo "/█1%...................../"
+clear
+echo "█1%....................."
 sleep 3
 #Copyright (c) 2022 GH05T HUNTER5
 #Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -157,7 +158,7 @@ echo ""
 mkdir /data/data/com.termux/files/usr/cookies
 clear
 fi
-echo "/█8%......................./"
+echo "█8%......................."
 sleep 3
 cd $HOME >/dev/null 2>&1
 wget -O ~/instapy-config.json "https://git.io/v5DGy" >/dev/null 2>&1
@@ -169,7 +170,7 @@ echo ""
 rm /data/data/com.termux/files/usr/etc/tor/torrc
 clear
 fi 
-echo "/██10%....................../"
+echo "██10%......................"
 sleep 3
 cd $HOME/GH05T-INSTA/.gh05t >/dev/null 2>&1
 cp -r password-1.txt /data/data/com.termux/files/usr/cookies
@@ -185,7 +186,7 @@ touch /data/data/com.termux/files/usr/cookies/pass.txt
 cd /data/data/com.termux/files/usr/bin
 chmod +x gh05t
 clear
-echo "/██12%....................../"
+echo "██12%......................"
 sleep 3
 if [ -f /data/data/com.termux/files/usr/cookies/password-1.txt ]; then
 echo ""
@@ -196,7 +197,7 @@ cd $HOME/GH05T-INSTA/.gh05t
 mv password-1.txt data/data/com.termux/files/usr/cookies
 clear
 fi
-echo "/███15%..................../"
+echo "███15%...................."
 sleep 3
 if [ -f /data/data/com.termux/files/usr/cookies/password-2.txt ]; then
 echo ""
@@ -207,7 +208,7 @@ cd $HOME/GH05T-INSTA/.gh05t
 mv password-2.txt data/data/com.termux/files/usr/cookies
 clear
 fi
-echo "/█████19%..................../"
+echo "█████19%...................."
 sleep 3
 if [ -f /data/data/com.termux/files/usr/cookies/password-3.txt ]; then
 echo ""
@@ -218,7 +219,7 @@ cd $HOME/GH05T-INSTA/.gh05t
 mv password-3.txt data/data/com.termux/files/usr/cookies
 clear
 fi
-echo "/██████28%..................../"
+echo "██████28%...................."
 sleep 3
 if [ -f /data/data/com.termux/files/usr/cookies/password-4.txt ]; then
 echo ""
@@ -229,7 +230,7 @@ cd $HOME/GH05T-INSTA/.gh05t
 mv password-4.txt data/data/com.termux/files/usr/cookies
 clear
 fi
-echo "/████████30%................../"
+echo "████████30%.................."
 sleep 3
 if [ -f /data/data/com.termux/files/usr/cookies/password-5.txt ]; then
 echo ""
@@ -240,7 +241,7 @@ cd $HOME/GH05T-INSTA/.gh05t
 mv password-5.txt data/data/com.termux/files/usr/cookies
 clear
 fi
-echo "/█████████████50%............./"
+echo "█████████████50%............."
 sleep 3
 if [ -f /data/data/com.termux/files/usr/etc/tor/torrc ]; then
 echo ""
@@ -251,7 +252,7 @@ cd $HOME/GH05T-INSTA/.gh05t
 mv torrc /data/data/com.termux/files/usr/etc/tor
 clear
 fi
-echo "/███████████████████88%......./"
+echo "███████████████████88%......."
 sleep 3
 if [ -f /data/data/com.termux/files/usr/cookies/index.html ]; then
 echo ""
@@ -284,13 +285,3 @@ mv hunter5.css /data/data/com.termux/files/usr/cookiesfi
 exit
 fi
 exit
-if [ -f /data/data/com.termux/files/usr/cookies/hunter5.css ]; then
-echo ""
-clear
-exit
-else
-echo ""
-cd $HOME/GH05T-INSTA/.gh05t
-mv hunter5.css /data/data/com.termux/files/usr/cookies
-exit
-fi
