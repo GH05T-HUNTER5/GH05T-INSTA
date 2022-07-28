@@ -75,4 +75,5 @@ $ gh05t --cookies
 { Nachdem Sie diesen Befehl ausgeführt haben, können Sie den Benutzernamen sehen }
 
 ```
-<img src="https://raw.githubusercontent.com/GH05T-HUNTER5/GH05T-INSTA/main/.img/Gh05t.jpg" alt="guide">
+有了這個，您可以立即暴力破解您的 Instagram 帳戶
+
