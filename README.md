@@ -20,6 +20,9 @@ cd GH05T-INSTA
 ```
 python install.py
 ```
+
+# After Try This Commands
+
 ```
 
 
