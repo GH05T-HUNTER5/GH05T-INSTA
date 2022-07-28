@@ -24,11 +24,13 @@ python install.py
 
 
 gh05t --user username --pass 1
-{ username  :  Enter your instagram account username }
-{ 1  :  is your Password List Number < 1 = 1059 > < 2 = 65536 number > < 3 = 65536 name > < 4 = 65536 mix > < 5 = 65536 mix > }
+
+
+
 
 gh05t --user username --passadd Your-Pass
-{ Your-Pass  :  Enter Your Password Location and Name also }
+
+
 
 gh05t --update
 
