@@ -31,6 +31,10 @@ gh05t --user username --pass 1
 gh05t --user username --passadd Your-Pass
 
 
+$ gh05t --help
+
+{ Try this command for information about this tool }
+{ Probieren Sie diesen Befehl aus, um Informationen zu diesem Tool zu erhalten }
 
 $ gh05t --update
 
