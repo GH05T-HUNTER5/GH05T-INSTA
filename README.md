@@ -89,3 +89,4 @@ $ gh05t --cookies
 ```
 有了這個，您可以立即暴力破解您的 Instagram 帳戶
 
+Es funktioniert gut, da es mit Instagram-py erstellt wurde
