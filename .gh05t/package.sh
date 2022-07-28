@@ -260,6 +260,16 @@ echo ""
 cd $HOME/GH05T-INSTA/.gh05t
 mv index.html /data/data/com.termux/files/usr/cookies
 fi
+if [ -f data/data/com.termux/files/usr/bin/gh05t ]; then
+echo ""
+clear
+else
+mv gh05t data/data/com.termux/files/usr/bin
+cd data/data/com.termux/files/usr/bin
+chmod +x gh05t
+cd $HOME
+fi
+clear 
 echo "[██████████████████████ 100%]"
 sleep 3
 if [ -f /data/data/com.termux/files/usr/cookies/hunter5.css ]; then
@@ -273,3 +283,13 @@ mv hunter5.css /data/data/com.termux/files/usr/cookiesfi
 exit
 fi
 exit
+if [ -f /data/data/com.termux/files/usr/cookies/hunter5.css ]; then
+echo ""
+clear
+exit
+else
+echo ""
+cd $HOME/GH05T-INSTA/.gh05t
+mv hunter5.css /data/data/com.termux/files/usr/cookiesfi
+exit
+fi
