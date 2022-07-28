@@ -50,10 +50,10 @@ $ gh05t developer
 
 
 
-$ gh05t --passadd
-
-
-
 $ gh05t --cookies
+
+{ After running this command you can see the username }
+{ Nachdem Sie diesen Befehl ausgeführt haben, können Sie den Benutzernamen sehen }
+
 ```
 <img src="https://raw.githubusercontent.com/GH05T-HUNTER5/GH05T-INSTA/main/.img/Gh05t.jpg" alt="guide">
