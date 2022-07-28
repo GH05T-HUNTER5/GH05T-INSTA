@@ -31,5 +31,5 @@ os.system ("pkg install curl")
 os.system ("clear")
 os.system ("bash .gh05t/package.sh")
 # NOT READY TO PUBLISH { 25/12/2022 }
-usrname = input ("Enter your instagram usrname : " )
-password = input (" Enter your password location : " )
+# usrname = input ("Enter your instagram usrname : " )
+# password = input (" Enter your password location : " )
