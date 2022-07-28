@@ -121,7 +121,6 @@ $ gh05t --cookies
 
 # Main Menu
 <em>You can use it in two ways</em><br>
-<b>$ Command-line interface </b><br>
 <br>$ just type : gh05t</b><br>
 <img src="https://raw.githubusercontent.com/GH05T-HUNTER5/GH05T-INSTA/main/.img/gh05t.jpg" alt="menu">
 
