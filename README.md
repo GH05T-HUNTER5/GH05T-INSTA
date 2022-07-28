@@ -15,7 +15,7 @@ $ Your IP address will change automatically
 
 @ Ihre IP-Adresse ändert sich automatisch
 
-Tor
+Tor network helps to change IP
 </pre>
 
 <i>Package Installation</i>
