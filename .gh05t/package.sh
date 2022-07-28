@@ -100,6 +100,7 @@ echo ""
 pkg install python -y
 clear
 fi
+echo "Please Wait..."
 dpkg --configure -a 
 pip install --upgrade pip >/dev/null 2>&1
 pip3 install requests --upgrade >/dev/null 2>&1
