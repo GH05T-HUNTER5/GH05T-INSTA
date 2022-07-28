@@ -4,6 +4,19 @@
 <br><b><del>PHISHING</del> BruteForce Attack</b>
 <img src="https://raw.githubusercontent.com/GH05T-HUNTER5/GH05T-INSTA/main/.img/gh05thunter5.jpg" alt="gh05t-logo">
 
+<li>Auto Attack</li>
+<pre>
+$ If you enter the username, it will attack itself
+
+$ Once the password is received, a warning message will also appear
+
+$ Your IP address will change automatically
+
+@ Ihre IP-Adresse ändert sich automatisch
+
+Tor
+</pre>
+
 <i>Package Installation</i>
 
 ```
