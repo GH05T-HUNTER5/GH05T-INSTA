@@ -73,6 +73,7 @@ $ gh05t --user username --pass 1
 ( gh05t --user mr_fake#@ --pass 3 )
 ( gh05t --user liza888#8 --pass 4 )
 ( gh05t --user german_9#6# --pass 5 )
+(     Total Password List 5        )
 
 $ gh05t --user username --passadd Your-Pass
 
@@ -84,6 +85,7 @@ $ gh05t --user username --passadd Your-Pass
 ( gh05t --user mr_fake#@ --passadd /data/data/com.termux/files/home/storage/shared/worldlist.txt )
 ( gh05t --user liza888#8 --passadd /data/data/com.termux/files/home/storage/downloads/pizza.txt
 ( gh05t --user german_9#6# --passadd /data/data/com.termux/files/home/my-pass.txt )
+(                Enter your password location and name                   )
 
 $ gh05t --help
 
