@@ -23,10 +23,14 @@ python install.py
 ```
 
 
-gh05t --user username --pass 1
+$ gh05t --user username --pass 1
 
-
-
+{ After running this command the brute force will start }
+(               How to              )
+( gh05t --user mr_77778#8 --pass 2 )
+( gh05t --user mr_fake#@ --pass 3 )
+( gh05t --user liza888#8 --pass 4 )
+( gh05t --user german_9#6# --pass 5 )
 
 gh05t --user username --passadd Your-Pass
 
