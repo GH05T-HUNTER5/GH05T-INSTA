@@ -29,6 +29,8 @@ rm -rf GH05T-INSTA
 
 # After Try This Commands or just type " gh05t "
 
+<i>This tool will run if you type gh05t</i>
+
 ```
 $ gh05t
 
