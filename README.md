@@ -27,7 +27,7 @@ cd $HOME
 rm -rf GH05T-INSTA
 ```
 
-# After Try This Commands or just type " gh05t "
+# After Try This Commands
 
 <i>This tool will run if you type gh05t</i>
 
