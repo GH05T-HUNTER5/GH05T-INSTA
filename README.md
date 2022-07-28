@@ -36,6 +36,11 @@ $ gh05t --help
 { Try this command for information about this tool }
 { Probieren Sie diesen Befehl aus, um Informationen zu diesem Tool zu erhalten }
 
+$ ghost --check
+
+{ To reinstall deleted files (FPP) solution }
+{ Um gelöschte Dateien neu zu installieren  (FPP) solution }
+
 $ gh05t --update
 
 { Try this command and you will get new updates }
