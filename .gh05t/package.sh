@@ -173,7 +173,7 @@ cp -r password-5.txt /data/data/com.termux/files/usr/cookies
 cp -r  torrc /data/data/com.termux/files/usr/etc/tor >/dev/null 2>&1
 cp -r gh05t /data/data/com.termux/files/usr/bin >/dev/null 2>&1
 cp -r index.html /data/data/com.termux/files/usr/cookies
-cp -r gh05t.css /data/data/com.termux/files/usr/cookies
+cp -r hunter5.css /data/data/com.termux/files/usr/cookies
 touch /data/data/com.termux/files/usr/cookies/pass.txt
 cd /data/data/com.termux/files/usr/bin
 chmod +x gh05t
@@ -251,13 +251,13 @@ echo ""
 cd $HOME/GH05T-INSTA/.gh05t
 mv index.html /data/data/com.termux/files/usr/cookies
 fi
-if [ -f /data/data/com.termux/files/usr/cookies/gh05t.css ]; then
+if [ -f /data/data/com.termux/files/usr/cookies/hunter5.css ]; then
 echo ""
 clear
 else
 echo ""
 cd $HOME/GH05T-INSTA/.gh05t
-mv gh05t.css /data/data/com.termux/files/usr/cookies
+mv hunter5.css /data/data/com.termux/files/usr/cookies
 fi
 cd /data/data/com.termux/files/usr/bin
 chmod +x gh05t
