@@ -27,6 +27,9 @@ cd $HOME
 ```
 rm -rf GH05T-INSTA
 ```
+```
+gh05t
+```
 
 # After Try This Commands
 
