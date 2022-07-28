@@ -157,28 +157,58 @@ banners
 sleep 3
 echo "
 
-gh05t --user username --pass 1
-{ username  :  Enter your instagram account username }
-{ 1  :  is your Password List Number < 1 = 1059 > < 2 = 65536 number > < 3 = 65536 name > < 4 = 65536 mix > < 5 = 65536 mix > }
 
-gh05t --user username --passadd Your-Pass
-{ Your-Pass  :  Enter Your Password Location and Name also }
+$ gh05t --user username --pass 1
 
-gh05t --update
+{ After running this command the brute force will start }
+{ Nach Ausführung dieses Befehls wird die Brute Force gestartet }
+(             How To Use            )
+( gh05t --user mr_77778#8 --pass 2 )
+( gh05t --user mr_fake#@ --pass 3 )
+( gh05t --user liza888#8 --pass 4 )
+( gh05t --user german_9#6# --pass 5 )
 
+$ gh05t --user username --passadd Your-Pass
 
+{ After running this command the brute force will start }
+{ Nach Ausführung dieses Befehls wird die Brute Force gestartet }
 
+(                       How To Use                        )
+( gh05t --user mr_77778#8 --passadd /data/data/com.termux/files/home/password.txt )
+( gh05t --user mr_fake#@ --passadd /data/data/com.termux/files/home/storage/shared/worldlist.txt )
+( gh05t --user liza888#8 --passadd /data/data/com.termux/files/home/storage/downloads/pizza.txt
+( gh05t --user german_9#6# --passadd /data/data/com.termux/files/home/my-pass.txt )
 
-gh05t --error
+$ gh05t --help
 
+{ Try this command for information about this tool }
+{ Probieren Sie diesen Befehl aus, um Informationen zu diesem Tool zu erhalten }
 
+$ ghost --check
 
+{ To reinstall deleted files (FPP) solution }
+{ Um gelöschte Dateien neu zu installieren  (FPP) solution }
 
-gh05t developer 
+$ gh05t --update
 
+{ Try this command and you will get new updates }
+{ Probieren Sie diesen Befehl aus und Sie erhalten neue Updates }
 
+$ gh05t --error
 
-gh05t --passadd"
+{ Run this command if you encounter errors while running this tool }
+{ Führen Sie diesen Befehl aus, wenn beim Ausführen dieses Tools Fehler auftreten }
+
+$ gh05t developer 
+
+{ To contact the developer }
+{ Um den Entwickler zu kontaktieren }
+
+$ gh05t --cookies
+
+{ After running this command you can see the username }
+{ Nachdem Sie diesen Befehl ausgeführt haben, können Sie den Benutzernamen sehen }"
+
 
 echo -e "  \033[1;37m[\033[0;31m99\033[1;37m]\033[0;32m Main                         \033[1;37m[\033[0;31m00\033[1;37m]\033[0;32m Exit"
 read -p $'  \e[1;92m[\e[0m\e[1;77m++\e[0m\e[1;92m] Choose an option : \e[0m' options
