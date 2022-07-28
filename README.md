@@ -26,6 +26,7 @@ python install.py
 $ gh05t --user username --pass 1
 
 { After running this command the brute force will start }
+{ Nach Ausführung dieses Befehls wird die Brute Force gestartet }
 (               How to              )
 ( gh05t --user mr_77778#8 --pass 2 )
 ( gh05t --user mr_fake#@ --pass 3 )
