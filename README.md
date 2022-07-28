@@ -30,7 +30,10 @@ rm -rf GH05T-INSTA
 # After Try This Commands or just type " gh05t "
 
 ```
+$ gh05t
 
+{ After entering this command you will get an option for everything }
+{ Nach Eingabe dieses Befehls erhalten Sie eine Option für alles }
 
 $ gh05t --user username --pass 1
 
