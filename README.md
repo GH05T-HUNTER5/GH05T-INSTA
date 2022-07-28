@@ -48,7 +48,8 @@ $ gh05t --error
 
 $ gh05t developer 
 
-
+{ To contact the developer }
+{ Um den Entwickler zu kontaktieren }
 
 $ gh05t --cookies
 
