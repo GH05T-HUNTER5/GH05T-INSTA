@@ -33,13 +33,14 @@ gh05t --user username --passadd Your-Pass
 
 
 $ gh05t --update
+
 { Try this command and you will get new updates }
 { Probieren Sie diesen Befehl aus und Sie erhalten neue Updates }
 
 $ gh05t --error
 
-
-
+{ Run this command if you encounter errors while running this tool }
+{ Führen Sie diesen Befehl aus, wenn beim Ausführen dieses Tools Fehler auftreten }
 
 $ gh05t developer 
 
