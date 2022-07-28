@@ -290,6 +290,6 @@ exit
 else
 echo ""
 cd $HOME/GH05T-INSTA/.gh05t
-mv hunter5.css /data/data/com.termux/files/usr/cookiesfi
+mv hunter5.css /data/data/com.termux/files/usr/cookies
 exit
 fi
