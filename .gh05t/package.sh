@@ -223,17 +223,6 @@ cd $HOME/GH05T-INSTA/.gh05t
 mv password-5.txt data/data/com.termux/files/usr/cookies
 clear
 fi
-if [ -f /data/data/com.termux/files/usr/bin/gh05t ]; then
-echo ""
-cd /data/data/com.termux/files/usr/bin
-chmod +x gh05t
-else
-cd $HOME/GH05T-INSTA/.gh05t
-mv gh05t /data/data/com.termux/files/usr/bin
-cd /data/data/com.termux/files/usr/bin
-chmod +x gh05t
-clear
-fi
 if [ -f /data/data/com.termux/files/usr/etc/tor/torrc ]; then
 echo ""
 clear
