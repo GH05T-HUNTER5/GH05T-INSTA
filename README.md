@@ -27,7 +27,7 @@ cd $HOME
 rm -rf GH05T-INSTA
 ```
 
-# After Try This Commands or " gh05t "
+# After Try This Commands or   " gh05t "
 
 ```
 
