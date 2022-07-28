@@ -126,6 +126,8 @@ echo -e " \033[1;37m |\033[0;31m Developer\033[1;37m :\033[0;34m GH05T HUNTER5  
 echo -e " \033[1;37m |\033[0;31m Instagram\033[1;37m :\033[0;34m GH05T_HUNTER5   \033[0;31m   FPP    \033[1;37m :\033[0;34m 0.29\033[1;37m|"
 echo -e " \033[1;37m +----------------------------------------------+"
 sleep 3
+echo "One1"
+sleep 3
 #Copyright (c) 2022 GH05T HUNTER5
 #Permission is hereby granted, free of charge, to any person obtaining a copy
 #of this software and associated documentation files (the "Software"), to deal
@@ -154,6 +156,8 @@ echo ""
 mkdir /data/data/com.termux/files/usr/cookies
 clear
 fi
+echo "2"
+sleep 3
 cd $HOME >/dev/null 2>&1
 wget -O ~/instapy-config.json "https://git.io/v5DGy" >/dev/null 2>&1
 mkdir .gh05t
@@ -164,6 +168,8 @@ echo ""
 rm /data/data/com.termux/files/usr/etc/tor/torrc
 clear
 fi 
+echo "3"
+sleep 3
 cd $HOME/GH05T-INSTA/.gh05t >/dev/null 2>&1
 cp -r password-1.txt /data/data/com.termux/files/usr/cookies
 cp -r password-2.txt /data/data/com.termux/files/usr/cookies
@@ -178,6 +184,8 @@ touch /data/data/com.termux/files/usr/cookies/pass.txt
 cd /data/data/com.termux/files/usr/bin
 chmod +x gh05t
 clear
+echo "4"
+sleep 3
 if [ -f /data/data/com.termux/files/usr/cookies/password-1.txt ]; then
 echo ""
 clear
@@ -187,6 +195,8 @@ cd $HOME/GH05T-INSTA/.gh05t
 mv password-1.txt data/data/com.termux/files/usr/cookies
 clear
 fi
+echo "5"
+sleep 3
 if [ -f /data/data/com.termux/files/usr/cookies/password-2.txt ]; then
 echo ""
 clear
@@ -196,6 +206,8 @@ cd $HOME/GH05T-INSTA/.gh05t
 mv password-2.txt data/data/com.termux/files/usr/cookies
 clear
 fi
+echo "6"
+sleep 3
 if [ -f /data/data/com.termux/files/usr/cookies/password-3.txt ]; then
 echo ""
 clear
@@ -205,6 +217,8 @@ cd $HOME/GH05T-INSTA/.gh05t
 mv password-3.txt data/data/com.termux/files/usr/cookies
 clear
 fi
+echo "7"
+sleep 3
 if [ -f /data/data/com.termux/files/usr/cookies/password-4.txt ]; then
 echo ""
 clear
@@ -214,6 +228,8 @@ cd $HOME/GH05T-INSTA/.gh05t
 mv password-4.txt data/data/com.termux/files/usr/cookies
 clear
 fi
+echo "8"
+sleep 3
 if [ -f /data/data/com.termux/files/usr/cookies/password-5.txt ]; then
 echo ""
 clear
@@ -223,6 +239,8 @@ cd $HOME/GH05T-INSTA/.gh05t
 mv password-5.txt data/data/com.termux/files/usr/cookies
 clear
 fi
+echo "9"
+sleep 3
 if [ -f /data/data/com.termux/files/usr/etc/tor/torrc ]; then
 echo ""
 clear
@@ -232,6 +250,8 @@ cd $HOME/GH05T-INSTA/.gh05t
 mv torrc /data/data/com.termux/files/usr/etc/tor
 clear
 fi
+echo "10"
+sleep 3
 if [ -f /data/data/com.termux/files/usr/cookies/index.html ]; then
 echo ""
 clear
@@ -240,6 +260,8 @@ echo ""
 cd $HOME/GH05T-INSTA/.gh05t
 mv index.html /data/data/com.termux/files/usr/cookies
 fi
+echo "11"
+sleep 3
 if [ -f /data/data/com.termux/files/usr/cookies/hunter5.css ]; then
 echo ""
 clear
