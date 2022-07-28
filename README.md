@@ -120,7 +120,9 @@ $ gh05t --cookies
 ```
 
 # Main Menu
-
+<em>You can use it in two ways</em>
+<b>$ Command-line interface </b><br><br>
+<br>$ just type : gh05t</b>
 <img src="https://raw.githubusercontent.com/GH05T-HUNTER5/GH05T-INSTA/main/.img/gh05t.jpg" alt="menu">
 
 有了這個，您可以立即暴力破解您的 Instagram 帳戶
