@@ -20,6 +20,12 @@ cd GH05T-INSTA
 ```
 python install.py
 ```
+```
+cd $HOME
+```
+```
+rm -rf GH05T-INSTA
+```
 
 # After Try This Commands
 
