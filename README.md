@@ -18,6 +18,9 @@ $ Your IP address will change automatically
 Tor network helps to change IP
 </pre>
 
+# Qualitäten
+
+<b>Automatische Passworterkennung und Benachrichtigung an Sie { Automatic password detection  }
 <i>Package Installation</i>
 
 ```
