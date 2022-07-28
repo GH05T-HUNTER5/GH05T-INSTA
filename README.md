@@ -110,6 +110,11 @@ $ gh05t --cookies
 { Nachdem Sie diesen Befehl ausgeführt haben, können Sie den Benutzernamen sehen }
 
 ```
+
+# Main Menu
+
+<img src="https://raw.githubusercontent.com/GH05T-HUNTER5/GH05T-INSTA/main/.img/gh05t.jpg" alt="menu">
+
 有了這個，您可以立即暴力破解您的 Instagram 帳戶
 
 Es funktioniert gut, da es mit Instagram-py erstellt wurde
