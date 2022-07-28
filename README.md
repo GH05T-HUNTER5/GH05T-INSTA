@@ -27,14 +27,22 @@ $ gh05t --user username --pass 1
 
 { After running this command the brute force will start }
 { Nach Ausführung dieses Befehls wird die Brute Force gestartet }
-(               How to              )
+(             How To Use            )
 ( gh05t --user mr_77778#8 --pass 2 )
 ( gh05t --user mr_fake#@ --pass 3 )
 ( gh05t --user liza888#8 --pass 4 )
 ( gh05t --user german_9#6# --pass 5 )
 
-gh05t --user username --passadd Your-Pass
+$ gh05t --user username --passadd Your-Pass
 
+{ After running this command the brute force will start }
+{ Nach Ausführung dieses Befehls wird die Brute Force gestartet }
+
+(                       How To Use                        )
+( gh05t --user mr_77778#8 --passadd /data/data/com.termux/files/home/password.txt )
+( gh05t --user mr_fake#@ --passadd /data/data/com.termux/files/home/storage/shared/worldlist.txt )
+( gh05t --user liza888#8 --passadd /data/data/com.termux/files/home/storage/downloads/pizza.txt
+( gh05t --user german_9#6# --passadd /data/data/com.termux/files/home/my-pass.txt )
 
 $ gh05t --help
 
