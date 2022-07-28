@@ -32,24 +32,23 @@ gh05t --user username --passadd Your-Pass
 
 
 
-gh05t --update
+$ gh05t --update
+{ Try this command and you will get new updates }
+{ Probieren Sie diesen Befehl aus und Sie erhalten neue Updates }
+
+$ gh05t --error
 
 
 
 
-gh05t --error
+$ gh05t developer 
 
 
 
-
-gh05t developer 
-
-
-
-gh05t --passadd
+$ gh05t --passadd
 
 
 
-gh05t --cookies
+$ gh05t --cookies
 ```
 <img src="https://raw.githubusercontent.com/GH05T-HUNTER5/GH05T-INSTA/main/.img/Gh05t.jpg" alt="guide">
