@@ -20,7 +20,7 @@ Tor network helps to change IP
 
 # Qualitäten
 
-<b>Automatische Passworterkennung und Benachrichtigung an Sie { Automatic password detection  }
+<b>Automatische Passworterkennung und Benachrichtigung  an  Sie { Automatic password detection  }
 <i>Package Installation</i>
 
 ```
