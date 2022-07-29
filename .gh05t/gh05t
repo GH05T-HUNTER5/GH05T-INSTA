@@ -522,8 +522,28 @@ elif [ $passnum = 8 ] || [ $passnum = 08 ]; then
 value="/data/data/com.termux/files/usr/cookies/password-8.txt"
 elif [ $passnum = 9 ] || [ $passnum = 09 ]; then
 value="/data/data/com.termux/files/usr/cookies/password-9.txt"
-elif [ $passnum = 5 ]; then
+elif [ $passnum = 10 ]; then
 value="/data/data/com.termux/files/usr/cookies/password-10.txt"
+elif [ $passnum = 11 ]; then
+value="/data/data/com.termux/files/usr/cookies/password-11.txt"
+elif [ $passnum = 12 ]; then
+value="/data/data/com.termux/files/usr/cookies/password-12.txt"
+elif [ $passnum = 13 ]; then
+value="/data/data/com.termux/files/usr/cookies/password-13.txt"
+elif [ $passnum = 14 ]; then
+value="/data/data/com.termux/files/usr/cookies/password-14.txt"
+elif [ $passnum = 15 ]; then
+value="/data/data/com.termux/files/usr/cookies/password-15.txt"
+elif [ $passnum = 16 ]; then
+value="/data/data/com.termux/files/usr/cookies/password-16.txt"
+elif [ $passnum = 17 ]; then
+value="/data/data/com.termux/files/usr/cookies/password-17.txt"
+elif [ $passnum = 18 ]; then
+value="/data/data/com.termux/files/usr/cookies/password-18.txt"
+elif [ $passnum = 19 ]; then
+value="/data/data/com.termux/files/usr/cookies/password-19.txt"
+elif [ $passnum = 20 ]; then
+value="/data/data/com.termux/files/usr/cookies/password-20.txt"
 else
 clear
 echo " choose password Type"
