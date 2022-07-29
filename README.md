@@ -50,6 +50,9 @@ cd $HOME
 ```
 rm -rf GH05T-INSTA
 ```
+
+<center>After</center>
+
 ```
 gh05t
 ```
