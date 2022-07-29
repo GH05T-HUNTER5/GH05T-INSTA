@@ -142,3 +142,13 @@ Es funktioniert gut, da es mit Instagram-py erstellt wurde
 ```
                                                                                           The use of the GH05T-INSTA is COMPLETE RESPONSIBILITY of the END-USER. Developers assume NO liability and are NOT responsible for any misuse or damage caused by this program.
 ```
+
+
+<b>DEVELOPER</b>
+
+<a href="https://github.com/GH05T-HUNTER5">GitHub</a>
+<a href="https://t.me/GH05T_HUNTER5">Telegram</a>
+<a href="https://www.instagram.com/gh05t_hunter5/">Instagram</a>
+<a href="https://youtube.com/channel/UCLoaCSIy4qzx7X2HCjbD8LA">YouTube</a>
+<a href="https://mobile.twitter.com/gh05_thunter5">Twitter</a>
+<a href="https://gh05thunter5.blogspot.com/2022/07/blog-post.html?m=1">Blogs</a>
