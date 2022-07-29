@@ -1,4 +1,20 @@
 #!/bin/bash
+exit_on_signal_SIGINT() {
+echo ""
+clear 
+echo " Trying To Exit"
+sleep 5
+exit 0
+}
+exit_on_signal_SIGTERM() {
+echo ""
+clear 
+echo " Trying To Exit"
+sleep 5
+exit 0
+}
+trap exit_on_signal_SIGINT SIGINT
+trap exit_on_signal_SIGTERM SIGTERM
 function breakme () {
 if [ -d /data/data/com.termux/files/usr/cookies ]; then
 echo ""
