@@ -24,5 +24,6 @@ print (" | Developer : GH05T HUNTER5      version : 0.01|")
 print (" | Instagram : GH05T_HUNTER5      FPP     : 0.29|")
 print (" +----------------------------------------------+")
 time.sleep(3)
-
+print (" |                No Update found               |")
+print (" +----------------------------------------------+")
 # No Update found
