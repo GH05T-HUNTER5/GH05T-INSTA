@@ -229,6 +229,22 @@ $ gh05t --cookies
 function loop-infos () {
 echo -e "  \033[1;37m[\033[0;31m99\033[1;37m]\033[0;32m Main                         \033[1;37m[\033[0;31m00\033[1;37m]\033[0;32m Exit"
 read -p $'  \e[1;92m[\e[0m\e[1;77m++\e[0m\e[1;92m] Choose an option : \e[0m' options
+if [ $options = "00" ]; then
+echo ""
+clear
+exit
+elif [ $options = "99" ]; then
+echo ""
+clear
+main-loop
+exit
+else
+echo ""
+clear
+help-info
+loop-infos
+exit
+fi
 }
 
 function check-info () {
