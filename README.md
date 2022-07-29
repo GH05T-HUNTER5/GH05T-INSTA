@@ -120,6 +120,9 @@ $ gh05t --cookies
 { After running this command you can see the username }
 { Nachdem Sie diesen Befehl ausgeführt haben, können Sie den Benutzernamen sehen }
 
+$ gh05t uninstall all
+
+
 ```
 
 # Main Menu
