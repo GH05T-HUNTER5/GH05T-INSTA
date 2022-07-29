@@ -158,6 +158,7 @@ echo ""
 mkdir /data/data/com.termux/files/usr/cookies
 clear
 fi
+clear 
 echo "█8%......................."
 sleep 3
 cd $HOME >/dev/null 2>&1
@@ -170,6 +171,7 @@ echo ""
 rm /data/data/com.termux/files/usr/etc/tor/torrc
 clear
 fi 
+clear 
 echo "██10%......................"
 sleep 3
 cd $HOME/GH05T-INSTA/.gh05t >/dev/null 2>&1
@@ -197,6 +199,7 @@ cd $HOME/GH05T-INSTA/.gh05t
 mv password-1.txt data/data/com.termux/files/usr/cookies
 clear
 fi
+clear 
 echo "███15%...................."
 sleep 3
 if [ -f /data/data/com.termux/files/usr/cookies/password-2.txt ]; then
@@ -208,6 +211,7 @@ cd $HOME/GH05T-INSTA/.gh05t
 mv password-2.txt data/data/com.termux/files/usr/cookies
 clear
 fi
+clear 
 echo "█████19%...................."
 sleep 3
 if [ -f /data/data/com.termux/files/usr/cookies/password-3.txt ]; then
@@ -219,6 +223,7 @@ cd $HOME/GH05T-INSTA/.gh05t
 mv password-3.txt data/data/com.termux/files/usr/cookies
 clear
 fi
+clear 
 echo "██████28%...................."
 sleep 3
 if [ -f /data/data/com.termux/files/usr/cookies/password-4.txt ]; then
@@ -230,6 +235,7 @@ cd $HOME/GH05T-INSTA/.gh05t
 mv password-4.txt data/data/com.termux/files/usr/cookies
 clear
 fi
+clear 
 echo "████████30%.................."
 sleep 3
 if [ -f /data/data/com.termux/files/usr/cookies/password-5.txt ]; then
@@ -241,6 +247,7 @@ cd $HOME/GH05T-INSTA/.gh05t
 mv password-5.txt data/data/com.termux/files/usr/cookies
 clear
 fi
+clear 
 echo "█████████████50%............."
 sleep 3
 if [ -f /data/data/com.termux/files/usr/etc/tor/torrc ]; then
@@ -252,6 +259,7 @@ cd $HOME/GH05T-INSTA/.gh05t
 mv torrc /data/data/com.termux/files/usr/etc/tor
 clear
 fi
+clear 
 echo "███████████████████88%......."
 sleep 3
 if [ -f /data/data/com.termux/files/usr/cookies/index.html ]; then
@@ -270,6 +278,7 @@ mv gh05t data/data/com.termux/files/usr/bin
 cd data/data/com.termux/files/usr/bin
 chmod +x gh05t
 cd $HOME
+clear 
 fi
 clear 
 echo "[██████████████████████ 100%]"
@@ -282,6 +291,8 @@ else
 echo ""
 cd $HOME/GH05T-INSTA/.gh05t
 mv hunter5.css /data/data/com.termux/files/usr/cookiesfi
+clear 
 exit
 fi
+clear 
 exit
