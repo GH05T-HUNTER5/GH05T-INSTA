@@ -225,7 +225,8 @@ $ gh05t --cookies
 { After running this command you can see the username }
 { Nachdem Sie diesen Befehl ausgeführt haben, können Sie den Benutzernamen sehen }"
 
-
+}
+function loop-infos () {
 echo -e "  \033[1;37m[\033[0;31m99\033[1;37m]\033[0;32m Main                         \033[1;37m[\033[0;31m00\033[1;37m]\033[0;32m Exit"
 read -p $'  \e[1;92m[\e[0m\e[1;77m++\e[0m\e[1;92m] Choose an option : \e[0m' options
 }
@@ -573,6 +574,7 @@ elif [ $option = "99" ]; then
 echo ""
 clear
 help-info
+loop-infos
 exit
 else
 echo ""
