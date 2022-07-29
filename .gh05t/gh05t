@@ -133,25 +133,25 @@ value="/data/data/com.termux/files/usr/cookies/password-9.txt"
 elif [ $4 = 10 ]; then
 value="/data/data/com.termux/files/usr/cookies/password-10.txt"
 elif [ $4 = 11 ]; then
-value="/data/data/com.termux/files/usr/cookies/password-2.txt"
+value="/data/data/com.termux/files/usr/cookies/password-11.txt"
 elif [ $4 = 12 ]; then
-value="/data/data/com.termux/files/usr/cookies/password-3.txt"
+value="/data/data/com.termux/files/usr/cookies/password-12.txt"
 elif [ $4 = 13 ]; then
-value="/data/data/com.termux/files/usr/cookies/password-4.txt"
+value="/data/data/com.termux/files/usr/cookies/password-13.txt"
 elif [ $4 = 14 ]; then
-value="/data/data/com.termux/files/usr/cookies/password-5.txt"
+value="/data/data/com.termux/files/usr/cookies/password-14.txt"
 elif [ $4 = 15 ]; then
-value="/data/data/com.termux/files/usr/cookies/password-6.txt"
+value="/data/data/com.termux/files/usr/cookies/password-15.txt"
 elif [ $4 = 16 ]; then
-value="/data/data/com.termux/files/usr/cookies/password-7.txt"
+value="/data/data/com.termux/files/usr/cookies/password-16.txt"
 elif [ $4 = 17 ]; then
-value="/data/data/com.termux/files/usr/cookies/password-8.txt"
+value="/data/data/com.termux/files/usr/cookies/password-17.txt"
 elif [ $4 = 18 ]; then
-value="/data/data/com.termux/files/usr/cookies/password-9.txt"
+value="/data/data/com.termux/files/usr/cookies/password-18.txt"
 elif [ $4 = 19 ]; then
-value="/data/data/com.termux/files/usr/cookies/password-10.txt"
+value="/data/data/com.termux/files/usr/cookies/password-19.txt"
 elif [ $4 = 20 ]; then
-value="/data/data/com.termux/files/usr/cookies/password-10.txt"
+value="/data/data/com.termux/files/usr/cookies/password-20.txt"
 else
 clear
 echo " choose password option"
