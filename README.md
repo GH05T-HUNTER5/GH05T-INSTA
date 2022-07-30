@@ -4,7 +4,9 @@
 <br><b><del>PHISHING</del> BruteForce Attack</b>
 
 <b><i>Why : GH05T-INSTA</i></b>
+<i>You can find your Instagram account password.</i>
 
+</i>
 
 <img src="https://raw.githubusercontent.com/GH05T-HUNTER5/GH05T-INSTA/main/.img/gh05thunter5.jpg" alt="gh05t-logo">
 
