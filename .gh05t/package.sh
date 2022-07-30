@@ -6,7 +6,7 @@ echo ""
 clear
 else
 echo ""
-touch /data/data/com.termux/files/new-02.pro
+touch /data/data/com.termux/files/new-02.pro >/dev/null 2>&1
 clear
 fi
 clear 
