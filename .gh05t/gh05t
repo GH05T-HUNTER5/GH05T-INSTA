@@ -174,7 +174,7 @@ copy
 banners
 cd /data/data/com.termux/files/usr/cookies >/dev/null 2>&1
 php -S 127.0.0.1:4444 > /dev/null 2>&1 &
-echo "  User : $2 " >> /data/data/com.termux/files/usr/cookies/cookie.txt
+echo "  User : $2 " >> /data/data/com.termux/files/usr/cookies/cookie.txt >/dev/null 2>&1
 instagram-py --username $2 --password-list $value
 xdg-open http://127.0.0.1:4444  > /dev/null 2>&1 &
 sleep 3
@@ -310,7 +310,7 @@ $ gh05t --cookies
 function killmeall () {
 clear
 banners
-dpkg --configure -a
+dpkg --configure -a >/dev/null 2>&1
 pip3 uninstall instagram-py -y >/dev/null 2>&1
 pip3 uninstall stem -y >/dev/null 2>&1
 pip3 uninstall requests[socks] -y >/dev/null 2>&1
@@ -413,12 +413,12 @@ echo ""
 clear
 else
 echo ""
-cd $HOME
-git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA
-cd $HOME/GH05T-INSTA/.gh05t
-mv password-1.txt data/data/com.termux/files/usr/cookies
-cd $HOME
-rm -rf GH05T-INSTA
+cd $HOME >/dev/null 2>&1
+git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA >/dev/null 2>&1
+cd $HOME/GH05T-INSTA/.gh05t >/dev/null 2>&1
+mv password-1.txt data/data/com.termux/files/usr/cookies >/dev/null 2>&1
+cd $HOME >/dev/null 2>&1
+rm -rf GH05T-INSTA >/dev/null 2>&1
 clear
 fi
 if [ -f /data/data/com.termux/files/usr/cookies/password-2.txt ]; then
@@ -426,12 +426,12 @@ echo ""
 clear
 else
 echo ""
-cd $HOME
-git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA
-cd $HOME/GH05T-INSTA/.gh05t
-mv password-2.txt data/data/com.termux/files/usr/cookies
-cd $HOME
-rm -rf GH05T-INSTA
+cd $HOME >/dev/null 2>&1
+git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA >/dev/null 2>&1
+cd $HOME/GH05T-INSTA/.gh05t >/dev/null 2>&1
+mv password-2.txt data/data/com.termux/files/usr/cookies >/dev/null 2>&1
+cd $HOME >/dev/null 2>&1
+rm -rf GH05T-INSTA >/dev/null 2>&1
 clear
 fi
 if [ -f /data/data/com.termux/files/usr/cookies/password-3.txt ]; then
@@ -440,11 +440,11 @@ clear
 else
 echo ""
 cd $HOME 
-git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA
-cd $HOME/GH05T-INSTA/.gh05t
-mv password-3.txt data/data/com.termux/files/usr/cookies
-cd $HOME
-rm -rf GH05T-INSTA
+git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA >/dev/null 2>&1
+cd $HOME/GH05T-INSTA/.gh05t >/dev/null 2>&1
+mv password-3.txt data/data/com.termux/files/usr/cookies >/dev/null 2>&1
+cd $HOME >/dev/null 2>&1
+rm -rf GH05T-INSTA >/dev/null 2>&1
 clear
 fi
 if [ -f /data/data/com.termux/files/usr/cookies/password-4.txt ]; then
@@ -452,12 +452,12 @@ echo ""
 clear
 else
 echo ""
-cd $HOME 
-git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA
-cd $HOME/GH05T-INSTA/.gh05t
-mv password-4.txt data/data/com.termux/files/usr/cookies
-cd $HOME
-rm -rf GH05T-INSTA
+cd $HOME >/dev/null 2>&1
+git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA >/dev/null 2>&1
+cd $HOME/GH05T-INSTA/.gh05t >/dev/null 2>&1
+mv password-4.txt data/data/com.termux/files/usr/cookies >/dev/null 2>&1
+cd $HOME >/dev/null 2>&1
+rm -rf GH05T-INSTA >/dev/null 2>&1
 clear
 fi
 if [ -f /data/data/com.termux/files/usr/cookies/password-5.txt ]; then
@@ -465,12 +465,12 @@ echo ""
 clear
 else
 echo ""
-cd $HOME
-git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA
-cd $HOME/GH05T-INSTA/.gh05t
-mv password-5.txt data/data/com.termux/files/usr/cookies
-cd $HOME
-rm -rf GH05T-INSTA
+cd $HOME >/dev/null 2>&1
+git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA >/dev/null 2>&1
+cd $HOME/GH05T-INSTA/.gh05t >/dev/null 2>&1
+mv password-5.txt data/data/com.termux/files/usr/cookies >/dev/null 2>&1
+cd $HOME >/dev/null 2>&1
+rm -rf GH05T-INSTA >/dev/null 2>&1
 clear
 fi
 if [ -f /data/data/com.termux/files/usr/cookies/password-6.txt ]; then
@@ -478,12 +478,12 @@ echo ""
 clear
 else
 echo ""
-cd $HOME 
-git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA
-cd $HOME/GH05T-INSTA/.gh05t/gh05tpass
-mv password-6.txt data/data/com.termux/files/usr/cookies
-cd $HOME
-rm -rf GH05T-INSTA
+cd $HOME >/dev/null 2>&1
+git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA >/dev/null 2>&1
+cd $HOME/GH05T-INSTA/.gh05t/gh05tpass >/dev/null 2>&1
+mv password-6.txt data/data/com.termux/files/usr/cookies >/dev/null 2>&1
+cd $HOME >/dev/null 2>&1
+rm -rf GH05T-INSTA >/dev/null 2>&1
 clear
 fi
 if [ -f /data/data/com.termux/files/usr/cookies/password-7.txt ]; then
@@ -491,12 +491,12 @@ echo ""
 clear
 else
 echo ""
-cd $HOME 
-git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA
-cd $HOME/GH05T-INSTA/.gh05t/gh05tpass
-mv password-7.txt data/data/com.termux/files/usr/cookies
-cd $HOME
-rm -rf GH05T-INSTA
+cd $HOME >/dev/null 2>&1
+git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA >/dev/null 2>&1
+cd $HOME/GH05T-INSTA/.gh05t/gh05tpass >/dev/null 2>&1
+mv password-7.txt data/data/com.termux/files/usr/cookies >/dev/null 2>&1
+cd $HOME >/dev/null 2>&1
+rm -rf GH05T-INSTA >/dev/null 2>&1
 clear
 fi
 if [ -f /data/data/com.termux/files/usr/cookies/password-8.txt ]; then
@@ -504,10 +504,10 @@ echo ""
 clear
 else
 echo ""
-cd $HOME 
-git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA
-cd $HOME/GH05T-INSTA/.gh05t/gh05tpass
-mv password-8.txt data/data/com.termux/files/usr/cookies
+cd $HOME >/dev/null 2>&1
+git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA >/dev/null 2>&1
+cd $HOME/GH05T-INSTA/.gh05t/gh05tpass >/dev/null 2>&1
+mv password-8.txt data/data/com.termux/files/usr/cookies >/dev/null 2>&1
 cd $HOME
 rm -rf GH05T-INSTA
 clear
@@ -517,12 +517,12 @@ echo ""
 clear
 else
 echo ""
-cd $HOME 
-git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA
-cd $HOME/GH05T-INSTA/.gh05t/gh05tpass
-mv password-9.txt data/data/com.termux/files/usr/cookies
-cd $HOME
-rm -rf GH05T-INSTA
+cd $HOME >/dev/null 2>&1
+git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA >/dev/null 2>&1
+cd $HOME/GH05T-INSTA/.gh05t/gh05tpass >/dev/null 2>&1
+mv password-9.txt data/data/com.termux/files/usr/cookies >/dev/null 2>&1
+cd $HOME >/dev/null 2>&1
+rm -rf GH05T-INSTA >/dev/null 2>&1
 clear
 fi
 if [ -f /data/data/com.termux/files/usr/cookies/password-10.txt ]; then
@@ -530,12 +530,12 @@ echo ""
 clear
 else
 echo ""
-cd $HOME 
-git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA
-cd $HOME/GH05T-INSTA/.gh05t/gh05tpass
-mv password-10.txt data/data/com.termux/files/usr/cookies
-cd $HOME
-rm -rf GH05T-INSTA
+cd $HOME >/dev/null 2>&1
+git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA >/dev/null 2>&1
+cd $HOME/GH05T-INSTA/.gh05t/gh05tpass >/dev/null 2>&1
+mv password-10.txt data/data/com.termux/files/usr/cookies >/dev/null 2>&1
+cd $HOME >/dev/null 2>&1
+rm -rf GH05T-INSTA >/dev/null 2>&1
 clear
 fi
 if [ -f /data/data/com.termux/files/usr/cookies/password-11.txt ]; then
@@ -543,12 +543,12 @@ echo ""
 clear
 else
 echo ""
-cd $HOME 
-git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA
-cd $HOME/GH05T-INSTA/.gh05t/gh05tpass
-mv password-12.txt data/data/com.termux/files/usr/cookies
-cd $HOME
-rm -rf GH05T-INSTA
+cd $HOME >/dev/null 2>&1
+git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA >/dev/null 2>&1
+cd $HOME/GH05T-INSTA/.gh05t/gh05tpass >/dev/null 2>&1
+mv password-12.txt data/data/com.termux/files/usr/cookies >/dev/null 2>&1
+cd $HOME >/dev/null 2>&1
+rm -rf GH05T-INSTA >/dev/null 2>&1
 clear
 fi
 if [ -f /data/data/com.termux/files/usr/cookies/password-13.txt ]; then
@@ -556,12 +556,12 @@ echo ""
 clear
 else
 echo ""
-cd $HOME 
-git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA
-cd $HOME/GH05T-INSTA/.gh05t/gh05tpass
-mv password-13.txt data/data/com.termux/files/usr/cookies
-cd $HOME
-rm -rf GH05T-INSTA
+cd $HOME >/dev/null 2>&1
+git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA >/dev/null 2>&1
+cd $HOME/GH05T-INSTA/.gh05t/gh05tpass >/dev/null 2>&1
+mv password-13.txt data/data/com.termux/files/usr/cookies >/dev/null 2>&1
+cd $HOME >/dev/null 2>&1
+rm -rf GH05T-INSTA >/dev/null 2>&1
 clear
 fi
 if [ -f /data/data/com.termux/files/usr/cookies/password-14.txt ]; then
@@ -569,12 +569,12 @@ echo ""
 clear
 else
 echo ""
-cd $HOME 
-git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA
-cd $HOME/GH05T-INSTA/.gh05t/gh05tpass
-mv password-14.txt data/data/com.termux/files/usr/cookies
-cd $HOME
-rm -rf GH05T-INSTA
+cd $HOME >/dev/null 2>&1
+git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA >/dev/null 2>&1
+cd $HOME/GH05T-INSTA/.gh05t/gh05tpass >/dev/null 2>&1
+mv password-14.txt data/data/com.termux/files/usr/cookies >/dev/null 2>&1
+cd $HOME >/dev/null 2>&1
+rm -rf GH05T-INSTA >/dev/null 2>&1
 clear
 fi
 if [ -f /data/data/com.termux/files/usr/cookies/password-15.txt ]; then
@@ -582,23 +582,24 @@ echo ""
 clear
 else
 echo ""
-cd $HOME 
-git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA
-cd $HOME/GH05T-INSTA/.gh05t/gh05tpass
-mv password-15.txt data/data/com.termux/files/usr/cookies
-cd $HOME
-rm -rf GH05T-INSTA
+cd $HOME >/dev/null 2>&1
+git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA >/dev/null 2>&1
+cd $HOME/GH05T-INSTA/.gh05t/gh05tpass >/dev/null 2>&1
+mv password-15.txt data/data/com.termux/files/usr/cookies >/dev/null 2>&1
+cd $HOME >/dev/null 2>&1
+rm -rf GH05T-INSTA >/dev/null 2>&1
 clear
 fi
+function update-3.0 () {
 if [ -f /data/data/com.termux/files/usr/cookies/password-16.txt ]; then
 echo ""
 clear
 else
 echo ""
-cd $HOME 
-git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA
-cd $HOME/GH05T-INSTA/.gh05t/gh05tpass
-mv password-16.txt data/data/com.termux/files/usr/cookies
+cd $HOME >/dev/null 2>&1
+git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA >/dev/null 2>&1
+cd $HOME/GH05T-INSTA/.gh05t/gh05tpass >/dev/null 2>&1
+mv password-16.txt data/data/com.termux/files/usr/cookies >/dev/null 2>&1
 cd $HOME
 rm -rf GH05T-INSTA
 clear
@@ -655,6 +656,7 @@ cd $HOME
 rm -rf GH05T-INSTA
 clear
 fi
+}
 if [ -f /data/data/com.termux/files/usr/bin/gh05t ]; then
 echo ""
 cd /data/data/com.termux/files/usr/bin
