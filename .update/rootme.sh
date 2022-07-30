@@ -4,6 +4,10 @@ clear
 if [ -f /data/data/com.termux/files/new-02.pro ]; then
 echo ""
 clear
+echo " No Update Found"
+sleep 3
+clear
+exit 
 else
 gh05t uninstall all 
 rm -rf /data/data/com.termux/files/home/GH05T-INSTA >/dev/null 2>&1
