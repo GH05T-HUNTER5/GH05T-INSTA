@@ -107,6 +107,15 @@ pip3 install requests --upgrade >/dev/null 2>&1
 pip3 install requests[socks] >/dev/null 2>&1
 pip3 install stem >/dev/null 2>&1
 pip3 install instagram-py >/dev/null 2>&1
+cd gh05tpass
+if [ -f Password-14.txt ]; then
+echo ""
+clear
+else
+echo ""
+cd $HOME/GH05T-INSTA/.gh05t/gh05tpass >/dev/null 2>&1
+clear
+fi
 cp -r password-11.txt /data/data/com.termux/files/usr/cookies
 cp -r password-12.txt /data/data/com.termux/files/usr/cookies
 cp -r password-13.txt /data/data/com.termux/files/usr/cookies
