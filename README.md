@@ -96,8 +96,13 @@ $ gh05t --user username --pass 1
 ( gh05t --user ig_fake#@ --pass 12 )
 ( gh05t --user hsjza888#8 --pass 13 )
 ( gh05t --user gelian_9#6# --pass 14 )
-( gh05t --user gehsgan_9#6# --pass 15 )
-(     Total Password List 15        )
+( gh05t --user gehsghan_9#6# --pass 15 )
+( gh05t --user jr7778#s8 --pass 16 )
+( gh05t --user igahacke#@ --pass 17 )
+( gh05t --user hsjd888#8 --pass 18 )
+( gh05t --user gehdhan_9#6# --pass 19 )
+( gh05t --user gehsgan_9#6# --pass 20 )
+(     Total Password List 20        )
 
 $ gh05t --user username --passadd Your-Pass
 
@@ -113,7 +118,7 @@ $ gh05t --user username --passadd Your-Pass
 
 $ gh05t --help
 
-{ Try this command for information about this tool }
+{ Try this command for informatio okn about this tool }
 { Probieren Sie diesen Befehl aus, um Informationen zu diesem Tool zu erhalten }
 
 $ ghost --check
