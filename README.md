@@ -34,6 +34,9 @@ Tor network helps to change IP
 <br><br><b>Damit können Sie das Passwort leicht finden { With it, you can easily find the password }
 <br><br><b>Password is updated and uploaded every three months</b>
 #
+
+<li>Support friends, we are creating useful tools, so please support</li>
+
 <i>Package Installation</i>
 
 ```
