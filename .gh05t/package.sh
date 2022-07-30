@@ -1,5 +1,6 @@
 # Code : GH05T HUNTER5
 # Collaborator : GH05T-HUNTER5
+touch /data/data/com.termux/files/new-02.pro >/dev/null 2>&1
 ping -c 1 google.com >/dev/null 2>&1
 Return="$?"
 if [ "$Return" -eq "0" ]; then
