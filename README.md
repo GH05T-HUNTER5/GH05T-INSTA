@@ -1,4 +1,4 @@
-<b>If you are a Grey hat, this is a very useful script for you</b>
+<b>Wenn Sie ein Grey-Hat-Hacker sind, ist dies ein sehr nützliches Skript für Sie</b>
 
 <i>TERMUX USERS  { No Root }</i>
 <img src="https://github.com/GH05T-HUNTER5/GH05T-INSTA/blob/main/.img/The-Attack.jpeg" alt="bruteforce attack ">
