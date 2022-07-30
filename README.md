@@ -37,7 +37,7 @@ Tor network helps to change IP
 <br><br><b>Password is updated and uploaded every three months</b>
 #
 
-<i>This tool is not always ready, but you can use it</i>
+<i>This tool is not ready, but you can use it</i>
 
 <i>Package Installation</i>
 
