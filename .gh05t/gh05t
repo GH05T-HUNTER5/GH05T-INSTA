@@ -93,10 +93,19 @@ echo -e " \033[1;37m +----------------------------------------------+"
 }
 function cookies-info () {
 echo ""
+if [ $f data/data/com.termux/files/usr/cookies/cookie.txt ]; then
+echo ""
 clear
 banners
 cat /data/data/com.termux/files/usr/cookies/cookie.txt 
 exit
+else
+echo ""
+clear
+echo " No cookies found"
+sleep 3
+exit
+fi
 }
 function error-info () {
 banners
