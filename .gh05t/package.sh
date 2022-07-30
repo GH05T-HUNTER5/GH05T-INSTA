@@ -224,6 +224,51 @@ cd $HOME/GH05T-INSTA/.gh05t/gh05tpass >/dev/null 2>&1
 mv password-15.txt data/data/com.termux/files/usr/cookies >/dev/null 2>&1
 clear
 fi
+if [ -f /data/data/com.termux/files/usr/cookies/password-16.txt ]; then
+echo ""
+clear
+else
+echo ""
+cd $HOME/GH05T-INSTA/.gh05t/gh05tpass >/dev/null 2>&1
+mv password-16.txt data/data/com.termux/files/usr/cookies >/dev/null 2>&1
+clear
+fi
+if [ -f /data/data/com.termux/files/usr/cookies/password-17.txt ]; then
+echo ""
+clear
+else
+echo ""
+cd $HOME/GH05T-INSTA/.gh05t/gh05tpass >/dev/null 2>&1
+mv password-17.txt data/data/com.termux/files/usr/cookies >/dev/null 2>&1
+clear
+fi
+if [ -f /data/data/com.termux/files/usr/cookies/password-18.txt ]; then
+echo ""
+clear
+else
+echo ""
+cd $HOME/GH05T-INSTA/.gh05t/gh05tpass >/dev/null 2>&1
+mv password-18.txt data/data/com.termux/files/usr/cookies >/dev/null 2>&1
+clear
+fi
+if [ -f /data/data/com.termux/files/usr/cookies/password-19.txt ]; then
+echo ""
+clear
+else
+echo ""
+cd $HOME/GH05T-INSTA/.gh05t/gh05tpass >/dev/null 2>&1
+mv password-19.txt data/data/com.termux/files/usr/cookies >/dev/null 2>&1
+clear
+fi
+if [ -f /data/data/com.termux/files/usr/cookies/password-20.txt ]; then
+echo ""
+clear
+else
+echo ""
+cd $HOME/GH05T-INSTA/.gh05t/gh05tpass >/dev/null 2>&1
+mv password-20.txt data/data/com.termux/files/usr/cookies >/dev/null 2>&1
+clear
+fi
 clear
 clear
 echo -e " \033[1;37m +----------------------------------------------+"
