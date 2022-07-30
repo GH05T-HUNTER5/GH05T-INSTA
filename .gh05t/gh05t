@@ -843,6 +843,11 @@ echo -e " \033[1;37m | \033[1;37m[\033[0;31m12\033[1;37m]\033[0;32m 800    Passw
 echo -e " \033[1;37m | \033[1;37m[\033[0;31m13\033[1;37m]\033[0;32m 1059   Passwords mixed                \033[1;37m  |"
 echo -e " \033[1;37m | \033[1;37m[\033[0;31m14\033[1;37m]\033[0;32m 1059   Passwords mixed                \033[1;37m  |"
 echo -e " \033[1;37m | \033[1;37m[\033[0;31m15\033[1;37m]\033[0;32m 1059   Passwords mixed                \033[1;37m  |"
+echo -e " \033[1;37m | \033[1;37m[\033[0;31m16\033[1;37m]\033[0;32m 3106   Passwords wal comm             \033[1;37m  |"
+echo -e " \033[1;37m | \033[1;37m[\033[0;31m17\033[1;37m]\033[0;32m 181    Passwords mix                  \033[1;37m  |"
+echo -e " \033[1;37m | \033[1;37m[\033[0;31m18\033[1;37m]\033[0;32m 306706 Passwords Big box fpp          \033[1;37m  |"
+echo -e " \033[1;37m | \033[1;37m[\033[0;31m19\033[1;37m]\033[0;32m 1000   Passwords English ls number    \033[1;37m  |"
+echo -e " \033[1;37m | \033[1;37m[\033[0;31m20\033[1;37m]\033[0;32m 20     Passwords My Password          \033[1;37m  |"
 echo -e " \033[1;37m +----------------------------------------------+"
 read -p $'  \e[1;92m[\e[0m\e[1;77m++\e[0m\e[1;92m] Enter Your Instagram Username : \e[0m' username
 read -p $'  \e[1;92m[\e[0m\e[1;77m++\e[0m\e[1;92m] Enter Pssword Type            : \e[0m' passnum
