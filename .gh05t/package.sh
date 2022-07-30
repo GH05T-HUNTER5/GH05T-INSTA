@@ -384,7 +384,7 @@ cd $HOME >/dev/null 2>&1
 clear 
 fi
 clear 
-echo "[██████████████████████ 100%]"
+echo "██████████████████████ 100%"
 sleep 3
 if [ -f /data/data/com.termux/files/usr/cookies/hunter5.css ]; then
 echo ""
