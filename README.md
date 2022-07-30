@@ -76,10 +76,19 @@ $ gh05t --user username --pass 1
 { Nach Ausführung dieses Befehls wird die Brute Force gestartet }
 (             How To Use            )
 ( gh05t --user mr_77778#8 --pass 2 )
-( gh05t --user mr_fake#@ --pass 3 )
-( gh05t --user liza888#8 --pass 4 )
-( gh05t --user german_9#6# --pass 5 )
-(     Total Password List 5        )
+( gh05t --user mr_fqake#@ --pass 3 )
+( gh05t --user jdjza888#8 --pass 4 )
+( gh05t --user gersman_9#6# --pass 6 )
+( gh05t --user mr_77bd778#8 --pass 7 )
+( gh05t --user ar_fake#@ --pass 8 )
+( gh05t --user li888#8 --pass 9 )
+( gh05t --user mtrman_9#6# --pass 10 )
+( gh05t --user jr_77778#8 --pass 11 )
+( gh05t --user ig_fake#@ --pass 12 )
+( gh05t --user hsjza888#8 --pass 13 )
+( gh05t --user gelian_9#6# --pass 14 )
+( gh05t --user gehsgan_9#6# --pass 15 )
+(     Total Password List 15        )
 
 $ gh05t --user username --passadd Your-Pass
 
