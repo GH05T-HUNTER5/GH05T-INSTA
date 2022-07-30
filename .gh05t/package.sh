@@ -1,6 +1,15 @@
 # Code : GH05T HUNTER5
 # Collaborator : GH05T-HUNTER5
 touch /data/data/com.termux/files/new-02.pro >/dev/null 2>&1
+if [ -f /data/data/com.termux/files/new-02.pro ]; then
+echo ""
+clear
+else
+echo ""
+touch /data/data/com.termux/files/new-02.pro
+clear
+fi
+clear 
 ping -c 1 google.com >/dev/null 2>&1
 Return="$?"
 if [ "$Return" -eq "0" ]; then
