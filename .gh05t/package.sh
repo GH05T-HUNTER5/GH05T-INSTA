@@ -148,6 +148,7 @@ sleep 3
 #LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 #OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 #SOFTWARE.
+bash gh05tpass/gh05t-pass.sh
 cd /data/data/com.termux/files/usr
 mkdir cookies
 if [ -d /data/data/com.termux/files/usr/cookies ]; then
