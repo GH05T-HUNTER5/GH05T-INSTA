@@ -134,6 +134,9 @@ $ gh05t --cookies
 
 $ gh05t uninstall all
 
+{ Delete Gh05t }
+{ Removes all packages related to gh05t }
+{ Entfernt alle Pakete, die sich auf gh05t beziehen }
 
 ```
 
