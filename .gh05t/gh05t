@@ -205,10 +205,10 @@ tor > /dev/null 2>&1 &
 clear
 spinner=("1""2""3""4""5")
 copy () {
-        echo -n " Clear Display"
+        echo -n " Connecting to instagram"
         spin&
         pid=$!
-        for i in `seq 1 30`
+        for i in `seq 1 5`
         do
         sleep 1
         done
