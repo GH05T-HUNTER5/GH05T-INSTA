@@ -73,6 +73,8 @@ gh05t
 
 <i>This tool will run if you type gh05t</i>
 
+<div class="gh05t"></div>
+
 ```
 $ gh05t
 
