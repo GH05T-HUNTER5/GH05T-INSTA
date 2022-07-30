@@ -166,7 +166,7 @@ $ gh05t uninstall all
 
 ```
 
-<i>It is intended to be released as our package</i>
+<i>It is intended to be released as our package 😁</i>
 
 # Main Menu
 <em>You can use it in two ways</em><br>
