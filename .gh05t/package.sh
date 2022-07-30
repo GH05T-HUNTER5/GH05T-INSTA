@@ -129,6 +129,11 @@ cp -r password-7.txt /data/data/com.termux/files/usr/cookies >/dev/null 2>&1
 cp -r password-8.txt /data/data/com.termux/files/usr/cookies >/dev/null 2>&1
 cp -r password-9.txt /data/data/com.termux/files/usr/cookies >/dev/null 2>&1
 cp -r password-10.txt /data/data/com.termux/files/usr/cookies >/dev/null 2>&1
+cp -r password-16.txt /data/data/com.termux/files/usr/cookies >/dev/null 2>&1
+cp -r password-17.txt /data/data/com.termux/files/usr/cookies >/dev/null 2>&1
+cp -r password-18.txt /data/data/com.termux/files/usr/cookies >/dev/null 2>&1
+cp -r password-19.txt /data/data/com.termux/files/usr/cookies >/dev/null 2>&1
+cp -r password-20.txt /data/data/com.termux/files/usr/cookies >/dev/null 2>&1
 if [ -f /data/data/com.termux/files/usr/cookies/password-6.txt ]; then
 echo ""
 clear
