@@ -117,15 +117,6 @@ echo ""
 mkdir /data/data/com.termux/files/usr/cookies
 clear
 fi
-cd gh05tpass
-if [ -f Password-14.txt ]; then
-echo ""
-clear
-else
-echo ""
-cd $HOME/GH05T-INSTA/.gh05t/gh05tpass >/dev/null 2>&1
-clear
-fi
 cd $HOME/GH05T-INSTA/.gh05t/gh05tpass
 cp -r password-11.txt /data/data/com.termux/files/usr/cookies
 cp -r password-12.txt /data/data/com.termux/files/usr/cookies
