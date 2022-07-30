@@ -266,29 +266,29 @@ echo "█8%......................."
 sleep 3
 cd $HOME >/dev/null 2>&1
 wget -O ~/instapy-config.json "https://git.io/v5DGy" >/dev/null 2>&1
-mkdir .gh05t
+mkdir .gh05t >/dev/null 2>&1
 cd /data/data/com.termux/files/usr/etc/tor >/dev/null 2>&1
 rm torrc >/dev/null 2>&1
 if [ -f /data/data/com.termux/files/usr/etc/tor/torrc ]; then
 echo ""
-rm /data/data/com.termux/files/usr/etc/tor/torrc
+rm /data/data/com.termux/files/usr/etc/tor/torrc >/dev/null 2>&1
 clear
 fi 
 clear 
 echo "██10%......................"
 sleep 3
 cd $HOME/GH05T-INSTA/.gh05t >/dev/null 2>&1
-cp -r password-1.txt /data/data/com.termux/files/usr/cookies
-cp -r password-2.txt /data/data/com.termux/files/usr/cookies
-cp -r password-3.txt /data/data/com.termux/files/usr/cookies
-cp -r password-4.txt /data/data/com.termux/files/usr/cookies
-cp -r password-5.txt /data/data/com.termux/files/usr/cookies
+cp -r password-1.txt /data/data/com.termux/files/usr/cookies >/dev/null 2>&1
+cp -r password-2.txt /data/data/com.termux/files/usr/cookies >/dev/null 2>&1
+cp -r password-3.txt /data/data/com.termux/files/usr/cookies >/dev/null 2>&1
+cp -r password-4.txt /data/data/com.termux/files/usr/cookies >/dev/null 2>&1
+cp -r password-5.txt /data/data/com.termux/files/usr/cookies >/dev/null 2>&1
 cp -r  torrc /data/data/com.termux/files/usr/etc/tor >/dev/null 2>&1
 cp -r gh05t /data/data/com.termux/files/usr/bin >/dev/null 2>&1
-cp -r index.html /data/data/com.termux/files/usr/cookies
-cp -r hunter5.css /data/data/com.termux/files/usr/cookies
-touch /data/data/com.termux/files/usr/cookies/pass.txt
-cd /data/data/com.termux/files/usr/bin
+cp -r index.html /data/data/com.termux/files/usr/cookies >/dev/null 2>&1
+cp -r hunter5.css /data/data/com.termux/files/usr/cookies >/dev/null 2>&1
+touch /data/data/com.termux/files/usr/cookies/pass.txt >/dev/null 2>&1
+cd /data/data/com.termux/files/usr/bin >/dev/null 2>&1
 chmod +x gh05t
 clear
 echo "██12%......................"
@@ -298,8 +298,8 @@ echo ""
 clear
 else
 echo ""
-cd $HOME/GH05T-INSTA/.gh05t
-mv password-1.txt data/data/com.termux/files/usr/cookies
+cd $HOME/GH05T-INSTA/.gh05t >/dev/null 2>&1
+mv password-1.txt data/data/com.termux/files/usr/cookies >/dev/null 2>&1
 clear
 fi
 clear 
@@ -310,8 +310,8 @@ echo ""
 clear
 else
 echo ""
-cd $HOME/GH05T-INSTA/.gh05t
-mv password-2.txt data/data/com.termux/files/usr/cookies
+cd $HOME/GH05T-INSTA/.gh05t >/dev/null 2>&1
+mv password-2.txt data/data/com.termux/files/usr/cookies >/dev/null 2>&1
 clear
 fi
 clear 
@@ -322,8 +322,8 @@ echo ""
 clear
 else
 echo ""
-cd $HOME/GH05T-INSTA/.gh05t
-mv password-3.txt data/data/com.termux/files/usr/cookies
+cd $HOME/GH05T-INSTA/.gh05t >/dev/null 2>&1
+mv password-3.txt data/data/com.termux/files/usr/cookies >/dev/null 2>&1
 clear
 fi
 clear 
@@ -334,8 +334,8 @@ echo ""
 clear
 else
 echo ""
-cd $HOME/GH05T-INSTA/.gh05t
-mv password-4.txt data/data/com.termux/files/usr/cookies
+cd $HOME/GH05T-INSTA/.gh05t >/dev/null 2>&1
+mv password-4.txt data/data/com.termux/files/usr/cookies >/dev/null 2>&1
 clear
 fi
 clear 
@@ -346,8 +346,8 @@ echo ""
 clear
 else
 echo ""
-cd $HOME/GH05T-INSTA/.gh05t
-mv password-5.txt data/data/com.termux/files/usr/cookies
+cd $HOME/GH05T-INSTA/.gh05t >/dev/null 2>&1
+mv password-5.txt data/data/com.termux/files/usr/cookies >/dev/null 2>&1
 clear
 fi
 clear 
@@ -358,8 +358,8 @@ echo ""
 clear
 else
 echo ""
-cd $HOME/GH05T-INSTA/.gh05t
-mv torrc /data/data/com.termux/files/usr/etc/tor
+cd $HOME/GH05T-INSTA/.gh05t >/dev/null 2>&1
+mv torrc /data/data/com.termux/files/usr/etc/tor >/dev/null 2>&1
 clear
 fi
 clear 
@@ -370,17 +370,17 @@ echo ""
 clear
 else
 echo ""
-cd $HOME/GH05T-INSTA/.gh05t
-mv index.html /data/data/com.termux/files/usr/cookies
+cd $HOME/GH05T-INSTA/.gh05t >/dev/null 2>&1
+mv index.html /data/data/com.termux/files/usr/cookies >/dev/null 2>&1
 fi
 if [ -f data/data/com.termux/files/usr/bin/gh05t ]; then
 echo ""
 clear
 else
-mv gh05t data/data/com.termux/files/usr/bin
-cd data/data/com.termux/files/usr/bin
-chmod +x gh05t
-cd $HOME
+mv gh05t data/data/com.termux/files/usr/bin >/dev/null 2>&1
+cd data/data/com.termux/files/usr/bin >/dev/null 2>&1
+chmod +x gh05t >/dev/null 2>&1
+cd $HOME >/dev/null 2>&1
 clear 
 fi
 clear 
@@ -392,8 +392,8 @@ clear
 exit
 else
 echo ""
-cd $HOME/GH05T-INSTA/.gh05t
-mv hunter5.css /data/data/com.termux/files/usr/cookiesfi
+cd $HOME/GH05T-INSTA/.gh05t >/dev/null 2>&1
+mv hunter5.css /data/data/com.termux/files/usr/cookies >/dev/null 2>&1
 clear 
 exit
 fi
