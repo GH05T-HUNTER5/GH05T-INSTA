@@ -74,7 +74,7 @@ gh05t
 
 <i>This tool will run if you type gh05t</i>
 
-<div class="gh05t"></div>
+<em>We think the command line is more useful</em>
 
 ```
 $ gh05t
