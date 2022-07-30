@@ -319,55 +319,55 @@ pip uninstall --upgrade pip -y >/dev/null 2>&1
 dpkg -s php &> /dev/null # GH05T HUNTER5
 if [ $? -eq 0 ]; then
 echo ""
+pkg uninstall php -y >/dev/null 2>&1
 clear
 else
 echo ""
-pkg uninstall php -y >/dev/null 2>&1
 clear
 fi
 dpkg -s tor &> /dev/null # GH05T HUNTER5
 if [ $? -eq 0 ]; then
 echo ""
+pkg uninstall tor -y >/dev/null 2>&1
 clear
 else
 echo ""
-pkg uninstall tor -y >/dev/null 2>&1
 clear
 fi
 dpkg -s wget &> /dev/null # GH05T HUNTER5
 if [ $? -eq 0 ]; then
 echo ""
+pkg install wget -y >/dev/null 2>&1
 clear
 else
 echo ""
-pkg install wget -y >/dev/null 2>&1
 clear
 fi
 dpkg -s python &> /dev/null # GH05T HUNTER5
 if [ $? -eq 0 ]; then
 echo ""
+pkg install python -y >/dev/null 2>&1
 clear
 else
 echo ""
-pkg install python -y >/dev/null 2>&1
 clear
 fi
 dpkg -s python2 &> /dev/null # GH05T HUNTER5
 if [ $? -eq 0 ]; then
 echo ""
+pkg install python2 -y >/dev/null 2>&1
 clear
 else
 echo ""
-pkg install python2 -y >/dev/null 2>&1
 clear
 fi
 dpkg -s curl &> /dev/null # GH05T HUNTER5
 if [ $? -eq 0 ]; then
 echo ""
+pkg install curl -y >/dev/null 2>&1
 clear
 else
 echo ""
-pkg install curl -y >/dev/null 2>&1
 clear
 fi
 rm -rf /data/data/com.termux/files/usr/cookies >/dev/null 2>&1
