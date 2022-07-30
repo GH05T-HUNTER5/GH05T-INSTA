@@ -27,7 +27,7 @@ echo " cookies not found"
 echo " please update"
 exit
 fi
-ping -c 1 google.com
+ping -c 1 google.com >/dev/null 2>&1
 Return="$?"
 if [ "$Return" -eq "0" ]; then
 echo ""
@@ -43,15 +43,15 @@ fi
 function update-info () {
 banners
 sleep 3
-pkg install git -y
-pkg install python -y
+pkg install git -y >/dev/null 2>&1
+pkg install python -y >/dev/null 2>&1
 dpkg -s python &> /dev/null # GH05T HUNTER5
 if [ $? -eq 0 ]; then
 echo ""
 clear
 else
 echo ""
-pkg install python 
+pkg install python >/dev/null 2>&1
 clear
 fi
 dpkg -s git &> /dev/null # GH05T HUNTER5
@@ -60,11 +60,11 @@ echo ""
 clear
 else
 echo ""
-pkg install git 
+pkg install git >/dev/null 2>&1
 clear
 fi
 cd $HOME
-git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA
+git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA >/dev/null 2>&1
 cd GH05T-INSTA
 python update.py
 exit
