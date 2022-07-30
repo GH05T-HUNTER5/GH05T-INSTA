@@ -599,7 +599,6 @@ cd $HOME >/dev/null 2>&1
 rm -rf GH05T-INSTA >/dev/null 2>&1
 clear
 fi
-function update-3.0 () {
 if [ -f /data/data/com.termux/files/usr/cookies/password-16.txt ]; then
 echo ""
 clear
@@ -665,7 +664,6 @@ cd $HOME >/dev/null 2>&1
 rm -rf GH05T-INSTA >/dev/null 2>&1
 clear
 fi
-}
 if [ -f /data/data/com.termux/files/usr/bin/gh05t ]; then
 echo ""
 cd /data/data/com.termux/files/usr/bin >/dev/null 2>&1
