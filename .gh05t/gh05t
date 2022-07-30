@@ -18,6 +18,15 @@ exit 0
 trap exit_on_signal_SIGINT SIGINT
 trap exit_on_signal_SIGTERM SIGTERM
 function breakme () {
+if [ -f /data/data/com.termux/files/home/instapy-config.json ]; then
+echo ""
+clear
+else
+echo ""
+cd data/data/com.termux/files/home >/dev/null 2>&1
+wget -O ~/instapy-config.json "https://git.io/v5DGy" >/dev/null 2>&1
+clear
+fi
 if [ -d /data/data/com.termux/files/usr/cookies ]; then
 echo ""
 clear
