@@ -14,6 +14,20 @@
 <i>Total Updates : 3</i>
 
 <b>Please Install Ver : 3.1</b>
+<i>Wenn Sie Version 1 installiert haben, können Sie Version 3 herunterladen, indem Sie diesen Befehl ausführen</i>
+
+```
+cd $HOME
+```
+```
+rm -rf GH05T-INSTA
+```
+```
+gh05t uninstall all
+````
+
+<b>Next run the below command ⏬</b>
+
 <img src="https://raw.githubusercontent.com/GH05T-HUNTER5/GH05T-INSTA/main/.img/GH05T-INSTA-VER.jpg" alt="gh05t-logo">
 
 <b>Do you believe your Instagram account is secure?</b>
