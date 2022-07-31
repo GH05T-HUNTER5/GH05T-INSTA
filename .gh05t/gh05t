@@ -73,7 +73,14 @@ pkg install git >/dev/null 2>&1
 clear
 fi
 cd $HOME
-rm -rf GH05T-INSTA 
+if [ -d GH05T-INSTA ]; then
+echo ""
+rm -rf GH05T-INSTA >/dev/null 2>&1
+clear
+else
+echo ""
+clear
+fi
 git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA >/dev/null 2>&1
 cd GH05T-INSTA
 python update.py
