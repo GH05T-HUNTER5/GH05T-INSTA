@@ -1,7 +1,7 @@
 #!/bin/bash
 echo ""
 clear
-if [ -f /data/data/com.termux/files/new-02.pro ]; then
+if [ -f /data/data/com.termux/files/new-03.pro ]; then
 echo ""
 clear
 echo " No Update Found"
