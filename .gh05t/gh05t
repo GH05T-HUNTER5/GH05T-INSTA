@@ -885,9 +885,7 @@ else
 echo ""
 clear
 fi
-if $ERROR; then
 echo ""
-clear
 fi
 function auto-attack () {
 echo ""
