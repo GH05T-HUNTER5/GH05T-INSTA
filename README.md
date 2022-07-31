@@ -13,7 +13,8 @@
 
 <i>Total Updates : 3</i>
 
-<img src="https://raw.githubusercontent.com/GH05T-HUNTER5/GH05T-INSTA/main/.img/gh05thunter5.jpg" alt="gh05t-logo">
+<b>Please Install Ver : 3.1</b>
+<img src="https://raw.githubusercontent.com/GH05T-HUNTER5/GH05T-INSTA/main/.img/GH05T-INSTA-VER.jpg" alt="gh05t-logo">
 
 <b>Do you believe your Instagram account is secure?</b>
 <li>Auto Attack</li>
