@@ -886,7 +886,6 @@ echo ""
 clear
 fi
 echo ""
-fi
 function auto-attack () {
 echo ""
 clear
