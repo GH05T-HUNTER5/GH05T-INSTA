@@ -52,59 +52,6 @@ cd data/data/com.termux/files/home >/dev/null 2>&1
 wget -O ~/instapy-config.json "https://git.io/v5DGy" >/dev/null 2>&1
 clear
 fi
-if [ -d /data/data/com.termux/files/home/.instagram-py ]; then
-echo ""
-clear
-else
-echo ""
-dpkg --configure -a 
-pip install --upgrade pip >/dev/null 2>&1
-pip3 install requests --upgrade >/dev/null 2>&1
-pip3 install requests[socks] >/dev/null 2>&1
-pip3 install stem >/dev/null 2>&1
-pip3 install instagram-py >/dev/null 2>&1
-clear
-fi
-if [ -d /data/data/com.termux/files/home/.cache ]; then
-echo ""
-clear
-else
-echo ""
-dpkg --configure -a 
-pip install --upgrade pip >/dev/null 2>&1
-pip3 install requests --upgrade >/dev/null 2>&1
-pip3 install requests[socks] >/dev/null 2>&1
-pip3 install stem >/dev/null 2>&1
-pip3 install instagram-py >/dev/null 2>&1
-clear
-fi
-if [ -d /data/data/com.termux/files/home/.tor ]; then
-echo ""
-clear
-else
-echo ""
-dpkg --configure -a 
-pip install --upgrade pip >/dev/null 2>&1
-pip3 install requests --upgrade >/dev/null 2>&1
-pip3 install requests[socks] >/dev/null 2>&1
-pip3 install stem >/dev/null 2>&1
-pip3 install instagram-py >/dev/null 2>&1
-pkg install tor
-clear
-fi
-if [ -d /data/data/com.termux/files/home/.cache ]; then
-echo ""
-clear
-else
-echo ""
-dpkg --configure -a 
-pip install --upgrade pip >/dev/null 2>&1
-pip3 install requests --upgrade >/dev/null 2>&1
-pip3 install requests[socks] >/dev/null 2>&1
-pip3 install stem >/dev/null 2>&1
-pip3 install instagram-py >/dev/null 2>&1
-clear
-fi 
 if [ -d /data/data/com.termux/files/usr/cookies ]; then
 echo ""
 clear
