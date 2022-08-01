@@ -5,7 +5,7 @@
 <b>You can hack Instagram accounts with the help of this tool</b>
 <br><b><del>PHISHING</del> BruteForce Attack</b>
 
-<b>Create a gh05t tool for yourself</b>
+<a href="https://raw.githubusercontent.com/GH05T-HUNTER5/GH05T-INSTA/main/OWN-Tool/README.md"><b>Create a gh05t tool for yourself</b></a>
 
 <b><i>Why : GH05T-INSTA</i></b>
 
