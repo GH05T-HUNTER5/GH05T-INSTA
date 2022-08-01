@@ -905,6 +905,11 @@ echo ""
 exit
 fi
 echo ""
+else
+echo ""
+clear 
+fi
+echo ""
 function auto-attack () {
 echo ""
 clear
