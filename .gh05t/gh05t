@@ -855,9 +855,7 @@ echo ""
 clear
 gh05t
 else
-
 echo ""
-
 fi
 exit
 }
@@ -905,10 +903,6 @@ sleep 4
 clear
 echo ""
 exit
-fi
-else
-echo ""
-clear
 fi
 echo ""
 function auto-attack () {
