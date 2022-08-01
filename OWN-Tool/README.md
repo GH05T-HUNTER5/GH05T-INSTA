@@ -48,6 +48,7 @@ sleep 3
 main
 fi
 else
+clear 
 ban
 sleep 5
 pkg install python -y
