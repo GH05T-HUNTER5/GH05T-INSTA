@@ -35,6 +35,8 @@ gh05t uninstall all
 
 <img src="https://raw.githubusercontent.com/GH05T-HUNTER5/GH05T-INSTA/main/.img/GH05T-INSTA-VER.jpg" alt="gh05t-logo">
 
+`Don't copy paste without credit.`
+
 <b>Do you believe your Instagram account is secure?</b>
 <li>Auto Attack</li>
 <pre>
