@@ -42,7 +42,7 @@ exit
 else
 echo ""
 clear
-echo " Please select any option"
+echo " Please select any option from above list"
 exit
 fi
 else
