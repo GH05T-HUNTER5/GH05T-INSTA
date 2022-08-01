@@ -9,6 +9,8 @@
 
 <b><i>Why : GH05T-INSTA</i></b>
 
+<i>Multiple attacks can be performed simultaneously</i>
+
 <i>You can find your Instagram account password.</i>
 
 <i>Hier führen wir mit Hilfe eines Pip-Pakets einen Brute-Force-Angriff auf das Instagram-Konto durch</i>
