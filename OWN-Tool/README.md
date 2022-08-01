@@ -1,4 +1,5 @@
 ```bash
+function main () {
 if [ -d /data/data/com.termux/files/home/.gh05t ]; then
 clear
 function ban () {
@@ -42,8 +43,9 @@ exit
 else
 echo ""
 clear
-echo " Please select any option"
-exit
+echo " Try Again "
+sleep 3
+main
 fi
 else
 pkg install python -y
@@ -53,4 +55,5 @@ python install.py
 clear
 exit
 fi
+}
 ```
