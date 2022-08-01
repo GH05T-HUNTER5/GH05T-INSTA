@@ -319,7 +319,7 @@ if [ $3 = "--passadd" ]; then
 echo ""
 if [ $1 = "--user" ]; then
 echo ""
-cp -r $4 /data/data/com.termux/files/usr/cookies/
+cp -r $4 /data/data/com.termux/files/usr/cookies/ >/dev/null 2>&1
 tor > /dev/null 2>&1 &
 echo " Tor"
 echo "It is an acronym for Onion Router, a free and open source software for enabling anonymous communication. It drives worldwide internet traffic for free,"
