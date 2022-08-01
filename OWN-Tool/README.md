@@ -3,6 +3,7 @@ function main () {
 if [ -d /data/data/com.termux/files/home/.gh05t ]; then
 clear
 function ban () {
+clear 
 echo -e " \033[0;32m   ██╗███╗   ██╗███████╗████████╗ █████╗"
 echo -e " \033[0;32m   ██║████╗  ██║██╔════╝╚══██╔══╝██╔══██╗"
 echo -e " \033[0;32m   ██║██╔██╗ ██║███████╗   ██║   ███████║ "
