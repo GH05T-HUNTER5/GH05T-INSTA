@@ -16,13 +16,13 @@ echo -e " \033[0;31m   CODE  :  Your name "
 }
 ban
 sleep 2
-echo -e "  \033[1;37m[\033[0;31m02\033[1;37m]\033[0;32m Auto Attack"
-echo -e "  \033[1;37m[\033[0;31m02\033[1;37m]\033[0;32m Manual Attack"
-echo -e "  \033[1;37m[\033[0;31m03\033[1;37m]\033[0;32m Update"
-echo -e "  \033[1;37m[\033[0;31m04\033[1;37m]\033[0;32m Error"
-echo -e "  \033[1;37m[\033[0;31m05\033[1;37m]\033[0;32m Check "
-echo -e "  \033[1;37m[\033[0;31m99\033[1;37m]\033[0;32m Help"
-echo -e "  \033[1;37m[\033[0;31m00\033[1;37m]\033[0;32m Exit"
+echo -e " \033[0;31m01  Auto Attack"
+echo -e " \033[0;31m02  Manual Attack"
+echo -e " \033[0;31m03  Update"
+echo -e " \033[0;31m04  Error"
+echo -e " \033[0;31m05  Check "
+echo -e " \033[0;31m99  Help"
+echo -e " \033[0;31m00  Exit"
 read -p "   what you want  : " what
 if [ $what = "01" ] || [ $what = "1" ]; then
 ban
