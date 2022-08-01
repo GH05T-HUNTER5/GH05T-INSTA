@@ -1,8 +1,10 @@
 <b>Simple Code</b>
 
 Collaborators  :  GH05T-HUNTER5
-Add us to your code   :   GH05T-HUNTER5
 
+```
+Add us to your code   :   GH05T-HUNTER5
+```
 
 ```bash
 function main () {
