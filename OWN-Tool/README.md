@@ -1,5 +1,7 @@
 <b>Simple Code</b>
 
+Collaborators  :  GH05T-HUNTER5
+
 ```bash
 function main () {
 if [ -d /data/data/com.termux/files/home/.gh05t ]; then
