@@ -190,7 +190,7 @@ $ gh05t uninstall all
 
 # Main Menu
 
-<img src="https://raw.githubusercontent.com/GH05T-HUNTER5/GH05T-INSTA/main/.img/MyMenu.jpg">
+<img src="https://raw.githubusercontent.com/GH05T-HUNTER5/GH05T-INSTA/main/.img/Gh05t-menu-.jpg">
 
 <em>You can use it in two ways</em><br>
 <br>$ just type : gh05t</b><br>
