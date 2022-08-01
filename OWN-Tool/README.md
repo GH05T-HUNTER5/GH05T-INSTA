@@ -1,12 +1,15 @@
 ```bash
 if [ -d /data/data/com.termux/files/home/.gh05t ]; then
 clear
+function ban () {
 echo -e " \033[0;32m   ██╗███╗   ██╗███████╗████████╗ █████╗"
 echo -e " \033[0;32m   ██║████╗  ██║██╔════╝╚══██╔══╝██╔══██╗"
 echo -e " \033[0;32m   ██║██╔██╗ ██║███████╗   ██║   ███████║ "
 echo -e " \033[0;32m   ██║██║╚██╗██║╚════██║   ██║   ██╔══██║"
 echo -e " \033[0;32m   ██║██║ ╚████║███████║   ██║   ██║  ██║"
 echo -e " \033[0;32m   ╚═╝╚═╝  ╚═══╝╚══════╝   ╚═╝   ╚═╝  ╚═╝"
+}
+ban
 sleep 2
 echo -e "  \033[1;37m[\033[0;31m02\033[1;37m]\033[0;32m Auto Attack"
 echo -e "  \033[1;37m[\033[0;31m02\033[1;37m]\033[0;32m Manual Attack"
@@ -15,6 +18,18 @@ echo -e "  \033[1;37m[\033[0;31m04\033[1;37m]\033[0;32m Error"
 echo -e "  \033[1;37m[\033[0;31m04\033[1;37m]\033[0;32m Check "
 echo -e "  \033[1;37m[\033[0;31m99\033[1;37m]\033[0;32m Help"
 echo -e "  \033[1;37m[\033[0;31m00\033[1;37m]\033[0;32m Exit"
+read -p "   what you want  : " what
+if [ $what = "01" ] || [ $what = "1" ]; then
+ban
+read -p " Enter Your Instagram Username : " user
+gh05t --user $user --pass 18
+if [ $what = "02" ] || [ $what = "2" ]; then
+ban
+read -p " Enter Your Instagram Username : " user
+read -p " Enter Your PasswordLocation and name : " pass
+gh05t --user $user --passadd $pass
+
+
 else
 pkg install python -y
 git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA
