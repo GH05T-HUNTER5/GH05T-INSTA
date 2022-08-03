@@ -32,14 +32,14 @@ if [ -d /data/data/com.termux/files/home/.gh05t ]; then
 clear
 ban
 sleep 2
-echo -e " \033[0;31m01  Auto Attack"
-echo -e " \033[0;31m02  Manual Attack"
-echo -e " \033[0;31m03  Update"
-echo -e " \033[0;31m04  Error"
-echo -e " \033[0;31m05  Check "
-echo -e " \033[0;31m99  Help"
-echo -e " \033[0;31m00  Exit"
-read -p "   what you want  : " what
+echo -e "    \033[0;31m01  Auto Attack"
+echo -e "    \033[0;31m02  Manual Attack"
+echo -e "    \033[0;31m03  Update"
+echo -e "    \033[0;31m04  Error"
+echo -e "    \033[0;31m05  Check "
+echo -e "    \033[0;31m99  Help"
+echo -e "    \033[0;31m00  Exit"
+read -p "      what you want  : " what
 if [ $what = "01" ] || [ $what = "1" ]; then
 ban
 read -p " Enter Your Instagram Username : " user
