@@ -6,6 +6,10 @@ Collaborators  :  GH05T-HUNTER5
 Add us to your code   :   GH05T-HUNTER5
 ```
 
+`
+Sie können dieses Banner auch ändern, wenn Sie möchten
+`
+
 ```bash
 function main () {
 if [ -d /data/data/com.termux/files/home/.gh05t ]; then
