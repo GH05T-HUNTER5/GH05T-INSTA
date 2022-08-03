@@ -12,6 +12,9 @@ Sie können dieses Banner auch ändern, wenn Sie möchten
 `
 Change ban
 `
+`
+Modify yourself ⏬
+`
 
 ```bash
 function ban () {
