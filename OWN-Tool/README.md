@@ -52,9 +52,9 @@ elif [ $what = "04" ] || [ $what = "4" ]; then
 gh05t --error 
 elif [ $what = "05" ] || [ $what = "5" ]; then
 gh05t --check
-elif [ $what = "99" ]
+elif [ $what = "99" ]; then
 gh05t --help
-elif [ $what = "05" ]
+elif [ $what = "05" ]; then
 clear
 exit
 else
