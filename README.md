@@ -230,3 +230,10 @@ Es funktioniert gut, da es mit Instagram-py erstellt wurde
 <a href="https://mobile.twitter.com/gh05_thunter5">Twitter</a>
 
 <a href="https://gh05thunter5.blogspot.com/2022/07/blog-post.html?m=1">Blogs</a>
+
+
+<b>Legal disclaimer</b>
+
+`
+Usage of GH05T-INSTA for attacking targets without prior mutual consent is illegal. It's the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+`
