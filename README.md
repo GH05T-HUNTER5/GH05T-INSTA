@@ -42,7 +42,6 @@ gh05t uninstall all
 <pre>
 $ If you enter the username, it will attack itself
 
-
 $ Once the password is received, a warning message will also appear
 
 $ Your IP address will change automatically
