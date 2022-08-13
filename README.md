@@ -215,7 +215,6 @@ Es funktioniert gut, da es mit Instagram-py erstellt wurde
                                                                                           The use of the GH05T-INSTA is COMPLETE RESPONSIBILITY of the END-USER. Developers assume NO liability and are NOT responsible for any misuse or damage caused by this program.
 ```
 
-
 <b>DEVELOPER</b>
 
 <a href="https://github.com/GH05T-HUNTER5">GitHub</a>
