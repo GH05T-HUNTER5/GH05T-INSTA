@@ -1,3 +1,4 @@
+
 <b>Wenn Sie ein Grey-Hat-Hacker sind, ist dies ein sehr nützliches Skript für Sie</b>
 
 <i>TERMUX USERS  { No Root }</i>
