@@ -4,8 +4,5 @@ Ver : new { 0022 }
  "language": "python",
  "edition": "third",
  "author": "GH05T HUNTER5"
+"instagram": "$id"
  },
-Ver : 3.01{
-instgram:$id
-instgram:$password
-}
