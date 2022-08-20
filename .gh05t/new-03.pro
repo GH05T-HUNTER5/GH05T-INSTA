@@ -1,8 +1,7 @@
 Ver : new { 0022 }
 {
-
  "id":"01",
- "language": "Java",
+ "language": "python",
  "edition": "third",
- "author": "Herbert Schildt"
+ "author": "GH05T HUNTER5"
  },
