@@ -1,5 +1,7 @@
 <b>Simple Code</b>
 
+`Never modify the GH05T-INSTA tool`
+
 Collaborators  :  GH05T-HUNTER5
 
 ```
@@ -15,7 +17,6 @@ Change ban
 `
 Modify yourself ⏬
 `
-`Never Modify GH05T-INSTA TOOL`
 
 ```bash
 function ban () {
