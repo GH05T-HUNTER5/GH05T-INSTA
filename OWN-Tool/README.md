@@ -15,6 +15,7 @@ Change ban
 `
 Modify yourself ⏬
 `
+`Never Modify GH05T-INSTA TOOL`
 
 ```bash
 function ban () {
