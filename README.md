@@ -6,9 +6,7 @@
 <br><b><del>PHISHING</del> BruteForce Attack</b>
 
 `Do not copy this project`
-```
-Do not copy this project and we will take action
-```
+
 `Never modify the GH05T INSTA tool`
 
 <a href="https://github.com/GH05T-HUNTER5/GH05T-INSTA/blob/main/OWN-Tool/README.md"><b>Create a gh05t tool for yourself</b></a>
