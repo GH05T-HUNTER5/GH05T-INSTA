@@ -1,6 +1,6 @@
 {
     "user-agent" : "Instagram 10.26.0 Android (18/4.3; 320dpi; 720x1280; Xiaomi; HM 1SW; armani; qcom; en_US)",
-    "ig-sig-version" : "4",
+    "ig-sig-version" : "3",
     "tor" : { 
 	"server" : "127.0.0.1",
     	"port" : "9050",
