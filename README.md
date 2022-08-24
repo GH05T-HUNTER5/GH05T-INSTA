@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/GH05T-HUNTER5/GH05T-INSTA/main/.img/BRUTE%20GH05T.jpg" alt="bruteforce attack">
+<img src="https://raw.githubusercontent.com/GH05T-HUNTER5/GH05T-INSTA/main/.img/BRUTE%20GH05T.jpg" alt="bruteforce attack GH05T INSTA">
 <i>TERMUX USERS  { No Root }</i>
 
 ### Why GH05T-INSTA
@@ -40,7 +40,7 @@ $ `rm -rf GH05T-INSTA`
 $ `gh05t`
 
 
-<img src="https://raw.githubusercontent.com/GH05T-HUNTER5/GH05T-INSTA/main/.img/Gh05t-menu-.jpg">
+<img src="https://raw.githubusercontent.com/GH05T-HUNTER5/GH05T-INSTA/main/.img/Gh05t-menu-.jpg" alt="GH05T INSTA">
 
 <em>You can use it in two ways</em><br>
 
@@ -162,7 +162,7 @@ $ gh05t uninstall all
 
 
 <br>Password List </b><br>
-<img src="https://raw.githubusercontent.com/GH05T-HUNTER5/GH05T-INSTA/main/.img/Password-list-gh05t.jpg" alt="menu">
+<img src="https://raw.githubusercontent.com/GH05T-HUNTER5/GH05T-INSTA/main/.img/Password-list-gh05t.jpg" alt="GH05T INSTA PASSWORD LIST">
 
 <i>WORKING DEMO <a href="https://raw.githubusercontent.com/GH05T-HUNTER5/GH05T-INSTA/main/.img/Gh05t-attack.jpg">GH05T ATTACK</a></i>
 
