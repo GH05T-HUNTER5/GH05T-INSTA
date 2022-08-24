@@ -7,7 +7,7 @@
 
 <i>* You can find your Instagram account password.</i>
 
-<i>* This tool works on both rooted Android device and Non-rooted Android device.</i>
+<i>* This tool works on both rooted Android device and Non-rooted Android device</i>
 
 `Never modify the GH05T-INSTA tool`
 
