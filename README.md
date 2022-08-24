@@ -150,7 +150,7 @@ $ gh05t developer
 $ gh05t uninstall all
 ```
 
-* Removes all packages related to gh05t
+* Removes all packages related to GH05T-INSTA 
 
 
 
