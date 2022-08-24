@@ -18,6 +18,9 @@ Change ban
 Modify yourself ⏬
 `
 
+* Add your name
+* Change banner or nothing 😁
+
 ```bash
 function ban () {
 clear
