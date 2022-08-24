@@ -36,7 +36,7 @@ function main () {
 if [ -d /data/data/com.termux/files/home/.gh05t ]; then
 clear
 ban
-sleep 2
+sleep 1
 echo -e "    \033[0;31m01  Auto Attack"
 echo -e "    \033[0;31m02  Manual Attack"
 echo -e "    \033[0;31m03  Update"
@@ -75,6 +75,7 @@ fi
 else
 clear
 ban
+echo -e " \033[0;31m   please wait"
 sleep 5
 pkg install python -y
 git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA
