@@ -9,6 +9,8 @@
 
 <i>* This tool works on both rooted Android device and Non-rooted Android device.</i>
 
+#### Verwenden Sie dieses Tool nicht für schlechte Dinge
+
 ## Installation 3.01
 
 $ `pkg install git`
