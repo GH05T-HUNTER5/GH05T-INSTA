@@ -40,6 +40,8 @@ $ `gh05t`
 
 02 ) Command Based ⬇️
 
+* We think the command line is more useful
+
 ## Usage Commands 
 
 <b>AUTO ATTACK </b>
