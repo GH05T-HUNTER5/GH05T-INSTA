@@ -59,11 +59,11 @@ $ gh05t --user username --pass 1
 ```
 
 * username : Enter your Instagram username
-* --pass 1 : Total password list 20 
-
+* --pass 1 : Total password list 20 {Select any password option Example 1 , 2 , 3 , ... 18 , 19 , 20}
 ##### Usage example 
 
 ```
+$ gh05t --user your-account-username --pass your-password-option 
 $ gh05t --user mr_77778#8 --pass 2 
 $ gh05t --user mr_fqake#@ --pass 3 
 $ gh05t --user jdjza888#8 --pass 4 
@@ -96,6 +96,7 @@ $ gh05t --user username --passadd Your-Pass
 ##### Usage example 
 
 ```
+$ gh05t --user your-account-username --passadd your-password-location-and-name.txt
 $ gh05t --user mr_77778#8 --passadd /data/data/com.termux/files/home/password.txt 
 $ gh05t --user mr_fake#@ --passadd /data/data/com.termux/files/home/storage/shared/worldlist.txt 
 $ gh05t --user liza888#8 --passadd /data/data/com.termux/files/home/storage/downloads/pizza.txt
