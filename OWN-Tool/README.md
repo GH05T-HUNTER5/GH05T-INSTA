@@ -30,7 +30,7 @@ echo -e " \033[0;32m   ╚═╝╚═╝  ╚═══╝╚══════�
 echo -e " \033[0;31m    Coded  :  Your name "
 }
 function main () {
-if [ -f /data/data/com.termux/files/home/.gh05t ]; then
+if [ -d /data/data/com.termux/files/home/.gh05t ]; then
 clear
 ban
 sleep 2
