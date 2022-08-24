@@ -1,4 +1,5 @@
 <img src="https://raw.githubusercontent.com/GH05T-HUNTER5/GH05T-INSTA/main/.img/BRUTE%20GH05T.jpg" alt="bruteforce attack">
+<i>TERMUX USERS  { No Root }</i>
 
 ### Why GH05T-INSTA
 
