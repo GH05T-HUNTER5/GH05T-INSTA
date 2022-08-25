@@ -9,6 +9,19 @@
 
 <i>* This tool works on both rooted Android device and Non-rooted Android device</i>
 
+#
+
+### Pro Tips
+
+* Never login to Instagram app after finding your Instagram password, use your Chrome browser
+
+##### Why Chrome Browser?
+
+* Your login activity will never be saved, so your victim will never find you
+* Your login activity will never be displayed
+
+#
+
 `Never modify the GH05T-INSTA tool`
 
 #### Verwenden Sie dieses Tool nicht für schlechte Dinge
