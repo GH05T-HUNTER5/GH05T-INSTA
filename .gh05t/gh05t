@@ -50,7 +50,6 @@ echo ""
 clear
 else
 echo ""
-printf "${red} wait ...\n"
 cd data/data/com.termux/files/home >/dev/null 2>&1
 wget -O ~/instapy-config.json "https://git.io/v5DGy" >/dev/null 2>&1
 clear
