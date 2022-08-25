@@ -533,7 +533,7 @@ if [ -f /data/data/com.termux/files/usr/cookies/password-1.txt ]; then
 printf "${green} Password 1 found${reset}\n"
 sleep 1
 else
-printf "${red} Password 1 not found${reset}\n"
+printf "${red} Password 1 not found gh05t tool is trying to fix this, please wait ${reset}\n"
 cd $HOME >/dev/null 2>&1
 git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA >/dev/null 2>&1
 cd $HOME/GH05T-INSTA/.gh05t >/dev/null 2>&1
@@ -542,7 +542,7 @@ cd $HOME >/dev/null 2>&1
 rm -rf GH05T-INSTA >/dev/null 2>&1
 fi
 if [ -f /data/data/com.termux/files/usr/cookies/password-2.txt ]; then
-printf "${green} Password 2 found${reset}\n"
+printf "${green} Password 2 found gh05t tool is trying to fix this, please wait ${reset}\n"
 sleep 1
 else
 printf "${red} Password 2 not found${reset}\n"
@@ -557,7 +557,7 @@ if [ -f /data/data/com.termux/files/usr/cookies/password-3.txt ]; then
 printf "${green} Password 3 found${reset}\n"
 sleep 1
 else
-printf "${red} Password 3 not found${reset}\n"
+printf "${red} Password 3 not found gh05t tool is trying to fix this, please wait ${reset}\n"
 cd $HOME 
 git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA >/dev/null 2>&1
 cd $HOME/GH05T-INSTA/.gh05t >/dev/null 2>&1
@@ -569,7 +569,7 @@ if [ -f /data/data/com.termux/files/usr/cookies/password-4.txt ]; then
 printf "${green} Password 4 found${reset}\n"
 sleep 1
 else
-printf "${red} Password 4 not found${reset}\n"
+printf "${red} Password 4 not found gh05t tool is trying to fix this, please wait ${reset}\n"
 cd $HOME >/dev/null 2>&1
 git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA >/dev/null 2>&1
 cd $HOME/GH05T-INSTA/.gh05t >/dev/null 2>&1
@@ -581,7 +581,7 @@ if [ -f /data/data/com.termux/files/usr/cookies/password-5.txt ]; then
 printf "${green} Password 5 found${reset}\n"
 sleep 1
 else
-printf "${red} Password 5 not found${reset}\n"
+printf "${red} Password 5 not found gh05t tool is trying to fix this, please wait ${reset}\n"
 cd $HOME >/dev/null 2>&1
 git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA >/dev/null 2>&1
 cd $HOME/GH05T-INSTA/.gh05t >/dev/null 2>&1
@@ -593,7 +593,7 @@ if [ -f /data/data/com.termux/files/usr/cookies/password-6.txt ]; then
 printf "${green} Password 6 found${reset}\n"
 sleep 1
 else
-printf "${red} Password 6 not found${reset}\n"
+printf "${red} Password 6 not found gh05t tool is trying to fix this, please wait ${reset}\n"
 cd $HOME >/dev/null 2>&1
 git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA >/dev/null 2>&1
 cd $HOME/GH05T-INSTA/.gh05t/gh05tpass >/dev/null 2>&1
@@ -605,7 +605,7 @@ if [ -f /data/data/com.termux/files/usr/cookies/password-7.txt ]; then
 printf "${green} Password 7 found${reset}\n"
 sleep 1
 else
-printf "${red} Password 7 not found${reset}\n"
+printf "${red} Password 7 not found gh05t tool is trying to fix this, please wait ${reset}\n"
 cd $HOME >/dev/null 2>&1
 git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA >/dev/null 2>&1
 cd $HOME/GH05T-INSTA/.gh05t/gh05tpass >/dev/null 2>&1
@@ -617,7 +617,7 @@ if [ -f /data/data/com.termux/files/usr/cookies/password-8.txt ]; then
 printf "${green} Password 8 found${reset}\n"
 sleep 1
 else
-printf "${red} Password 8 not found${reset}\n"
+printf "${red} Password 8 not found gh05t tool is trying to fix this, please wait ${reset}\n"
 cd $HOME >/dev/null 2>&1
 git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA >/dev/null 2>&1
 cd $HOME/GH05T-INSTA/.gh05t/gh05tpass >/dev/null 2>&1
@@ -629,7 +629,7 @@ if [ -f /data/data/com.termux/files/usr/cookies/password-9.txt ]; then
 printf "${green} Password 9 found${reset}\n"
 sleep 1
 else
-printf "${red} Password 9 not found${reset}\n"
+printf "${red} Password 9 not found gh05t tool is trying to fix this, please wait ${reset}\n"
 cd $HOME >/dev/null 2>&1
 git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA >/dev/null 2>&1
 cd $HOME/GH05T-INSTA/.gh05t/gh05tpass >/dev/null 2>&1
@@ -641,7 +641,7 @@ if [ -f /data/data/com.termux/files/usr/cookies/password-10.txt ]; then
 printf "${green} Password 10 found${reset}\n"
 sleep 1
 else
-printf "${red} Password 10 not found${reset}\n"
+printf "${red} Password 10 not found gh05t tool is trying to fix this, please wait ${reset}\n"
 cd $HOME >/dev/null 2>&1
 git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA >/dev/null 2>&1
 cd $HOME/GH05T-INSTA/.gh05t/gh05tpass >/dev/null 2>&1
@@ -653,7 +653,7 @@ if [ -f /data/data/com.termux/files/usr/cookies/password-11.txt ]; then
 printf "${green} Password 11 found${reset}\n"
 sleep 1
 else
-printf "${red} Password 12 not found${reset}\n"
+printf "${red} Password 12 not found gh05t tool is trying to fix this, please wait ${reset}\n"
 cd $HOME >/dev/null 2>&1
 git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA >/dev/null 2>&1
 cd $HOME/GH05T-INSTA/.gh05t/gh05tpass >/dev/null 2>&1
@@ -665,7 +665,7 @@ if [ -f /data/data/com.termux/files/usr/cookies/password-11.txt ]; then
 printf "${green} Password 12 found${reset}\n"
 sleep 1
 else
-printf "${red} Password 12 not found${reset}\n"
+printf "${red} Password 12 not found gh05t tool is trying to fix this, please wait ${reset}\n"
 cd $HOME >/dev/null 2>&1
 git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA >/dev/null 2>&1
 cd $HOME/GH05T-INSTA/.gh05t/gh05tpass >/dev/null 2>&1
@@ -677,7 +677,7 @@ if [ -f /data/data/com.termux/files/usr/cookies/password-13.txt ]; then
 printf "${green} Password 13 found${reset}\n"
 sleep 1
 else
-printf "${red} Password 13 not found${reset}\n"
+printf "${red} Password 13 not found gh05t tool is trying to fix this, please wait ${reset}\n"
 cd $HOME >/dev/null 2>&1
 git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA >/dev/null 2>&1
 cd $HOME/GH05T-INSTA/.gh05t/gh05tpass >/dev/null 2>&1
@@ -689,7 +689,7 @@ if [ -f /data/data/com.termux/files/usr/cookies/password-14.txt ]; then
 printf "${green} Password 14 found${reset}\n"
 sleep 1
 else
-printf "${red} Password 14 not found${reset}\n"
+printf "${red} Password 14 not found gh05t tool is trying to fix this, please wait ${reset}\n"
 cd $HOME >/dev/null 2>&1
 git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA >/dev/null 2>&1
 cd $HOME/GH05T-INSTA/.gh05t/gh05tpass >/dev/null 2>&1
@@ -701,7 +701,7 @@ if [ -f /data/data/com.termux/files/usr/cookies/password-15.txt ]; then
 printf "${green} Password 15 found${reset}\n"
 sleep 1
 else
-printf "${red} Password 15 not found${reset}\n"
+printf "${red} Password 15 not found gh05t tool is trying to fix this, please wait ${reset}\n"
 cd $HOME >/dev/null 2>&1
 git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA >/dev/null 2>&1
 cd $HOME/GH05T-INSTA/.gh05t/gh05tpass >/dev/null 2>&1
@@ -713,7 +713,7 @@ if [ -f /data/data/com.termux/files/usr/cookies/password-16.txt ]; then
 printf "${green} Password 16 found${reset}\n"
 sleep 1
 else
-printf "${red} Password 16 not found${reset}\n"
+printf "${red} Password 16 not found gh05t tool is trying to fix this, please wait ${reset}\n"
 cd $HOME >/dev/null 2>&1
 git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA >/dev/null 2>&1
 cd $HOME/GH05T-INSTA/.gh05t/gh05tpass >/dev/null 2>&1
@@ -725,7 +725,7 @@ if [ -f /data/data/com.termux/files/usr/cookies/password-17.txt ]; then
 printf "${green} Password 17 found${reset}\n"
 sleep 1
 else
-printf "${red} Password 17 not found${reset}\n"
+printf "${red} Password 17 not found gh05t tool is trying to fix this, please wait ${reset}\n"
 cd $HOME >/dev/null 2>&1
 git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA >/dev/null 2>&1
 cd $HOME/GH05T-INSTA/.gh05t/gh05tpass >/dev/null 2>&1
@@ -737,7 +737,7 @@ if [ -f /data/data/com.termux/files/usr/cookies/password-18.txt ]; then
 printf "${green} Password 18 found${reset}\n"
 sleep 1
 else
-printf "${red} Password 18 not found${reset}\n"
+printf "${red} Password 18 not found gh05t tool is trying to fix this, please wait ${reset}\n"
 cd $HOME >/dev/null 2>&1
 git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA >/dev/null 2>&1
 cd $HOME/GH05T-INSTA/.gh05t/gh05tpass >/dev/null 2>&1
@@ -749,7 +749,7 @@ if [ -f /data/data/com.termux/files/usr/cookies/password-19.txt ]; then
 printf "${green} Password 19 found${reset}\n"
 sleep 1
 else
-printf "${red} Password 19 not found${reset}\n"
+printf "${red} Password 19 not found gh05t tool is trying to fix this, please wait ${reset}\n"
 cd $HOME >/dev/null 2>&1
 git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA >/dev/null 2>&1
 cd $HOME/GH05T-INSTA/.gh05t/gh05tpass >/dev/null 2>&1
@@ -761,7 +761,7 @@ if [ -f /data/data/com.termux/files/usr/cookies/password-20.txt ]; then
 printf "${green} Password 20 found${reset}\n"
 sleep 1
 else
-printf "${red} Password 20 not found${reset}\n"
+printf "${red} Password 20 not found gh05t tool is trying to fix this, please wait ${reset}\n"
 cd $HOME >/dev/null 2>&1
 git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA >/dev/null 2>&1
 cd $HOME/GH05T-INSTA/.gh05t/gh05tpass >/dev/null 2>&1
