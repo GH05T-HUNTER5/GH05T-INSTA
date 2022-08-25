@@ -146,6 +146,7 @@ echo ""
 clear
 echo " No cookies found"
 sleep 3
+clear 
 exit
 fi
 }
