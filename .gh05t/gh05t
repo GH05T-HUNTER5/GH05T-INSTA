@@ -155,7 +155,6 @@ fi
 function error-info () {
 banners
 echo "Wait..."
-sleep 3
 dpkg --configure -a 
 pip install --upgrade pip >/dev/null 2>&1
 pip3 install requests --upgrade >/dev/null 2>&1
@@ -449,7 +448,7 @@ fi
 dpkg -s wget &> /dev/null # GH05T HUNTER5
 if [ $? -eq 0 ]; then
 echo ""
-pkg install wget -y >/dev/null 2>&1
+pkg uninstall wget -y >/dev/null 2>&1
 clear
 else
 echo ""
@@ -458,7 +457,7 @@ fi
 dpkg -s python &> /dev/null # GH05T HUNTER5
 if [ $? -eq 0 ]; then
 echo ""
-pkg install python -y >/dev/null 2>&1
+pkg uninstall python -y >/dev/null 2>&1
 clear
 else
 echo ""
@@ -467,7 +466,7 @@ fi
 dpkg -s python2 &> /dev/null # GH05T HUNTER5
 if [ $? -eq 0 ]; then
 echo ""
-pkg install python2 -y >/dev/null 2>&1
+pkg install unpython2 -y >/dev/null 2>&1
 clear
 else
 echo ""
@@ -476,7 +475,7 @@ fi
 dpkg -s curl &> /dev/null # GH05T HUNTER5
 if [ $? -eq 0 ]; then
 echo ""
-pkg install curl -y >/dev/null 2>&1
+pkg uninstall curl -y >/dev/null 2>&1
 clear
 else
 echo ""
