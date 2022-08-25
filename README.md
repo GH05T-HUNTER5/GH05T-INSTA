@@ -22,6 +22,10 @@
 
 #
 
+`This is our teamwork, so please support our team`
+
+`Never copy this code it's our hard work`
+
 `Never modify the GH05T-INSTA tool`
 
 #### Verwenden Sie dieses Tool nicht für schlechte Dinge
