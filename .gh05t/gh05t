@@ -50,7 +50,7 @@ echo ""
 clear
 else
 echo ""
-printf "${red} wait ..."
+printf "${red} wait ...\n"
 cd data/data/com.termux/files/home >/dev/null 2>&1
 wget -O ~/instapy-config.json "https://git.io/v5DGy" >/dev/null 2>&1
 clear
@@ -809,7 +809,7 @@ rm -rf GH05T-INSTA >/dev/null 2>&1
 fi
 if [ -f /data/data/com.termux/files/usr/cookies/hunter5.css ]; then
 echo ""
-clear
+clear 
 else
 echo ""
 cd $HOME >/dev/null 2>&1
@@ -820,6 +820,9 @@ cd $HOME >/dev/null 2>&1
 rm -rf GH05T-INSTA >/dev/null 2>&1
 fi
 clear
+banners
+sleep 2
+clear 
 exit
 }
 function developer-info () {
