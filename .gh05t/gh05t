@@ -478,6 +478,14 @@ cd $HOME
 rm instapy-config.json >/dev/null 2>&1
 rm /data/data/com.termux/files/usr/bin/gh05t >/dev/null 2>&1
 clear
+if [ -f /data/data/com.termux/files/usr/bin/gh05t ]; then
+clear 
+rm /data/data/com.termux/files/usr/bin/gh05t >/dev/null 2>&1
+else
+echo ""
+clear
+fi
+clear 
 exit
 }
 function loop-infos () {
