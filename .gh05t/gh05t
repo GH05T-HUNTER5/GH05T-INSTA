@@ -42,6 +42,8 @@ exit 0
 }
 trap exit_on_signal_SIGINT SIGINT
 trap exit_on_signal_SIGTERM SIGTERM
+green='\033[1;32m'
+red='\033[1;31m'
 function breakme () {
 if [ -f /data/data/com.termux/files/home/instapy-config.json ]; then
 echo ""
