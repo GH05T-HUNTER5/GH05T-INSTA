@@ -530,250 +530,251 @@ function check-info () {
 banners
 sleep 3
 if [ -f /data/data/com.termux/files/usr/cookies/password-1.txt ]; then
-printf "${green} Password 1 Found"
+printf "${green} Password 1 found"
+sleep 1
 else
-echo ""
+printf "${red} Password 1 not found"
 cd $HOME >/dev/null 2>&1
 git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA >/dev/null 2>&1
 cd $HOME/GH05T-INSTA/.gh05t >/dev/null 2>&1
 mv password-1.txt data/data/com.termux/files/usr/cookies >/dev/null 2>&1
 cd $HOME >/dev/null 2>&1
 rm -rf GH05T-INSTA >/dev/null 2>&1
-clear
 fi
 if [ -f /data/data/com.termux/files/usr/cookies/password-2.txt ]; then
 printf "${green} Password 2 Found"
+sleep 1
 else
-echo ""
+printf "${red} Password 2 not found"
 cd $HOME >/dev/null 2>&1
 git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA >/dev/null 2>&1
 cd $HOME/GH05T-INSTA/.gh05t >/dev/null 2>&1
 mv password-2.txt data/data/com.termux/files/usr/cookies >/dev/null 2>&1
 cd $HOME >/dev/null 2>&1
 rm -rf GH05T-INSTA >/dev/null 2>&1
-clear
 fi
 if [ -f /data/data/com.termux/files/usr/cookies/password-3.txt ]; then
 printf "${green} Password 3 Found"
+sleep 1
 else
-echo ""
+printf "${red} Password 3 not found"
 cd $HOME 
 git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA >/dev/null 2>&1
 cd $HOME/GH05T-INSTA/.gh05t >/dev/null 2>&1
 mv password-3.txt data/data/com.termux/files/usr/cookies >/dev/null 2>&1
 cd $HOME >/dev/null 2>&1
 rm -rf GH05T-INSTA >/dev/null 2>&1
-clear
 fi
 if [ -f /data/data/com.termux/files/usr/cookies/password-4.txt ]; then
 printf "${green} Password 4 Found"
+sleep 1
 else
-echo ""
+printf "${red} Password 4 not found"
 cd $HOME >/dev/null 2>&1
 git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA >/dev/null 2>&1
 cd $HOME/GH05T-INSTA/.gh05t >/dev/null 2>&1
 mv password-4.txt data/data/com.termux/files/usr/cookies >/dev/null 2>&1
 cd $HOME >/dev/null 2>&1
 rm -rf GH05T-INSTA >/dev/null 2>&1
-clear
 fi
 if [ -f /data/data/com.termux/files/usr/cookies/password-5.txt ]; then
 printf "${green} Password 5 Found"
+sleep 1
 else
-echo ""
+printf "${red} Password 5 not found"
 cd $HOME >/dev/null 2>&1
 git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA >/dev/null 2>&1
 cd $HOME/GH05T-INSTA/.gh05t >/dev/null 2>&1
 mv password-5.txt data/data/com.termux/files/usr/cookies >/dev/null 2>&1
 cd $HOME >/dev/null 2>&1
 rm -rf GH05T-INSTA >/dev/null 2>&1
-clear
 fi
 if [ -f /data/data/com.termux/files/usr/cookies/password-6.txt ]; then
 printf "${green} Password 6 Found"
+sleep 1
 else
-echo ""
+printf "${red} Password 6 not found"
 cd $HOME >/dev/null 2>&1
 git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA >/dev/null 2>&1
 cd $HOME/GH05T-INSTA/.gh05t/gh05tpass >/dev/null 2>&1
 mv password-6.txt data/data/com.termux/files/usr/cookies >/dev/null 2>&1
 cd $HOME >/dev/null 2>&1
 rm -rf GH05T-INSTA >/dev/null 2>&1
-clear
 fi
 if [ -f /data/data/com.termux/files/usr/cookies/password-7.txt ]; then
 printf "${green} Password 7 Found"
+sleep 1
 else
-echo ""
+printf "${red} Password 7 not found"
 cd $HOME >/dev/null 2>&1
 git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA >/dev/null 2>&1
 cd $HOME/GH05T-INSTA/.gh05t/gh05tpass >/dev/null 2>&1
 mv password-7.txt data/data/com.termux/files/usr/cookies >/dev/null 2>&1
 cd $HOME >/dev/null 2>&1
 rm -rf GH05T-INSTA >/dev/null 2>&1
-clear
 fi
 if [ -f /data/data/com.termux/files/usr/cookies/password-8.txt ]; then
 printf "${green} Password 8 Found"
+sleep 1
 else
-echo ""
+printf "${red} Password 8 not found"
 cd $HOME >/dev/null 2>&1
 git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA >/dev/null 2>&1
 cd $HOME/GH05T-INSTA/.gh05t/gh05tpass >/dev/null 2>&1
 mv password-8.txt data/data/com.termux/files/usr/cookies >/dev/null 2>&1
 cd $HOME
 rm -rf GH05T-INSTA
-clear
 fi
 if [ -f /data/data/com.termux/files/usr/cookies/password-9.txt ]; then
 printf "${green} Password 9 Found"
+sleep 1
 else
-echo ""
+printf "${red} Password 9 not found"
 cd $HOME >/dev/null 2>&1
 git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA >/dev/null 2>&1
 cd $HOME/GH05T-INSTA/.gh05t/gh05tpass >/dev/null 2>&1
 mv password-9.txt data/data/com.termux/files/usr/cookies >/dev/null 2>&1
 cd $HOME >/dev/null 2>&1
 rm -rf GH05T-INSTA >/dev/null 2>&1
-clear
 fi
 if [ -f /data/data/com.termux/files/usr/cookies/password-10.txt ]; then
 printf "${green} Password 10 Found"
+sleep 1
 else
-echo ""
+printf "${red} Password 10 not found"
 cd $HOME >/dev/null 2>&1
 git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA >/dev/null 2>&1
 cd $HOME/GH05T-INSTA/.gh05t/gh05tpass >/dev/null 2>&1
 mv password-10.txt data/data/com.termux/files/usr/cookies >/dev/null 2>&1
 cd $HOME >/dev/null 2>&1
 rm -rf GH05T-INSTA >/dev/null 2>&1
-clear
 fi
 if [ -f /data/data/com.termux/files/usr/cookies/password-11.txt ]; then
 printf "${green} Password 11 Found"
+sleep 1
 else
-echo ""
+printf "${red} Password 12 not found"
 cd $HOME >/dev/null 2>&1
 git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA >/dev/null 2>&1
 cd $HOME/GH05T-INSTA/.gh05t/gh05tpass >/dev/null 2>&1
 mv password-11.txt data/data/com.termux/files/usr/cookies >/dev/null 2>&1
 cd $HOME >/dev/null 2>&1
 rm -rf GH05T-INSTA >/dev/null 2>&1
-clear
 fi
 if [ -f /data/data/com.termux/files/usr/cookies/password-11.txt ]; then
 printf "${green} Password 12 Found"
+sleep 1
 else
-echo ""
+printf "${red} Password 12 not found"
 cd $HOME >/dev/null 2>&1
 git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA >/dev/null 2>&1
 cd $HOME/GH05T-INSTA/.gh05t/gh05tpass >/dev/null 2>&1
 mv password-12.txt data/data/com.termux/files/usr/cookies >/dev/null 2>&1
 cd $HOME >/dev/null 2>&1
 rm -rf GH05T-INSTA >/dev/null 2>&1
-clear
 fi
 if [ -f /data/data/com.termux/files/usr/cookies/password-13.txt ]; then
 printf "${green} Password 13 Found"
+sleep 1
 else
-echo ""
+printf "${red} Password 13 not found"
 cd $HOME >/dev/null 2>&1
 git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA >/dev/null 2>&1
 cd $HOME/GH05T-INSTA/.gh05t/gh05tpass >/dev/null 2>&1
 mv password-13.txt data/data/com.termux/files/usr/cookies >/dev/null 2>&1
 cd $HOME >/dev/null 2>&1
 rm -rf GH05T-INSTA >/dev/null 2>&1
-clear
 fi
 if [ -f /data/data/com.termux/files/usr/cookies/password-14.txt ]; then
 printf "${green} Password 14 Found"
+sleep 1
 else
-echo ""
+printf "${red} Password 14 not found"
 cd $HOME >/dev/null 2>&1
 git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA >/dev/null 2>&1
 cd $HOME/GH05T-INSTA/.gh05t/gh05tpass >/dev/null 2>&1
 mv password-14.txt data/data/com.termux/files/usr/cookies >/dev/null 2>&1
 cd $HOME >/dev/null 2>&1
 rm -rf GH05T-INSTA >/dev/null 2>&1
-clear
 fi
 if [ -f /data/data/com.termux/files/usr/cookies/password-15.txt ]; then
 printf "${green} Password 15 Found"
+sleep 1
 else
-echo ""
+printf "${red} Password 15 not found"
 cd $HOME >/dev/null 2>&1
 git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA >/dev/null 2>&1
 cd $HOME/GH05T-INSTA/.gh05t/gh05tpass >/dev/null 2>&1
 mv password-15.txt data/data/com.termux/files/usr/cookies >/dev/null 2>&1
 cd $HOME >/dev/null 2>&1
 rm -rf GH05T-INSTA >/dev/null 2>&1
-clear
 fi
 if [ -f /data/data/com.termux/files/usr/cookies/password-16.txt ]; then
 printf "${green} Password 16 Found"
+sleep 1
 else
-echo ""
+printf "${red} Password 16 not found"
 cd $HOME >/dev/null 2>&1
 git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA >/dev/null 2>&1
 cd $HOME/GH05T-INSTA/.gh05t/gh05tpass >/dev/null 2>&1
 mv password-16.txt data/data/com.termux/files/usr/cookies >/dev/null 2>&1
 cd $HOME >/dev/null 2>&1
 rm -rf GH05T-INSTA >/dev/null 2>&1
-clear
 fi
 if [ -f /data/data/com.termux/files/usr/cookies/password-17.txt ]; then
 printf "${green} Password 17 Found"
+sleep 1
 else
-echo ""
+printf "${red} Password 17 not found"
 cd $HOME >/dev/null 2>&1
 git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA >/dev/null 2>&1
 cd $HOME/GH05T-INSTA/.gh05t/gh05tpass >/dev/null 2>&1
 mv password-17.txt data/data/com.termux/files/usr/cookies >/dev/null 2>&1
 cd $HOME >/dev/null 2>&1
 rm -rf GH05T-INSTA >/dev/null 2>&1
-clear
 fi
 if [ -f /data/data/com.termux/files/usr/cookies/password-18.txt ]; then
 printf "${green} Password 18 Found"
+sleep 1
 else
-echo ""
+printf "${red} Password 18 not found"
 cd $HOME >/dev/null 2>&1
 git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA >/dev/null 2>&1
 cd $HOME/GH05T-INSTA/.gh05t/gh05tpass >/dev/null 2>&1
 mv password-18.txt data/data/com.termux/files/usr/cookies >/dev/null 2>&1
 cd $HOME >/dev/null 2>&1
 rm -rf GH05T-INSTA >/dev/null 2>&1
-clear
 fi
 if [ -f /data/data/com.termux/files/usr/cookies/password-19.txt ]; then
 printf "${green} Password 19 Found"
+sleep 1
 else
-echo ""
+printf "${red} Password 19 not found"
 cd $HOME >/dev/null 2>&1
 git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA >/dev/null 2>&1
 cd $HOME/GH05T-INSTA/.gh05t/gh05tpass >/dev/null 2>&1
 mv password-19.txt data/data/com.termux/files/usr/cookies >/dev/null 2>&1
 cd $HOME >/dev/null 2>&1
 rm -rf GH05T-INSTA >/dev/null 2>&1
-clear
 fi
 if [ -f /data/data/com.termux/files/usr/cookies/password-20.txt ]; then
 printf "${green} Password 20 Found"
+sleep 1
 else
-echo ""
+printf "${red} Password 20 not found"
 cd $HOME >/dev/null 2>&1
 git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA >/dev/null 2>&1
 cd $HOME/GH05T-INSTA/.gh05t/gh05tpass >/dev/null 2>&1
 mv password-20.txt data/data/com.termux/files/usr/cookies >/dev/null 2>&1
 cd $HOME >/dev/null 2>&1
 rm -rf GH05T-INSTA >/dev/null 2>&1
-clear
 fi
 if [ -f /data/data/com.termux/files/usr/bin/gh05t ]; then
 echo ""
 cd /data/data/com.termux/files/usr/bin >/dev/null 2>&1
 chmod +x gh05t 
 else
+printf "${red} Wrong"
 cd $HOME >/dev/null 2>&1
 git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA >/dev/null 2>&1
 cd $HOME/GH05T-INSTA/.gh05t >/dev/null 2>&1
@@ -782,20 +783,17 @@ cd $HOME >/dev/null 2>&1
 rm -rf GH05T-INSTA >/dev/null 2>&1
 cd /data/data/com.termux/files/usr/bin >/dev/null 2>&1
 chmod +x gh05t
-clear
 fi
 if [ -f /data/data/com.termux/files/usr/etc/tor/torrc ]; then
 echo ""
-clear
 else
-echo ""
+printf "${red} Tor Setup Please Wait"
 cd $HOME >/dev/null 2>&1
 git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA >/dev/null 2>&1
 cd $HOME/GH05T-INSTA/.gh05t >/dev/null 2>&1
 mv torrc /data/data/com.termux/files/usr/etc/tor >/dev/null 2>&1
 cd $HOME >/dev/null 2>&1
 rm -rf GH05T-INSTA >/dev/null 2>&1
-clear
 fi
 if [ -f /data/data/com.termux/files/usr/cookies/index.html ]; then
 echo ""
