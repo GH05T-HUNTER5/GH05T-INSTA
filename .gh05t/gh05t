@@ -1153,6 +1153,27 @@ developer-info
 clear
 main-loop
 clear
+elif [ $option = "06" ] || [ $option = "6" ]; then
+echo ""
+clear
+cookies-info
+clear
+main-loop
+clear
+elif [ $option = "07" ] || [ $option = "7" ]; then
+echo ""
+clear
+check-info
+clear
+main-loop
+clear
+elif [ $option = "08" ] || [ $option = "8" ]; then
+echo ""
+clear
+killmeall
+clear
+main-loop
+clear
 elif [ $option = "00" ] || [ $option = "0" ]; then
 echo ""
 clear
