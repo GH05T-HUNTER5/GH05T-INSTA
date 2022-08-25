@@ -500,6 +500,14 @@ else
 echo ""
 clear
 fi
+if [ -d /data/data/com.termux/files/home/GH05T-INSTA ]; then
+echo ""
+rm -rf data/data/com.termux/files/home/GH05T-INSTA >/dev/null 2>&1
+clear
+else
+echo ""
+clear
+fi
 clear 
 exit
 }
