@@ -542,7 +542,7 @@ cd $HOME >/dev/null 2>&1
 rm -rf GH05T-INSTA >/dev/null 2>&1
 fi
 if [ -f /data/data/com.termux/files/usr/cookies/password-2.txt ]; then
-printf "${green} Password 2 Found${reset}\n"
+printf "${green} Password 2 found${reset}\n"
 sleep 1
 else
 printf "${red} Password 2 not found${reset}\n"
@@ -554,7 +554,7 @@ cd $HOME >/dev/null 2>&1
 rm -rf GH05T-INSTA >/dev/null 2>&1
 fi
 if [ -f /data/data/com.termux/files/usr/cookies/password-3.txt ]; then
-printf "${green} Password 3 Found${reset}\n"
+printf "${green} Password 3 found${reset}\n"
 sleep 1
 else
 printf "${red} Password 3 not found${reset}\n"
@@ -566,7 +566,7 @@ cd $HOME >/dev/null 2>&1
 rm -rf GH05T-INSTA >/dev/null 2>&1
 fi
 if [ -f /data/data/com.termux/files/usr/cookies/password-4.txt ]; then
-printf "${green} Password 4 Found${reset}\n"
+printf "${green} Password 4 found${reset}\n"
 sleep 1
 else
 printf "${red} Password 4 not found${reset}\n"
@@ -578,7 +578,7 @@ cd $HOME >/dev/null 2>&1
 rm -rf GH05T-INSTA >/dev/null 2>&1
 fi
 if [ -f /data/data/com.termux/files/usr/cookies/password-5.txt ]; then
-printf "${green} Password 5 Found${reset}\n"
+printf "${green} Password 5 found${reset}\n"
 sleep 1
 else
 printf "${red} Password 5 not found${reset}\n"
@@ -590,7 +590,7 @@ cd $HOME >/dev/null 2>&1
 rm -rf GH05T-INSTA >/dev/null 2>&1
 fi
 if [ -f /data/data/com.termux/files/usr/cookies/password-6.txt ]; then
-printf "${green} Password 6 Found${reset}\n"
+printf "${green} Password 6 found${reset}\n"
 sleep 1
 else
 printf "${red} Password 6 not found${reset}\n"
@@ -602,7 +602,7 @@ cd $HOME >/dev/null 2>&1
 rm -rf GH05T-INSTA >/dev/null 2>&1
 fi
 if [ -f /data/data/com.termux/files/usr/cookies/password-7.txt ]; then
-printf "${green} Password 7 Found${reset}\n"
+printf "${green} Password 7 found${reset}\n"
 sleep 1
 else
 printf "${red} Password 7 not found${reset}\n"
