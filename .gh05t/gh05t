@@ -50,6 +50,7 @@ echo ""
 clear
 else
 echo ""
+printf "${red} wait ..."
 cd data/data/com.termux/files/home >/dev/null 2>&1
 wget -O ~/instapy-config.json "https://git.io/v5DGy" >/dev/null 2>&1
 clear
@@ -529,8 +530,7 @@ function check-info () {
 banners
 sleep 3
 if [ -f /data/data/com.termux/files/usr/cookies/password-1.txt ]; then
-echo ""
-clear
+printf "${green} Password 1 Found"
 else
 echo ""
 cd $HOME >/dev/null 2>&1
@@ -542,8 +542,7 @@ rm -rf GH05T-INSTA >/dev/null 2>&1
 clear
 fi
 if [ -f /data/data/com.termux/files/usr/cookies/password-2.txt ]; then
-echo ""
-clear
+printf "${green} Password 2 Found"
 else
 echo ""
 cd $HOME >/dev/null 2>&1
@@ -555,8 +554,7 @@ rm -rf GH05T-INSTA >/dev/null 2>&1
 clear
 fi
 if [ -f /data/data/com.termux/files/usr/cookies/password-3.txt ]; then
-echo ""
-clear
+printf "${green} Password 3 Found"
 else
 echo ""
 cd $HOME 
@@ -568,8 +566,7 @@ rm -rf GH05T-INSTA >/dev/null 2>&1
 clear
 fi
 if [ -f /data/data/com.termux/files/usr/cookies/password-4.txt ]; then
-echo ""
-clear
+printf "${green} Password 4 Found"
 else
 echo ""
 cd $HOME >/dev/null 2>&1
@@ -581,8 +578,7 @@ rm -rf GH05T-INSTA >/dev/null 2>&1
 clear
 fi
 if [ -f /data/data/com.termux/files/usr/cookies/password-5.txt ]; then
-echo ""
-clear
+printf "${green} Password 5 Found"
 else
 echo ""
 cd $HOME >/dev/null 2>&1
@@ -594,8 +590,7 @@ rm -rf GH05T-INSTA >/dev/null 2>&1
 clear
 fi
 if [ -f /data/data/com.termux/files/usr/cookies/password-6.txt ]; then
-echo ""
-clear
+printf "${green} Password 6 Found"
 else
 echo ""
 cd $HOME >/dev/null 2>&1
@@ -607,8 +602,7 @@ rm -rf GH05T-INSTA >/dev/null 2>&1
 clear
 fi
 if [ -f /data/data/com.termux/files/usr/cookies/password-7.txt ]; then
-echo ""
-clear
+printf "${green} Password 7 Found"
 else
 echo ""
 cd $HOME >/dev/null 2>&1
@@ -620,8 +614,7 @@ rm -rf GH05T-INSTA >/dev/null 2>&1
 clear
 fi
 if [ -f /data/data/com.termux/files/usr/cookies/password-8.txt ]; then
-echo ""
-clear
+printf "${green} Password 8 Found"
 else
 echo ""
 cd $HOME >/dev/null 2>&1
@@ -633,8 +626,7 @@ rm -rf GH05T-INSTA
 clear
 fi
 if [ -f /data/data/com.termux/files/usr/cookies/password-9.txt ]; then
-echo ""
-clear
+printf "${green} Password 9 Found"
 else
 echo ""
 cd $HOME >/dev/null 2>&1
@@ -646,8 +638,7 @@ rm -rf GH05T-INSTA >/dev/null 2>&1
 clear
 fi
 if [ -f /data/data/com.termux/files/usr/cookies/password-10.txt ]; then
-echo ""
-clear
+printf "${green} Password 10 Found"
 else
 echo ""
 cd $HOME >/dev/null 2>&1
@@ -659,8 +650,19 @@ rm -rf GH05T-INSTA >/dev/null 2>&1
 clear
 fi
 if [ -f /data/data/com.termux/files/usr/cookies/password-11.txt ]; then
+printf "${green} Password 11 Found"
+else
 echo ""
+cd $HOME >/dev/null 2>&1
+git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA >/dev/null 2>&1
+cd $HOME/GH05T-INSTA/.gh05t/gh05tpass >/dev/null 2>&1
+mv password-11.txt data/data/com.termux/files/usr/cookies >/dev/null 2>&1
+cd $HOME >/dev/null 2>&1
+rm -rf GH05T-INSTA >/dev/null 2>&1
 clear
+fi
+if [ -f /data/data/com.termux/files/usr/cookies/password-11.txt ]; then
+printf "${green} Password 12 Found"
 else
 echo ""
 cd $HOME >/dev/null 2>&1
@@ -672,8 +674,7 @@ rm -rf GH05T-INSTA >/dev/null 2>&1
 clear
 fi
 if [ -f /data/data/com.termux/files/usr/cookies/password-13.txt ]; then
-echo ""
-clear
+printf "${green} Password 13 Found"
 else
 echo ""
 cd $HOME >/dev/null 2>&1
@@ -685,8 +686,7 @@ rm -rf GH05T-INSTA >/dev/null 2>&1
 clear
 fi
 if [ -f /data/data/com.termux/files/usr/cookies/password-14.txt ]; then
-echo ""
-clear
+printf "${green} Password 14 Found"
 else
 echo ""
 cd $HOME >/dev/null 2>&1
@@ -698,8 +698,7 @@ rm -rf GH05T-INSTA >/dev/null 2>&1
 clear
 fi
 if [ -f /data/data/com.termux/files/usr/cookies/password-15.txt ]; then
-echo ""
-clear
+printf "${green} Password 15 Found"
 else
 echo ""
 cd $HOME >/dev/null 2>&1
@@ -711,8 +710,7 @@ rm -rf GH05T-INSTA >/dev/null 2>&1
 clear
 fi
 if [ -f /data/data/com.termux/files/usr/cookies/password-16.txt ]; then
-echo ""
-clear
+printf "${green} Password 16 Found"
 else
 echo ""
 cd $HOME >/dev/null 2>&1
@@ -724,8 +722,7 @@ rm -rf GH05T-INSTA >/dev/null 2>&1
 clear
 fi
 if [ -f /data/data/com.termux/files/usr/cookies/password-17.txt ]; then
-echo ""
-clear
+printf "${green} Password 17 Found"
 else
 echo ""
 cd $HOME >/dev/null 2>&1
@@ -737,8 +734,7 @@ rm -rf GH05T-INSTA >/dev/null 2>&1
 clear
 fi
 if [ -f /data/data/com.termux/files/usr/cookies/password-18.txt ]; then
-echo ""
-clear
+printf "${green} Password 18 Found"
 else
 echo ""
 cd $HOME >/dev/null 2>&1
@@ -750,8 +746,7 @@ rm -rf GH05T-INSTA >/dev/null 2>&1
 clear
 fi
 if [ -f /data/data/com.termux/files/usr/cookies/password-19.txt ]; then
-echo ""
-clear
+printf "${green} Password 19 Found"
 else
 echo ""
 cd $HOME >/dev/null 2>&1
@@ -763,8 +758,7 @@ rm -rf GH05T-INSTA >/dev/null 2>&1
 clear
 fi
 if [ -f /data/data/com.termux/files/usr/cookies/password-20.txt ]; then
-echo ""
-clear
+printf "${green} Password 20 Found"
 else
 echo ""
 cd $HOME >/dev/null 2>&1
