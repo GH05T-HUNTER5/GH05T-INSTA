@@ -23,7 +23,7 @@
 #OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 #SOFTWARE.
 
-
+reset='\033[0m'
 exit_on_signal_SIGINT() {
 echo ""
 clear 
@@ -77,7 +77,6 @@ sleep 8
 clear
 fi
 }
-reset='\033[0m'
 function update-info () {
 banners
 sleep 3
