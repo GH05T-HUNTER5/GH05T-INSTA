@@ -136,6 +136,9 @@ echo ""
 pkg install python -y >/dev/null 2>&1
 clear
 fi
+pkg install wget 
+clear
+pkg install wget -y
 echo "Please Wait..."
 dpkg --configure -a 
 pip install --upgrade pip >/dev/null 2>&1
