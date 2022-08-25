@@ -79,7 +79,7 @@ $ gh05t --user username --pass 1
 
 * username : Enter your Instagram username
 * --pass 1 : Total password list 20 {Select any password option Example 1 , 2 , 3 , ... 18 , 19 , 20}
-##### Usage example 
+* [Usage example](usage-8-example)
 
 ```
 $ gh05t --user your-account-username --pass your-password-option 
@@ -181,7 +181,7 @@ $ gh05t uninstall all
 
 
 <br>Password List </b><br>
-<img src="https://raw.githubusercontent.com/GH05T-HUNTER5/GH05T-INSTA/main/.img/Password-list-gh05t.jpg" alt="GH05T INSTA PASSWORD LIST">
+<img src="https://raw.githubusercontent.com/GH05T-HUNTER5/GH05T-INSTA/main/.img/Password-list-gh05t.jpg" alt="GH05T INSTA PASSWORD LIST" id="usage-8-example">
 
 <i>WORKING DEMO <a href="https://raw.githubusercontent.com/GH05T-HUNTER5/GH05T-INSTA/main/.img/Gh05t-attack.jpg">GH05T ATTACK</a></i>
 
