@@ -212,7 +212,7 @@ echo " choose password option"
 exit
 fi
 tor > /dev/null 2>&1 &
-echo -e "\033[1;37m +----------------------------------------------+
+echo -e "\033[1;37m +----------------------------------------------+"
 echo -e "\033[1;37m |              \033[0;31m       Tor                   \033[1;37m   |"
 echo -e "\033[1;37m |\033[0;32mIt is an acronym for Onion Router, a free and\033[1;37m |"
 echo -e "\033[1;37m |\033[0;32m open source software for enabling anonymous \033[1;37m |"
@@ -222,7 +222,7 @@ echo -e "\033[1;37m |\033[0;31m We use the Tor network to handle  \033[1;37m |"
 echo -e "\033[1;37m |\033[0;31m your IP changes, so your password \033[1;37m |"
 echo -e "\033[1;37m |\033[0;31m is likely to be repeated as your  \033[1;37m |"
 echo -e "\033[1;37m |\033[0;31m            IP changes.         \033[1;37m    |"
-echo -e "\033[1;37m +----------------------------------------------+
+echo -e "\033[1;37m +----------------------------------------------+"
 sleep 4
 echo -e " \033[1;37m Useful"
 clear
@@ -277,7 +277,7 @@ if [ $1 = "--user" ]; then
 echo ""
 cp -r $4 /data/data/com.termux/files/usr/cookies/ >/dev/null 2>&1
 tor > /dev/null 2>&1 &
-echo -e "\033[1;37m +----------------------------------------------+
+echo -e "\033[1;37m +----------------------------------------------+"
 echo -e "\033[1;37m |              \033[0;31m       Tor                   \033[1;37m   |"
 echo -e "\033[1;37m |\033[0;32mIt is an acronym for Onion Router, a free and\033[1;37m |"
 echo -e "\033[1;37m |\033[0;32m open source software for enabling anonymous \033[1;37m |"
@@ -287,7 +287,7 @@ echo -e "\033[1;37m |\033[0;31m We use the Tor network to handle  \033[1;37m |"
 echo -e "\033[1;37m |\033[0;31m your IP changes, so your password \033[1;37m |"
 echo -e "\033[1;37m |\033[0;31m is likely to be repeated as your  \033[1;37m |"
 echo -e "\033[1;37m |\033[0;31m            IP changes.         \033[1;37m    |"
-echo -e "\033[1;37m +----------------------------------------------+
+echo -e "\033[1;37m +----------------------------------------------+"
 sleep 4
 echo -e " \033[1;37m Useful"
 clear
@@ -1010,7 +1010,7 @@ auto-attack
 exit
 fi
 clear
-echo -e "\033[1;37m +----------------------------------------------+
+echo -e "\033[1;37m +----------------------------------------------+"
 echo -e "\033[1;37m |              \033[0;31m       Tor                   \033[1;37m   |"
 echo -e "\033[1;37m |\033[0;32mIt is an acronym for Onion Router, a free and\033[1;37m |"
 echo -e "\033[1;37m |\033[0;32m open source software for enabling anonymous \033[1;37m |"
@@ -1020,7 +1020,7 @@ echo -e "\033[1;37m |\033[0;31m We use the Tor network to handle  \033[1;37m |"
 echo -e "\033[1;37m |\033[0;31m your IP changes, so your password \033[1;37m |"
 echo -e "\033[1;37m |\033[0;31m is likely to be repeated as your  \033[1;37m |"
 echo -e "\033[1;37m |\033[0;31m            IP changes.         \033[1;37m    |"
-echo -e "\033[1;37m +----------------------------------------------+
+echo -e "\033[1;37m +----------------------------------------------+"
 sleep 4
 echo -e " \033[1;37m Useful"
 tor > /dev/null 2>&1 &
@@ -1074,7 +1074,7 @@ echo ""
 cp -r $4 /data/data/com.termux/files/usr/cookies/ >/dev/null 2>&1
 tor > /dev/null 2>&1 &
 clear
-echo -e "\033[1;37m +----------------------------------------------+
+echo -e "\033[1;37m +----------------------------------------------+"
 echo -e "\033[1;37m |              \033[0;31m       Tor                   \033[1;37m   |"
 echo -e "\033[1;37m |\033[0;32mIt is an acronym for Onion Router, a free and\033[1;37m |"
 echo -e "\033[1;37m |\033[0;32m open source software for enabling anonymous \033[1;37m |"
@@ -1084,7 +1084,7 @@ echo -e "\033[1;37m |\033[0;31m We use the Tor network to handle  \033[1;37m |"
 echo -e "\033[1;37m |\033[0;31m your IP changes, so your password \033[1;37m |"
 echo -e "\033[1;37m |\033[0;31m is likely to be repeated as your  \033[1;37m |"
 echo -e "\033[1;37m |\033[0;31m            IP changes.         \033[1;37m    |"
-echo -e "\033[1;37m +----------------------------------------------+
+echo -e "\033[1;37m +----------------------------------------------+"
 sleep 4
 echo -e " \033[1;37m Useful"
 clear
