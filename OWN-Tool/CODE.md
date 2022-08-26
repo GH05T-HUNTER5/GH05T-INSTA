@@ -1,5 +1,8 @@
 # GH05T SCN
 
+* Included Developer and Cookies
+
+
 ```
 gh05t --user username --pass 20
 ```
