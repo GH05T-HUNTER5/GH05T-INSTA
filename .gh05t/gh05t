@@ -58,6 +58,14 @@ cd /data/data/com.termux/files/home >/dev/null 2>&1
 wget -O ~/instapy-config.json "https://git.io/v5DGy" >/dev/null 2>&1
 clear
 fi
+if [ -f instapy-config.json ]; then
+echo ""
+clear
+else
+echo ""
+wget -O ~/instapy-config.json "https://git.io/v5DGy" >/dev/null 2>&1
+clear
+fi
 if [ -d /data/data/com.termux/files/usr/cookies ]; then
 echo ""
 clear
