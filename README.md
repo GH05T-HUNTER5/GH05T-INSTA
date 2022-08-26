@@ -9,8 +9,6 @@ $ gh05t --user username --pass 18
 
 ### Why GH05T-INSTA
 
-<i>* Multiple attacks can be performed simultaneously</i>
-
 <i>* You can find your Instagram account password.</i>
 
 <i>* This tool works on both rooted Android device and Non-rooted Android device</i>
