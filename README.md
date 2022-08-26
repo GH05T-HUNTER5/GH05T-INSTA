@@ -65,7 +65,7 @@ $ `rm -rf GH05T-INSTA`
 
 $ `gh05t`
 
-
+`Use the more useful command line ⬇️`
 <img src="https://raw.githubusercontent.com/GH05T-HUNTER5/GH05T-INSTA/main/.img/IMG_20220826_142041.jpg" alt="GH05T INSTA" title="GH05T INSTA">
 
 <em>You can use it in two ways</em><br>
