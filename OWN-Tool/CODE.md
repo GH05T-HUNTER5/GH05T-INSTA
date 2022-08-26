@@ -107,7 +107,7 @@ elif [ $what = "05" ] || [ $what = "5" ]; then
 gh05t --check
 elif [ $what = "06" ] || [ $what = "6" ]; then
 clear
-wa.me/+0000000000 {your number}
+termux-open wa.me/+0000000000 {your number}
 elif [ $what = "07" ] || [ $what = "7" ]; then
 gh05t --cookies 
 elif [ $what = "99" ]; then
