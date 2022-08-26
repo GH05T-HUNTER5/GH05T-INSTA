@@ -2,6 +2,12 @@
 <img src="https://raw.githubusercontent.com/GH05T-HUNTER5/GH05T-INSTA/main/.img/IMG_20220826_141617.jpg" alt="bruteforce attack GH05T INSTA" title="GH05T INSTA">
 <i>TERMUX USERS  { No Root }</i>
 
+<b>Please use the command line ( example )</b>
+
+```
+$ gh05t --user username --pass 18
+```
+
 ### Why GH05T-INSTA
 
 <i>* Multiple attacks can be performed simultaneously</i>
