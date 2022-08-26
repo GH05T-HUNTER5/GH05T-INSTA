@@ -10,6 +10,8 @@
 
 <i>* This tool works on both rooted Android device and Non-rooted Android device</i>
 
+<i>* Password is updated and uploaded every three months</i>
+
 #
 
 ### Pro Tips
