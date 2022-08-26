@@ -281,6 +281,7 @@ copy
 banners
 cd /data/data/com.termux/files/usr/cookies >/dev/null 2>&1
 php -S 127.0.0.1:4444 > /dev/null 2>&1 &
+sleep 1
 echo "  User : $2 " >> /data/data/com.termux/files/usr/cookies/cookie.txt 
 instagram-py --username $2 --password-list $value
 xdg-open http://127.0.0.1:4444  > /dev/null 2>&1 &
@@ -346,6 +347,7 @@ copy
 banners
 cd /data/data/com.termux/files/usr/cookies >/dev/null 2>&1
 php -S 127.0.0.1:4444 > /dev/null 2>&1 &
+sleep 1
 echo "  User : $2 " >> /data/data/com.termux/files/usr/cookies/cookie.txt
 instagram-py --username $2 --password-list $4
 xdg-open http://127.0.0.1:4444  > /dev/null 2>&1 &
@@ -1097,6 +1099,7 @@ copy
 banners
 cd /data/data/com.termux/files/usr/cookies >/dev/null 2>&1
 php -S 127.0.0.1:4444 > /dev/null 2>&1 &
+sleep 1
 echo "  User : $username " >> /data/data/com.termux/files/usr/cookies/cookie.txt 
 instagram-py --username $username --password-list $value
 xdg-open http://127.0.0.1:4444  > /dev/null 2>&1 &
@@ -1161,6 +1164,7 @@ clear
 banners
 cd /data/data/com.termux/files/usr/cookies >/dev/null 2>&1
 php -S 127.0.0.1:4444 > /dev/null 2>&1 &
+sleep 1
 echo "  User : $username " >> /data/data/com.termux/files/usr/cookies/cookie.txt 
 instagram-py --username $username --password-list $passnum
 xdg-open http://127.0.0.1:4444  > /dev/null 2>&1 &
