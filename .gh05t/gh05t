@@ -120,9 +120,11 @@ else
 echo ""
 clear
 fi
+sleep 1
 git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA >/dev/null 2>&1
 cd GH05T-INSTA
 python update.py
+reopens
 exit
 }
 function banners () {
@@ -155,6 +157,7 @@ echo ""
 clear
 banners
 cat /data/data/com.termux/files/usr/cookies/cookie.txt 
+reopens
 exit
 else
 echo ""
@@ -162,6 +165,7 @@ clear
 echo " No cookies found"
 sleep 3
 clear 
+reopens
 exit
 fi
 }
@@ -183,6 +187,7 @@ pip3 install requests --upgrade >/dev/null 2>&1
 pip3 install requests[socks] >/dev/null 2>&1
 pip3 install stem >/dev/null 2>&1
 pip3 install instagram-py >/dev/null 2>&1
+reopens
 clear
 }
 if [ $3 = "--pass" ]; then
@@ -441,8 +446,10 @@ $ gh05t uninstall all
 { Delete Gh05t }
 { Removes all packages related to gh05t }
 { Entfernt alle Pakete, die sich auf gh05t beziehen }"
+reopens
 }
 function killmeall () {
+reopens
 clear
 banners
 dpkg --configure -a >/dev/null 2>&1
@@ -540,6 +547,7 @@ echo -e "  \033[1;37m[\033[0;31m99\033[1;37m]\033[0;32m Main                    
 read -p $'  \e[1;92m[\e[0m\e[1;77m++\e[0m\e[1;92m] Choose an option : \e[0m' options
 if [ $options = "00" ]; then
 echo ""
+reopens
 clear
 exit
 elif [ $options = "99" ]; then
@@ -852,6 +860,7 @@ fi
 clear
 banners
 sleep 2
+reopens
 clear 
 exit
 }
@@ -867,37 +876,47 @@ if [ $options = "01" ] || [ $options = "1" ]; then
 echo ""
 clear
 xdg-open https://t.me/GH05T_HUNTER5 >/dev/null 2>&1
+reopens
 clear
 exit
 elif [ $options = "02" ] || [ $options = "2" ]; then
 echo ""
 clear
 xdg-open https://www.instagram.com/gh05t_hunter5/ >/dev/null 2>&1
+reopens
 clear
 exit
 elif [ $options = "03" ] || [ $options = "3" ]; then
 echo ""
 clear
 xdg-open https://youtube.com/channel/UCLoaCSIy4qzx7X2HCjbD8LA >/dev/null 2>&1
+reopens
+clear
+exit 
 elif [ $options = "04" ] || [ $options = "4" ]; then
 echo ""
 clear
 xdg-open https://mobile.twitter.com/gh05_thunter5 >/dev/null 2>&1
+reopens
 clear
 exit
 elif [ $options = "05" ] || [ $options = "5" ]; then
 echo ""
 clear
 xdg-open https://gh05thunter5.blogspot.com/2022/07/blog-post.html?m=1 >/dev/null 2>&1
-
+reopens
+clear
+exit 
 elif [ $options = "06" ] || [ $options = "6" ]; then
 echo ""
 clear
 xdg-open https://github.com/GH05T-HUNTER5 >/dev/null 2>&1
+reopens
 clear
 exit
 elif [ $options = "00" ]; then
 echo ""
+reopens
 clear
 exit
 elif [ $options = "99" ]; then
@@ -907,6 +926,7 @@ gh05t
 else
 echo ""
 fi
+reopens
 exit
 }
 if [ $1 = "--help" ]; then
