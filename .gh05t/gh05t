@@ -130,6 +130,7 @@ reopens
 exit
 fi
 }
+restar='\033[0;35m'
 function banners () {
 breakme
 clear
