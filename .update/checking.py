@@ -19,6 +19,7 @@ print (" |     ╚═╝╚═╝  ╚═══╝╚══════╝   ╚
 print (" +----------------------------------------------+")
 print (" | Developer : GH05T HUNTER5      version : 0.01|")
 print (" | Instagram : GH05T_HUNTER5      FPP     : 0.29|")
+print (" | Powered   : Instagram-py      antony-jr: 2.07|")
 print (" +----------------------------------------------+")
 time.sleep(6)
 os.system ("clear")
