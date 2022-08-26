@@ -2,6 +2,7 @@
 
 * Included Developer and Cookies
 
+`Never modify the GH05T-INSTA tool`
 
 ```
 gh05t --user username --pass 20
@@ -38,6 +39,11 @@ gh05t developer
 ```
 gh05t --help
 ```
+```
+CONTRIBUTE  :  GH05T-HUNTER5
+```
+
+COPY THIS CODE ⬇️
 
 ```bash
 function ban () {
