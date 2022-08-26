@@ -72,6 +72,8 @@ $ `gh05t`
 
 * We think the command line is more useful
 
+* It is intended to be released as our package 😁
+
 ## Usage Commands 
 
 <b>AUTO ATTACK </b>
