@@ -26,6 +26,7 @@
 reset='\033[0m'
 exit_on_signal_SIGINT() {
 echo ""
+reopens
 clear 
 echo " Trying To Exit"
 sleep 5
@@ -34,6 +35,7 @@ exit 0
 }
 exit_on_signal_SIGTERM() {
 echo ""
+reopens
 clear 
 echo " Trying To Exit"
 sleep 5
@@ -150,6 +152,18 @@ echo " No cookies found"
 sleep 3
 clear 
 exit
+fi
+}
+function reopens () {
+rm /data/data/com.termux/files/home/instapy-config.json  >/dev/null 2>&1
+clear 
+if [ -f /data/data/com.termux/files/home/instapy-config.json ]; then
+echo ""
+rm /data/data/com.termux/files/home/instapy-config.json  >/dev/null 2>&1
+clear
+else
+echo ""
+clear
 fi
 }
 function error-info () {
