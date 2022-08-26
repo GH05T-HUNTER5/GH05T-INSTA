@@ -1,3 +1,4 @@
+<b>We strive to provide the best service for</b>
 <img src="https://raw.githubusercontent.com/GH05T-HUNTER5/GH05T-INSTA/main/.img/BRUTE%20GH05T.jpg" alt="bruteforce attack GH05T INSTA" title="GH05T INSTA">
 <i>TERMUX USERS  { No Root }</i>
 
