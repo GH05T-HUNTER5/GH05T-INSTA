@@ -14,6 +14,8 @@
 
 <i>*  Your IP address will change automatically</i>
 
+<i>* The gh05t tool is always an anonymous attack (Safe to use) <i>
+
 #
 
 ### Pro Tips
