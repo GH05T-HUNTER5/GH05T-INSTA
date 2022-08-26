@@ -180,7 +180,7 @@ $ gh05t --cookies
 $ gh05t developer 
 ```
 
-* To contact the developer
+* To contact the developers
 
 <b>Uninstall GH05T-INSTA </b>
 
