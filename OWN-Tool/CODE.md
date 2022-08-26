@@ -4,41 +4,60 @@
 
 `Never modify the GH05T-INSTA tool`
 
+<b>AUTO ATTACK</b>
+
 ```
 gh05t --user username --pass 20
 ```
+
+<b>MANUAL ATTACK</b>
 
 ```
 gh05t --user username --passadd pwdlocation
 ```
 
+<b>Brute Force error</b>
+
 ```
 gh05t --error
 ```
+
+<b>Uninstall gh05t</b>
 
 ```
 gh05t uninstall all
 ```
 
+<b>CHECKING FILES</b>
+
 ```
 gh05t --check
 ```
+
+<b>Update GH05T-INSTA Tool</b>
 
 ```
 gh05t --update
 ```
 
+<b>Display Usernames</b>
+
 ```
 gh05t --cookies
 ```
+
+<b>To contact the developers</b>
 
 ```
 gh05t developer
 ```
 
+<b>Help Command</b>
+
 ```
 gh05t --help
 ```
+
 ```
 CONTRIBUTE  :  GH05T-HUNTER5
 ```
