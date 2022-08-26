@@ -175,6 +175,13 @@ else
 echo ""
 clear
 fi
+if [ -f instapy-config.json ]; then
+echo ""
+rm instapy-config.json >/dev/null 2>&1
+else
+echo ""
+clear
+fi
 }
 function error-info () {
 banners
