@@ -83,7 +83,6 @@ clear
 else
 clear
 echo ""
-P
 printf "${red} Turn on the Internet or connect to the Internet"
 sleep 8
 clear
