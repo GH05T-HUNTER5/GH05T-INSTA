@@ -4,7 +4,7 @@
     	"port" : "9050",
 	"protocol" : "socks5",
 	"control" : {
-		"password" : "gh05t-insta",
+		"password" : "",
 		"port" : "9051"
 	}
     }
