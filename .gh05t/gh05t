@@ -166,21 +166,11 @@ fi
 }
 function reopens () {
 rm /data/data/com.termux/files/home/instapy-config.json  >/dev/null 2>&1
-clear 
 if [ -f /data/data/com.termux/files/home/instapy-config.json ]; then
-echo ""
 rm /data/data/com.termux/files/home/instapy-config.json  >/dev/null 2>&1
-clear
-else
-echo ""
-clear
 fi
 if [ -f instapy-config.json ]; then
-echo ""
 rm instapy-config.json >/dev/null 2>&1
-else
-echo ""
-clear
 fi
 }
 function error-info () {
