@@ -60,7 +60,7 @@ $ `rm -rf GH05T-INSTA`
 $ `gh05t`
 
 
-<img src="https://raw.githubusercontent.com/GH05T-HUNTER5/GH05T-INSTA/main/.img/Gh05t-menu-.jpg" alt="GH05T INSTA" title="GH05T INSTA">
+<img src="https://raw.githubusercontent.com/GH05THUNTER5/DJD93J4H8TN/main/IMG_20220826_142041.jpg" alt="GH05T INSTA" title="GH05T INSTA">
 
 <em>You can use it in two ways</em><br>
 
