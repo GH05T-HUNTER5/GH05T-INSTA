@@ -12,6 +12,8 @@
 
 <i>* Password is updated and uploaded every three months</i>
 
+<i>*  Your IP address will change automatically</i>
+
 #
 
 ### Pro Tips
