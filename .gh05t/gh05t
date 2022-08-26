@@ -937,38 +937,32 @@ echo ""
 clear
 help-info
 exit
-fi
-if [ $1 = "--update" ]; then
+elif [ $1 = "--update" ]; then
 echo ""
 clear
 update-info
 exit
-fi
-if [ $1 = "--error" ]; then
+elif [ $1 = "--error" ]; then
 echo ""
 clear
 error-info
 exit
-fi
-if [ $1 = "--check" ]; then
+elif [ $1 = "--check" ]; then
 echo ""
 clear
 check-info
 exit
-fi
-if [ $1 = "developer" ]; then
+elif [ $1 = "developer" ]; then
 echo ""
 clear
 developer-info
 exit
-fi
-if [ $1 = "--cookies" ]; then
+elif [ $1 = "--cookies" ]; then
 echo ""
 clear
 cookies-info
 exit
-fi
-if [ $1 = "uninstall" ]; then
+elif [ $1 = "uninstall" ]; then
 echo ""
 clear
 if [ $2 = "all" ]; then
