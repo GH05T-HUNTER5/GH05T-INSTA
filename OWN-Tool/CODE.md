@@ -57,6 +57,8 @@ echo -e "    \033[0;31m02  Manual Attack"
 echo -e "    \033[0;31m03  Update"
 echo -e "    \033[0;31m04  Error"
 echo -e "    \033[0;31m05  Check "
+echo -e "    \033[0;31m06  Developer "
+echo -e "    \033[0;31m07  Username "
 echo -e "    \033[0;31m99  Help"
 echo -e "    \033[0;31m00  Exit"
 read -p "      what you want  : " what
@@ -75,6 +77,11 @@ elif [ $what = "04" ] || [ $what = "4" ]; then
 gh05t --error
 elif [ $what = "05" ] || [ $what = "5" ]; then
 gh05t --check
+elif [ $what = "06" ] || [ $what = "6" ]; then
+clear
+wa.me/+0000000000 {your number}
+elif [ $what = "07" ] || [ $what = "7" ]; then
+gh05t --cookies 
 elif [ $what = "99" ]; then
 gh05t --help
 elif [ $what = "05" ]; then
