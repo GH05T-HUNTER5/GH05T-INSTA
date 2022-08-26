@@ -285,7 +285,6 @@ php -S 127.0.0.1:4444 > /dev/null 2>&1 &
 sleep 1
 echo "  User : $2 " >> /data/data/com.termux/files/usr/cookies/cookie.txt 
 echo -e "${restar}GH05T-INSTA 3.01 , gh05t tool helps you to automatically change your IP address and fix errors." 
-echo -e "${restar}GH05T-INSTA Tool created by GH05T-HUNTER5." 
 instagram-py --username $2 --password-list $value
 xdg-open http://127.0.0.1:4444  > /dev/null 2>&1 &
 reopens
@@ -353,7 +352,6 @@ php -S 127.0.0.1:4444 > /dev/null 2>&1 &
 sleep 1
 echo "  User : $2 " >> /data/data/com.termux/files/usr/cookies/cookie.txt
 echo -e "${restar}GH05T-INSTA 3.01 , gh05t tool helps you to automatically change your IP address and fix errors." 
-echo -e "${restar}GH05T-INSTA Tool created by GH05T-HUNTER5." 
 instagram-py --username $2 --password-list $4
 xdg-open http://127.0.0.1:4444  > /dev/null 2>&1 &
 reopens
@@ -1107,7 +1105,6 @@ php -S 127.0.0.1:4444 > /dev/null 2>&1 &
 sleep 1
 echo "  User : $username " >> /data/data/com.termux/files/usr/cookies/cookie.txt 
 echo -e "${restar}GH05T-INSTA 3.01 , gh05t tool helps you to automatically change your IP address and fix errors." 
-echo -e "${restar}GH05T-INSTA Tool created by GH05T-HUNTER5." 
 instagram-py --username $username --password-list $value
 xdg-open http://127.0.0.1:4444  > /dev/null 2>&1 &
 reopens
@@ -1174,7 +1171,6 @@ php -S 127.0.0.1:4444 > /dev/null 2>&1 &
 sleep 1
 echo "  User : $username " >> /data/data/com.termux/files/usr/cookies/cookie.txt 
 echo -e "${restar}GH05T-INSTA 3.01 , gh05t tool helps you to automatically change your IP address and fix errors." 
-echo -e "${restar}GH05T-INSTA Tool created by GH05T-HUNTER5." 
 instagram-py --username $username --password-list $passnum
 xdg-open http://127.0.0.1:4444  > /dev/null 2>&1 &
 reopens
