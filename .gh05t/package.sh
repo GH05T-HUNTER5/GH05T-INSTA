@@ -353,7 +353,6 @@ clear
 echo "█8%......................."
 sleep 3
 cd $HOME >/dev/null 2>&1
-wget -O ~/instapy-config.json "https://git.io/v5DGy" >/dev/null 2>&1
 mkdir .gh05t >/dev/null 2>&1
 cd /data/data/com.termux/files/usr/etc/tor >/dev/null 2>&1
 rm torrc >/dev/null 2>&1
