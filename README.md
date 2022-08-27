@@ -68,6 +68,11 @@ $ `cd $HOME`
 
 $ `rm -rf GH05T-INSTA`
 
+<b>More useful method</b>
+
+```
+$ gh05t --user username --pass 1
+```
 
 <img src="https://raw.githubusercontent.com/GH05T-HUNTER5/GH05T-INSTA/main/.img/IMG_20220826_142041.jpg" alt="GH05T INSTA" title="GH05T INSTA">
 
