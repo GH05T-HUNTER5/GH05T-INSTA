@@ -163,7 +163,7 @@ $ gh05t
 
 #### Password List
 
-<img src="https://raw.githubusercontent.com/GH05T-HUNTER5/GH05T-INSTA/main/.img/Password-list-gh05t.jpg" alt="GH05T INSTA PASSWORD LIST" >
+<img src="https://raw.githubusercontent.com/GH05T-HUNTER5/GH05T-INSTA/main/.img/IMG_20220827_155433.jpg" alt="GH05T INSTA PASSWORD LIST" >
 
 <i>WORKING DEMO <a href="https://raw.githubusercontent.com/GH05T-HUNTER5/GH05T-INSTA/main/.img/IMG_20220827_095805.jpg">GH05T ATTACK (safe to use)</a> </i>
 
