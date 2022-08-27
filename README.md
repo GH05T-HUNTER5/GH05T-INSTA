@@ -34,6 +34,8 @@ $ `cd $HOME`
 
 $ `rm -rf GH05T-INSTA`
 
+* You can use two ways 🤺
+
 01 ) Command Based ⬇️
 
 ## Usage Commands 
