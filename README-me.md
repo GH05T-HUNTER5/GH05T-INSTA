@@ -46,7 +46,7 @@ $ gh05t --user username --pass 1
 
 * username : Enter your Instagram username
 * --pass 1 : Total password list 20 {Select any password option Example 1 , 2 , 3 , ... 18 , 19 , 20}
-* [Usage example](https://raw.githubusercontent.com/GH05T-HUNTER5/GH05T-INSTA/main/.img/Password-list-gh05t.jpg)
+* [Usage example](https://raw.githubusercontent.com/GH05T-HUNTER5/GH05T-INSTA/main/.img/IMG_20220827_155433.jpg)
 
 ```
 $ gh05t --user your-account-username --pass your-password-option 
