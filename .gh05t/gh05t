@@ -138,7 +138,7 @@ echo ""
 clear
 else
 echo ""
-pkg install tor >/dev/null 2>&1
+pkg install tor -y >/dev/null 2>&1
 clear 
 fi
 dpkg -s wget &> /dev/null # GH05T HUNTER5
@@ -147,7 +147,7 @@ echo ""
 clear
 else
 echo ""
-pkg install wget >/dev/null 2>&1
+pkg install wget -y >/dev/null 2>&1
 clear 
 fi
 dpkg -s tor &> /dev/null # GH05T HUNTER5
