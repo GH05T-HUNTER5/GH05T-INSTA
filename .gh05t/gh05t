@@ -138,24 +138,6 @@ echo ""
 clear
 else
 echo ""
-pkg install tor
-clear 
-fi
-dpkg -s wget &> /dev/null # GH05T HUNTER5
-if [ $? -eq 0 ]; then
-echo ""
-clear
-else
-echo ""
-pkg install wget
-clear 
-fi
-dpkg -s tor &> /dev/null # GH05T HUNTER5
-if [ $? -eq 0 ]; then
-echo ""
-clear
-else
-echo ""
 pkg install tor >/dev/null 2>&1
 clear 
 fi
@@ -166,6 +148,24 @@ clear
 else
 echo ""
 pkg install wget >/dev/null 2>&1
+clear 
+fi
+dpkg -s tor &> /dev/null # GH05T HUNTER5
+if [ $? -eq 0 ]; then
+echo ""
+clear
+else
+echo ""
+pkg install tor
+clear 
+fi
+dpkg -s wget &> /dev/null # GH05T HUNTER5
+if [ $? -eq 0 ]; then
+echo ""
+clear
+else
+echo ""
+pkg install wget
 clear 
 fi
 }
