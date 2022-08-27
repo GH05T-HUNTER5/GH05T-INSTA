@@ -77,11 +77,12 @@ $ gh05t --user username --passadd Your-Pass
 ```
 
 * username : Enter your Instagram username
-* Your-Pass : Enter the name and location of your password list
+* Your-Pass : Enter the name and location(pwd) of your password list
 
 ##### Usage example 
 
 ```
+$ gh05t --user username --passadd pwdlocation-and-name
 $ gh05t --user your-account-username --passadd your-password-location-and-name.txt
 $ gh05t --user mr_77778#8 --passadd /data/data/com.termux/files/home/password.txt 
 $ gh05t --user mr_fake#@ --passadd /data/data/com.termux/files/home/storage/shared/worldlist.txt 
