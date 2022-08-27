@@ -939,7 +939,10 @@ fi
 reopens
 exit
 }
-if [ $1 = "--help" ]; then
+if [ $0 = "gh05t" ]; then
+echo ""
+clear 
+elif [ $1 = "--help" ]; then
 echo ""
 clear
 help-info
