@@ -131,7 +131,7 @@ exit
 fi
 }
 restar='\033[0;35m'
-function toomes () {
+function toomess () {
 dpkg -s tor &> /dev/null # GH05T HUNTER5
 if [ $? -eq 0 ]; then
 echo ""
@@ -284,6 +284,8 @@ clear
 echo " choose password option"
 exit
 fi
+toomess
+clear 
 tor > /dev/null 2>&1 &
 echo -e "\033[1;37m +----------------------------------------------+"
 echo -e "\033[1;37m |              \033[0;31m       Tor                   \033[1;37m   |"
@@ -352,6 +354,8 @@ echo ""
 if [ $1 = "--user" ]; then
 echo ""
 cp -r $4 /data/data/com.termux/files/usr/cookies/ >/dev/null 2>&1
+clear 
+clear
 tor > /dev/null 2>&1 &
 echo -e "\033[1;37m +----------------------------------------------+"
 echo -e "\033[1;37m |              \033[0;31m       Tor                   \033[1;37m   |"
