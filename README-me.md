@@ -167,6 +167,20 @@ $ gh05t
 
 <i>WORKING DEMO <a href="https://raw.githubusercontent.com/GH05T-HUNTER5/GH05T-INSTA/main/.img/IMG_20220827_095805.jpg">GH05T ATTACK (safe to use)</a> </i>
 
+
+#
+
+### Pro Tips
+
+* Never login to Instagram app after finding your Instagram password, use your Chrome browser
+
+##### Why Chrome Browser?
+
+* Your login activity will never be saved, so your victim will never find you
+* Your login activity will never be displayed
+
+#
+
 有了這個，您可以立即暴力破解您的 Instagram 帳戶
 
 Es funktioniert gut, da es mit Instagram-py erstellt wurde
