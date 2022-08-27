@@ -194,6 +194,26 @@ echo -e " \033[1;37m +----------------------------------------------+"
 echo -e " \033[1;37m |\033[0;31m We strive to provide the best service for you\033[1;37m|"
 echo -e " \033[1;37m +----------------------------------------------+"
 }
+function kill-insta () {
+if [ -f /data/data/com.termux/files/home/instapy-config.json ]; then
+echo ""
+clear
+else
+echo ""
+cd /data/data/com.termux/files/home >/dev/null 2>&1
+wget -O ~/instapy-config.json "https://git.io/v5DGy" >/dev/null 2>&1
+clear
+fi
+if [ -f /data/data/com.termux/files/home/instapy-config.json ]; then
+echo ""
+clear
+else
+echo ""
+cd /data/data/com.termux/files/home >/dev/null 2>&1
+wget -O ~/instapy-config.json "https://git.io/v5DGy" >/dev/null 2>&1
+clear
+fi
+}
 function cookies-info () {
 echo ""
 if [ $f data/data/com.termux/files/usr/cookies/cookie.txt ]; then
@@ -284,6 +304,7 @@ clear
 echo " choose password option"
 exit
 fi
+kill-insta
 reinstass
 clear 
 tor > /dev/null 2>&1 &
@@ -355,6 +376,7 @@ if [ $1 = "--user" ]; then
 echo ""
 cp -r $4 /data/data/com.termux/files/usr/cookies/ >/dev/null 2>&1
 reinstass 
+kill-insta
 clear
 tor > /dev/null 2>&1 &
 echo -e "\033[1;37m +----------------------------------------------+"
