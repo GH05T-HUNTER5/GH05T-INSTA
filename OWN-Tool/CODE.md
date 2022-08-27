@@ -7,55 +7,55 @@
 <b>AUTO ATTACK</b>
 
 ```
-gh05t --user username --pass 20
+$ gh05t --user username --pass 20
 ```
 
 <b>MANUAL ATTACK</b>
 
 ```
-gh05t --user username --passadd pwdlocation
+$ gh05t --user username --passadd pwdlocation-and-name
 ```
 
 <b>Brute Force error</b>
 
 ```
-gh05t --error
+$ gh05t --error
 ```
 
 <b>Uninstall gh05t</b>
 
 ```
-gh05t uninstall all
+$ gh05t uninstall all
 ```
 
 <b>CHECKING FILES</b>
 
 ```
-gh05t --check
+$ gh05t --check
 ```
 
 <b>Update GH05T-INSTA Tool</b>
 
 ```
-gh05t --update
+$ gh05t --update
 ```
 
 <b>Display Usernames</b>
 
 ```
-gh05t --cookies
+$ gh05t --cookies
 ```
 
 <b>To contact the developers</b>
 
 ```
-gh05t developer
+$ gh05t developer
 ```
 
 <b>Help Command</b>
 
 ```
-gh05t --help
+$ gh05t --help
 ```
 
 ```
@@ -63,6 +63,24 @@ CONTRIBUTE  :  GH05T-HUNTER5
 ```
 
 COPY THIS CODE ⬇️
+
+Collaborators  :  GH05T-HUNTER5
+
+```
+Add us to your code   :   GH05T-HUNTER5
+```
+
+`
+Sie können dieses Banner auch ändern, wenn Sie möchten
+`
+
+`
+Change ban
+`
+
+`
+Modify yourself ⏬
+`
 
 ```bash
 function ban () {
