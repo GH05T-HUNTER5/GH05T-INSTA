@@ -196,6 +196,7 @@ pip3 install instagram-py >/dev/null 2>&1
 reopens
 clear
 }
+clear 
 if [ $3 = "--pass" ]; then
 echo ""
 if [ $1 = "--user" ]; then
@@ -307,6 +308,7 @@ else
 echo ""
 clear
 fi
+clear 
 if [ $3 = "--passadd" ]; then
 echo ""
 if [ $1 = "--user" ]; then
@@ -375,6 +377,7 @@ else
 echo ""
 clear
 fi
+clear 
 function help-info () {
 banners
 sleep 3
@@ -939,6 +942,7 @@ fi
 reopens
 exit
 }
+clear 
 if [ $1 = "--help" ]; then
 echo ""
 clear
@@ -989,6 +993,7 @@ else
 echo ""
 clear 
 fi
+clear 
 echo ""
 function auto-attack () {
 echo ""
