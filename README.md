@@ -160,10 +160,8 @@ $ gh05t main
 
 ##### Why gh05t-hunter5 never recommend this `gh05t main` method
 
-* The first reason is that the bug is included
-
-* Trying to fix this bug in the future {The main reason is that this method is not used in people}
-
+* The main reason is that it is not good for your work
+* This method wastes your time
 #### Password List
 
 <img src="https://raw.githubusercontent.com/GH05T-HUNTER5/GH05T-INSTA/main/.img/IMG_20220827_155433.jpg" alt="GH05T INSTA PASSWORD LIST" >
