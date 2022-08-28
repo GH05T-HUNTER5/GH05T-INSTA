@@ -148,17 +148,17 @@ $ gh05t uninstall all
 
 * Removes all packages related to GH05T-INSTA 
 
-02 ) just type : gh05t
+02 ) just type : gh05t main
 
 ```
-$ gh05t
+$ gh05t main
 ```
 
 #### We never recommend this method, but try it yourself
 
 <img src="https://raw.githubusercontent.com/GH05T-HUNTER5/GH05T-INSTA/main/.img/IMG_20220827_155106.jpg" alt="GH05T INSTA" title="GH05T INSTA">
 
-##### Why gh05t-hunter5 never recommend this `gh05t` method
+##### Why gh05t-hunter5 never recommend this `gh05t main` method
 
 * The first reason is that the bug is included
 
