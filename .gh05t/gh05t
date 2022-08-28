@@ -205,6 +205,7 @@ fi
 clear
 fi
 }
+reinstass
 function banners () {
 breakme
 clear
@@ -341,7 +342,6 @@ echo " choose password option"
 exit
 fi
 kill-insta
-reinstass
 clear 
 tor > /dev/null 2>&1 &
 echo -e "\033[1;37m +----------------------------------------------+"
@@ -411,7 +411,6 @@ echo ""
 if [ $1 = "--user" ]; then
 echo ""
 cp -r $4 /data/data/com.termux/files/usr/cookies/ >/dev/null 2>&1
-reinstass 
 kill-insta
 clear
 tor > /dev/null 2>&1 &
