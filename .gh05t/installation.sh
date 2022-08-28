@@ -227,7 +227,7 @@ if [ $users = "Y" ] || [ $users = "y" ]; then
 echo ""
 clear
 bash setup.sh
-elif [ $users = "n" ] || [ $users = N" ]; then
+elif [ $users = "n" ] || [ $users = "N" ]; then
 echo ""
 clear 
 else
