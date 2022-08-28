@@ -224,12 +224,9 @@ function myuser () {
 banners 
 read -p "Do you want to set up superuser [ y,n ]? " users
 if [ $users = "Y" ] || [ $users = "y" ]; then
-
-
-
-
-
-
+echo ""
+clear
+bash setup.sh
 elif [ $users = "n" ] || [ $users = N" ]; then
 echo ""
 clear 
@@ -238,6 +235,7 @@ clear
 echo " Try Again "
 sleep 2
 myuser
+fi
 }
 if [ -f /data/data/com.termux/files/usr/cookies/password-6.txt ]; then
 echo ""
