@@ -31,27 +31,18 @@ read -sp "  Enter your password : " pass
 read -sp "  Re-enter your password : " pass1
 if [ $pass -eq $pass1 ]; then
 echo '
-
-
-
-
-Super user
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+echo "  user : $user" 
+read -sp "  Enter your password : " pass
+if [ $pass = "$paaa" ]; then
+echo ""
+clear
+else
+clear
+echo " Try Again"
+sleep 3
+clear
+exit
+fi' >> hello.sh
 else
 clear
 echo "password not match `try again` "
