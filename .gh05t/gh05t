@@ -1042,6 +1042,7 @@ reopens
 exit
 }
 clear 
+function posovi () {
 if [ $1 = "--help" ]; then
 echo ""
 clear
@@ -1092,6 +1093,7 @@ else
 echo ""
 clear 
 fi
+}
 clear 
 echo ""
 function auto-attack () {
@@ -1401,4 +1403,60 @@ fi
 clear
 main-loop
 }
+if [ $1 = "--help" ]; then
+echo ""
+clear
+help-info
+exit
+elif [ $1 = "--update" ]; then
+echo ""
+clear
+update-info
+exit
+elif [ $1 = "--error" ]; then
+echo ""
+clear
+error-info
+exit
+elif [ $1 = "--check" ]; then
+echo ""
+clear
+check-info
+exit
+elif [ $1 = "developer" ]; then
+echo ""
+clear
+developer-info
+exit
+elif [ $1 = "--cookies" ]; then
+echo ""
+clear
+cookies-info
+exit
+elif [ $1 = "main" ]; then
+echo ""
+clear
 main-loop
+elif [ $1 = "uninstall" ]; then
+echo ""
+clear
+if [ $2 = "all" ]; then
+echo ""
+clear
+killmeall
+else
+clear
+echo " Try Again"
+sleep 4
+clear
+echo ""
+exit
+fi
+echo ""
+else
+echo ""
+clear 
+help-info
+fi
+clear 
+help-info
