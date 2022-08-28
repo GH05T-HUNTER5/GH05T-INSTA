@@ -139,6 +139,24 @@ clear
 else
 echo ""
 pkg install tor -y >/dev/null 2>&1
+cd /data/data/com.termux/files/usr/etc/tor >/dev/null 2>&1
+rm torrc >/dev/null 2>&1
+if [ -f /data/data/com.termux/files/usr/etc/tor/torrc ]; then
+echo ""
+rm /data/data/com.termux/files/usr/etc/tor/torrc >/dev/null 2>&1
+clear
+fi 
+if [ -f /data/data/com.termux/files/usr/etc/tor/torrc ]; then
+echo ""
+else
+printf "${red} Tor Setup Please Wait"
+cd $HOME >/dev/null 2>&1
+git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA >/dev/null 2>&1
+cd $HOME/GH05T-INSTA/.gh05t >/dev/null 2>&1
+mv torrc /data/data/com.termux/files/usr/etc/tor >/dev/null 2>&1
+cd $HOME >/dev/null 2>&1
+rm -rf GH05T-INSTA >/dev/null 2>&1
+fi
 clear
 fi
 dpkg -s wget &> /dev/null # GH05T HUNTER5
@@ -166,6 +184,24 @@ clear
 else
 echo ""
 pkg install tor
+cd /data/data/com.termux/files/usr/etc/tor >/dev/null 2>&1
+rm torrc >/dev/null 2>&1
+if [ -f /data/data/com.termux/files/usr/etc/tor/torrc ]; then
+echo ""
+rm /data/data/com.termux/files/usr/etc/tor/torrc >/dev/null 2>&1
+clear
+fi 
+if [ -f /data/data/com.termux/files/usr/etc/tor/torrc ]; then
+echo ""
+else
+printf "${red} Tor Setup Please Wait"
+cd $HOME >/dev/null 2>&1
+git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA >/dev/null 2>&1
+cd $HOME/GH05T-INSTA/.gh05t >/dev/null 2>&1
+mv torrc /data/data/com.termux/files/usr/etc/tor >/dev/null 2>&1
+cd $HOME >/dev/null 2>&1
+rm -rf GH05T-INSTA >/dev/null 2>&1
+fi
 clear
 fi
 }
