@@ -41,7 +41,7 @@ clear
 else
 clear
 echo ""
-echo " Please On Your Mobile Data"
+echo " Turn on the Internet or connect to the Internet"
 sleep 5
 clear
 fi
@@ -88,7 +88,7 @@ clear
 else
 clear
 echo ""
-echo " Dude  Please On Your Mobile Data"
+echo " Turn on the Internet or connect to the Internet"
 exit
 fi
 dpkg -s tor &> /dev/null # GH05T HUNTER5
