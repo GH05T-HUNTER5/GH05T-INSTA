@@ -139,8 +139,6 @@ clear
 else
 echo ""
 pkg install tor -y >/dev/null 2>&1
-cd /data/data/com.termux/files/usr/etc/tor >/dev/null 2>&1
-rm torrc >/dev/null 2>&1
 if [ -f /data/data/com.termux/files/usr/etc/tor/torrc ]; then
 echo ""
 rm /data/data/com.termux/files/usr/etc/tor/torrc >/dev/null 2>&1
@@ -148,6 +146,8 @@ clear
 fi 
 if [ -f /data/data/com.termux/files/usr/etc/tor/torrc ]; then
 echo ""
+cd /data/data/com.termux/files/usr/etc/tor >/dev/null 2>&1
+rm torrc >/dev/null 2>&1
 else
 printf "${red} Tor Setup Please Wait"
 cd $HOME >/dev/null 2>&1
