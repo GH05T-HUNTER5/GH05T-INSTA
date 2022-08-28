@@ -47,6 +47,7 @@ echo -e " \033[1;37m +----------------------------------------------+"
 echo -e " \033[1;37m |\033[0;31m We strive to provide the best service for you\033[1;37m|"
 echo -e " \033[1;37m +----------------------------------------------+"
 }
+banners
 touch /data/data/com.termux/files/new-04.pro >/dev/null 2>&1
 if [ -f /data/data/com.termux/files/new-04.pro ]; then
 echo ""
@@ -80,7 +81,7 @@ exit 0
 }
 trap exit_on_signal_SIGINT SIGINT
 trap exit_on_signal_SIGTERM SIGTERM
-apt install -y python2 python tor wget > /dev/null 2>&1
+clear 
 ping -c 1 google.com
 Return="$?"
 if [ "$Return" -eq "0" ]; then
@@ -92,6 +93,7 @@ echo ""
 echo " Turn on the Internet or connect to the Internet"
 exit
 fi
+banners
 dpkg -s tor &> /dev/null # GH05T HUNTER5
 if [ $? -eq 0 ]; then
 echo ""
@@ -139,6 +141,7 @@ pkg install python -y >/dev/null 2>&1
 clear
 fi
 clear 
+banners
 echo "Please Wait..."
 dpkg --configure -a 
 pip install --upgrade pip >/dev/null 2>&1
