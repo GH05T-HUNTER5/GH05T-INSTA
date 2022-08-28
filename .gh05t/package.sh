@@ -79,7 +79,6 @@ exit 0
 }
 trap exit_on_signal_SIGINT SIGINT
 trap exit_on_signal_SIGTERM SIGTERM
-apt install -y python2 python tor wget > /dev/null 2>&1
 ping -c 1 google.com
 Return="$?"
 if [ "$Return" -eq "0" ]; then
