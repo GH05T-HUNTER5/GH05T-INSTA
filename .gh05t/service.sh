@@ -223,6 +223,7 @@ pip3 install stem >/dev/null 2>&1
 pip3 install instagram-py >/dev/null 2>&1
 reopens
 clear
+exit
 }
 
 
