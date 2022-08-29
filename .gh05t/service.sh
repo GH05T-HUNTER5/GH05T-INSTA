@@ -89,6 +89,7 @@ fi
 }
 
 function banners () {
+breakme
 clear 
 echo -e " \033[1;37m +----------------------------------------------+"
 echo -e " \033[1;37m | \033[0;32m  ██████╗ ██╗  ██╗ ██████╗ ███████╗████████╗\033[1;37m |"
@@ -113,6 +114,58 @@ echo -e " \033[1;37m |\033[0;31m We strive to provide the best service for you\0
 echo -e " \033[1;37m +----------------------------------------------+"
 }
 
+function update-info () {
+banners
+pkg install git -y >/dev/null 2>&1
+pkg install python -y >/dev/null 2>&1
+dpkg -s python &> /dev/null # GH05T HUNTER5
+if [ $? -eq 0 ]; then
+echo ""
+else
+echo ""
+pkg install python >/dev/null 2>&1
+clear
+fi
+dpkg -s git &> /dev/null # GH05T HUNTER5
+if [ $? -eq 0 ]; then
+echo ""
+else
+echo ""
+pkg install git >/dev/null 2>&1
+fi
+cd $HOME
+if [ -d GH05T-INSTA ]; then
+echo ""
+rm -rf GH05T-INSTA >/dev/null 2>&1
+else
+echo ""
+fi
+if [ -d /data/data/com.termux/files/home/GH05T-INSTA ]; then
+echo ""
+rm -rf data/data/com.termux/files/home/GH05T-INSTA >/dev/null 2>&1
+git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA >/dev/null 2>&1
+cd GH05T-INSTA
+python update.py
+reopens
+else
+sleep 1
+git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA >/dev/null 2>&1
+cd GH05T-INSTA
+python update.py
+reopens
+exit
+fi
+}
+
+function reopens () {
+rm /data/data/com.termux/files/home/instapy-config.json  >/dev/null 2>&1
+if [ -f /data/data/com.termux/files/home/instapy-config.json ]; then
+rm /data/data/com.termux/files/home/instapy-config.json  >/dev/null 2>&1
+fi
+if [ -f instapy-config.json ]; then
+rm instapy-config.json >/dev/null 2>&1
+fi
+}
 
 
 
