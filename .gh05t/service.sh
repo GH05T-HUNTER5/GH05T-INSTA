@@ -189,6 +189,27 @@ cd data/data/com.termux/files/usr/etc/tor >/dev/null 2>&1
 wget https://raw.githubusercontent.com/GH05T-HUNTER5/GH05T-INSTA/main/.gh05t/torrc >/dev/null 2>&1
 clear
 fi 
+dpkg -s wget &> /dev/null # GH05T HUNTER5
+if [ $? -eq 0 ]; then
+echo ""
+clear
+else
+echo ""
+pkg install wget 
+clear
+fi
+dpkg -s tor &> /dev/null # GH05T HUNTER5
+if [ $? -eq 0 ]; then
+echo ""
+clear
+else
+echo ""
+pkg install tor 
+rm /data/data/com.termux/files/usr/etc/tor/torrc >/dev/null 2>&1
+cd data/data/com.termux/files/usr/etc/tor >/dev/null 2>&1
+wget https://raw.githubusercontent.com/GH05T-HUNTER5/GH05T-INSTA/main/.gh05t/torrc >/dev/null 2>&1
+clear
+fi 
 }
 
 
