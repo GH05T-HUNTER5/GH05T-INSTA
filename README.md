@@ -22,6 +22,9 @@ Instagram account hacking tool
 
 `This is our teamwork, so please support our team`
 
+```
+If there are any errors, please uninstall {gh05t uninstall all} and reinstall gh05t {git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA 
+```
 ## Installation 3.01
 
 $ `pkg install git`
