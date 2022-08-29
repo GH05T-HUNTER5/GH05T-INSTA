@@ -1,6 +1,10 @@
 # Code : GH05T HUNTER5
 # Collaborator : GH05T-HUNTER5
 
+# Never copy this code
+# Create your own code and add GH05T-HUNTER5
+# GH05T-HUNTER5 helps you
+
 #MIT License
 
 #Copyright (c) 2022 GH05T HUNTER5
