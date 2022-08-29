@@ -220,3 +220,4 @@ Usage of GH05T-INSTA for attacking targets without prior mutual consent is illeg
 
 Hello guys, we found a bug, we will fix this bug and reopen this project soon
 
+* gh05t works so install it yourself and use it
