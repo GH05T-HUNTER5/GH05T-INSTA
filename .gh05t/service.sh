@@ -212,6 +212,19 @@ clear
 fi 
 }
 
+function error-info () {
+banners
+echo "Wait..."
+dpkg --configure -a 
+pip install --upgrade pip >/dev/null 2>&1
+pip3 install requests --upgrade >/dev/null 2>&1
+pip3 install requests[socks] >/dev/null 2>&1
+pip3 install stem >/dev/null 2>&1
+pip3 install instagram-py >/dev/null 2>&1
+reopens
+clear
+}
+
 
 
 
