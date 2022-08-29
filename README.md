@@ -6,7 +6,7 @@ Instagram account hacking tool
 
 <b>The best way to hack Instagram</b>
 
-<b>⚔️ Last Updated: Tuesday, 30 August 2022</b>
+<b>⚔️ Last Updated  :  Tuesday, 30 August 2022</b>
 
 ### Why GH05T-INSTA
 
