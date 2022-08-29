@@ -1,4 +1,4 @@
-<b>We strive to provide the best service for</b>
+<!-- <b>We strive to provide the best service for</b>
 <img src="https://raw.githubusercontent.com/GH05T-HUNTER5/GH05T-INSTA/main/.img/IMG_20220826_141617.jpg" alt="GH05T INSTA Brute Force Attack" title="GH05T INSTA">
 <i>TERMUX USERS  { No Root }</i>
 
@@ -216,5 +216,7 @@ Es funktioniert gut, da es mit Instagram-py erstellt wurde
 Usage of GH05T-INSTA for attacking targets without prior mutual consent is illegal. It's the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
 `
 
+-->
 
+Hello guys, we found a bug, we will fix this bug and reopen this project soon
 
