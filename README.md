@@ -174,6 +174,7 @@ $ gh05t
 
 <i>WORKING DEMO <a href="https://raw.githubusercontent.com/GH05T-HUNTER5/GH05T-INSTA/main/.img/IMG_20220827_095805.jpg">GH05T ATTACK (safe to use)</a> </i>
 
+<em>Please confirm that Tor is installed</em>
 
 #
 
