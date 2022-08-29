@@ -28,7 +28,7 @@ exit_on_signal_SIGINT() {
 echo ""
 reopens
 clear 
-echo -e " Trying To Exit ${restar}"
+echo -e " Trying To Exit ${reset}"
 sleep 5
 clear
 exit 0
@@ -37,7 +37,7 @@ exit_on_signal_SIGTERM() {
 echo ""
 reopens
 clear 
-echo -e " Trying To Exit ${restar}"
+echo -e " Trying To Exit ${reset}"
 sleep 5
 clear
 exit 0
