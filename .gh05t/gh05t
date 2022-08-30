@@ -667,6 +667,10 @@ mv hunter5.css /data/data/com.termux/files/usr/cookies >/dev/null 2>&1
 cd $HOME >/dev/null 2>&1
 rm -rf GH05T-INSTA >/dev/null 2>&1
 fi
+pkg install tor
+pkg install tor -y
+pkg install wget
+pkg install wget -y
 clear
 banners
 sleep 2
