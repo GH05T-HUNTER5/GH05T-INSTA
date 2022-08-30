@@ -110,7 +110,7 @@ echo ""
 clear
 else
 echo ""
-touch /data/data/com.termux/files/usr/etc/tor/gh05t 
+touch /data/data/com.termux/files/usr/etc/tor/gh05t >/dev/null 2>&1
 clear
 fi
 dpkg -s curl &> /dev/null #GH05T HUNTER5
