@@ -18,6 +18,8 @@ Instagram account hacking tool
 
 <i>*  Your IP address will change automatically</i>
 
+<i>* Errors are automatically detected and resolved </i>
+
 <i>* The gh05t tool is always an anonymous attack (Safe to use) <i>
 
 `This is our teamwork, so please support our team`
