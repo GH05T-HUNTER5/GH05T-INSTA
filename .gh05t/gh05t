@@ -314,7 +314,7 @@ echo ""
 clear
 else
 echo ""
-echo " wget installation"
+echo " GH05T-HUNTER5 has detected an error, please wait until we fix it"
 sleep 1
 pkg install wget -y >/dev/null 2>&1
 sleep 1
@@ -327,7 +327,7 @@ echo ""
 clear
 else
 echo ""
-echo " wget installation"
+echo " GH05T-HUNTER5 has detected an error, please wait until we fix it"
 sleep 1
 pkg install wget
 sleep 1
