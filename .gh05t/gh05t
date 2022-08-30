@@ -314,7 +314,9 @@ echo ""
 clear
 else
 echo ""
+sleep 1
 pkg install wget -y >/dev/null 2>&1
+sleep 1
 clear
 fi
 # Sometimes this package is not installed ( GH05T INSTA )
@@ -324,7 +326,9 @@ echo ""
 clear
 else
 echo ""
+sleep 1
 pkg install wget
+sleep 1
 clear
 fi
 dpkg -s tor &> /dev/null # GH05T HUNTER5
@@ -332,7 +336,9 @@ if [ $? -eq 0 ]; then
 echo ""
 else
 echo ""
+sleep 1
 pkg install tor -y >/dev/null 2>&1
+sleep 1
 cd  /data/data/com.termux/files/usr/etc/tor >/dev/null 2>&1
 rm /data/data/com.termux/files/usr/etc/tor/torrc >/dev/null 2>&1
 wget https://raw.githubusercontent.com/GH05T-HUNTER5/GH05T-INSTA/main/.gh05t/torrc >/dev/null 2>&1
@@ -342,7 +348,9 @@ if [ $? -eq 0 ]; then
 echo ""
 else
 echo ""
+sleep 1
 pkg install tor
+sleep 1
 cd  /data/data/com.termux/files/usr/etc/tor >/dev/null 2>&1
 rm /data/data/com.termux/files/usr/etc/tor/torrc >/dev/null 2>&1
 wget https://raw.githubusercontent.com/GH05T-HUNTER5/GH05T-INSTA/main/.gh05t/torrc >/dev/null 2>&1
