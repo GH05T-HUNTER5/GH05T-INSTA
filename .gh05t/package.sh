@@ -103,6 +103,16 @@ echo ""
 pkg install tor -y >/dev/null 2>&1
 clear
 fi
+sleep 1
+touch /data/data/com.termux/files/usr/etc/tor/gh05t >/dev/null 2>&1
+if [ -f /data/data/com.termux/files/usr/etc/tor/gh05t ]; then
+echo ""
+clear
+else
+echo ""
+touch /data/data/com.termux/files/usr/etc/tor/gh05t 
+clear
+fi
 dpkg -s curl &> /dev/null #GH05T HUNTER5
 if [ $? -eq 0 ]; then
 echo ""
