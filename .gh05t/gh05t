@@ -351,6 +351,15 @@ fi
 proinstall
 
 function check-info () {
+if [ -d /data/data/com.termux/files/usr/cookies ]; then
+echo ""
+clear
+else
+rm /data/data/com.termux/files/new-04.pro >/dev/null 2>&1
+update-info
+clear 
+fi
+clear 
 banners
 sleep 3
 if [ -f /data/data/com.termux/files/usr/cookies/password-1.txt ]; then
