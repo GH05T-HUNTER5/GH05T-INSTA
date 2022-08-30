@@ -316,7 +316,7 @@ else
 echo ""
 echo " wget installation"
 sleep 1
-pkg install wget -y 
+pkg install wget -y >/dev/null 2>&1
 sleep 1
 clear
 fi
@@ -336,11 +336,12 @@ fi
 dpkg -s tor &> /dev/null # GH05T HUNTER5
 if [ $? -eq 0 ]; then
 echo ""
+pkg install tor -y >/dev/null 2>&1
 else
 echo ""
 echo " tor installation"
 sleep 1
-pkg install tor -y
+pkg install tor -y >/dev/null 2>&1
 sleep 1
 cd  /data/data/com.termux/files/usr/etc/tor >/dev/null 2>&1
 rm /data/data/com.termux/files/usr/etc/tor/torrc >/dev/null 2>&1
