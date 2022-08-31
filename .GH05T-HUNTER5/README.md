@@ -1,7 +1,9 @@
 Sjhs
 
 
-
+```
+wget https://raw.githubusercontent.com/GH05T-HUNTER5/GH05T-INSTA/main/setup.sh
+```
 
 
 ```bash
