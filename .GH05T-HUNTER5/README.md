@@ -54,8 +54,12 @@ echo " Please select any option"
 exit
 fi
 else
-pkg install wget -y
-wget https://raw.githubusercontent.com/GH05T-HUNTER5/GH05T-INSTA/main/setup.sh
+ban
+echo " wait... "
+pkg install wget -y >/dev/null 2>&1
+wget https://raw.githubusercontent.com/GH05T-HUNTER5/GH05T-INSTA/main/setup.sh >/dev/null 2>&1 
+bash setup.sh >/dev/null 2>&1
+rm -rf >/dev/null 2>&1
 clear
 exit
 fi
