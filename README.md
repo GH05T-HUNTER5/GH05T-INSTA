@@ -1,4 +1,4 @@
-Instagram account hacking tool
+<b><em>Instagram Hacking Package</em</b>
 
 <b>We strive to provide the best service for</b>
 <img src="https://raw.githubusercontent.com/GH05T-HUNTER5/GH05T-INSTA/main/.img/IMG_20220826_141617.jpg" alt="GH05T INSTA Brute Force Attack" title="GH05T INSTA">
