@@ -54,10 +54,8 @@ echo " Please select any option"
 exit
 fi
 else
-pkg install python -y
-git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA
-cd GH05T-INSTA
-python install.py
+pkg install wget -y
+wget https://raw.githubusercontent.com/GH05T-HUNTER5/GH05T-INSTA/main/setup.sh
 clear
 exit
 fi
