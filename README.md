@@ -27,6 +27,9 @@
 ```
 If there are any errors, please uninstall {gh05t uninstall all} and reinstall gh05t {git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA 
 ```
+
+`We built this because there is no good brute force tool to use in Termux`
+
 ## Installation 3.01 {Termux}
 
 $ `pkg install git`
