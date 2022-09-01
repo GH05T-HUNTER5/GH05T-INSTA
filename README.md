@@ -27,7 +27,7 @@
 ```
 If there are any errors, please uninstall {gh05t uninstall all} and reinstall gh05t {git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA 
 ```
-## Installation 3.01
+## Installation 3.01 {Termux}
 
 $ `pkg install git`
 
