@@ -182,7 +182,7 @@ $ gh05t
 
 <img src="https://raw.githubusercontent.com/GH05T-HUNTER5/GH05T-INSTA/main/.img/IMG_20220827_155433.jpg" alt="GH05T INSTA PASSWORD LIST" >
 
-<i>WORKING DEMO <a href="https://raw.githubusercontent.com/GH05T-HUNTER5/GH05T-INSTA/main/.img/IMG_20220827_095805.jpg">GH05T ATTACK (safe to use)</a> </i>
+<i>WORKING DEMO <a href="https://bit.ly/3RrxZQ8">GH05T ATTACK (safe to use)</a> </i>
 
 <em>Please confirm that Tor is installed</em>
 
