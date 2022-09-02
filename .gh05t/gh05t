@@ -1475,7 +1475,8 @@ echo -e "  \033[1;37m[\033[0;31m04\033[1;37m]\033[0;32m Error"
 echo -e "  \033[1;37m[\033[0;31m05\033[1;37m]\033[0;32m Developer"
 echo -e "  \033[1;37m[\033[0;31m06\033[1;37m]\033[0;32m Cookies"
 echo -e "  \033[1;37m[\033[0;31m07\033[1;37m]\033[0;32m Check"
-echo -e "  \033[1;37m[\033[0;31m08\033[1;37m]\033[0;32m Uninstall gh05t"
+echo -e "  \033[1;37m[\033[0;31m08\033[1;37m]\033[0;32m Report"
+echo -e "  \033[1;37m[\033[0;31m09\033[1;37m]\033[0;32m Uninstall gh05t"
 echo -e "  \033[1;37m[\033[0;31m99\033[1;37m]\033[0;32m Help"
 echo -e "  \033[1;37m[\033[0;31m00\033[1;37m]\033[0;32m Exit"
 read -p $'  \e[1;92m[\e[0m\e[1;77m++\e[0m\e[1;92m] Choose an option : \e[0m' option
@@ -1526,10 +1527,17 @@ check-info
 clear
 main-loop
 clear
-elif [ $option = "08" ] || [ $option = "8" ]; then
+elif [ $option = "09" ] || [ $option = "9" ]; then
 echo ""
 clear
 killmeall
+clear
+main-loop
+clear
+elif [ $option = "08" ] || [ $option = "8" ]; then
+echo ""
+clear 
+report-info
 clear
 main-loop
 clear
