@@ -160,7 +160,8 @@ fi
 reopens
 exit
 }
-
+white='\033[1;37m'
+cyan='\033[0;36m'
 function banners () {
 breakme
 clear
