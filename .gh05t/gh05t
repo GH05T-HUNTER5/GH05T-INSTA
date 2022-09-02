@@ -749,7 +749,7 @@ spin () {
 }
 copy
 banners
-echo -e "${green} The attack begins "
+echo -e "${green}  The attack begins "
 sleep 2
 hoello="9989393939399"
 k="1111111"
