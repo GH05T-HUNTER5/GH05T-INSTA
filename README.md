@@ -154,6 +154,16 @@ $ gh05t developer
 
 * To contact the developers
 
+<b>Instagram Report</b>
+
+```
+gh05t --report username
+```
+
+* Instagram account will be banned within three months
+* If you do this, your account will be reported
+* The bot helps you
+
 <b>Uninstall GH05T-INSTA </b>
 
 ```
