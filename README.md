@@ -157,7 +157,7 @@ $ gh05t developer
 <b>Instagram Report</b>
 
 ```
-gh05t --report username
+$ gh05t --report username
 ```
 
 * Instagram account will be banned within three months
