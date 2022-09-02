@@ -93,7 +93,8 @@ sleep 8
 clear
 fi
 }
-
+green='\033[1;32m'
+red='\033[1;31m'
 function developer-info () {
 banners 
 sleep 3
