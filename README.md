@@ -170,7 +170,7 @@ $ gh05t
 
 #### We never recommend this method, but try it yourself
 
-<img src="https://raw.githubusercontent.com/GH05T-HUNTER5/GH05T-INSTA/main/.img/IMG_20220827_155106.jpg" alt="GH05T INSTA" title="GH05T INSTA">
+<img src="https://raw.githubusercontent.com/GH05T-HUNTER5/GH05T-INSTA/main/.img/IMG_20220902_131113.jpg" alt="GH05T INSTA" title="GH05T INSTA">
 
 ##### Why gh05t-hunter5 never recommend this `gh05t` method
 
