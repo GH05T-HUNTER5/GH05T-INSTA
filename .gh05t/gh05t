@@ -748,11 +748,11 @@ spin () {
         done
 }
 copy
-#banners
+banners
 echo -e "${green} The attack begins "
 sleep 2
 hoello="9989393939399"
-k="8373938"
+k="1111111"
 while [ $k -le $hoello ]
 do
 hello="99872637939749"
