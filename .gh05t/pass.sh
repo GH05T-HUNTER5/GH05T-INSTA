@@ -56,7 +56,7 @@ hello="99872637939749"
 i="9876586"
 while [ $i -le $hello ]
 do
-echo -e " ${cyan} GH05T-INSTA ${green}REPORT ID ${white}:${red} $i ${green}USER ${white}: ${puple}@$2 ${green}gh05t : ${red}$k"
+echo -e " ${cyan} GH05T-INSTA ${green}REPORT ID ${white}:${red} $i ${green}USER ${white}: ${puple}@$2 ${green}gh05t ${white}: ${red}$k"
 sleep 0.001
    ((i++))
    ((k++))
