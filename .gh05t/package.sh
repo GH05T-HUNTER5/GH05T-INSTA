@@ -27,13 +27,13 @@
 #OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 #SOFTWARE.
 
-touch /data/data/com.termux/files/new-05.pro >/dev/null 2>&1
-if [ -f /data/data/com.termux/files/new-05.pro ]; then
+touch /data/data/com.termux/files/new-06.pro >/dev/null 2>&1
+if [ -f /data/data/com.termux/files/new-06.pro ]; then
 echo ""
 clear
 else
 echo ""
-touch /data/data/com.termux/files/new-05.pro >/dev/null 2>&1
+touch /data/data/com.termux/files/new-06.pro >/dev/null 2>&1
 clear
 fi
 clear 
