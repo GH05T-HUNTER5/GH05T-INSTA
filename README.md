@@ -164,6 +164,7 @@ $ gh05t --report username
 * If you do this, your account will be reported
 * The bot helps you
 * 20000 REPORT ID = 1 REPORT { Twenty thousand report ID equal one report }
+* Notice : Not working now { Try yourself } We are working on fixing this
 
 <b>Uninstall GH05T-INSTA </b>
 
