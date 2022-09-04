@@ -27,6 +27,13 @@
 #OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 #SOFTWARE.
 
+if [ -f /data/data/com.termux/files/usr/bin/termux-change-repo ]; then
+echo ""
+clear
+else
+echo " Use Termux App"
+exit
+fi
 touch /data/data/com.termux/files/new-06.pro >/dev/null 2>&1
 if [ -f /data/data/com.termux/files/new-06.pro ]; then
 echo ""
