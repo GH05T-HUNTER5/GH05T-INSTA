@@ -29,6 +29,7 @@ If there are any errors, please uninstall {gh05t uninstall all} and reinstall gh
 ```
 
 `We built this because there is no good brute force tool to use in Termux`
+`Fork if you like this tool`
 
 ## Installation 3.01 {Termux}
 
