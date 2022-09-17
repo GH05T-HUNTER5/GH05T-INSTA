@@ -8,6 +8,8 @@
 
 <b>⚔️ Last Updated  :  Tuesday, 30 August 2022</b>
 
+<i>create your own password list</i>
+
 ### Why GH05T-INSTA
 
 <i>* You can find your Instagram account password.</i>
