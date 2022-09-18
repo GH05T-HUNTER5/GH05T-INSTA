@@ -8,7 +8,7 @@
 
 <b>⚔️ Last Updated  :  Tuesday, 30 August 2022</b>
 
-<i>create your own password list</i>
+`create your own password list{error solution}`
 
 ### Why GH05T-INSTA
 
