@@ -204,6 +204,8 @@ $ gh05t
 
 #
 
+<a href="https://t.me/GH05T_HUNTER5">GH05T HUNTER5 TELEGRAM</a>
+
 ### Pro Tips
 
 * Never login to Instagram app after finding your Instagram password, use your Chrome browser
