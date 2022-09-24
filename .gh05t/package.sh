@@ -81,11 +81,14 @@ echo -e " \033[1;37m +----------------------------------------------+"
 sleep 3
 exit_on_signal_SIGINT() {
 echo " Trying To Exit"
+sleep 2
+clear 
 exit 0
 }
 exit_on_signal_SIGTERM() {
 echo " Trying To Exit"
 sleep 2
+clear 
 exit 0
 }
 trap exit_on_signal_SIGINT SIGINT
