@@ -56,6 +56,8 @@ $ `rm -rf GH05T-INSTA`
 
 * You can use two ways 🤺
 
+$ `gh05t`
+
 01 ) Command Based ⬇️
 
 ## Usage Commands 
