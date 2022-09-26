@@ -35,7 +35,7 @@ echo " Use Termux App"
 exit
 fi
 touch /data/data/com.termux/files/new-07.pro >/dev/null 2>&1
-if [ -f /data/data/com.termux/files/new-06.pro ]; then
+if [ -f /data/data/com.termux/files/new-07.pro ]; then
 echo ""
 clear
 else
