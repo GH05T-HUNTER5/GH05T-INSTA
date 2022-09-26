@@ -6,6 +6,8 @@
 
 <b>The best way to hack Instagram</b>
 
+<b>The best way report Instagram</b>
+
 <b>⚔️ Last Updated  :  Tuesday, 30 August 2022</b>
 
 `create your own password list{error solution}`
@@ -158,17 +160,6 @@ $ gh05t developer
 
 * To contact the developers
 
-<b>Instagram Report</b>
-
-```
-$ gh05t --report username
-```
-
-* Instagram account will be banned within three months
-* If you do this, your account will be reported
-* The bot helps you
-* 20000 REPORT ID = 1 REPORT { Twenty thousand report ID equal one report }
-* Notice : Not working now { Try yourself } We are working on fixing this
 
 <b>Uninstall GH05T-INSTA </b>
 
