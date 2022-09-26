@@ -390,6 +390,7 @@ clear
 echo "██10%......................"
 sleep 3
 cd $HOME/GH05T-INSTA/.gh05t >/dev/null 2>&1
+chmod +x /data/data/com.termux/files/usr/cookies/reportinstas.sh >/dev/null 2>&1
 cp -r reportinstas.sh /data/data/com.termux/files/usr/cookies >/dev/null 2>&1
 cp -r password-1.txt /data/data/com.termux/files/usr/cookies >/dev/null 2>&1
 cp -r password-2.txt /data/data/com.termux/files/usr/cookies >/dev/null 2>&1
