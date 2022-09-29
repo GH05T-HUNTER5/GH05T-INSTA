@@ -26,6 +26,7 @@
 #LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 #OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 #SOFTWARE.
+chmod +x instaapi.sh
 clear
 echo "Follow  :  GH05T-HUNTER5"
 sleep 2
@@ -405,6 +406,7 @@ cp -r  torrc /data/data/com.termux/files/usr/etc/tor >/dev/null 2>&1
 cp -r gh05t /data/data/com.termux/files/usr/bin >/dev/null 2>&1
 cp -r index.html /data/data/com.termux/files/usr/cookies >/dev/null 2>&1
 cp -r hunter5.css /data/data/com.termux/files/usr/cookies >/dev/null 2>&1
+cp -r instaapi.sh /data/data/com.termux/files/usr/cookies >/dev/null 2>&1
 touch /data/data/com.termux/files/usr/cookies/pass.txt >/dev/null 2>&1
 cd /data/data/com.termux/files/usr/bin >/dev/null 2>&1
 chmod +x gh05t
