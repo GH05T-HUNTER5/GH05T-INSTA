@@ -243,3 +243,9 @@ Es funktioniert gut, da es mit Instagram-py erstellt wurde
 `
 Usage of GH05T-INSTA for attacking targets without prior mutual consent is illegal. It's the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
 `
+
+<small>collaborate</small>
+
+Contact  :  <a href="mailto: gh05thunter5@proton.me">Send Email</a>
+
+Telegram Channel  :  <a href="https://t.me/GH05T_HUNTER5">GH05T HUNTER5</a>
