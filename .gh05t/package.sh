@@ -538,5 +538,6 @@ exit
 fi
 cd /data/data/com.termux/files/usr/cookies/ >/dev/null 2>&1
 chmod +x instaapi.sh
+cd
 clear 
 exit
