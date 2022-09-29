@@ -429,7 +429,7 @@ else
 echo ""
 cd $HOME/GH05T-INSTA/.gh05t >/dev/null 2>&1
 mv instaapi.sh /data/data/com.termux/files/usr/cookies >/dev/null 2>&1
-chmod 
+chmod +x /data/data/com.termux/files/usr/cookies/instaapi.sh >/dev/null 2>&1
 clear
 fi
 if [ -f /data/data/com.termux/files/usr/cookies/password-1.txt ]; then
@@ -536,5 +536,7 @@ mv hunter5.css /data/data/com.termux/files/usr/cookies >/dev/null 2>&1
 clear 
 exit
 fi
+cd /data/data/com.termux/files/usr/cookies/ >/dev/null 2>&1
+chmod +x instaapi.sh
 clear 
 exit
