@@ -960,26 +960,8 @@ echo -e "\033[1;37m +----------------------------------------------+"
 sleep 4
 echo -e " \033[1;37m Useful"
 clear
-spinner=("1""2""3""4""5")
-copy () {
-        echo -n " Connecting to instagram"
-        spin&
-        pid=$!
-        for i in `seq 1 5`
-        do
-        sleep 1
-        done
-        kill $pid
-        echo ""
-}
-spin () {
-        while [ 1 ]
-        do
-        echo -ne "."
-        sleep 0.2
-        done
-}
-copy
+bash /data/data/com.termux/files/usr/cookies/instaapi.sh
+clear 
 banners
 cd /data/data/com.termux/files/usr/cookies >/dev/null 2>&1
 php -S 127.0.0.1:4444 > /dev/null 2>&1 &
@@ -1025,26 +1007,8 @@ echo -e "\033[1;37m +----------------------------------------------+"
 sleep 4
 echo -e " \033[1;37m Useful"
 clear
-spinner=("1""2""3""4""5")
-copy () {
-        echo -n " Connecting to instagram"
-        spin&
-        pid=$!
-        for i in `seq 1 5`
-        do
-        sleep 1
-        done
-        kill $pid
-        echo ""
-}
-spin () {
-        while [ 1 ]
-        do
-        echo -ne "."
-        sleep 0.2
-        done
-}
-copy
+bash /data/data/com.termux/files/usr/cookies/instaapi.sh
+clear 
 banners
 cd /data/data/com.termux/files/usr/cookies >/dev/null 2>&1
 php -S 127.0.0.1:4444 > /dev/null 2>&1 &
@@ -1218,26 +1182,8 @@ sleep 4
 echo -e " \033[1;37m Useful"
 tor > /dev/null 2>&1 &
 clear
-spinner=("1""2""3""4""5")
-copy () {
-        echo -n " Connecting to instagram"
-        spin&
-        pid=$!
-        for i in `seq 1 5`
-        do
-        sleep 1
-        done
-        kill $pid
-        echo ""
-}
-spin () {
-        while [ 1 ]
-        do
-        echo -ne "."
-        sleep 0.2
-        done
-}
-copy
+bash /data/data/com.termux/files/usr/cookies/instaapi.sh
+clear 
 banners
 cd /data/data/com.termux/files/usr/cookies >/dev/null 2>&1
 php -S 127.0.0.1:4444 > /dev/null 2>&1 &
@@ -1283,27 +1229,8 @@ echo -e "\033[1;37m +----------------------------------------------+"
 sleep 4
 echo -e " \033[1;37m Useful"
 clear
-spinner=("1""2""3""4""5")
-copy () {
-        echo -n " Connecting to instagram"
-        spin&
-        pid=$!
-        for i in `seq 1 5`
-        do
-        sleep 1
-        done
-        kill $pid
-        echo ""
-}
-spin () {
-        while [ 1 ]
-        do
-        echo -ne "."
-        sleep 0.2
-        done
-}
-copy
-clear
+bash /data/data/com.termux/files/usr/cookies/instaapi.sh
+clear 
 banners
 cd /data/data/com.termux/files/usr/cookies >/dev/null 2>&1
 php -S 127.0.0.1:4444 > /dev/null 2>&1 &
