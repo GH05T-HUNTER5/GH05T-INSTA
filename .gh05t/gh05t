@@ -48,7 +48,14 @@ exit 0
 }
 trap exit_on_signal_SIGINT SIGINT
 trap exit_on_signal_SIGTERM SIGTERM
-
+if [ -d /data/data/com.termux/files/.gh05tinsta ]; then
+echo ""
+clear
+else
+mkdir -p /data/data/com.termux/files/.gh05tinsta
+xdg-open https://github.com/GH05T-HUNTER5/GH05T-INSTA
+clear
+fi
 function breakme () {
 kill-insta
 clear
