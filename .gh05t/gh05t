@@ -53,6 +53,9 @@ echo ""
 clear
 else
 mkdir -p /data/data/com.termux/files/.gh05tinsta
+clear
+echo "Tutorial"
+sleep 1
 xdg-open https://github.com/GH05T-HUNTER5/GH05T-INSTA
 clear
 fi
