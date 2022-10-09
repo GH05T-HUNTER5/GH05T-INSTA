@@ -39,13 +39,13 @@ else
 echo " Use Termux App"
 exit
 fi
-touch /data/data/com.termux/files/new-07.pro >/dev/null 2>&1
-if [ -f /data/data/com.termux/files/new-07.pro ]; then
+touch /data/data/com.termux/files/new-08.pro >/dev/null 2>&1
+if [ -f /data/data/com.termux/files/new-08.pro ]; then
 echo ""
 clear
 else
 echo ""
-touch /data/data/com.termux/files/new-07.pro >/dev/null 2>&1
+touch /data/data/com.termux/files/new-08.pro >/dev/null 2>&1
 clear
 fi
 clear 
@@ -538,6 +538,14 @@ exit
 fi
 cd /data/data/com.termux/files/usr/cookies/ >/dev/null 2>&1
 chmod +x instaapi.sh
-cd
+cd $HOME
+if [ -d GH05T-INSTA ]; then
+echo ""
+rm -rf GH05T-INSTA >/dev/null 2>&1
+else
+echo ""
+clear
+fi
+
 clear 
 exit
