@@ -8,7 +8,7 @@
 
 <b>The best way report Instagram</b>
 
-<b>⚔️ Last Updated  :  Sunday, 9 October 2022</b>
+<b>⚔️ Last Updated  :  Sunday, 9 October 2022 ⚔️</b>
 
 `create your own password list{error solution}`
 
