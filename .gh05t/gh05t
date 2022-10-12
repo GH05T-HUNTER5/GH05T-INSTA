@@ -52,11 +52,10 @@ if [ -d /data/data/com.termux/files/.gh05tinsta ]; then
 echo ""
 clear
 else
-mkdir -p /data/data/com.termux/files/.gh05tinsta
-clear
-echo "User guide"
-sleep 1
-xdg-open https://github.com/GH05T-HUNTER5/GH05T-INSTA
+echo ""
+clear 
+mkdir -p /data/data/com.termux/files/.gh05tinsta >/dev/null 2>&1
+#xdg-open https://github.com/GH05T-HUNTER5/GH05T-INSTA
 clear
 fi
 function breakme () {
