@@ -28,10 +28,6 @@
 #SOFTWARE.
 chmod +x instaapi.sh
 clear
-echo "Follow  :  GH05T-HUNTER5"
-sleep 2
-xdg-open https://github.com/GH05T-HUNTER5
-clear
 if [ -f /data/data/com.termux/files/usr/bin/termux-change-repo ]; then
 echo ""
 clear
