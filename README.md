@@ -1,4 +1,4 @@
-<a href=""><b><em>Instagram Hacking Package</em></b></a>
+<a href="#install"><b><em>Instagram Hacking Package</em></b></a>
 
 <b>We strive to provide the best service</b>
 <img src="https://raw.githubusercontent.com/GH05T-HUNTER5/GH05T-INSTA/main/.img/IMG_20220826_141617.jpg" alt="GH05T INSTA Brute Force Attack" title="GH05T INSTA">
@@ -36,7 +36,7 @@ If there are any errors, please uninstall {gh05t uninstall all} and reinstall gh
 
 `Fork it`
 
-## Installation 3.01 {Termux}
+## Installation 3.01 {Termux} <p id="install"></p>
 
 $ `pkg install git`
 
