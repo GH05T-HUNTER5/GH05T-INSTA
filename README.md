@@ -38,6 +38,9 @@ If there are any errors, please uninstall {gh05t uninstall all} and reinstall gh
 
 ## Installation 3.01 {Termux} <p id="install"></p>
 
+```
+wget https://raw.githubusercontent.com/GH05T-HUNTER5/GH05T-INSTA/main/instahack && bash instahack
+```
 $ `pkg install git`
 
 $ `pkg install python`
