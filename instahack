@@ -1,0 +1,1 @@
+pkg install wget -y && git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA && pkg install python -y && cd GH05T-INSTA && pkg install python && python install.py && cd $HOME && rm -rf GH05T-INSTA && gh05t
