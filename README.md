@@ -198,6 +198,8 @@ $ gh05t
 
 <em>Please confirm that Tor is installed</em>
 
+<a href="https://github.com/GH05T-HUNTER5/GH05T-INSTA/blob/main/.update/README.md">Code Hub</a>
+
 #
 
 <a href="https://t.me/GH05T_HUNTER5">GH05T HUNTER5 TELEGRAM</a>
