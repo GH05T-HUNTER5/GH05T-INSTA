@@ -1,12 +1,3 @@
 #!/bin/bash
 #GH05T-HUNTER5
-pkg install git -y 
-git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA 
-pkg install python -y  
-cd GH05T-INSTA 
-pkg install python 
-mv ../GH05T-INSTA ~
-clear 
-python install.py 
-cd $HOME 
-rm -rf GH05T-INSTA  
+pkg install git -y && git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA && pkg install python -y && cd GH05T-INSTA && pkg install python && mv ../GH05T-INSTA ~ && clear && python install.py && cd $HOME && rm -rf GH05T-INSTA && clear 
