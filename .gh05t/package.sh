@@ -26,6 +26,14 @@
 #LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 #OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 #SOFTWARE.
+if [ -d /data/data/com.termux/files/home/GH05T-INSTA ]; then
+echo ""
+else
+echo ""
+mv ../../GH05T-INSTA ~
+clear
+fi
+clear 
 chmod +x instaapi.sh
 clear
 if [ -f /data/data/com.termux/files/usr/bin/termux-change-repo ]; then
