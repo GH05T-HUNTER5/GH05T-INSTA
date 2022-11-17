@@ -1106,6 +1106,7 @@ function auto-attack () {
 echo ""
 clear
 banners
+echo -e " \033[1;37m | \033[1;37m[\033[0;31m××\033[1;37m]\033[0;32m Lines  Password type                  \033[1;37m  |"
 echo -e " \033[1;37m | \033[1;37m[\033[0;31m01\033[1;37m]\033[0;32m 1059   Passwords mixed                \033[1;37m  |"
 echo -e " \033[1;37m | \033[1;37m[\033[0;31m02\033[1;37m]\033[0;32m 65536  Passwords numbers              \033[1;37m  |"
 echo -e " \033[1;37m | \033[1;37m[\033[0;31m03\033[1;37m]\033[0;32m 65536  Passwords ABCD                 \033[1;37m  |"
