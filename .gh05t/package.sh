@@ -111,7 +111,8 @@ else
 clear
 echo ""
 echo " Turn on the Internet or connect to the Internet"
-exit
+sleep 5
+clear 
 fi
 dpkg -s tor &> /dev/null # GH05T HUNTER5
 if [ $? -eq 0 ]; then
