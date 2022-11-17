@@ -102,7 +102,7 @@ exit 0
 }
 trap exit_on_signal_SIGINT SIGINT
 trap exit_on_signal_SIGTERM SIGTERM
-ping -c 1 google.com
+ping -c 1 google.com >/dev/null 2>&1
 Return="$?"
 if [ "$Return" -eq "0" ]; then
 echo ""
