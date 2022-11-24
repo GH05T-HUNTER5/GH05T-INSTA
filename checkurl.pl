@@ -5,3 +5,4 @@
 #      WHY checkurl.perl      #
 ###############################
 # THIS SCRIPT HELPS YOU FIND VALID instagram usernames
+# (empty)
