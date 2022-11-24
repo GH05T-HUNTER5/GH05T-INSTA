@@ -16,4 +16,5 @@ gh05t (--update{$update@import python update.py})
 $(import os)
 ${display @gh05t}(printf $techy-insta)
 @just-me-type${{gh05t}}($3hacks)
+install --username (gh05t error)
 Kill-insta
