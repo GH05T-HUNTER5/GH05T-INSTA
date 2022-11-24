@@ -1,6 +1,7 @@
 #!/user/bin/python
 # Code : GH05T HUNTER5
 # Collaborator : GH05T-HUNTER5
+
 #MIT License
 
 #Copyright (c) 2022 GH05T HUNTER5
