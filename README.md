@@ -199,7 +199,7 @@ $ gh05t uninstall all
 
 * Removes all packages related to GH05T-INSTA 
 
-02 ) just type : gh05t
+01 ) just type : gh05t
 
 ```
 $ gh05t 
