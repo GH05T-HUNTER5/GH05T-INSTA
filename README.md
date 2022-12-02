@@ -37,6 +37,30 @@ If there are any errors, please uninstall {gh05t uninstall all} and reinstall gh
 
 `Fork it`
 
+## Installation 3.01 {Linux} <p id="install"></p>
+
+$ `apt install git`
+
+$ `apt install python`
+
+$ `apt install python2`
+
+$ `git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA`
+
+$ `cd GH05T-INSTA`
+
+$ `python setup-kali.py`
+
+$ `cd `
+
+$ `rm -rf GH05T-INSTA`
+
+* You can use two ways 🤺
+
+$ `gh05t`
+
+02 ) Command Based ⬇️
+
 ## Installation 3.01 {Termux} <p id="install"></p>
 
 ```
@@ -62,7 +86,7 @@ $ `rm -rf GH05T-INSTA`
 
 $ `gh05t`
 
-01 ) Command Based ⬇️
+02 ) Command Based ⬇️
 
 ## Usage Commands 
 
