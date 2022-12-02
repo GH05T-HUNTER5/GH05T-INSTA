@@ -221,24 +221,33 @@ fi
 
 function update-info () {
 banners
-pkg install git -y >/dev/null 2>&1
-pkg install python -y >/dev/null 2>&1
-dpkg -s python &> /dev/null # GH05T HUNTER5
-if [ $? -eq 0 ]; then
-echo ""
+if [[ $(command -v python) && $(command -v python2) && $(command -v git) && $(command -v wget) && $(command -v curl) && $(command -v tor) ]]; then
+echo -e "\n${GREEN}[${WHITE}+${GREEN}]${GREEN} Packages already installed."
 else
-echo ""
-pkg install python >/dev/null 2>&1
-clear
-fi
-dpkg -s git &> /dev/null # GH05T HUNTER5
-if [ $? -eq 0 ]; then
-echo ""
+pkgs=(python python2 git wget curl tor)
+for pkg in "${pkgs[@]}"; do
+type -p "$pkg" &>/dev/null || {
+echo -e "\n${GREEN}[${WHITE}+${GREEN}]${CYAN} Installing package : ${ORANGE}$pkg${CYAN}"${WHITE}
+if [[ $(command -v pkg) ]]; then
+pkg install "$pkg" -y
+elif [[ $(command -v apt) ]]; then
+sudo apt install "$pkg" -y
+elif [[ $(command -v apt-get) ]]; then
+sudo apt-get install "$pkg" -y
+elif [[ $(command -v pacman) ]]; then
+sudo pacman -S "$pkg" --noconfirm
+elif [[ $(command -v dnf) ]]; then
+sudo dnf -y install "$pkg"
+elif [[ $(command -v yum) ]]; then
+sudo yum -y install "$pkg"
 else
-echo ""
-pkg install git >/dev/null 2>&1
+echo -e "\n${RED}[${WHITE}!${RED}]${RED} Unsupported package manager, Install packages manually."
+{ reset_color; exit 1; }
 fi
-cd $HOME
+}
+done
+fi
+cd ~
 if [ -d GH05T-INSTA ]; then
 echo ""
 rm -rf GH05T-INSTA >/dev/null 2>&1
@@ -319,59 +328,31 @@ fi
 
 restar='\033[0;35m'
 function proinstall () {
-dpkg -s wget &> /dev/null # GH05T HUNTER5
-if [ $? -eq 0 ]; then
-echo ""
-clear
+if [[ $(command -v python) && $(command -v python2) && $(command -v unzip) && $(command -v wget) && $(command -v curl) && $(command -v tor) ]]; then
+echo -e "\n${GREEN}[${WHITE}+${GREEN}]${GREEN} Packages already installed."
 else
-echo ""
-echo " GH05T-HUNTER5 has detected an error, please wait until we fix it"
-sleep 1
-pkg install wget -y >/dev/null 2>&1
-sleep 1
-clear
+pkgs=(python python2 unzip wget curl tor)
+for pkg in "${pkgs[@]}"; do
+type -p "$pkg" &>/dev/null || {
+echo -e "\n${GREEN}[${WHITE}+${GREEN}]${CYAN} Installing package : ${ORANGE}$pkg${CYAN}"${WHITE}
+if [[ $(command -v pkg) ]]; then
+pkg install "$pkg" -y
+elif [[ $(command -v apt) ]]; then
+sudo apt install "$pkg" -y
+elif [[ $(command -v apt-get) ]]; then
+sudo apt-get install "$pkg" -y
+elif [[ $(command -v pacman) ]]; then
+sudo pacman -S "$pkg" --noconfirm
+elif [[ $(command -v dnf) ]]; then
+sudo dnf -y install "$pkg"
+elif [[ $(command -v yum) ]]; then
+sudo yum -y install "$pkg"
+else
+echo -e "\n${RED}[${WHITE}!${RED}]${RED} Unsupported package manager, Install packages manually."
+{ reset_color; exit 1; }
 fi
-# Sometimes this package is not installed ( GH05T INSTA )
-dpkg -s wget &> /dev/null # GH05T HUNTER5
-if [ $? -eq 0 ]; then
-echo ""
-clear
-else
-echo ""
-echo " GH05T-HUNTER5 has detected an error, please wait until we fix it"
-sleep 1
-pkg install wget
-sleep 1
-clear
-fi
-dpkg -s tor &> /dev/null # GH05T HUNTER5
-if [ $? -eq 0 ]; then
-echo ""
-pkg install tor -y >/dev/null 2>&1
-else
-echo ""
-echo " tor installation"
-sleep 1
-pkg install tor -y >/dev/null 2>&1
-sleep 1
-cd  /data/data/com.termux/files/usr/etc/tor >/dev/null 2>&1
-rm /data/data/com.termux/files/usr/etc/tor/torrc >/dev/null 2>&1
-sleep 1
-wget https://raw.githubusercontent.com/GH05T-HUNTER5/GH05T-INSTA/main/.gh05t/torrc >/dev/null 2>&1
-fi
-dpkg -s tor &> /dev/null # GH05T HUNTER5
-if [ $? -eq 0 ]; then
-echo ""
-else
-echo ""
-echo " tor installation"
-sleep 1
-pkg install tor
-sleep 1
-cd  /data/data/com.termux/files/usr/etc/tor >/dev/null 2>&1
-rm /data/data/com.termux/files/usr/etc/tor/torrc >/dev/null 2>&1
-sleep 1
-wget https://raw.githubusercontent.com/GH05T-HUNTER5/GH05T-INSTA/main/.gh05t/torrc >/dev/null 2>&1
+}
+done
 fi
 }
 proinstall
@@ -702,6 +683,33 @@ mv hunter5.css $PREFIX/cookies >/dev/null 2>&1
 cd ~ >/dev/null 2>&1
 rm -rf GH05T-INSTA >/dev/null 2>&1
 fi
+if [[ $(command -v python) && $(command -v python2) && $(command -v unzip) && $(command -v wget) && $(command -v curl) && $(command -v tor) ]]; then
+echo -e "\n${GREEN}[${WHITE}+${GREEN}]${GREEN} Packages already installed."
+else
+pkgs=(python python2 unzip wget curl tor)
+for pkg in "${pkgs[@]}"; do
+type -p "$pkg" &>/dev/null || {
+echo -e "\n${GREEN}[${WHITE}+${GREEN}]${CYAN} Installing package : ${ORANGE}$pkg${CYAN}"${WHITE}
+if [[ $(command -v pkg) ]]; then
+pkg install "$pkg" -y
+elif [[ $(command -v apt) ]]; then
+sudo apt install "$pkg" -y
+elif [[ $(command -v apt-get) ]]; then
+sudo apt-get install "$pkg" -y
+elif [[ $(command -v pacman) ]]; then
+sudo pacman -S "$pkg" --noconfirm
+elif [[ $(command -v dnf) ]]; then
+sudo dnf -y install "$pkg"
+elif [[ $(command -v yum) ]]; then
+sudo yum -y install "$pkg"
+else
+echo -e "\n${RED}[${WHITE}!${RED}]${RED} Unsupported package manager, Install packages manually."
+{ reset_color; exit 1; }
+fi
+}
+done
+fi
+
 #pkg install tor
 #pkg install tor -y
 #pkg install wget
@@ -709,7 +717,7 @@ fi
 #clear
 #banners
 #sleep 2
-#reopens
+reopens
 clear 
 exit
 }
@@ -731,60 +739,32 @@ pip3 uninstall stem -y >/dev/null 2>&1
 pip3 uninstall requests[socks] -y >/dev/null 2>&1
 pip3 uninstall requests --upgrade -y >/dev/null 2>&1
 pip uninstall --upgrade pip -y >/dev/null 2>&1
-dpkg -s php &> /dev/null # GH05T HUNTER5
-if [ $? -eq 0 ]; then
-echo ""
-pkg uninstall php -y >/dev/null 2>&1
-clear
+if [[ $(command -v python) && $(command -v python2) && $(command -v unzip) && $(command -v wget) && $(command -v curl) && $(command -v tor) ]]; then
+echo -e "\n${GREEN}[${WHITE}+${GREEN}]${GREEN} Packages already installed."
+pkgs=(python python2 unzip wget curl tor)
+for pkg in "${pkgs[@]}"; do
+type -p "$pkg" &>/dev/null || {
+echo -e "\n${GREEN}[${WHITE}+${GREEN}]${CYAN} Installing package : ${ORANGE}$pkg${CYAN}"${WHITE}
+if [[ $(command -v pkg) ]]; then
+pkg uninstall "$pkg" -y
+elif [[ $(command -v apt) ]]; then
+sudo apt uninstall "$pkg" -y
+elif [[ $(command -v apt-get) ]]; then
+sudo apt-get install "$pkg" -y
+elif [[ $(command -v pacman) ]]; then
+sudo pacman -S "$pkg" --noconfirm
+elif [[ $(command -v dnf) ]]; then
+sudo dnf -y uninstall "$pkg"
+elif [[ $(command -v yum) ]]; then
+sudo yum -y uninstall "$pkg"
 else
-echo ""
-clear
+echo -e "\n${RED}[${WHITE}!${RED}]${RED} Unsupported package manager, Install packages manually."
+{ reset_color; exit 1; }
 fi
-dpkg -s tor &> /dev/null # GH05T HUNTER5
-if [ $? -eq 0 ]; then
-echo ""
-pkg uninstall tor -y >/dev/null 2>&1
-clear
-else
-echo ""
-clear
+}
+done
 fi
-dpkg -s wget &> /dev/null # GH05T HUNTER5
-if [ $? -eq 0 ]; then
-echo ""
-pkg uninstall wget -y >/dev/null 2>&1
-clear
-else
-echo ""
-clear
-fi
-dpkg -s python &> /dev/null # GH05T HUNTER5
-if [ $? -eq 0 ]; then
-echo ""
-pkg uninstall python -y >/dev/null 2>&1
-clear
-else
-echo ""
-clear
-fi
-dpkg -s python2 &> /dev/null # GH05T HUNTER5
-if [ $? -eq 0 ]; then
-echo ""
-pkg install unpython2 -y >/dev/null 2>&1
-clear
-else
-echo ""
-clear
-fi
-dpkg -s curl &> /dev/null # GH05T HUNTER5
-if [ $? -eq 0 ]; then
-echo ""
-pkg uninstall curl -y >/dev/null 2>&1
-clear
-else
-echo ""
-clear
-fi
+
 rm -rf $PREFIX/cookies >/dev/null 2>&1
 if [ -d $PREFIX/cookies ]; then
 echo ""
