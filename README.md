@@ -2,7 +2,7 @@
 <a href="#install"><b><em>Instagram Hacking Package</em></b></a>
 
 <b>We strive to provide the best service</b>
-<img src="https://raw.githubusercontent.com/GH05T-HUNTER5/GH05T-INSTA/main/.img/IMG_20220826_141617.jpg" alt="GH05T INSTA Brute Force Attack" title="GH05T INSTA">
+<img src="https://raw.githubusercontent.com/GH05T-HUNTER5/GH05T-INSTA/main/.img/GH05T-INSTA.jpg" alt="GH05T INSTA Brute Force Attack" title="GH05T INSTA">
 <i>TERMUX USERS  { No Root }</i>
 
 <b>The best way to hack Instagram</b>
@@ -207,7 +207,7 @@ $ gh05t
 
 #### We never recommend this method, but try it yourself
 
-<img src="https://raw.githubusercontent.com/GH05T-HUNTER5/GH05T-INSTA/main/.img/IMG_20220902_131113.jpg" alt="GH05T INSTA" title="GH05T INSTA">
+<img src="https://raw.githubusercontent.com/GH05T-HUNTER5/GH05T-INSTA/main/.img/GH05T-INSTA-main-menu.jpg" alt="GH05T INSTA" title="GH05T INSTA">
 
 ##### Why gh05t-hunter5 never recommend this `gh05t` method
 
@@ -217,7 +217,7 @@ $ gh05t
 
 #### Password List
 
-<img src="https://raw.githubusercontent.com/GH05T-HUNTER5/GH05T-INSTA/main/.img/IMG_20220827_155433.jpg" alt="GH05T INSTA PASSWORD LIST" >
+<img src="https://raw.githubusercontent.com/GH05T-HUNTER5/GH05T-INSTA/main/.img/gh05tinsta-password .jpg" alt="GH05T INSTA PASSWORD LIST" >
 
 <i>WORKING DEMO <a href="https://bit.ly/3RrxZQ8">GH05T ATTACK (safe to use)</a> </i>
 
