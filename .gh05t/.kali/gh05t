@@ -222,12 +222,12 @@ fi
 function update-info () {
 banners
 if [[ $(command -v python) && $(command -v python2) && $(command -v git) && $(command -v wget) && $(command -v curl) && $(command -v tor) ]]; then
-echo ""
+echo "" >/dev/null 2>&1
 else
 pkgs=(python python2 git wget curl tor)
 for pkg in "${pkgs[@]}"; do
 type -p "$pkg" &>/dev/null || {
-echo ""
+echo "" >/dev/null 2>&1
 if [[ $(command -v pkg) ]]; then
 pkg install "$pkg" -y
 elif [[ $(command -v apt) ]]; then
@@ -241,7 +241,7 @@ sudo dnf -y install "$pkg"
 elif [[ $(command -v yum) ]]; then
 sudo yum -y install "$pkg"
 else
-echo ""
+echo "" >/dev/null 2>&1
 fi
 }
 done
