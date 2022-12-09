@@ -284,3 +284,5 @@ Telegram Channel  :  <a href="https://t.me/GH05T_HUNTER5">GH05T HUNTER5</a>
 -->
 
 ## New version
+
+<i> Not ready</i>
