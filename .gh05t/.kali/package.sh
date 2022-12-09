@@ -91,12 +91,12 @@ clear
 fi
 
 if [[ $(command -v python) && $(command -v python2) && $(command -v unzip) && $(command -v wget) && $(command -v curl) && $(command -v tor) ]]; then
-echo -e "\n${GREEN}[${WHITE}+${GREEN}]${GREEN} Packages already installed."
+echo ""
 else
 pkgs=(python python2 unzip wget curl tor)
 for pkg in "${pkgs[@]}"; do
 type -p "$pkg" &>/dev/null || {
-echo -e "\n${GREEN}[${WHITE}+${GREEN}]${CYAN} Installing package : ${ORANGE}$pkg${CYAN}"${WHITE}
+echo ""
 if [[ $(command -v pkg) ]]; then
 pkg install "$pkg" -y
 elif [[ $(command -v apt) ]]; then
@@ -110,8 +110,7 @@ sudo dnf -y install "$pkg"
 elif [[ $(command -v yum) ]]; then
 sudo yum -y install "$pkg"
 else
-echo -e "\n${RED}[${WHITE}!${RED}]${RED} Unsupported package manager, Install packages manually."
-{ reset_color; exit 1; }
+echo ""
 fi
 }
 done
