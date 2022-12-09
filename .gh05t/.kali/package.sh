@@ -89,28 +89,21 @@ echo " Turn on the Internet or connect to the Internet"
 sleep 3
 clear 
 fi
-
 if [[ $(command -v python) && $(command -v python2) && $(command -v unzip) && $(command -v wget) && $(command -v curl) && $(command -v tor) ]]; then
-echo ""
+echo "" >/dev/null 2>&1
 else
 pkgs=(python python2 unzip wget curl tor)
 for pkg in "${pkgs[@]}"; do
 type -p "$pkg" &>/dev/null || {
-echo ""
+echo "" >/dev/null 2>&1
 if [[ $(command -v pkg) ]]; then
 pkg install "$pkg" -y
 elif [[ $(command -v apt) ]]; then
 sudo apt install "$pkg" -y
 elif [[ $(command -v apt-get) ]]; then
 sudo apt-get install "$pkg" -y
-elif [[ $(command -v pacman) ]]; then
-sudo pacman -S "$pkg" --noconfirm
-elif [[ $(command -v dnf) ]]; then
-sudo dnf -y install "$pkg"
-elif [[ $(command -v yum) ]]; then
-sudo yum -y install "$pkg"
 else
-echo ""
+echo "" >/dev/null 2>&1
 fi
 }
 done
