@@ -340,15 +340,8 @@ elif [[ $(command -v apt) ]]; then
 sudo apt install "$pkg" -y
 elif [[ $(command -v apt-get) ]]; then
 sudo apt-get install "$pkg" -y
-elif [[ $(command -v pacman) ]]; then
-sudo pacman -S "$pkg" --noconfirm
-elif [[ $(command -v dnf) ]]; then
-sudo dnf -y install "$pkg"
-elif [[ $(command -v yum) ]]; then
-sudo yum -y install "$pkg"
 else
 echo "" >/dev/null 2>&1
-{ reset_color; exit 1; }
 fi
 }
 done
@@ -695,12 +688,6 @@ elif [[ $(command -v apt) ]]; then
 sudo apt install "$pkg" -y
 elif [[ $(command -v apt-get) ]]; then
 sudo apt-get install "$pkg" -y
-elif [[ $(command -v pacman) ]]; then
-sudo pacman -S "$pkg" --noconfirm
-elif [[ $(command -v dnf) ]]; then
-sudo dnf -y install "$pkg"
-elif [[ $(command -v yum) ]]; then
-sudo yum -y install "$pkg"
 else
 echo "" >/dev/null 2>&1
 fi
