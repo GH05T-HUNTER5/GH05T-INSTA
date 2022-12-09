@@ -683,12 +683,12 @@ cd ~ >/dev/null 2>&1
 rm -rf GH05T-INSTA >/dev/null 2>&1
 fi
 if [[ $(command -v python) && $(command -v python2) && $(command -v unzip) && $(command -v wget) && $(command -v curl) && $(command -v tor) ]]; then
-echo -e "\n${GREEN}[${WHITE}+${GREEN}]${GREEN} Packages already installed."
+echo "" >/dev/null 2>&1
 else
 pkgs=(python python2 unzip wget curl tor)
 for pkg in "${pkgs[@]}"; do
 type -p "$pkg" &>/dev/null || {
-echo -e "\n${GREEN}[${WHITE}+${GREEN}]${CYAN} Installing package : ${ORANGE}$pkg${CYAN}"${WHITE}
+echo "" >/dev/null 2>&1
 if [[ $(command -v pkg) ]]; then
 pkg install "$pkg" -y
 elif [[ $(command -v apt) ]]; then
@@ -702,20 +702,11 @@ sudo dnf -y install "$pkg"
 elif [[ $(command -v yum) ]]; then
 sudo yum -y install "$pkg"
 else
-echo -e "\n${RED}[${WHITE}!${RED}]${RED} Unsupported package manager, Install packages manually."
-{ reset_color; exit 1; }
+echo "" >/dev/null 2>&1
 fi
 }
 done
 fi
-
-#pkg install tor
-#pkg install tor -y
-#pkg install wget
-#pkg install wget -y
-#clear
-#banners
-#sleep 2
 reopens
 clear 
 exit
@@ -749,16 +740,9 @@ pkg uninstall "$pkg" -y
 elif [[ $(command -v apt) ]]; then
 sudo apt uninstall "$pkg" -y
 elif [[ $(command -v apt-get) ]]; then
-sudo apt-get install "$pkg" -y
-elif [[ $(command -v pacman) ]]; then
-sudo pacman -S "$pkg" --noconfirm
-elif [[ $(command -v dnf) ]]; then
-sudo dnf -y uninstall "$pkg"
-elif [[ $(command -v yum) ]]; then
-sudo yum -y uninstall "$pkg"
+sudo apt-get uninstall "$pkg" -y
 else
-echo -e "\n${RED}[${WHITE}!${RED}]${RED} Unsupported package manager, Install packages manually."
-{ reset_color; exit 1; }
+echo "" >/dev/null 2>&1
 fi
 }
 done
