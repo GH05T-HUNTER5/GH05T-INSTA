@@ -23,7 +23,7 @@ cd GH05T-INSTA
 ```
 ## Linux Users
 ```
-python setup-kali.py
+python setup-linux.py
 ```
 ```
 cd 
