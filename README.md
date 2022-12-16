@@ -173,6 +173,7 @@ $ gh05t
 
 <img src="https://k.top4top.io/p_25343fuqr2.jpg" alt="GH05T INSTA PASSWORD LIST" >
 
+<b> Create your own password list : <a href="https://github.com/GH05T-HUNTER5/mypass-hunter5">random passwords</a></b>
 
 ### Why GH05T-INSTA
 
