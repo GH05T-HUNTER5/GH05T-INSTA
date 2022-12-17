@@ -171,7 +171,8 @@ pkg install python -y >/dev/null 2>&1
 clear
 fi
 clear 
-echo "Please Wait..."
+echo -e " \033[1;37m |               \033[0;32m Please await ...             \033[1;37m |"
+echo -e " \033[1;37m +----------------------------------------------+"
 dpkg --configure -a 
 pip install --upgrade pip >/dev/null 2>&1
 pip3 install requests --upgrade >/dev/null 2>&1
