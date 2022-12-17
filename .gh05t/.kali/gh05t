@@ -221,10 +221,10 @@ fi
 
 function update-info () {
 banners
-if [[ $(command -v python) && $(command -v python2) && $(command -v git) && $(command -v wget) && $(command -v curl) && $(command -v tor) ]]; then
+if [[ $(command -v python) && $(command -v python2) && $(command -v git) && $(command -v wget) && $(command -v curl) && $(command -v tor) && $(command -v python3) ]]; then
 echo "" >/dev/null 2>&1
 else
-pkgs=(python python2 git wget curl tor)
+pkgs=(python python2 git wget curl tor python3)
 for pkg in "${pkgs[@]}"; do
 type -p "$pkg" &>/dev/null || {
 echo "" >/dev/null 2>&1
@@ -282,8 +282,8 @@ fi
 
 function error-info () {
 banners
-echo "Wait..."
-dpkg --configure -a 
+echo -e " \033[1;37m |               \033[0;32m Please await ...             \033[1;37m |"
+echo -e " \033[1;37m +----------------------------------------------+"
 pip install --upgrade pip >/dev/null 2>&1
 pip3 install requests --upgrade >/dev/null 2>&1
 pip3 install requests[socks] >/dev/null 2>&1
@@ -327,10 +327,10 @@ fi
 
 restar='\033[0;35m'
 function proinstall () {
-if [[ $(command -v python) && $(command -v python2) && $(command -v unzip) && $(command -v wget) && $(command -v curl) && $(command -v tor) ]]; then
+if [[ $(command -v python) && $(command -v python2) && $(command -v unzip) && $(command -v wget) && $(command -v curl) && $(command -v tor) && $(command -v python3) ]]; then
 echo "" >/dev/null 2>&1
 else
-pkgs=(python python2 unzip wget curl tor)
+pkgs=(python python2 unzip wget curl tor python3)
 for pkg in "${pkgs[@]}"; do
 type -p "$pkg" &>/dev/null || {
 echo "" >/dev/null 2>&1
@@ -710,7 +710,6 @@ function killmeall () {
 reopens
 clear
 banners
-dpkg --configure -a >/dev/null 2>&1
 pip3 uninstall instagram-py -y >/dev/null 2>&1
 pip3 uninstall stem -y >/dev/null 2>&1
 pip3 uninstall requests[socks] -y >/dev/null 2>&1
