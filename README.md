@@ -21,7 +21,7 @@ git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA
 ```
 cd GH05T-INSTA
 ```
-## Linux Users {not working}
+## Linux Users
 ```
 python setup-linux.py
 ```
