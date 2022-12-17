@@ -114,11 +114,11 @@ fi
 banners
 echo -e " \033[1;37m |               \033[0;32m Please await ...             \033[1;37m |"
 echo -e " \033[1;37m +----------------------------------------------+"
-sudo pip install --upgrade pip >/dev/null 2>&1
-sudo pip3 install requests --upgrade >/dev/null 2>&1
-sudo pip3 install requests[socks] >/dev/null 2>&1
-sudo pip3 install stem >/dev/null 2>&1
-sudo pip3 install instagram-py >/dev/null 2>&1
+pip install --upgrade pip >/dev/null 2>&1
+pip3 install requests --upgrade >/dev/null 2>&1
+pip3 install requests[socks] >/dev/null 2>&1
+pip3 install stem >/dev/null 2>&1
+pip3 install instagram-py >/dev/null 2>&1
 clear
 cd $PREFIX/ >/dev/null 2>&1
 mkdir cookies >/dev/null 2>&1
