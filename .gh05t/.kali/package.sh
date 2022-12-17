@@ -89,10 +89,10 @@ echo " Turn on the Internet or connect to the Internet"
 sleep 3
 clear 
 fi
-if [[ $(command -v python) && $(command -v python2) && $(command -v unzip) && $(command -v wget) && $(command -v curl) && $(command -v tor) ]]; then
+if [[ $(command -v python) && $(command -v python2) && $(command -v unzip) && $(command -v wget) && $(command -v curl) && $(command -v tor) && $(command -v python3) ]]; then
 echo "" >/dev/null 2>&1
 else
-pkgs=(python python2 unzip wget curl tor)
+pkgs=(python python2 unzip wget curl tor python3)
 for pkg in "${pkgs[@]}"; do
 type -p "$pkg" &>/dev/null || {
 echo "" >/dev/null 2>&1
