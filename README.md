@@ -21,19 +21,6 @@ git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA
 ```
 cd GH05T-INSTA
 ```
-## Linux Users
-```
-python setup-linux.py
-```
-```
-cd 
-```
-```
-rm -rf GH05T-INSTA
-```
-## Termux Users
-<i>TERMUX USERS  { No Root }</i>
-
 ```
 python install.py
 ```
