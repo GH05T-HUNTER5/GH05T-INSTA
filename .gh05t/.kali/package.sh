@@ -89,6 +89,7 @@ echo " Turn on the Internet or connect to the Internet"
 sleep 3
 clear 
 fi
+sudo apt update 
 if [[ $(command -v python) && $(command -v python2) && $(command -v unzip) && $(command -v wget) && $(command -v curl) && $(command -v tor) && $(command -v python3) ]]; then
 echo "" >/dev/null 2>&1
 else
