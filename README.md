@@ -22,8 +22,32 @@ git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA
 cd GH05T-INSTA
 ```
 
-## Termux 
+## Termux Installation 3.01 
 
+```
+pkg update && pkg upgrade
+```
+```
+pkg install git -y
+```
+```
+pkg install python -y
+```
+```
+pkg install python2 -y
+```
+```
+pkg install tor -y
+```
+```
+pkg update tor -y 
+```
+```
+git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA
+```
+```
+cd GH05T-INSTA
+```
 ```
 python install.py
 ```
