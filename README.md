@@ -33,7 +33,7 @@ chmod +x *
 ./setup-linux.sh
 ```
 ```
-gh05t --help
+./gh05t --help
 ```
 
 <b>or</b>
