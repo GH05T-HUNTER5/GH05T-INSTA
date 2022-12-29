@@ -5,7 +5,7 @@
 
 <b>The best way report Instagram</b>
 
-## Installation 3.01 <p id="install"></p>
+## Installation 3.01 {Linux}<p id="install"></p>
 
 ```
 apt install git
