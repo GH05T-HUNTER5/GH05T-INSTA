@@ -24,6 +24,8 @@ cd GH05T-INSTA
 ```
 ## Linux Installation 3.01 
 
+<b>This is just a test, please send your valuable feedback {Linux}</b>
+
 ```
 chmod +x *
 ```
