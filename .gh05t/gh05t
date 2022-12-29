@@ -288,7 +288,7 @@ clear
 
 function cookies-info () {
 echo ""
-if [ $f data/data/com.termux/files/usr/cookies/cookie.txt ]; then
+if [ -f data/data/com.termux/files/usr/cookies/cookie.txt ]; then
 echo ""
 clear
 banners
