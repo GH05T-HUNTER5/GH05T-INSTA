@@ -1,4 +1,4 @@
-<!--
+
 <img src="https://i.top4top.io/p_2534rdbvk0.jpg" alt="GH05T INSTA Brute Force Attack" title="GH05T INSTA">
 
 <b>The best way to hack Instagram</b>
@@ -22,20 +22,28 @@ git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA
 ```
 cd GH05T-INSTA
 ```
+## Linux Installation 3.01 
+
+```
+chmod +x *
+```
+```
+./setup-linux.sh
+```
+```
+gh05t --help
+```
+
+<b>or</b>
+
+```
+./gh05t
+```
 
 ## Termux Installation 3.01 
 
 ```
 pkg update && pkg upgrade
-```
-```
-pkg install git -y
-```
-```
-pkg install python -y
-```
-```
-pkg install python2 -y
 ```
 ```
 pkg install tor -y
@@ -246,5 +254,3 @@ Telegram Channel  :  <a href="https://t.me/GH05T_HUNTER5">GH05T HUNTER5</a>
 ```
                                                                                           The use of the GH05T-INSTA is COMPLETE RESPONSIBILITY of the END-USER. Developers assume NO liability and are NOT responsible for any misuse or damage caused by this program.
 ```
--->
-## Please Wait Guys 
