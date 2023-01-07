@@ -27,6 +27,10 @@
 #OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 #SOFTWARE.
 
+pkg update tor -y
+pkg update tor
+clear
+
 reset='\033[0m'
 exit_on_signal_SIGINT() {
 echo ""
