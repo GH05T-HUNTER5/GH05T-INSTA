@@ -49,7 +49,7 @@ echo ""
 clear
 else
 echo ""
-touch /data/data/com.termux/files/new-10.pro >/dev/null 2>&1
+touch /data/data/com.termux/files/new-11.pro >/dev/null 2>&1
 clear
 fi
 clear 
