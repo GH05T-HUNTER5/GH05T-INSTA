@@ -34,7 +34,7 @@ chmod +x *
 ```
 * You can use two ways 🤺
 
-01 ) Command Based ⬇️
+01 ) Command Based ⬇️ (root)
 
 ## Usage Commands 
 
