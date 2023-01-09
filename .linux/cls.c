@@ -1,6 +1,6 @@
 #if 0
 	
-	shc -r -v -f cls 
+	
 #endif
 
 static  char data [] = 
