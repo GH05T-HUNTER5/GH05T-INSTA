@@ -42,7 +42,7 @@ chmod +x *
 
 <b>Linux Command : <a href="https://github.com/GH05T-HUNTER5/GH05T-INSTA/blob/main/.linux/README.md">Click This</a></b>
 
-<b>Report : <a href="https://t.me/helpme_101">Issues</a></b>
+<b>Report : <a href="https://github.com/GH05T-HUNTER5/GH05T-INSTA/issues">Issues</a></b>
 
 ## Termux Installation 3.01 
 
