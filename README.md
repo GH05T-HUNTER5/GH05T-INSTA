@@ -7,7 +7,7 @@
 
 `Install Home` 
 
-`$ cd home/`
+`$ cd home`
 
 ```
 apt install git
