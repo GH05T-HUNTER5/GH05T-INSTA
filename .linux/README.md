@@ -9,7 +9,7 @@
 
 `install home\`
 
-`cd home\`
+`$ cd home\`
 
 ```
 apt install git
