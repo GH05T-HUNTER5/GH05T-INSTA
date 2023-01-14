@@ -7,9 +7,9 @@
 
 ## Installation 3.01 {Linux}<p id="install"></p>
 
-`install home\`
+`install home/`
 
-`$ cd home\`
+`$ cd home`
 
 ```
 apt install git
