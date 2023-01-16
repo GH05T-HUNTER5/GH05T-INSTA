@@ -5,10 +5,6 @@
 
 ## Installation 3.01 <p id="install"></p>
 
-`Install Home` 
-
-`$ cd home`
-
 ```
 apt install git
 ```
