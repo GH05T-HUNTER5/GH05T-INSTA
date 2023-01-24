@@ -1,3 +1,4 @@
+<!--
 <img src="https://i.top4top.io/p_2534rdbvk0.jpg" alt="GH05T INSTA Brute Force Attack" title="GH05T INSTA"><br>
 <b>The best way to hack Instagram</b>
 
@@ -263,6 +264,11 @@ Telegram Channel  :  <a href="https://t.me/GH05T_HUNTER5">GH05T HUNTER5</a>
                                                                                           The use of the GH05T-INSTA is COMPLETE RESPONSIBILITY of the END-USER. Developers assume NO liability and are NOT responsible for any misuse or damage caused by this program.
 ```
 
-<!--
 ## This Tool is not working properly Please wait we are trying to solve this problem 
 -->
+
+<img src="https://user-images.githubusercontent.com/123439847/214219519-bea6426e-866f-42a9-8850-e8ab340020cc.png">
+
+## We are trying to solve this problem
+
+#### Please {Support}
