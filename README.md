@@ -265,10 +265,9 @@ Telegram Channel  :  <a href="https://t.me/GH05T_HUNTER5">GH05T HUNTER5</a>
 ```
 
 ## This Tool is not working properly Please wait we are trying to solve this problem 
--->
 
 <img src="https://user-images.githubusercontent.com/123439847/214219519-bea6426e-866f-42a9-8850-e8ab340020cc.png">
-
-## We are trying to solve this problem
+-->
+## We are trying to solve {all} (your issue) this problem
 
 #### Please {Support}
