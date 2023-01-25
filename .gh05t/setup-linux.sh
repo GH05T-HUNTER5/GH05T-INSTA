@@ -139,10 +139,106 @@ else
 	pip3 install stem >/dev/null 2>&1
 	pip3 install instagram-py >/dev/null 2>&1
 fi
+mkdir -p /usr/cookies/ >/dev/null 2>&1
+if [ -d /user/cookies ]; then
+	echo 
+else
+	cd /usr
+	mkdir cookies
+fi
+cd ~/GH05T-INSTA/.gh05t/gh05tpass >/dev/null 2>&1
+cp -r password-11.txt /usr/cookies/ >/dev/null 2>&1
+cp -r password-12.txt /usr/cookies/ >/dev/null 2>&1
+cp -r password-13.txt /usr/cookies/ >/dev/null 2>&1
+cp -r password-14.txt /usr/cookies/ >/dev/null 2>&1
+cp -r password-15.txt /usr/cookies/ >/dev/null 2>&1
+cp -r password-6.txt /usr/cookies/ >/dev/null 2>&1
+cp -r password-7.txt /usr/cookies/ >/dev/null 2>&1
+cp -r password-8.txt /usr/cookies/ >/dev/null 2>&1
+cp -r password-9.txt /usr/cookies/ >/dev/null 2>&1
+cp -r password-10.txt /usr/cookies/ >/dev/null 2>&1
+cp -r password-16.txt /usr/cookies/ >/dev/null 2>&1
+cp -r password-17.txt  /usr/cookies/ >/dev/null 2>&1
+cp -r password-18.txt /usr/cookies/ >/dev/null 2>&1
+cp -r password-19.txt /usr/cookies/ >/dev/null 2>&1
+cp -r password-20.txt /usr/cookies/ >/dev/null 2>&1
 
+if [ -f /usr/cookies/password-11.txt ]; then
+	echo ''
+else 
+	mv ~/GH05T-INSTA/.gh05t/gh05tpass/password-11.txt /usr/cookies/ >/dev/null 2>&1
+fi
+if [ -f /usr/cookies/password-12.txt ]; then
+	echo ''
+else
+	mv ~/GH05T-INSTA/.gh05t/gh05tpass/password-12.txt /usr/cookies/ >/dev/null 2>&1
+fi
+if [ -f /usr/cookies/password-13.txt ]; then
+	echo ''
+else
+	mv ~/GH05T-INSTA/.gh05t/gh05tpass/password-13.txt /usr/cookies/ >/dev/null 2>&1
+fi
+if [ -f /usr/cookies/password-14.txt ]; then
+	echo ''
+else
+	MV ~/GH05T-INSTA/.gh05t/gh05tpass/password-14.txt /usr/cookies/ >/dev/null 2>&1
+fi
+if [ -f /usr/cookies/password-15.txt ]; then
+	 echo ''
+else
+	mv ~/GH05T-INSTA/.gh05t/gh05tpass/password-15.txt /usr/cookies/ >/dev/null 2>&1
+fi
+if [ -f /usr/cookies/password-6.txt ]; then
+	echo ''
+else 
+	mv ~/GH05T-INSTA/.gh05t/gh05tpass/password-6.txt /usr/cookies/ >/dev/null 2>&1
+fi
+if [ -f /usr/cookies/password-7.txt ]; then
+	echo ''
+else
+	mv ~/GH05T-INSTA/.gh05t/gh05tpass/password-7.txt /usr/cookies/ >/dev/null 2>&1
+fi
+if [ -f /usr/cookies/password-8.txt ]; then
+	echo ''
+else
+	mv ~/GH05T-INSTA/.gh05t/gh05tpass/password-8.txt /usr/cookies/ >/dev/null 2>&1
+fi
+if [ -f /usr/cookies/password-9.txt ]; then
+	echo ''
+else 
+	mv ~/GH05T-INSTA/.gh05t/gh05tpass/password-9.txt /usr/cookies/ >/dev/null 2>&1
+fi
+if [ -f /usr/cookies/password-10.txt ]; then
+	echo ''
+else
+	mv ~/GH05T-INSTA/.gh05t/gh05tpass/password-10.txt /usr/cookies/ >/dev/null 2>&1
+fi
+if [ -f /usr/cookies/password-16.txt ]; then
+	echo ''
+else
+	mv ~/GH05T-INSTA/.gh05t/gh05tpass/password-16.txt /usr/cookies/ >/dev/null 2>&1
+fi
+if [ -f /usr/cookies/password-17.txt ]; then
+	echo ''
+else
+	mv ~/GH05T-INSTA/.gh05t/gh05tpass/password-17.txt /usr/cookies/ >/dev/null 2>&1
+fi
+if [ -f /usr/cookies/password-18.txt ]; then
+	echo ''
+else 
+	mv ~/GH05T-INSTA/.gh05t/gh05tpass/password-18.txt /usr/cookies/ >/dev/null 2>&1
+fi
+if [ -f /usr/cookies/password-19.txt ]; then
+	echo ''
+else 
+	mv ~/GH05T-INSTA/.gh05t/gh05tpass/password-19.txt /usr/cookies/ >/dev/null 2>&1
+fi
+if [ -f /usr/cookies/password-20.txt ]; then
+	echo ''
+else 
+	mv ~/GH05T-INSTA/.gh05t/gh05tpass/password-20.txt /usr/cookies/ >/dev/null 2>&1
 
-
-
+fi
 
 
 git clone https://github.com/Und3rf10w/kali-anonsurf
