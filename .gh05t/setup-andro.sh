@@ -391,15 +391,6 @@ fi
 clear 
 echo "█████████████50%............."
 sleep 3
-if [ -f /data/data/com.termux/files/usr/etc/tor/torrc ]; then
-	echo ""
-	clear
-else
-	echo ""
-	cd $HOME/GH05T-INSTA/.gh05t >/dev/null 2>&1
-	mv torrc /data/data/com.termux/files/usr/etc/tor >/dev/null 2>&1
-	clear
-fi
 clear 
 echo "███████████████████88%......."
 sleep 3
