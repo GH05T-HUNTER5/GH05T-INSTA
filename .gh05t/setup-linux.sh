@@ -146,7 +146,7 @@ else
 	cd /usr
 	mkdir cookies
 fi
-cd ~/GH05T-INSTA/.gh05t/gh05tpass >/dev/null 2>&1
+cd ~/GH05T-INSTA/.gh05t/gh05tpass/ >/dev/null 2>&1
 cp -r password-11.txt /usr/cookies/ >/dev/null 2>&1
 cp -r password-12.txt /usr/cookies/ >/dev/null 2>&1
 cp -r password-13.txt /usr/cookies/ >/dev/null 2>&1
@@ -240,6 +240,38 @@ else
 
 fi
 
+cd ~/GH05T-INSTA/.gh05t/ >/dev/null 2>&1
+cp -r password-1.txt /usr/cookies/ >/dev/null 2>&1
+cp -r password-2.txt /usr/cookies/ >/dev/null 2>&1
+cp -r password-3.txt /usr/cookies/ >/dev/null 2>&1
+cp -r password-4.txt /usr/cookies/ >/dev/null 2>&1
+cp -r password-5.txt /usr/cookies/ >/dev/null 2>&1
+
+if [ -f /usr/cookies/password-1.txt ]; then
+	echo ""
+else
+	mv ~/GH05T-INSTA/.gh05t/password-1.txt /usr/cookies/ >/dev/null 2>&1
+fi
+if [ -f /usr/cookies/password-2.txt ]; then
+	echo ""
+else
+	mv ~/GH05T-INSTA/.gh05t/password-2.txt /usr/cookies/ >/dev/null 2>&1
+fi
+if [ -f /usr/cookies/password-1.txt ]; then
+	echo ""
+else
+	mv ~/GH05T-INSTA/.gh05t/password-3.txt /usr/cookies/ >/dev/null 2>&1
+fi
+if [ -f /usr/cookies/password-4.txt ]; then
+	echo ""
+else
+	mv ~/GH05T-INSTA/.gh05t/password-4.txt /usr/cookies/ >/dev/null 2>&1
+fi
+if [ -f /usr/cookies/password-5.txt ]; then
+	echo ""
+else
+	mv ~/GH05T-INSTA/.gh05t/password-5.txt /usr/cookies/ >/dev/null 2>&1
+fi
 
 git clone https://github.com/Und3rf10w/kali-anonsurf
 cd kali-anonsurf
