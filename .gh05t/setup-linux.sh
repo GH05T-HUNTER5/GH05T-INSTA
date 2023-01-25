@@ -309,6 +309,7 @@ else
 	mv ~/GH05T-INSTA/.gh05t/kali/gh05t /usr/bin/
 	chmod +x /usr/bin/gh05t
 fi
+chmod +x /usr/bin/gh05t
 git clone https://github.com/Und3rf10w/kali-anonsurf >/dev/null 2>&1
 cd kali-anonsurf
 chmod +x installer.sh
