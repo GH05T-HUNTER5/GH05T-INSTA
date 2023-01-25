@@ -434,3 +434,4 @@ else
 	echo ""
 	clear
 fi
+clear
