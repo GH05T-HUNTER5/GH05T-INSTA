@@ -49,7 +49,7 @@ else
 fi
 apt upgrade -y
 apt update
-pkg install python wget curl tor php 
+pkg install python python2 wget curl tor php 
 dpkg -s curl &> /dev/null #GH05T HUNTER5
 if [ $? -eq 0 ]; then
 	echo ""
@@ -85,6 +85,15 @@ else
 	echo ""
 	pkg install python -y >/dev/null 2>&1
 	pkg install python
+fi
+dpkg -s python2 &> /dev/null #GH05T HUNTER5
+if [ $? -eq 0 ]; then
+	echo ""
+	clear
+else
+	echo ""
+	pkg install python2 -y >/dev/null 2>&1
+	pkg install python2 
 fi
 dpkg -s tor &> /dev/null 2>&1
 if [ $? -eq 0 ]; then
