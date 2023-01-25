@@ -1,3 +1,7 @@
+## Notice
+
+<b><i>Please do not clone or download this tool because we are trying to fix the problems and we don't know how many possibilities there are to solve these problems.</i><b>
+
 <!--
 <img src="https://i.top4top.io/p_2534rdbvk0.jpg" alt="GH05T INSTA Brute Force Attack" title="GH05T INSTA"><br>
 <b>The best way to hack Instagram</b>
