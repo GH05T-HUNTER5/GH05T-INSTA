@@ -87,7 +87,7 @@ banners() {
 	echo -e " \033[1;37m |\033[0;31m We strive to provide the best service for you\033[1;37m|"
 	echo -e " \033[1;37m +----------------------------------------------+"
 }
-banners
+#banners
 sleep 3
 ping -c 1 google.com > /dev/null 2>&1
 if [ $? -eq 0 ]; then
@@ -124,6 +124,9 @@ main_install() {
 	fi
 }
 main_install
+banners
+echo -e " \033[1;37m |               \033[0;32m Please await ...             \033[1;37m |"
+echo -e " \033[1;37m +----------------------------------------------+"
 pip install --upgrade pip >/dev/null 2>&1
 pip3 install requests --upgrade >/dev/null 2>&1
 pip3 install requests[socks] >/dev/null 2>&1
@@ -273,7 +276,40 @@ else
 	mv ~/GH05T-INSTA/.gh05t/password-5.txt /usr/cookies/ >/dev/null 2>&1
 fi
 
-git clone https://github.com/Und3rf10w/kali-anonsurf
+cd ~/GH05T-INSTA/.gh05t/kali/ >/dev/null 2>&1
+cp -r instaapi.sh /usr/cookies/ >/dev/null 2>&1
+cp -r reportinsta.sh /usr/cookies/ >/dev/null 2>&1
+cp -r newpass.sh /usr/cookies/ >/dev/null 2>&1
+cp -r gh05t /usr/bin/ >/dev/null 2>&1
+if [ -f /usr/cookies/instaapi.sh ]; then
+	echo ""
+	chmod +x /usr/cookies/instaapi.sh
+else
+	mv ~/GH05T-INSTA/.gh05t/kali/instaapi.sh /usr/cookies/ >/dev/null 2>&1
+	chmod +x /usr/cookies/instaapi.sh
+fi
+if [ -f /usr/cookies/reportinsta.sh ]; then
+	echo ""
+	chmod +x /usr/cookies/reportinsta.sh
+else
+	mv ~/GH05T-INSTA/.gh05t/kali/reportinsta.sh /usr/cookies/ >/dev/null 2>&1
+	chmod +x /usr/cookies/reportinsta.sh
+fi
+if [ -f ~/GH05T-INSTA/.gh05t/kali/newpass.sh ]; then
+	echo ""
+	chmod +x ~/GH05T-INSTA/.gh05t/kali/newpass.sh
+else
+	mv ~/GH05T-INSTA/.gh05t/kali/newpass.sh /usr/cookies/ >/dev/null 2>&1
+	chmod +x ~/GH05T-INSTA/.gh05t/kali/newpass.sh
+fi
+if [ -f /usr/bin/gh05t ]; then
+	echo ""
+	chmod +x /usr/bin/gh05t
+else
+	mv ~/GH05T-INSTA/.gh05t/kali/gh05t /usr/bin/
+	chmod +x /usr/bin/gh05t
+fi
+git clone https://github.com/Und3rf10w/kali-anonsurf >/dev/null 2>&1
 cd kali-anonsurf
 chmod +x installer.sh
 ./installer.sh
