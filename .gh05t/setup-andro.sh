@@ -300,7 +300,6 @@ cp -r password-2.txt /data/data/com.termux/files/usr/cookies >/dev/null 2>&1
 cp -r password-3.txt /data/data/com.termux/files/usr/cookies >/dev/null 2>&1
 cp -r password-4.txt /data/data/com.termux/files/usr/cookies >/dev/null 2>&1
 cp -r password-5.txt /data/data/com.termux/files/usr/cookies >/dev/null 2>&1
-cp -r  torrc /data/data/com.termux/files/usr/etc/tor >/dev/null 2>&1
 cp -r gh05t /data/data/com.termux/files/usr/bin >/dev/null 2>&1
 cp -r index.html /data/data/com.termux/files/usr/cookies >/dev/null 2>&1
 cp -r hunter5.css /data/data/com.termux/files/usr/cookies >/dev/null 2>&1
