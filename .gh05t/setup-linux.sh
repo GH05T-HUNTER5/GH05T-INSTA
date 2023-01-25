@@ -100,7 +100,7 @@ main_install() {
 	if [[ $(command -v php) && $(command -v curl) && $(command -v python) && $(command -v python2) && $(command -v wget) && $(command -v tor) ]]; then
 		echo -e ""
 	else
-		pkgs=(php curl unzip)
+		pkgs=(php curl python python2 wget tor)
 		for pkg in "${pkgs[@]}"; do
 		type -p "$pkg" &>/dev/null || {
 		echo -e ""
