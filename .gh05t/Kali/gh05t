@@ -13,6 +13,7 @@ tornotice() {
 	echo -e "\033[1;37m +----------------------------------------------+"
 	sleep 5
 }
+
 main_install() {
 	if [[ $(command -v php) && $(command -v curl) && $(command -v python) && $(command -v python2) && $(command -v wget) && $(command -v tor) ]]; then
 		echo -e ""
@@ -135,7 +136,6 @@ function banners () {
 	echo -e " \033[1;37m +----------------------------------------------+"
 }
 
-
 main_menu() {
 	banners
 	echo -e "  \033[1;37m[\033[0;31m01\033[1;37m]\033[0;32m Auto Attack"
@@ -166,6 +166,20 @@ main_menu() {
 	elif [ $option = "07" ] || [ $option = "7" ]; then
 		check_updates
 	elif [ $option = "08" ] || [ $option = "8" ]; then
-	
-		
+
+	elif [ $option = "99" ]; then
+		gh05t_help
+	elif [ $option = "00" ]; then
+		recheck_remove
+		exit
+	else
+		echo -e "${white}  [${red}++${white}] ${red}Invalid Option, Try Again..."
+		sleep 2
+		main_menu
+	fi			
 }
+
+
+
+
+main_menu
