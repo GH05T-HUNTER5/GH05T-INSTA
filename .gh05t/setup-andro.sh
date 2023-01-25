@@ -290,18 +290,10 @@ echo "█8%......................."
 sleep 3
 cd $HOME >/dev/null 2>&1
 mkdir .gh05t >/dev/null 2>&1
-cd /data/data/com.termux/files/usr/etc/tor >/dev/null 2>&1
-rm torrc >/dev/null 2>&1
-if [ -f /data/data/com.termux/files/usr/etc/tor/torrc ]; then
-	echo ""
-	rm /data/data/com.termux/files/usr/etc/tor/torrc >/dev/null 2>&1
-	clear
-fi 
 clear 
 echo "██10%......................"
 sleep 3
 cd $HOME/GH05T-INSTA/.gh05t >/dev/null 2>&1
-chmod +x /data/data/com.termux/files/usr/cookies/reportinstas.sh >/dev/null 2>&1
 cp -r reportinstas.sh /data/data/com.termux/files/usr/cookies >/dev/null 2>&1
 cp -r password-1.txt /data/data/com.termux/files/usr/cookies >/dev/null 2>&1
 cp -r password-2.txt /data/data/com.termux/files/usr/cookies >/dev/null 2>&1
@@ -314,6 +306,7 @@ cp -r index.html /data/data/com.termux/files/usr/cookies >/dev/null 2>&1
 cp -r hunter5.css /data/data/com.termux/files/usr/cookies >/dev/null 2>&1
 cp -r instaapi.sh /data/data/com.termux/files/usr/cookies >/dev/null 2>&1
 touch /data/data/com.termux/files/usr/cookies/pass.txt >/dev/null 2>&1
+chmod +x /data/data/com.termux/files/usr/cookies/reportinstas.sh >/dev/null 2>&1
 cd /data/data/com.termux/files/usr/bin >/dev/null 2>&1
 chmod +x gh05t
 clear
