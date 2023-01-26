@@ -49,10 +49,34 @@ readthisone() {
 	echo "#######################################################################################"	
 }
 
-apt upgrade -y
-pkg update tor -y
-pkg update tor
-clear
+main_install() {
+	if [[ $(command -v php) && $(command -v curl) && $(command -v python) && $(command -v python2) && $(command -v wget) && $(command -v tor) ]]; then
+		echo -e "" >/dev/null 2>&1
+	else
+		pkgs=(php curl python python2 wget tor)
+		for pkg in "${pkgs[@]}"; do
+		type -p "$pkg" &>/dev/null || {
+		echo -e ""
+			if [[ $(command -v pkg) ]]; then
+				pkg install "$pkg" -y
+			elif [[ $(command -v apt) ]]; then
+				sudo apt install "$pkg" -y
+			elif [[ $(command -v apt-get) ]]; then
+				sudo apt-get install "$pkg" -y
+			elif [[ $(command -v pacman) ]]; then
+				sudo pacman -S "$pkg" --noconfirm
+			elif [[ $(command -v dnf) ]]; then
+				sudo dnf -y install "$pkg"
+			elif [[ $(command -v yum) ]]; then
+				sudo yum -y install "$pkg"
+			else
+				echo ""
+			fi
+			}
+			done
+	fi
+}
+main_install
 
 reset='\033[0m'
 exit_on_signal_SIGINT() {
