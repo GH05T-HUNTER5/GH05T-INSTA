@@ -3,7 +3,7 @@
 manual_attack() {
 	banners
 	read -p $'  \e[1;92m[\e[0m\e[1;77m++\e[0m\e[1;92m] Enter Your Instagram Username : \e[0m' username
-	read -p $'  \e[1;92m[\e[0m\e[1;77m++\e[0m\e[1;92m] Enter your password location along with name : \e[0m' passnum
+	read -p $'  \e[1;92m[\e[0m\e[1;77m++\e[0m\e[1;92m] Enter your password location <path> along with name : \e[0m' passnum
 	brutejson
 	tornotice
 	tor > /dev/null 2>&1 &
