@@ -195,7 +195,6 @@ main_install() {
 			done
 	fi
 }
-#main_install
 
 install_tool() {
 	if [[ $(command -v instagram-py) ]]; then
