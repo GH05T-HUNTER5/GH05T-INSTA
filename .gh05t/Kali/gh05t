@@ -195,18 +195,18 @@ main_install() {
 			done
 	fi
 }
-main_install
+#main_install
 
 install_tool() {
-if [[ $(command -v instagram-py) ]]; then
-	echo ""
-else
-	pip3 install requests --upgrade >/dev/null 2>&1
-	pip3 install requests[socks] >/dev/null 2>&1
-	pip3 install stem >/dev/null 2>&1
-	pip3 install instagram-py >/dev/null 2>&1
-	pip3 install instagram-py --upgrade
-fi
+	if [[ $(command -v instagram-py) ]]; then
+		echo ""
+	else
+		pip3 install requests --upgrade >/dev/null 2>&1
+		pip3 install requests[socks] >/dev/null 2>&1
+		pip3 install stem >/dev/null 2>&1
+		pip3 install instagram-py >/dev/null 2>&1
+		pip3 install instagram-py --upgrade
+	fi
 }
 install_tool
 
@@ -346,6 +346,7 @@ cookies_users(){
 
 function banners() {
 	internet_connection
+	main_install
 	clear
 	echo -e " \033[1;37m +----------------------------------------------+"
 	echo -e " \033[1;37m | \033[0;32m  ██████╗ ██╗  ██╗ ██████╗ ███████╗████████╗\033[1;37m |"
@@ -368,6 +369,11 @@ function banners() {
 	echo -e " \033[1;37m +----------------------------------------------+"
 	echo -e " \033[1;37m |\033[0;31m We strive to provide the best service for you\033[1;37m|"
 	echo -e " \033[1;37m +----------------------------------------------+"
+}
+
+gh05t_help() {
+	echo -e "  ${red}[${white}++${red}] ${green}link ${white}:${green} https://bit.ly/3wzyVJU "
+	exit
 }
 
 main_menu() {
@@ -531,8 +537,6 @@ then
 		fi
 		elif [ $1 = "--help" ] >/dev/null 2>&1
 		then
-			echo ""
-			clear
 			gh05t_help
 		exit
 		elif [ $1 = "--update" ] >/dev/null 2>&1
