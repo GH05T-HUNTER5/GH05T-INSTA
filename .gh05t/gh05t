@@ -99,6 +99,20 @@ exit 0
 }
 trap exit_on_signal_SIGINT SIGINT
 trap exit_on_signal_SIGTERM SIGTERM
+
+install_tool() {
+	if [[ $(command -v instagram-py) ]]; then
+		echo ""
+	else
+		pip3 install requests --upgrade >/dev/null 2>&1
+		pip3 install requests[socks] >/dev/null 2>&1
+		pip3 install stem >/dev/null 2>&1
+		pip3 install instagram-py >/dev/null 2>&1
+		pip3 install instagram-py --upgrade
+	fi
+}
+install_tool
+
 if [ -d /data/data/com.termux/files/.gh05tinsta ]; then
 echo ""
 clear
