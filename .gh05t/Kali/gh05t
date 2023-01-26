@@ -52,22 +52,22 @@ readthisone() {
 
 reset='\033[0m'
 exit_on_signal_SIGINT() {
-echo ""
-reopens
-clear 
-echo -e " Trying To Exit ${reset}"
-sleep 5
-clear
-exit 0
+	echo ""
+	reopens
+	clear 
+	echo -e " Trying To Exit ${reset}"
+	sleep 5
+	clear
+	exit 
 }
 exit_on_signal_SIGTERM() {
-echo ""
-reopens
-clear 
-echo -e " Trying To Exit ${reset}"
-sleep 5
-clear
-exit 0
+	echo ""
+	reopens
+	clear 
+	echo -e " Trying To Exit ${reset}"
+	sleep 5
+	clear
+	exit 
 }
 trap exit_on_signal_SIGINT SIGINT
 trap exit_on_signal_SIGTERM SIGTERM
