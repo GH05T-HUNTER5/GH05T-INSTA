@@ -55,6 +55,7 @@ ghost_uninstall() {
 	exit
 }
 manual_attack() {
+	install_tool
 	banners
 	read -p $'  \e[1;92m[\e[0m\e[1;77m++\e[0m\e[1;92m] Enter Your Instagram Username : \e[0m' username
 	read -p $'  \e[1;92m[\e[0m\e[1;77m++\e[0m\e[1;92m] Enter your password location <path> along with name : \e[0m' passnum
@@ -185,6 +186,7 @@ check_updates() {
 }
 
 function auto_attack() {
+	install_tool
 #	tornotice
 	banners
 	echo -e " \033[1;37m | \033[1;37m[\033[0;31m××\033[1;37m]\033[0;32m Lines  Password type                  \033[1;37m  |"
