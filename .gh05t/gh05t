@@ -1,35 +1,82 @@
 #!/bin/bash
 
-# Never copy this code
-# Create your own code and add GH05T-HUNTER5
-# GH05T-HUNTER5 helps you
+readthisone() {
+	echo ""
+	echo "######################################################"
+	echo "######################################################"
+	echo "##################### READ THIS ######################"
+	echo "######################################################"
+	echo "######################################################"
+	echo "## Dear GitHub user, please do not copy this script ##"
+	echo "######################################################"
+	echo "##  All copyright under the laws of all countries   ##"
+	echo "######################################################"
+	echo "##        Copyright of  GH05T HUNTER5, 2023         ##"
+	echo "######################################################"
+	echo "######################################################"
+	
+	
+	
+	echo "#######################################################################################"
+	echo "#######################################################################################"
+	echo "##   GH05T-INSTA 	: 	Insta BruteForce Tool         			           ##"
+	echo "##   Authors 		: 	GH05T-HUNTER5				           ##"
+	echo "##   Version 		: 	7.01			                           ##"
+	echo "##   Github 		: 	https://github.com/GH05T-HUNTER5/GH05T-INSTA       ##"
+	echo "#######################################################################################"
+	echo "##  MIT License 				                                           ##"
+	echo "##								                   ##"
+	echo "##  Copyright (c) 2023 GH05T HUNTER5 						   ##"
+	echo "##										   ##"
+	echo "##  Permission is hereby granted, free of charge, to any person obtaining a copy     ##"
+	echo "##  of this software and associated documentation files (the "Software"), to deal    ##"
+	echo "##  in the Software without restriction, including without limitation the rights     ##"
+	echo "##  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell        ##"
+	echo "##  copies of the Software, and to permit persons to whom the Software is            ##"
+	echo "##  furnished to do so, subject to the following conditions:                         ##"
+	echo "##                                                                                   ##"
+	echo "##  The above copyright notice and this permission notice shall be included in all   ##"
+	echo "##  copies or substantial portions of the Software.                                  ##"
+	echo "##  										   ##"
+	echo "##  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR       ##"
+	echo "##  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,         ##"
+	echo "##  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE      ##"
+	echo "##  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER           ##"
+	echo "##  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,    ##"
+	echo "##  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE    ##"
+	echo "##  SOFTWARE.          								   ##"
+	echo "#######################################################################################"
+	echo "#######################################################################################"	
+}
 
-#MIT License
-
-#Copyright (c) 2022 GH05T HUNTER5
-
-#Permission is hereby granted, free of charge, to any person obtaining a copy
-#of this software and associated documentation files (the "Software"), to deal
-#in the Software without restriction, including without limitation the rights
-#to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-#copies of the Software, and to permit persons to whom the Software is
-#furnished to do so, subject to the following conditions:
-
-#The above copyright notice and this permission notice shall be included in all
-#copies or substantial portions of the Software.
-
-
-#THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-#IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-#FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-#AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-#LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-#OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-#SOFTWARE.
-apt upgrade -y
-pkg update tor -y
-pkg update tor
-clear
+main_install() {
+	if [[ $(command -v php) && $(command -v curl) && $(command -v python) && $(command -v python2) && $(command -v wget) && $(command -v tor) ]]; then
+		echo -e "" >/dev/null 2>&1
+	else
+		pkgs=(php curl python python2 wget tor)
+		for pkg in "${pkgs[@]}"; do
+		type -p "$pkg" &>/dev/null || {
+		echo -e ""
+			if [[ $(command -v pkg) ]]; then
+				pkg install "$pkg" -y
+			elif [[ $(command -v apt) ]]; then
+				sudo apt install "$pkg" -y
+			elif [[ $(command -v apt-get) ]]; then
+				sudo apt-get install "$pkg" -y
+			elif [[ $(command -v pacman) ]]; then
+				sudo pacman -S "$pkg" --noconfirm
+			elif [[ $(command -v dnf) ]]; then
+				sudo dnf -y install "$pkg"
+			elif [[ $(command -v yum) ]]; then
+				sudo yum -y install "$pkg"
+			else
+				echo ""
+			fi
+			}
+			done
+	fi
+}
+main_install
 
 reset='\033[0m'
 exit_on_signal_SIGINT() {
@@ -52,6 +99,20 @@ exit 0
 }
 trap exit_on_signal_SIGINT SIGINT
 trap exit_on_signal_SIGTERM SIGTERM
+
+install_tool() {
+	if [[ $(command -v instagram-py) ]]; then
+		echo ""
+	else
+		pip3 install requests --upgrade >/dev/null 2>&1
+		pip3 install requests[socks] >/dev/null 2>&1
+		pip3 install stem >/dev/null 2>&1
+		pip3 install instagram-py >/dev/null 2>&1
+		pip3 install instagram-py --upgrade
+	fi
+}
+install_tool
+
 if [ -d /data/data/com.termux/files/.gh05tinsta ]; then
 echo ""
 clear
@@ -109,70 +170,7 @@ fi
 green='\033[1;32m'
 red='\033[1;31m'
 function developer-info () {
-banners 
-sleep 3
-echo -e "  \033[1;37m[\033[0;31m01\033[1;37m]\033[0;32m Telegram                     \033[1;37m[\033[0;31m02\033[1;37m]\033[0;32m Instagram"
-echo -e "  \033[1;37m[\033[0;31m03\033[1;37m]\033[0;32m YouTube                      \033[1;37m[\033[0;31m04\033[1;37m]\033[0;32m Twitter"
-echo -e "  \033[1;37m[\033[0;31m05\033[1;37m]\033[0;32m Blog                         \033[1;37m[\033[0;31m06\033[1;37m]\033[0;32m GitHub"
-echo -e "  \033[1;37m[\033[0;31m99\033[1;37m]\033[0;32m Main                         \033[1;37m[\033[0;31m00\033[1;37m]\033[0;32m Exit"
-read -p $'  \e[1;92m[\e[0m\e[1;77m++\e[0m\e[1;92m] Choose an option : \e[0m' options
-if [ $options = "01" ] || [ $options = "1" ]; then
-echo ""
-clear
-xdg-open https://t.me/GH05T_HUNTER5 >/dev/null 2>&1
-reopens
-clear
-exit
-elif [ $options = "02" ] || [ $options = "2" ]; then
-echo ""
-clear
-xdg-open https://www.instagram.com/gh05t_hunter5/ >/dev/null 2>&1
-reopens
-clear
-exit
-elif [ $options = "03" ] || [ $options = "3" ]; then
-echo ""
-clear
-xdg-open https://youtube.com/channel/UCLoaCSIy4qzx7X2HCjbD8LA >/dev/null 2>&1
-reopens
-clear
-exit 
-elif [ $options = "04" ] || [ $options = "4" ]; then
-echo ""
-clear
-xdg-open https://mobile.twitter.com/gh05_thunter5 >/dev/null 2>&1
-reopens
-clear
-exit
-elif [ $options = "05" ] || [ $options = "5" ]; then
-echo ""
-clear
-xdg-open https://gh05thunter5.blogspot.com/2022/07/blog-post.html?m=1 >/dev/null 2>&1
-reopens
-clear
-exit 
-elif [ $options = "06" ] || [ $options = "6" ]; then
-echo ""
-clear
-xdg-open https://github.com/GH05T-HUNTER5 >/dev/null 2>&1
-reopens
-clear
-exit
-elif [ $options = "00" ]; then
-echo ""
-reopens
-clear
-exit
-elif [ $options = "99" ]; then
-echo ""
-clear
-gh05t
-else
-echo ""
-fi
-reopens
-exit
-}
+banne
 white='\033[1;37m'
 cyan='\033[0;36m'
 function banners () {
@@ -224,46 +222,13 @@ fi
 }
 
 function update-info () {
-banners
-pkg install git -y >/dev/null 2>&1
-pkg install python -y >/dev/null 2>&1
-dpkg -s python &> /dev/null # GH05T HUNTER5
-if [ $? -eq 0 ]; then
-echo ""
-else
-echo ""
-pkg install python >/dev/null 2>&1
-clear
-fi
-dpkg -s git &> /dev/null # GH05T HUNTER5
-if [ $? -eq 0 ]; then
-echo ""
-else
-echo ""
-pkg install git >/dev/null 2>&1
-fi
-cd $HOME
-if [ -d GH05T-INSTA ]; then
-echo ""
-rm -rf GH05T-INSTA >/dev/null 2>&1
-else
-echo ""
-fi
-if [ -d /data/data/com.termux/files/home/GH05T-INSTA ]; then
-echo ""
-rm -rf data/data/com.termux/files/home/GH05T-INSTA >/dev/null 2>&1
-git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA >/dev/null 2>&1
-cd GH05T-INSTA
-python update.py
-reopens
-else
-sleep 1
-git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA >/dev/null 2>&1
-cd GH05T-INSTA
-python update.py
-reopens
-exit
-fi
+	wget gh05t-hunter5.github.io/Basic-Installation-Linux/MyPass/gh05t-updates.sh
+	bash gh05t-updates.sh
+	if [ -f gh05t-updates.sh ]; then
+		rm gh05t-updates.sh
+	else
+		echo ""
+	fi
 }
 
 function reopens () {
@@ -1295,7 +1260,6 @@ echo -e "  \033[1;37m[\033[0;31m01\033[1;37m]\033[0;32m Auto Attack"
 echo -e "  \033[1;37m[\033[0;31m02\033[1;37m]\033[0;32m Manual Attack"
 echo -e "  \033[1;37m[\033[0;31m03\033[1;37m]\033[0;32m Update"
 echo -e "  \033[1;37m[\033[0;31m04\033[1;37m]\033[0;32m Error"
-echo -e "  \033[1;37m[\033[0;31m05\033[1;37m]\033[0;32m Developer"
 echo -e "  \033[1;37m[\033[0;31m06\033[1;37m]\033[0;32m Cookies"
 echo -e "  \033[1;37m[\033[0;31m07\033[1;37m]\033[0;32m Check"
 echo -e "  \033[1;37m[\033[0;31m08\033[1;37m]\033[0;32m Report"
@@ -1332,13 +1296,6 @@ clear
 check-info
 clear
 exit
-elif [ $option = "05" ] || [ $option = "5" ]; then
-echo ""
-clear
-developer-info
-clear
-main-loop
-clear
 elif [ $option = "06" ] || [ $option = "6" ]; then
 echo ""
 clear
