@@ -4,7 +4,7 @@ if [ -d ~/GH05T-INSTA ]; then
 else
 	mv ../GH05T-INSTA ~
 fi
-if [ -f /data/data/com.termux/files/home ]; then
+if [ -d /data/data/com.termux/files/home ]; then
 	bash .gh05t/setup-andro.sh
 else
 	if [ $(id -u) -ne 0 ]; then
