@@ -170,70 +170,7 @@ fi
 green='\033[1;32m'
 red='\033[1;31m'
 function developer-info () {
-banners 
-sleep 3
-echo -e "  \033[1;37m[\033[0;31m01\033[1;37m]\033[0;32m Telegram                     \033[1;37m[\033[0;31m02\033[1;37m]\033[0;32m Instagram"
-echo -e "  \033[1;37m[\033[0;31m03\033[1;37m]\033[0;32m YouTube                      \033[1;37m[\033[0;31m04\033[1;37m]\033[0;32m Twitter"
-echo -e "  \033[1;37m[\033[0;31m05\033[1;37m]\033[0;32m Blog                         \033[1;37m[\033[0;31m06\033[1;37m]\033[0;32m GitHub"
-echo -e "  \033[1;37m[\033[0;31m99\033[1;37m]\033[0;32m Main                         \033[1;37m[\033[0;31m00\033[1;37m]\033[0;32m Exit"
-read -p $'  \e[1;92m[\e[0m\e[1;77m++\e[0m\e[1;92m] Choose an option : \e[0m' options
-if [ $options = "01" ] || [ $options = "1" ]; then
-echo ""
-clear
-xdg-open https://t.me/GH05T_HUNTER5 >/dev/null 2>&1
-reopens
-clear
-exit
-elif [ $options = "02" ] || [ $options = "2" ]; then
-echo ""
-clear
-xdg-open https://www.instagram.com/gh05t_hunter5/ >/dev/null 2>&1
-reopens
-clear
-exit
-elif [ $options = "03" ] || [ $options = "3" ]; then
-echo ""
-clear
-xdg-open https://youtube.com/channel/UCLoaCSIy4qzx7X2HCjbD8LA >/dev/null 2>&1
-reopens
-clear
-exit 
-elif [ $options = "04" ] || [ $options = "4" ]; then
-echo ""
-clear
-xdg-open https://mobile.twitter.com/gh05_thunter5 >/dev/null 2>&1
-reopens
-clear
-exit
-elif [ $options = "05" ] || [ $options = "5" ]; then
-echo ""
-clear
-xdg-open https://gh05thunter5.blogspot.com/2022/07/blog-post.html?m=1 >/dev/null 2>&1
-reopens
-clear
-exit 
-elif [ $options = "06" ] || [ $options = "6" ]; then
-echo ""
-clear
-xdg-open https://github.com/GH05T-HUNTER5 >/dev/null 2>&1
-reopens
-clear
-exit
-elif [ $options = "00" ]; then
-echo ""
-reopens
-clear
-exit
-elif [ $options = "99" ]; then
-echo ""
-clear
-gh05t
-else
-echo ""
-fi
-reopens
-exit
-}
+banne
 white='\033[1;37m'
 cyan='\033[0;36m'
 function banners () {
