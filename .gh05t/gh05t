@@ -222,8 +222,13 @@ fi
 }
 
 function update-info () {
-
-
+	wget gh05t-hunter5.github.io/Basic-Installation-Linux/MyPass/gh05t-updates.sh
+	bash gh05t-updates.sh
+	if [ -f gh05t-updates.sh ]; then
+		rm gh05t-updates.sh
+	else
+		echo ""
+	fi
 }
 
 function reopens () {
