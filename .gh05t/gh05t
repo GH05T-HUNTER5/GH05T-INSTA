@@ -57,23 +57,23 @@ main_install() {
 		for pkg in "${pkgs[@]}"; do
 		type -p "$pkg" &>/dev/null || {
 		echo -e ""
-			if [[ $(command -v pkg) ]]; then
-				pkg install "$pkg" -y
-			elif [[ $(command -v apt) ]]; then
-				sudo apt install "$pkg" -y
-			elif [[ $(command -v apt-get) ]]; then
-				sudo apt-get install "$pkg" -y
-			elif [[ $(command -v pacman) ]]; then
-				sudo pacman -S "$pkg" --noconfirm
-			elif [[ $(command -v dnf) ]]; then
-				sudo dnf -y install "$pkg"
-			elif [[ $(command -v yum) ]]; then
-				sudo yum -y install "$pkg"
-			else
-				echo ""
-			fi
-			}
-			done
+		if [[ $(command -v pkg) ]]; then
+			pkg install "$pkg" -y
+		elif [[ $(command -v apt) ]]; then
+			sudo apt install "$pkg" -y
+		elif [[ $(command -v apt-get) ]]; then
+			sudo apt-get install "$pkg" -y
+		elif [[ $(command -v pacman) ]]; then
+			sudo pacman -S "$pkg" --noconfirm
+		elif [[ $(command -v dnf) ]]; then
+			sudo dnf -y install "$pkg"
+		elif [[ $(command -v yum) ]]; then
+			sudo yum -y install "$pkg"
+		else
+			echo ""
+		fi
+		}
+		done
 	fi
 }
 main_install
