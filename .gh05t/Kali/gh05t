@@ -1,5 +1,59 @@
 #!/bin/env bash
 
+reset='\033[0m'
+exit_on_signal_SIGINT() {
+echo ""
+reopens
+clear 
+echo -e " Trying To Exit ${reset}"
+sleep 5
+clear
+exit 0
+}
+exit_on_signal_SIGTERM() {
+echo ""
+reopens
+clear 
+echo -e " Trying To Exit ${reset}"
+sleep 5
+clear
+exit 0
+}
+trap exit_on_signal_SIGINT SIGINT
+trap exit_on_signal_SIGTERM SIGTERM
+
+green='\033[1;32m'
+red='\033[1;31m'
+white='\033[1;37m'
+cyan='\033[0;36m'
+restar='\033[0;35m'
+
+ghost_uninstall() {
+	pip3 install requests --upgrade >/dev/null 2>&1
+	pip3 uninstall requests[socks] >/dev/null 2>&1
+	pip3 uninstall stem >/dev/null 2>&1
+	pip3 uninstall instagram-py >/dev/null 2>&1
+	if [[ $(command -v instagram-py) ]]; then
+		pip3 uninstall stem >/dev/null 2>&1
+		pip3 uninstall instagram-py >/dev/null 2>&1
+	else
+		echo ''
+	fi
+	rm -rf /usr/cookies
+	if [ -d /usr/cookies ]; then
+		rm -r /usr/cookies
+	else
+		echo ''
+	fi
+	rm /usr/bin/gh05t
+	if [ -f /usr/bin/gh05t ]; then
+		rm -r /usr/bin/gh05t
+	else
+		echo ''
+	fi
+	banners
+	exit
+}
 manual_attack() {
 	banners
 	read -p $'  \e[1;92m[\e[0m\e[1;77m++\e[0m\e[1;92m] Enter Your Instagram Username : \e[0m' username
@@ -227,6 +281,18 @@ function auto_attack() {
 	exit
 }
 
+cookies_users(){
+	banners
+	if [ -f /usr/cookies/history.txt ]; then
+		cat /usr/cookies/history.txt
+		exit
+	else
+		echo "History not found"
+		sleep 2
+		main_menu
+	fi
+}
+
 function banners() {
 	internet_connection
 	clear
@@ -258,7 +324,7 @@ main_menu() {
 	echo -e "  \033[1;37m[\033[0;31m01\033[1;37m]\033[0;32m Auto Attack"
 	echo -e "  \033[1;37m[\033[0;31m02\033[1;37m]\033[0;32m Manual Attack"
 	echo -e "  \033[1;37m[\033[0;31m03\033[1;37m]\033[0;32m Insta Report"
-	echo -e "  \033[1;37m[\033[0;31m04\033[1;37m]\033[0;32m New Password"
+#	echo -e "  \033[1;37m[\033[0;31m04\033[1;37m]\033[0;32m New Password"
 	echo -e "  \033[1;37m[\033[0;31m05\033[1;37m]\033[0;32m History"
 	echo -e "  \033[1;37m[\033[0;31m06\033[1;37m]\033[0;32m Re-Check"
 	echo -e "  \033[1;37m[\033[0;31m07\033[1;37m]\033[0;32m Update"
@@ -271,19 +337,22 @@ main_menu() {
 	elif [ $option = "01" ] || [ $option = "1" ]; then
 		auto_attack
 	elif [ $option = "02" ] || [ $option = "2" ]; then
-
+		manual_attack
 	elif [ $option = "03" ] || [ $option = "3" ]; then
-
-	elif [ $option = "04" ] || [ $option = "4" ]; then
-
+		insta_report
 	elif [ $option = "05" ] || [ $option = "5" ]; then
-
+		cookies_users
 	elif [ $option = "06" ] || [ $option = "6" ]; then
-
+		main_install
+		install_tool
+		check_updates
+		echo 'Re-checked'
+		sleep 2
+		main_menu
 	elif [ $option = "07" ] || [ $option = "7" ]; then
 		check_updates
 	elif [ $option = "08" ] || [ $option = "8" ]; then
-
+		ghost_uninstall
 	elif [ $option = "99" ]; then
 		gh05t_help
 	elif [ $option = "00" ]; then
@@ -296,6 +365,11 @@ main_menu() {
 	fi			
 }
 
+insta_report() {
+	bash /usr/cookies/instareport.sh
+	clear
+	exit
+}
 
 
 
