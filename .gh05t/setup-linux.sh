@@ -149,6 +149,7 @@ else
 	cd /usr
 	mkdir cookies
 fi
+clear
 cd ~/GH05T-INSTA/.gh05t/gh05tpass/ >/dev/null 2>&1
 cp -r password-11.txt /usr/cookies/ >/dev/null 2>&1
 cp -r password-12.txt /usr/cookies/ >/dev/null 2>&1
