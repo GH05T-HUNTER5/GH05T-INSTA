@@ -1035,12 +1035,6 @@ then
 	clear
 	check-info
 	exit
-elif [ $1 = "developer" ] >/dev/null 2>&1
-then
-	echo ""
-	clear
-	developer-info
-	exit
 elif [ $1 = "--cookies" ] >/dev/null 2>&1
 then
 	echo ""
