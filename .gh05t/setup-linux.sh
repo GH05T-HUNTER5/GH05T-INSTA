@@ -142,7 +142,7 @@ else
 	pip3 install stem >/dev/null 2>&1
 	pip3 install instagram-py >/dev/null 2>&1
 fi
-mkdir -p /usr/cookies/ >/dev/null 2>&1
+mkdir -p /usr/cookies >/dev/null 2>&1
 if [ -d /user/cookies ]; then
 	echo 
 else
