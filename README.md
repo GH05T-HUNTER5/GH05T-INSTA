@@ -306,6 +306,32 @@ Don't worry, this problem is temporary
 read -p 'Enter your name : ' user
 gh05t --user $user --pass 18
 ```
+### Why GH05T-INSTA
+
+<i>* You can find your Instagram account password.</i>
+
+<i>* This tool works on both rooted Android device and Non-rooted Android device</i>
+
+<i>* Password is updated and uploaded every three months</i>
+
+<i>*  Your IP address will change automatically</i>
+
+<i>* Errors are automatically detected and resolved </i>
+
+<i>* The gh05t tool is always an anonymous attack (Safe to use) <i>
+
+```
+If there are any errors, please uninstall {gh05t uninstall all} and reinstall gh05t {git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA 
+```
+
+### Pro Tips
+
+* Never login to Instagram app after finding your Instagram password, use your Chrome browser
+
+##### Why Chrome Browser?
+
+* Your login activity will never be saved, so your victim will never find you
+* Your login activity will never be displayed
 
 ### Banner
 
@@ -325,3 +351,12 @@ gh05t --user $user --pass 18
 
 
   ```
+<small>collaborate</small>
+
+Contact  :  <a href="mailto: gh05thunter5@proton.me">Send Email</a>
+
+Telegram Channel  :  <a href="https://t.me/GH05T_HUNTER5">GH05T HUNTER5</a>
+
+```
+                                                                                          The use of the GH05T-INSTA is COMPLETE RESPONSIBILITY of the END-USER. Developers assume NO liability and are NOT responsible for any misuse or damage caused by this program.
+```
