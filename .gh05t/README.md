@@ -65,7 +65,7 @@ $ gh05t --help
 <b>CHECKING FILES </b>
 
 ```
-$ gh05t --check
+$ gh05t --history
 ```
 
 * Checking files and reinstalling deleted files
@@ -78,29 +78,13 @@ $ gh05t --update
 
 * Try this command and you will get the new update
 
-<b>Brute Force Error </b>
-
-```
-$ gh05t --error
-```
-
-* Brute Force error Try this
-
 <b>Usernames </b>
 
 ```
-$ gh05t --cookies
+$ gh05t --history 
 ```
 
 * After running this command you can see the usernames
-
-<b>Developer </b>
-
-```
-$ gh05t developer 
-```
-
-* To contact the developers
 
 
 <b>Uninstall GH05T-INSTA </b>
