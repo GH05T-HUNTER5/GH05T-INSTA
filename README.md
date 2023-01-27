@@ -26,6 +26,24 @@ git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA
 ```
 cd GH05T-INSTA
 ```
+```
+chmod +x *
+```
+```
+./install.sh
+```
+
+<b>or</b>
+
+```
+python install.py
+```
+
+<b>Start</b>
+
+```
+gh05t
+```
 
 <!--
 ## Linux Installation 3.01 
