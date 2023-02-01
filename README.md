@@ -45,6 +45,10 @@ python install.py
 gh05t
 ```
 
+```
+--> Run Tor
+```
+
 <!--
 ## Linux Installation 3.01 
 
