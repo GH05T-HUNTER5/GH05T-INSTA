@@ -1181,7 +1181,7 @@ function Manual-attack () {
 	clear
 	banners
 	read -p $'  \e[1;92m[\e[0m\e[1;77m++\e[0m\e[1;92m] Enter Your Instagram Username                : \e[0m' username
-	read -p $'  \e[1;92m[\e[0m\e[1;77m++\e[0m\e[1;92m] Enter your password location along with name : \e[0m' passnum
+	read -p $'  \e[1;92m[\e[0m\e[1;77m++\e[0m\e[1;92m] Enter your password path along with name : \e[0m' passnum
 	echo "" 
 	cp -r $4 /data/data/com.termux/files/usr/cookies/ >/dev/null 2>&1
 	tor > /dev/null 2>&1 &
