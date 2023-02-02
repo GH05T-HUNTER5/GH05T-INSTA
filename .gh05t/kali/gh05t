@@ -119,8 +119,8 @@ manual_attack() {
 	reopens
 	sleep 3
 	echo -e " \033[1;37m +----------------------------------------------+"
-	echo -e " \033[1;37m |\033[0;31m Developer\033[1;37m :\033[0;34m GH05T HUNTER5   \033[0;31m  version\033[1;37m  :\033[0;34m 3.01\033[1;37m|"
-	echo -e " \033[1;37m |\033[0;31m Powered  \033[1;37m :\033[0;34m Instagram-py    \033[0;31m  antony-jr\033[1;37m:\033[0;34m 2.07\033[1;37m|"
+	echo -e " \033[1;37m |\033[0;31m Developer\033[1;37m :\033[0;34m GH05T HUNTER5   \033[0;31m  version\033[1;37m  :\033[0;34m 7.01\033[1;37m|"
+	echo -e " \033[1;37m |\033[0;31m Powered  \033[1;37m :\033[0;34m Instagram-py    \033[0;31m  antony-jr\033[1;37m:\033[0;34m 20.3\033[1;37m|"
 	echo -e " \033[1;37m +----------------------------------------------+"
 	echo -e " \033[1;37m |              \033[0;31m     disclaimer   \033[1;37m              |"
 	echo -e " \033[1;37m |   We are not responsible if you misuse it    |"
@@ -321,8 +321,8 @@ function auto_attack() {
 	reopens
 	sleep 3
 	echo -e " \033[1;37m +----------------------------------------------+"
-	echo -e " \033[1;37m |\033[0;31m Developer\033[1;37m :\033[0;34m GH05T HUNTER5   \033[0;31m  version\033[1;37m  :\033[0;34m 3.01\033[1;37m|"
-	echo -e " \033[1;37m |\033[0;31m Powered  \033[1;37m :\033[0;34m Instagram-py    \033[0;31m  antony-jr\033[1;37m:\033[0;34m 2.07\033[1;37m|"
+	echo -e " \033[1;37m |\033[0;31m Developer\033[1;37m :\033[0;34m GH05T HUNTER5   \033[0;31m  version\033[1;37m  :\033[0;34m 7.01\033[1;37m|"
+	echo -e " \033[1;37m |\033[0;31m Powered  \033[1;37m :\033[0;34m Instagram-py    \033[0;31m  antony-jr\033[1;37m:\033[0;34m 20.3\033[1;37m|"
 	echo -e " \033[1;37m +----------------------------------------------+"
 	echo -e " \033[1;37m |              \033[0;31m     disclaimer   \033[1;37m              |"
 	echo -e " \033[1;37m |   We are not responsible if you misuse it    |"
@@ -493,8 +493,8 @@ then
 		reopens
 		sleep 3
 		echo -e " \033[1;37m +----------------------------------------------+"
-		echo -e " \033[1;37m |\033[0;31m Developer\033[1;37m :\033[0;34m GH05T HUNTER5   \033[0;31m  version\033[1;37m  :\033[0;34m 3.01\033[1;37m|"
-		echo -e " \033[1;37m |\033[0;31m Powered  \033[1;37m :\033[0;34m Instagram-py    \033[0;31m  antony-jr\033[1;37m:\033[0;34m 2.07\033[1;37m|"
+		echo -e " \033[1;37m |\033[0;31m Developer\033[1;37m :\033[0;34m GH05T HUNTER5   \033[0;31m  version\033[1;37m  :\033[0;34m 7.01\033[1;37m|"
+		echo -e " \033[1;37m |\033[0;31m Powered  \033[1;37m :\033[0;34m Instagram-py    \033[0;31m  antony-jr\033[1;37m:\033[0;34m 20.3\033[1;37m|"
 		echo -e " \033[1;37m +----------------------------------------------+"
 		echo -e " \033[1;37m |              \033[0;31m     disclaimer   \033[1;37m              |"
 		echo -e " \033[1;37m |   We are not responsible if you misuse it    |"
@@ -520,8 +520,8 @@ then
 			reopens
 			sleep 3
 			echo -e " \033[1;37m +----------------------------------------------+"
-			echo -e " \033[1;37m |\033[0;31m Developer\033[1;37m :\033[0;34m GH05T HUNTER5   \033[0;31m  version\033[1;37m  :\033[0;34m 3.01\033[1;37m|"
-			echo -e " \033[1;37m |\033[0;31m Powered  \033[1;37m :\033[0;34m Instagram-py    \033[0;31m  antony-jr\033[1;37m:\033[0;34m 2.07\033[1;37m|"
+			echo -e " \033[1;37m |\033[0;31m Developer\033[1;37m :\033[0;34m GH05T HUNTER5   \033[0;31m  version\033[1;37m  :\033[0;34m 7.01\033[1;37m|"
+			echo -e " \033[1;37m |\033[0;31m Powered  \033[1;37m :\033[0;34m Instagram-py    \033[0;31m  antony-jr\033[1;37m:\033[0;34m 20.3\033[1;37m|"
 			echo -e " \033[1;37m +----------------------------------------------+"
 			echo -e " \033[1;37m |              \033[0;31m     disclaimer   \033[1;37m              |"
 			echo -e " \033[1;37m |   We are not responsible if you misuse it    |"
