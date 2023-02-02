@@ -2,7 +2,6 @@
 ## Notice
 
 <b><i>Please do not clone or download this tool because we are trying to fix the problems and we don't know how many possibilities there are to solve these problems.</i><b>
--->
 
 <img src="https://i.top4top.io/p_2534rdbvk0.jpg" alt="GH05T INSTA Brute Force Attack" title="GH05T INSTA"><br>
 <b>The best way to hack Instagram</b>
@@ -46,10 +45,10 @@ gh05t
 ```
 
 ```
---> Run Tor
+ Run Tor
 ```
 
-<!--
+
 ## Linux Installation 3.01 
 
 `Install Home` 
@@ -296,7 +295,6 @@ Telegram Channel  :  <a href="https://t.me/GH05T_HUNTER5">GH05T HUNTER5</a>
 ## This Tool is not working properly Please wait we are trying to solve this problem 
 
 <img src="https://user-images.githubusercontent.com/123439847/214219519-bea6426e-866f-42a9-8850-e8ab340020cc.png">
--->
 
 <b> Command : <a href="https://github.com/GH05T-HUNTER5/GH05T-INSTA/blob/main/.gh05t/README.md">Link</a></b>
 
@@ -359,6 +357,32 @@ If there are any errors, please uninstall {gh05t uninstall all} and reinstall gh
 
 
   ```
+
+--> 
+## ❇️ INSTAGRAM BRUTEFORCE  ❇️
+
+#### Link ( 1 ) : https://github.com/GH05T-HUNTER5/GH05T-INSTA
+
+#### Link ( 2 ) : https://github.com/dark-player/instabrute.github.io
+
+#### Link ( 3 ) : https://github.com/hackerxphantom/xinsta_brute
+
+#### Link ( 4 ) : https://github.com/SamueleAmato/instaForce
+
+#### Link ( 5 ) : https://github.com/eternalodball/insbrute
+
+#### Link ( 6 ) : https://github.com/Bitwise-01/Instagram-
+
+#### Link ( 7 ) : https://github.com/chinoogawa/instaBrute
+
+#### Link ( 8 ) : https://github.com/importCTF/Instagram-Hacker
+
+#### Link ( 9 ) : https://github.com/xHak9x/instabrute
+
+#### Link ( 10 ) : https://github.com/TermuxHackz/instagram-bruteforcer
+
+
+
 <small>collaborate</small>
 
 Contact  :  <a href="mailto: gh05thunter5@proton.me">Send Email</a>
