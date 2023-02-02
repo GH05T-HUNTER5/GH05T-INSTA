@@ -1,3 +1,10 @@
+`Dear friends, this tool works but to install some basic packages Can't For example, pip will not work on Termex`
+
+```
+Don't worry, this problem is temporary
+```
+
+{MORE LINKS}
 <!--
 ## Notice
 
@@ -359,27 +366,27 @@ If there are any errors, please uninstall {gh05t uninstall all} and reinstall gh
   ```
 
 --> 
-## ❇️ INSTAGRAM BRUTEFORCE  ❇️
+### ❇️ INSTAGRAM BRUTEFORCE  ❇️
 
-#### Link ( 1 ) : https://github.com/GH05T-HUNTER5/GH05T-INSTA
+##### Link ( 1 ) : https://github.com/GH05T-HUNTER5/GH05T-INSTA
 
-#### Link ( 2 ) : https://github.com/dark-player/instabrute.github.io
+##### Link ( 2 ) : https://github.com/dark-player/instabrute.github.io
 
-#### Link ( 3 ) : https://github.com/hackerxphantom/xinsta_brute
+##### Link ( 3 ) : https://github.com/hackerxphantom/xinsta_brute
 
-#### Link ( 4 ) : https://github.com/SamueleAmato/instaForce
+##### Link ( 4 ) : https://github.com/SamueleAmato/instaForce
 
-#### Link ( 5 ) : https://github.com/eternalodball/insbrute
+##### Link ( 5 ) : https://github.com/eternalodball/insbrute
 
-#### Link ( 6 ) : https://github.com/Bitwise-01/Instagram-
+##### Link ( 6 ) : https://github.com/Bitwise-01/Instagram-
 
-#### Link ( 7 ) : https://github.com/chinoogawa/instaBrute
+##### Link ( 7 ) : https://github.com/chinoogawa/instaBrute
 
-#### Link ( 8 ) : https://github.com/importCTF/Instagram-Hacker
+##### Link ( 8 ) : https://github.com/importCTF/Instagram-Hacker
 
-#### Link ( 9 ) : https://github.com/xHak9x/instabrute
+##### Link ( 9 ) : https://github.com/xHak9x/instabrute
 
-#### Link ( 10 ) : https://github.com/TermuxHackz/instagram-bruteforcer
+##### Link ( 10 ) : https://github.com/TermuxHackz/instagram-bruteforcer
 
 
 
