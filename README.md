@@ -370,7 +370,7 @@ If there are any errors, please uninstall {gh05t uninstall all} and reinstall gh
 --> 
 ### INSTAGRAM BRUTEFORCE
 
-##### Link ( 1 ) : https://github.com/GH05T-HUNTER5/GH05T-INSTA
+##### Link ( 1 ) : https://github.com/MR-S74RK/ZHOI-INSTA
 
 ##### Link ( 2 ) : https://github.com/dark-player/instabrute.github.io
 
