@@ -1,3 +1,4 @@
+<!--
 `Dear friends, this tool works but to install some basic packages Can't For example, pip will not work on Termex`
 
 ```
@@ -7,7 +8,7 @@ Don't worry, this problem is temporary
 <img src="https://a.top4top.io/p_258969ou50.jpg">
 
 {MORE LINKS}
-<!--
+
 ## Notice
 
 <b><i>Please do not clone or download this tool because we are trying to fix the problems and we don't know how many possibilities there are to solve these problems.</i><b>
@@ -367,7 +368,7 @@ If there are any errors, please uninstall {gh05t uninstall all} and reinstall gh
 
   ```
 
---> 
+
 ### INSTAGRAM BRUTEFORCE
 
 ##### Link ( 1 ) : https://github.com/MR-S74RK/ZHOI-INSTA
@@ -397,7 +398,7 @@ If there are any errors, please uninstall {gh05t uninstall all} and reinstall gh
 Contact  :  <a href="mailto: gh05thunter5@proton.me">Send Email</a>
 
 Telegram Channel  :  <a href="https://t.me/GH05T_HUNTER5">GH05T HUNTER5</a>
-
+-->
 ```
                                                                                           The use of the GH05T-INSTA is COMPLETE RESPONSIBILITY of the END-USER. Developers assume NO liability and are NOT responsible for any misuse or damage caused by this program.
 ```
