@@ -423,6 +423,7 @@ Telegram Channel  :  <a href="https://t.me/GH05T_HUNTER5">GH05T HUNTER5</a>
     <td>instagram-crash</td>
     <td><a href="https://github.com/kucing-hitam/instagram-crash">Link</a></td>
     <td>All</td>
+    <td><a href="https://github.com/GH05T-HUNTER5/GH05T-INSTA/blob/main/command/instagram-crash.md">INSTALLATION</a></td>
   </tr>
   <tr>
    <td>Brutegram</td>
