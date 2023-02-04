@@ -58,7 +58,7 @@ pip install -r requirements.txt
 ./venom.sh
 ```
 
-`Choose : (02) Run Tool
+`Choose : (02) Run Tool`
 
 <img src="https://j.top4top.io/p_2590zeytt0.jpg" alt="GH05T-HUNTER5">
 
