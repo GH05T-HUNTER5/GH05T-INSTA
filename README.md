@@ -519,6 +519,7 @@ $ `install.sh`
 
 $ `gh05t`
 
+<b>COMMAND : <a href="https://github.com/GH05T-HUNTER5/GH05T-INSTA/blob/main/.gh05t/README.md">LINK</a></b>
 ```
                                                                                           The use of the GH05T-INSTA is COMPLETE RESPONSIBILITY of the END-USER. Developers assume NO liability and are NOT responsible for any misuse or damage caused by this program.
 ```
