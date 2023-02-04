@@ -507,27 +507,17 @@ Telegram Channel  :  <a href="https://t.me/GH05T_HUNTER5">GH05T HUNTER5</a>
 <tr>
 </table>
 
-## GH05T-INSTA {BRUTEFORCE}
+### GH05T-INSTA {BRUTEFORCE}
 
-```
-apt install git
-```
+$ `apt install git`
 
-```
-git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA
-```
+$ `git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA`
 
-```
-cd GH05T-INSTA
-```
+$ `cd GH05T-INSTA`
 
-```
-install.sh
-```
+$ `install.sh`
 
-```
-gh05t
-```
+$ `gh05t`
 
 ```
                                                                                           The use of the GH05T-INSTA is COMPLETE RESPONSIBILITY of the END-USER. Developers assume NO liability and are NOT responsible for any misuse or damage caused by this program.
