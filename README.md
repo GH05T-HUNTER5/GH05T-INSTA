@@ -1,4 +1,4 @@
-<img src="https://media.tenor.com/qMER41oNWx8AAAAC/youve-been-hacked-gregory-brown.gif">
+<!--<img src="https://media.tenor..com/qMER41oNWx8AAAAC/youve-been-hacked-gregory-brown.gif">-->
 
 <b>Not Ready {Please Wait}</b> (Fork It...)
 
