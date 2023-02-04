@@ -468,17 +468,16 @@ Telegram Channel  :  <a href="https://t.me/GH05T_HUNTER5">GH05T HUNTER5</a>
 <tr>
    <td>Instagram-Hacker</td>
     <td><a href="https://github.com/importCTF/Instagram-Hacker">Link</a></td>
-     </td>Kali User</td>
+     <td>Kali User</td>
    </tr>
 <tr>
    <td>instabrute</td>
     <td><a href="https://github.com/xHak9x/instabrute">Link</a></td>
-    </td>
-   </td>Termux User</td>
+   <td>Termux User</td>
 <tr>
    <td>instagram-bruteforcer</td>
     <td><a href="https://github.com/TermuxHackz/instagram-bruteforcer">Link</a></td>
-     </td>All</td>
+     <td>All</td>
    </tr>
 <tr>
    <td>ighack</td>
