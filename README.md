@@ -1,5 +1,65 @@
 <img src="https://media.tenor.com/qMER41oNWx8AAAAC/youve-been-hacked-gregory-brown.gif">
 
+### Tool Installation
+
+```
+apt install git
+```
+
+```
+git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA
+```
+
+```
+cd GH05T-INSTA
+```
+
+```
+chmod +x *
+```
+
+```
+./venom.sh
+```
+
+`Choose : (01) Tool Installation`
+
+### Run Tool
+
+```
+apt install git
+```
+
+```
+git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA
+```
+
+```
+cd GH05T-INSTA
+```
+
+```
+chmod +x *
+```
+
+```
+./setup.sh
+```
+
+```
+./import.sh
+```
+
+```
+pip install -r requments.txt
+```
+
+```
+./venom.sh
+```
+
+`Choose : (02) Run Tool
+
 <img src="https://j.top4top.io/p_2590zeytt0.jpg" alt="GH05T-HUNTER5">
 
 <!--
