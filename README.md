@@ -411,6 +411,7 @@ Telegram Channel  :  <a href="https://t.me/GH05T_HUNTER5">GH05T HUNTER5</a>
     <th>Tool Name</th>
     <th>Tool Link</th>
     <th>System</th>
+    <th>Command</th>
   </tr>
   <tr>
     <td>ZHOI-INSTA</td>
