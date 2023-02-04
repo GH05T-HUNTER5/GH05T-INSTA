@@ -473,7 +473,7 @@ Telegram Channel  :  <a href="https://t.me/GH05T_HUNTER5">GH05T HUNTER5</a>
 
 #### beginner-friendly 
 
-<b>Add New Tool <a href="https://github.com/GH05T-HUNTER5/GH05T-INSTA/pulls">Link</a></b>
+<b>Add New Tool <a href="https://github.com/GH05T-HUNTER5/GH05T-INSTA/edit/main/README.md">Link</a></b>
 <table>
   <tr>
     <th>No#</th>
