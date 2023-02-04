@@ -1,6 +1,4 @@
-<!--<img src="https://media.tenor..com/qMER41oNWx8AAAAC/youve-been-hacked-gregory-brown.gif">-->
-
-<b>Not Ready {Please Wait}</b> (Fork It...)
+<img src="https://media.tenor.com/qMER41oNWx8AAAAC/youve-been-hacked-gregory-brown.gif">
 
 <img src="https://j.top4top.io/p_2590zeytt0.jpg" alt="GH05T-HUNTER5">
 
