@@ -403,6 +403,91 @@ Contact  :  <a href="mailto: gh05thunter5@proton.me">Send Email</a>
 
 Telegram Channel  :  <a href="https://t.me/GH05T_HUNTER5">GH05T HUNTER5</a>
 -->
+
+<table>
+  <tr>
+    <th>Tool Name</th>
+    <th>Tool Link</th>
+    <th>System</th>
+  </tr>
+  <tr>
+    <td>ZHOI-INSTA</td>
+    <td><a href="https://github.com/MR-S74RK/ZHOI-INSTA">Link</a></td>
+    <td>All</td>
+  </tr>
+  <tr>
+    <td>instagram-crash</td>
+    <td><a href="https://github.com/kucing-hitam/instagram-crash">Link</a></td>
+    <td>All</td>
+  </tr>
+  <tr>
+   <td>Brutegram</td>
+    <td><a href="https://github.com/Err0r-ICA/Brutegram">Link</a></td>
+     <td>Termux</td>
+  </tr>
+<tr>
+   <td>instashell</td>
+    <td><a href="https://github.com/tiptoettt/instashell">Link</a></td>
+    <td>Kali User</td>
+   </tr>
+<tr>
+   <td>insta-hack</td>
+    <td><a href="https://github.com/IncredibleHacker/insta-hack">Link</a></td>
+    <td>All</td>
+   </tr>
+<tr>
+   <td>instainsane</td>
+    <td><a href="https://github.com/umeshshinde19/instainsane">Link</a></td>
+    <td>Kali User</td>
+   </tr>
+<tr>
+   <td>xinsta_brute</td>
+    <td><a href="https://github.com/hackerxphantom/xinsta_brute">Link</a></td>
+    <td>Termux User</td>
+  </tr>
+<tr>
+   <td>SocialMediaHackingToolkit</td>
+    <td><a href="https://github.com/RedKatz/SocialMediaHackingToolkit">Link</a></td>
+    <td>All</td>
+   </tr>
+<tr>
+   <td>insbrute</td>
+    <td><a href="https://github.com/eternalodball/insbrute">Link</a></td>
+    <td>Kali User</td>
+  </tr>
+<tr>
+   <td>Instagram-</td>
+    <td><a href="https://github.com/Bitwise-01/Instagram-">Link</a></td>
+    <td>All</td>
+  </tr>
+<tr>
+   <td>instaBrute</td>
+    <td><a href="https://github.com/chinoogawa/instaBrute">Link</a></td>
+    <td>All</td>
+   </tr>
+<tr>
+   <td>Instagram-Hacker</td>
+    <td><a href="https://github.com/importCTF/Instagram-Hacker">Link</a></td>
+     </td>Kali User</td>
+   </tr>
+<tr>
+   <td>instabrute</td>
+    <td><a href="https://github.com/xHak9x/instabrute">Link</a></td>
+    </td>
+   </td>Termux User</td>
+<tr>
+   <td>instagram-bruteforcer</td>
+    <td><a href="https://github.com/TermuxHackz/instagram-bruteforcer">Link</a></td>
+     </td>All</td>
+   </tr>
+<tr>
+   <td>ighack</td>
+    <td><a href="https://github.com/noob-hackers/ighack">Link</a></td>
+     <td>Termux User</td>
+  </tr>
+<tr>
+</table>
+
 ```
                                                                                           The use of the GH05T-INSTA is COMPLETE RESPONSIBILITY of the END-USER. Developers assume NO liability and are NOT responsible for any misuse or damage caused by this program.
 ```
