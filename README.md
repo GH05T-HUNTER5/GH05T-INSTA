@@ -1,5 +1,7 @@
 <img src="https://media.tenor.com/qMER41oNWx8AAAAC/youve-been-hacked-gregory-brown.gif">
 
+<i>It is a complete toolkit for beginners and easy to learn and use tool without additional pro hacking knowledge.</i>
+
 <b>Main Menu </b>`Fork it...`
 <img src="https://f.top4top.io/p_2591gdccl0.jpg">
 
