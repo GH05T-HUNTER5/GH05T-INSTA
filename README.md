@@ -583,6 +583,22 @@ $ `install.sh`
 $ `gh05t`
 
 <b>COMMAND : <a href="https://github.com/GH05T-HUNTER5/GH05T-INSTA/blob/main/.gh05t/README.md">LINK</a></b>
+
+### Pro Tips
+
+* Never login to Instagram app after finding your Instagram password, use your Chrome browser
+
+##### Why Chrome Browser?
+
+* Your login activity will never be saved, so your victim will never find you
+* Your login activity will never be displayed
+
 ```
                                                                                           The use of the GH05T-INSTA is COMPLETE RESPONSIBILITY of the END-USER. Developers assume NO liability and are NOT responsible for any misuse or damage caused by this program.
 ```
+
+<b>Legal disclaimer</b>
+
+`
+Usage of GH05T-INSTA for attacking targets without prior mutual consent is illegal. It's the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+`
