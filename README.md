@@ -51,7 +51,7 @@ chmod +x *
 ```
 
 ```
-pip install -r requments.txt
+pip install -r requirements.txt
 ```
 
 ```
