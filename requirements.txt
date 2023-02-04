@@ -1,4 +1,4 @@
-Mechanize==0.2.5
+Mechanize==0.4.6
 Selenium==2.53.6
 CookieJar==0.0.1
 Simplejson==3.8.1
