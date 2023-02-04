@@ -473,95 +473,111 @@ Telegram Channel  :  <a href="https://t.me/GH05T_HUNTER5">GH05T HUNTER5</a>
 
 <table>
   <tr>
+    <th>No#</th>
     <th>Tool Name</th>
     <th>Tool Link</th>
     <th>System</th>
     <th>Command</th>
   </tr>
   <tr>
+   <td>01</td>
     <td>ZHOI-INSTA</td>
     <td><a href="https://github.com/MR-S74RK/ZHOI-INSTA">Link</a></td>
     <td>All</td>
     <td><a href="https://github.com/GH05T-HUNTER5/GH05T-INSTA/blob/main/command/ZHOI-INSTA.md">INSTALLATION</a></td>
   </tr>
   <tr>
+<td>02</td>
     <td>instagram-crash</td>
     <td><a href="https://github.com/kucing-hitam/instagram-crash">Link</a></td>
     <td>All</td>
     <td><a href="https://github.com/GH05T-HUNTER5/GH05T-INSTA/blob/main/command/instagram-crash.md">INSTALLATION</a></td>
   </tr>
   <tr>
+<td>03</td>
    <td>Brutegram</td>
     <td><a href="https://github.com/Err0r-ICA/Brutegram">Link</a></td>
      <td>Termux</td>
     <td><a href="https://github.com/GH05T-HUNTER5/GH05T-INSTA/blob/main/command/Brutegram.md">INSTALLATION</a></td>
   </tr>
 <tr>
+<td>04</td>
    <td>instashell</td>
     <td><a href="https://github.com/tiptoettt/instashell">Link</a></td>
     <td>Kali User</td>
     <td><a href="https://github.com/GH05T-HUNTER5/GH05T-INSTA/blob/main/command/instashell.md">INSTALLATION</a></td>
    </tr>
 <tr>
+<td>05</td>
    <td>insta-hack</td>
     <td><a href="https://github.com/IncredibleHacker/insta-hack">Link</a></td>
     <td>All</td>
      <td><a href="https://github.com/GH05T-HUNTER5/GH05T-INSTA/blob/main/command/insta-hack.md">INSTALLATION</a></td>
    </tr>
 <tr>
+<td>06</td>
    <td>instainsane</td>
     <td><a href="https://github.com/umeshshinde19/instainsane">Link</a></td>
     <td>Kali User</td>
     <td><a href="https://github.com/GH05T-HUNTER5/GH05T-INSTA/blob/main/command/instainsane.md">INSTALLATION</a></td>
    </tr>
 <tr>
+<td>07</td>
    <td>xinsta_brute</td>
     <td><a href="https://github.com/hackerxphantom/xinsta_brute">Link</a></td>
     <td>Termux User</td>
      <td><a href="https://github.com/GH05T-HUNTER5/GH05T-INSTA/blob/main/command/xinsta_brute.md">INSTALLATION</a></td>
  </tr>
 <tr>
+<td>08</td>
    <td>SocialMediaHackingToolkit</td>
     <td><a href="https://github.com/RedKatz/SocialMediaHackingToolkit">Link</a></td>
     <td>All</td>
     <td><a href="https://github.com/GH05T-HUNTER5/GH05T-INSTA/blob/main/command/SocialMediaHackingToolkit.md">INSTALLATION</a></td>
   </tr>
 <tr>
+<td>09</td>
    <td>insbrute</td>
     <td><a href="https://github.com/eternalodball/insbrute">Link</a></td>
     <td>Kali User</td>
     <td><a href="https://github.com/GH05T-HUNTER5/GH05T-INSTA/blob/main/command/insbrute.md">INSTALLATION</a></td>
   </tr>
 <tr>
+<td>10</td>
    <td>Instagram-</td>
     <td><a href="https://github.com/Bitwise-01/Instagram-">Link</a></td>
     <td>All</td>
     <td><a href="https://github.com/GH05T-HUNTER5/GH05T-INSTA/blob/main/command/Instagram-.md">INSTALLATION</a></td>
   </tr>
 <tr>
+<td>11</td>
    <td>instaBrute</td>
     <td><a href="https://github.com/chinoogawa/instaBrute">Link</a></td>
     <td>All</td>
     <td><a href="https://github.com/GH05T-HUNTER5/GH05T-INSTA/blob/main/command/instaBrute.md">INSTALLATION</a></td>
    </tr>
 <tr>
+<td>12</td>
    <td>Instagram-Hacker</td>
     <td><a href="https://github.com/importCTF/Instagram-Hacker">Link</a></td>
      <td>Kali User</td>
      <td><a href="https://github.com/GH05T-HUNTER5/GH05T-INSTA/blob/main/command/Instagram-Hacker.md">INSTALLATION</a></td>
    </tr>
 <tr>
+<td>13</td>
    <td>instabrute</td>
     <td><a href="https://github.com/xHak9x/instabrute">Link</a></td>
    <td>Termux User</td>
     <td><a href="https://github.com/GH05T-HUNTER5/GH05T-INSTA/blob/main/command/instabrute.md">INSTALLATION</a></td>
 <tr>
+<td>14</td>
    <td>instagram-bruteforcer</td>
     <td><a href="https://github.com/TermuxHackz/instagram-bruteforcer">Link</a></td>
      <td>All</td>
      <td><a href="https://github.com/GH05T-HUNTER5/GH05T-INSTA/blob/main/command/instagram-bruteforcer.md">INSTALLATION</a></td>
    </tr>
 <tr>
+<td>15</td>
    <td>ighack</td>
     <td><a href="https://github.com/noob-hackers/ighack">Link</a></td>
      <td>Termux User</td>
