@@ -429,6 +429,7 @@ Telegram Channel  :  <a href="https://t.me/GH05T_HUNTER5">GH05T HUNTER5</a>
    <td>Brutegram</td>
     <td><a href="https://github.com/Err0r-ICA/Brutegram">Link</a></td>
      <td>Termux</td>
+    <td><a href="https://github.com/GH05T-HUNTER5/GH05T-INSTA/blob/main/command/Brutegram.md">INSTALLATION</a></td>
   </tr>
 <tr>
    <td>instashell</td>
