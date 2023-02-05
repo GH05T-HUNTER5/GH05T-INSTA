@@ -1,5 +1,13 @@
 <img src="https://media.tenor.com/qMER41oNWx8AAAAC/youve-been-hacked-gregory-brown.gif">
 
+`Dear friends, this tool works but to install some basic packages Can't For example, pip will not work on Termex`
+
+```
+Don't worry, this problem is temporary
+```
+
+<img src="https://a.top4top.io/p_258969ou50.jpg">
+
 <i>It is a complete toolkit for beginners and easy to learn and use tool without additional pro hacking knowledge.</i>
 
 <b>Main Menu </b>`Fork it...`
