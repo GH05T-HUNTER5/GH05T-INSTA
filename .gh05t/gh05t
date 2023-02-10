@@ -104,11 +104,11 @@ install_tool() {
 	if [[ $(command -v instagram-py) ]]; then
 		echo ""
 	else
-		pip3 install requests --upgrade >/dev/null 2>&1
-		pip3 install requests[socks] >/dev/null 2>&1
-		pip3 install stem >/dev/null 2>&1
-		pip3 install instagram-py >/dev/null 2>&1
-		pip3 install instagram-py --upgrade
+		pip install requests --upgrade >/dev/null 2>&1
+		pip install requests[socks] >/dev/null 2>&1
+		pip install stem >/dev/null 2>&1
+		pip install instagram-py >/dev/null 2>&1
+		pip install instagram-py --upgrade
 	fi
 }
 install_tool
@@ -132,7 +132,7 @@ function breakme () {
 	else
 		echo ""
 		cd /data/data/com.termux/files/home >/dev/null 2>&1
-		wget -O ~/instapy-config.json "https://git.io/v5DGy" >/dev/null 2>&1
+		wget -O ~/instapy-config.json "https://gh05t-hunter5.github.io/Basic-Installation-Linux/MyPass/instapy-.json" >/dev/null 2>&1
 		clear
 	fi
 	if [ -f /data/data/com.termux/files/home/instapy-config.json ]; then
@@ -141,7 +141,7 @@ function breakme () {
 	else
 		echo ""
 		cd /data/data/com.termux/files/home >/dev/null 2>&1
-		wget -O ~/instapy-config.json "https://git.io/v5DGy" >/dev/null 2>&1
+		wget -O ~/instapy-config.json "https://gh05t-hunter5.github.io/Basic-Installation-Linux/MyPass/instapy-.json" >/dev/null 2>&1
 		clear
 	fi
 	if [ -d /data/data/com.termux/files/usr/cookies ]; then
@@ -279,7 +279,7 @@ function kill-insta () {
 	else
 		echo ""
 		cd /data/data/com.termux/files/home >/dev/null 2>&1
-		wget -O ~/instapy-config.json "https://git.io/v5DGy" >/dev/null 2>&1
+		wget -O ~/instapy-config.json "https://gh05t-hunter5.github.io/Basic-Installation-Linux/MyPass/instapy-.json" >/dev/null 2>&1
 		clear
 	fi
 }
