@@ -23,6 +23,8 @@ cd GH05T-INSTA
 bash install.sh
 ```
 
+`Configuring Tor server to open control port`
+
 ```
 gh05t
 ```
