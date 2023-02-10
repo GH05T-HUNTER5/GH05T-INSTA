@@ -26,18 +26,6 @@ bash install.sh
 gh05t
 ```
 
-
-
-
-
-`Dear friends, this tool works but to install some basic packages Can't For example, pip will not work on Termex`
-
-```
-Don't worry, this problem is temporary
-```
-
-<img src="https://a.top4top.io/p_258969ou50.jpg">
-
 <i>It is a complete toolkit for beginners and easy to learn and use tool without additional pro hacking knowledge.</i>
 
 <b>Main Menu </b>`Fork it...`
@@ -627,20 +615,6 @@ Telegram Channel  :  <a href="https://t.me/GH05T_HUNTER5">GH05T HUNTER5</a>
 <tr>
 </table>
 
-### GH05T-INSTA {BRUTEFORCE}
-
-$ `apt install git`
-
-$ `git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA`
-
-$ `cd GH05T-INSTA`
-
-$ `install.sh`
-
-$ `gh05t`
-
-<b>COMMAND : <a href="https://github.com/GH05T-HUNTER5/GH05T-INSTA/blob/main/.gh05t/README.md">LINK</a></b>
-
 ### Pro Tips
 
 * Never login to Instagram app after finding your Instagram password, use your Chrome browser
@@ -661,5 +635,3 @@ Usage of GH05T-INSTA for attacking targets without prior mutual consent is illeg
 `
 
 <pre>These hackers from India, Pakistan, Bangladesh, Germany and Russian created this tool , thanks to these hackers</pre>
-
--->
