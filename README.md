@@ -1,6 +1,7 @@
 <img src="https://media.tenor.com/qMER41oNWx8AAAAC/youve-been-hacked-gregory-brown.gif">
 
 ## Installation {Kali}
+### BruteForce (GH05T-INSTA)
 
 ```
 sudo -i
@@ -32,7 +33,7 @@ gh05t
 <img src="https://f.top4top.io/p_2591gdccl0.jpg">
 
 ### Tool Installation
-
+#### BruteForce Tools Installation 
 ```
 apt install git
 ```
