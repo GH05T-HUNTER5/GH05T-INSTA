@@ -1,3 +1,4 @@
+<!--
 <img src="https://media.tenor.com/qMER41oNWx8AAAAC/youve-been-hacked-gregory-brown.gif">
 
 `Dear friends, this tool works but to install some basic packages Can't For example, pip will not work on Termex`
@@ -632,3 +633,4 @@ Usage of GH05T-INSTA for attacking targets without prior mutual consent is illeg
 
 <pre>These hackers from India, Pakistan, Bangladesh, Germany and Russian created this tool , thanks to these hackers</pre>
 
+-->
