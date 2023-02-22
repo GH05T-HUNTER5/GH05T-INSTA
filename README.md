@@ -19,6 +19,8 @@ git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA
 cd GH05T-INSTA
 ```
 
+`Termux Users : $ pkg install python-pip #not Kali users`
+
 ```
 bash install.sh
 ```
