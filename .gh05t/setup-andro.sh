@@ -471,7 +471,6 @@ else
 	cd $HOME/GH05T-INSTA/.gh05t >/dev/null 2>&1
 	mv hunter5.css /data/data/com.termux/files/usr/cookies >/dev/null 2>&1
 	clear 
-exit
 fi
 cd /data/data/com.termux/files/usr/cookies/ >/dev/null 2>&1
 chmod +x instaapi.sh
