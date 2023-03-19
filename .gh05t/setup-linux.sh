@@ -315,6 +315,14 @@ git clone https://github.com/Und3rf10w/kali-anonsurf >/dev/null 2>&1
 cd kali-anonsurf
 chmod +x installer.sh
 ./installer.sh
+if [ -d ../kali-anonsurf ]; then
+    rm -rf ../kali-anonsurf 
+elif [ -d kali-anonsurf ]; then
+    rm -rf kali-anonsurf 
+else
+    echo ""
+    clear
+fi
 if [ -d ~/GH05T-INSTA ]; then
 	rm -rf ~/GH05T-INSTA
 else
