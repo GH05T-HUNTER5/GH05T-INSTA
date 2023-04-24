@@ -1,3 +1,4 @@
+<!--
 <img src="https://media.tenor.com/qMER41oNWx8AAAAC/youve-been-hacked-gregory-brown.gif">
 
 ## Installation {Kali}
@@ -498,7 +499,6 @@ If there are any errors, please uninstall {gh05t uninstall all} and reinstall gh
 Contact  :  <a href="mailto: gh05thunter5@proton.me">Send Email</a>
 
 Telegram Channel  :  <a href="https://t.me/GH05T_HUNTER5">GH05T HUNTER5</a>
--->
 
 ### INSTA BRUTEFORCE TOOLS
 
@@ -640,3 +640,4 @@ Usage of GH05T-INSTA for attacking targets without prior mutual consent is illeg
 `
 
 <pre>These hackers from India, Pakistan, Bangladesh, Germany and Russian created this tool , thanks to these hackers</pre>
+-->
