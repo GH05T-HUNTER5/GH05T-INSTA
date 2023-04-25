@@ -1,3 +1,6 @@
+<img src="https://i.top4top.io/p_2534rdbvk0.jpg" alt="GH05T INSTA Brute Force Attack" title="GH05T INSTA"><br>
+<b>The best way to hack Instagram</b>
+
 <img src="https://media.tenor.com/qMER41oNWx8AAAAC/youve-been-hacked-gregory-brown.gif">
 
 ## Installation {Kali}
@@ -30,69 +33,11 @@ sudo gh05t
 <b>Main Menu </b>`Fork it...`
 <img src="https://f.top4top.io/p_2591gdccl0.jpg">
 
-### Tool Installation
-#### BruteForce Tools Installation 
-```
-apt install git
-```
-
-```
-git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA
-```
-
-```
-cd GH05T-INSTA
-```
-
-```
-chmod +x *
-```
-
-```
-./venom.sh
-```
-
-`Choose : (01) Tool Installation`
-
-### Run Tool
-
-```
-apt install git
-```
-
-```
-git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA
-```
-
-```
-cd GH05T-INSTA
-```
-
-```
-chmod +x *
-```
-
-```
-./setup.sh
-```
-
-```
-./import.sh
-```
-
-```
-pip install -r requirements.txt
-```
-
-```
-./venom.sh
-```
-
-`Choose : (02) Run Tool`
+#
 
 <img src="https://j.top4top.io/p_2590zeytt0.jpg" alt="GH05T-HUNTER5">
 
-<!--
+
 `Dear friends, this tool works but to install some basic packages Can't For example, pip will not work on Termex`
 
 ```
@@ -107,8 +52,7 @@ Don't worry, this problem is temporary
 
 <b><i>Please do not clone or download this tool because we are trying to fix the problems and we don't know how many possibilities there are to solve these problems.</i><b>
 
-<img src="https://i.top4top.io/p_2534rdbvk0.jpg" alt="GH05T INSTA Brute Force Attack" title="GH05T INSTA"><br>
-<b>The best way to hack Instagram</b>
+
 
 <b>The best way report Instagram</b>
 
@@ -445,192 +389,3 @@ If there are any errors, please uninstall {gh05t uninstall all} and reinstall gh
 
 <img src="https://j.top4top.io/p_2534lwzj81.jpg" alt="GH05T INSTA" title="GH05T INSTA"><br>
 
-```
-     ██████╗ ██╗  ██╗ ██████╗ ███████╗████████╗  
-    ██╔════╝ ██║  ██║██╔═████╗██╔════╝╚══██╔══╝ 
-    ██║  ███╗███████║██║██╔██║███████╗   ██║     
-    ██║   ██║██╔══██║████╔╝██║╚════██║   ██║     
-    ╚██████╔╝██║  ██║╚██████╔╝███████║   ██║     
-     ╚═════╝ ╚═╝  ╚═╝ ╚═════╝ ╚══════╝   ╚═╝      
-       ██╗███╗   ██╗███████╗████████╗ █████╗     
-       ██║████╗  ██║██╔════╝╚══██╔══╝██╔══██╗    
-       ██║██╔██╗ ██║███████╗   ██║   ███████║    
-       ██║██║╚██╗██║╚════██║   ██║   ██╔══██║    
-       ██║██║ ╚████║███████║   ██║   ██║  ██║    
-       ╚═╝╚═╝  ╚═══╝╚══════╝   ╚═╝   ╚═╝  ╚═╝    
-
-
-  ```
-
-
-### INSTAGRAM BRUTEFORCE
-
-##### Link ( 1 ) : https://github.com/MR-S74RK/ZHOI-INSTA
-
-##### Link ( 2 ) : https://github.com/dark-player/instabrute.github.io
-
-##### Link ( 3 ) : https://github.com/hackerxphantom/xinsta_brute
-
-##### Link ( 4 ) : https://github.com/SamueleAmato/instaForce
-
-##### Link ( 5 ) : https://github.com/eternalodball/insbrute
-
-##### Link ( 6 ) : https://github.com/Bitwise-01/Instagram-
-
-##### Link ( 7 ) : https://github.com/chinoogawa/instaBrute
-
-##### Link ( 8 ) : https://github.com/importCTF/Instagram-Hacker
-
-##### Link ( 9 ) : https://github.com/xHak9x/instabrute
-
-##### Link ( 10 ) : https://github.com/TermuxHackz/instagram-bruteforcer
-
-
-
-<small>collaborate</small>
-
-Contact  :  <a href="mailto: gh05thunter5@proton.me">Send Email</a>
-
-Telegram Channel  :  <a href="https://t.me/GH05T_HUNTER5">GH05T HUNTER5</a>
-
-### INSTA BRUTEFORCE TOOLS
-
-#### beginner-friendly 
-
-<b>Add New Tool <a href="https://github.com/GH05T-HUNTER5/GH05T-INSTA/edit/main/README.md">Link</a></b>
-<table>
-  <tr>
-    <th>No#</th>
-    <th>Tool Name</th>
-    <th>Tool Link</th>
-    <th>System</th>
-    <th>Command</th>
-  </tr>
-  <tr>
-   <td>01</td>
-    <td>ZHOI-INSTA</td>
-    <td><a href="https://github.com/MR-S74RK/ZHOI-INSTA">Link</a></td>
-    <td>All</td>
-    <td><a href="https://github.com/GH05T-HUNTER5/GH05T-INSTA/blob/main/command/ZHOI-INSTA.md">INSTALLATION</a></td>
-  </tr>
-  <tr>
-<td>02</td>
-    <td>instagram-crash</td>
-    <td><a href="https://github.com/kucing-hitam/instagram-crash">Link</a></td>
-    <td>All</td>
-    <td><a href="https://github.com/GH05T-HUNTER5/GH05T-INSTA/blob/main/command/instagram-crash.md">INSTALLATION</a></td>
-  </tr>
-  <tr>
-<td>03</td>
-   <td>Brutegram</td>
-    <td><a href="https://github.com/Err0r-ICA/Brutegram">Link</a></td>
-     <td>Termux</td>
-    <td><a href="https://github.com/GH05T-HUNTER5/GH05T-INSTA/blob/main/command/Brutegram.md">INSTALLATION</a></td>
-  </tr>
-<tr>
-<td>04</td>
-   <td>instashell</td>
-    <td><a href="https://github.com/tiptoettt/instashell">Link</a></td>
-    <td>Kali User</td>
-    <td><a href="https://github.com/GH05T-HUNTER5/GH05T-INSTA/blob/main/command/instashell.md">INSTALLATION</a></td>
-   </tr>
-<tr>
-<td>05</td>
-   <td>insta-hack</td>
-    <td><a href="https://github.com/IncredibleHacker/insta-hack">Link</a></td>
-    <td>All</td>
-     <td><a href="https://github.com/GH05T-HUNTER5/GH05T-INSTA/blob/main/command/insta-hack.md">INSTALLATION</a></td>
-   </tr>
-<tr>
-<td>06</td>
-   <td>instainsane</td>
-    <td><a href="https://github.com/umeshshinde19/instainsane">Link</a></td>
-    <td>Kali User</td>
-    <td><a href="https://github.com/GH05T-HUNTER5/GH05T-INSTA/blob/main/command/instainsane.md">INSTALLATION</a></td>
-   </tr>
-<tr>
-<td>07</td>
-   <td>xinsta_brute</td>
-    <td><a href="https://github.com/hackerxphantom/xinsta_brute">Link</a></td>
-    <td>Termux User</td>
-     <td><a href="https://github.com/GH05T-HUNTER5/GH05T-INSTA/blob/main/command/xinsta_brute.md">INSTALLATION</a></td>
- </tr>
-<tr>
-<td>08</td>
-   <td>SocialMediaHackingToolkit</td>
-    <td><a href="https://github.com/RedKatz/SocialMediaHackingToolkit">Link</a></td>
-    <td>All</td>
-    <td><a href="https://github.com/GH05T-HUNTER5/GH05T-INSTA/blob/main/command/SocialMediaHackingToolkit.md">INSTALLATION</a></td>
-  </tr>
-<tr>
-<td>09</td>
-   <td>insbrute</td>
-    <td><a href="https://github.com/eternalodball/insbrute">Link</a></td>
-    <td>Kali User</td>
-    <td><a href="https://github.com/GH05T-HUNTER5/GH05T-INSTA/blob/main/command/insbrute.md">INSTALLATION</a></td>
-  </tr>
-<tr>
-<td>10</td>
-   <td>Instagram-</td>
-    <td><a href="https://github.com/Bitwise-01/Instagram-">Link</a></td>
-    <td>All</td>
-    <td><a href="https://github.com/GH05T-HUNTER5/GH05T-INSTA/blob/main/command/Instagram-.md">INSTALLATION</a></td>
-  </tr>
-<tr>
-<td>11</td>
-   <td>instaBrute</td>
-    <td><a href="https://github.com/chinoogawa/instaBrute">Link</a></td>
-    <td>All</td>
-    <td><a href="https://github.com/GH05T-HUNTER5/GH05T-INSTA/blob/main/command/instaBrute.md">INSTALLATION</a></td>
-   </tr>
-<tr>
-<td>12</td>
-   <td>Instagram-Hacker</td>
-    <td><a href="https://github.com/importCTF/Instagram-Hacker">Link</a></td>
-     <td>Kali User</td>
-     <td><a href="https://github.com/GH05T-HUNTER5/GH05T-INSTA/blob/main/command/Instagram-Hacker.md">INSTALLATION</a></td>
-   </tr>
-<tr>
-<td>13</td>
-   <td>instabrute</td>
-    <td><a href="https://github.com/xHak9x/instabrute">Link</a></td>
-   <td>Termux User</td>
-    <td><a href="https://github.com/GH05T-HUNTER5/GH05T-INSTA/blob/main/command/instabrute.md">INSTALLATION</a></td>
-<tr>
-<td>14</td>
-   <td>instagram-bruteforcer</td>
-    <td><a href="https://github.com/TermuxHackz/instagram-bruteforcer">Link</a></td>
-     <td>All</td>
-     <td><a href="https://github.com/GH05T-HUNTER5/GH05T-INSTA/blob/main/command/instagram-bruteforcer.md">INSTALLATION</a></td>
-   </tr>
-<tr>
-<td>15</td>
-   <td>ighack</td>
-    <td><a href="https://github.com/noob-hackers/ighack">Link</a></td>
-     <td>Termux User</td>
-     <td><a href="https://github.com/GH05T-HUNTER5/GH05T-INSTA/blob/main/command/ighack.md">INSTALLATION</a></td>
-  </tr>
-<tr>
-</table>
-
-### Pro Tips
-
-* Never login to Instagram app after finding your Instagram password, use your Chrome browser
-
-##### Why Chrome Browser?
-
-* Your login activity will never be saved, so your victim will never find you
-* Your login activity will never be displayed
-
-```
-                                                                                          The use of the GH05T-INSTA is COMPLETE RESPONSIBILITY of the END-USER. Developers assume NO liability and are NOT responsible for any misuse or damage caused by this program.
-```
-
-<b>Legal disclaimer</b>
-
-`
-Usage of GH05T-INSTA for attacking targets without prior mutual consent is illegal. It's the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
-`
-
-<pre>These hackers from India, Pakistan, Bangladesh, Germany and Russian created this tool , thanks to these hackers</pre>
--->
