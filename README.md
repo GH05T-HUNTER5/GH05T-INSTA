@@ -32,6 +32,28 @@ sudo gh05t
 
 `Dear friends, this tool works but to install some basic packages Can't For example, pip will not work on Termex`
 
+### Termux {Installation}
+
+```
+pkg install git
+```
+
+```
+git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA 
+```
+
+```
+cd GH05T-INSTA 
+```
+
+```
+bash setup.sh 
+```
+
+```
+gh05t
+```
+
 ```
 Don't worry, this problem is temporary
 ```
