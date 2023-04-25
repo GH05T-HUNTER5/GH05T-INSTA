@@ -1,5 +1,9 @@
 #!/bin/env bash
-
+if [ $(id -u) -ne 0 ]; then
+	echo "This script must be ran as root"
+	exit 1
+fi 
+  
 readthisone() {
 	echo ""
 	echo "######################################################"
@@ -379,11 +383,6 @@ main_menu() {
 	banners
 	echo -e "  \033[1;37m[\033[0;31m01\033[1;37m]\033[0;32m Auto Attack"
 	echo -e "  \033[1;37m[\033[0;31m02\033[1;37m]\033[0;32m Manual Attack"
-	echo -e "  \033[1;37m[\033[0;31m03\033[1;37m]\033[0;32m Insta Report"
-#	echo -e "  \033[1;37m[\033[0;31m04\033[1;37m]\033[0;32m New Password"
-	echo -e "  \033[1;37m[\033[0;31m05\033[1;37m]\033[0;32m History"
-	echo -e "  \033[1;37m[\033[0;31m06\033[1;37m]\033[0;32m Re-Check"
-	echo -e "  \033[1;37m[\033[0;31m07\033[1;37m]\033[0;32m Update"
 	echo -e "  \033[1;37m[\033[0;31m08\033[1;37m]\033[0;32m Uninstall gh05t"
 	echo -e "  \033[1;37m[\033[0;31m99\033[1;37m]\033[0;32m Help"
 	echo -e "  \033[1;37m[\033[0;31m00\033[1;37m]\033[0;32m Exit"
