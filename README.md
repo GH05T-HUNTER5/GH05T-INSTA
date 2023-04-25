@@ -1,12 +1,7 @@
-<!--
 <img src="https://media.tenor.com/qMER41oNWx8AAAAC/youve-been-hacked-gregory-brown.gif">
 
 ## Installation {Kali}
 ### BruteForce (GH05T-INSTA)
-
-```
-sudo -i
-```
 
 ```
 apt install git
@@ -20,16 +15,14 @@ git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA
 cd GH05T-INSTA
 ```
 
-`Termux Users : $ pkg install python-pip #not Kali users`
-
 ```
-bash install.sh
+sudo bash setup.sh
 ```
 
 `Configuring Tor server to open control port`
 
 ```
-gh05t
+sudo gh05t
 ```
 
 <i>It is a complete toolkit for beginners and easy to learn and use tool without additional pro hacking knowledge.</i>
