@@ -28,14 +28,6 @@ sudo bash setup.sh
 sudo gh05t
 ```
 
-<i>It is a complete toolkit for beginners and easy to learn and use tool without additional pro hacking knowledge.</i>
-
-<b>Main Menu </b>`Fork it...`
-<img src="https://f.top4top.io/p_2591gdccl0.jpg">
-
-#
-
-<img src="https://j.top4top.io/p_2590zeytt0.jpg" alt="GH05T-HUNTER5">
 
 
 `Dear friends, this tool works but to install some basic packages Can't For example, pip will not work on Termex`
@@ -344,20 +336,6 @@ Telegram Channel  :  <a href="https://t.me/GH05T_HUNTER5">GH05T HUNTER5</a>
 
 <img src="https://user-images.githubusercontent.com/123439847/214219519-bea6426e-866f-42a9-8850-e8ab340020cc.png">
 
-<b> Command : <a href="https://github.com/GH05T-HUNTER5/GH05T-INSTA/blob/main/.gh05t/README.md">Link</a></b>
-
-### Notice
-
-`Dear friends, this tool works but to install some basic packages Can't For example, pip will not work on Termex`
-
-```
-Don't worry, this problem is temporary
-```
-
-```bash
-read -p 'Enter your name : ' user
-gh05t --user $user --pass 18
-```
 ### Why GH05T-INSTA
 
 <i>* You can find your Instagram account password.</i>
