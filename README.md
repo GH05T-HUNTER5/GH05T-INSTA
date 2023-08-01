@@ -115,7 +115,7 @@ Usage of GH05T-INSTA for attacking targets without prior mutual consent is illeg
 
 <small>collaborate</small>
 
-Contact  :  <a href="mailto: gh05thunter5@proton.me">Send Email</a>
+Contact  :  <a href="mailto: hunter5@proton.me">Send Email</a> {Don't ask me how to hack social media}
 
 Telegram Channel  :  <a href="https://t.me/GH05T_HUNTER5">GH05T HUNTER5</a>
 
