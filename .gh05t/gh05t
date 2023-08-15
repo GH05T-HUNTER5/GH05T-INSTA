@@ -48,6 +48,14 @@ readthisone() {
 	echo "#######################################################################################"
 	echo "#######################################################################################"	
 }
+
+if [[ $(command -v instagram-py) ]]; then
+        echo ""
+else
+        echo "Instagram-py command not located. To install Instagram-py, please execute the installation command: 'pip install Instagram-py'."
+        exit
+fi
+
 if [[ $(command -v python3) ]]; then 
     echo ""
 else 
