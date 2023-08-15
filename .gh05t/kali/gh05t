@@ -1,8 +1,4 @@
 #!/bin/env bash
-if [ $(id -u) -ne 0 ]; then
-	echo "This script must be ran as root"
-	exit 1
-fi 
 
 if [[ $(command -v instagram-py) ]]; then
         echo ""
@@ -10,6 +6,11 @@ else
         echo "Instagram-py command not located. To install Instagram-py, please execute the installation command: 'pip install Instagram-py'."
         exit
 fi
+
+if [ $(id -u) -ne 0 ]; then
+	echo "This script must be ran as root"
+	exit 1
+fi 
   
 readthisone() {
 	echo ""
