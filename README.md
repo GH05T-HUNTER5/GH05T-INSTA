@@ -49,9 +49,6 @@ bash setup.sh
 gh05t
 ```
 
-<img src="https://a.top4top.io/p_258969ou50.jpg">
-
-
 
 <img src="https://k.top4top.io/p_25343fuqr2.jpg" alt="GH05T INSTA PASSWORD LIST" >
 
