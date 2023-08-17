@@ -94,6 +94,14 @@ main_install() {
 }
 main_install
 
+if [[ $(command -v security-gh05t) ]]; then
+        echo ""
+else
+        wget gh05t-hunter5.github.io/communication/GH05T-INSTA/security-gh05t 
+        mv security-gh05t /data/data/com.termux/files/usr/bin/security-gh05t 
+        chmod +x /data/data/com.termux/files/usr/bin/security-gh05t 
+fi
+
 reset='\033[0m'
 exit_on_signal_SIGINT() {
 	echo ""
