@@ -1,4 +1,4 @@
-<!--<img src="https://i.top4top.io/p_2534rdbvk0.jpg" alt="GH05T INSTA Brute Force Attack" title="GH05T INSTA"><br>
+
 <b>The best way to hack Instagram</b>
 
 <img src="https://media.tenor.com/qMER41oNWx8AAAAC/youve-been-hacked-gregory-brown.gif">
@@ -118,4 +118,3 @@ Usage of GH05T-INSTA for attacking targets without prior mutual consent is illeg
 Contact  :  <a href="mailto: hunter5@proton.me">Send Email</a> {Don't ask me how to hack social media}
 
 Telegram Channel  :  <a href="https://t.me/GH05T_HUNTER5">GH05T HUNTER5</a>
--->
