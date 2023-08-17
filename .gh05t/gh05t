@@ -260,6 +260,7 @@ function reopens () {
 	if [ -f instapy-config.json ]; then
 		rm instapy-config.json >/dev/null 2>&1
 	fi
+        security-gh05t remove
 }
 
 function error-info () {
@@ -306,6 +307,7 @@ function kill-insta () {
 		wget -O ~/instapy-config.json "gh05t-hunter5.github.io/communication/GH05T-INSTA/instapy-.json" >/dev/null 2>&1
 		clear
 	fi
+        security-gh05t
 }
 
 restar='\033[0;35m'
