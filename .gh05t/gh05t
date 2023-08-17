@@ -49,6 +49,8 @@ readthisone() {
 	echo "#######################################################################################"	
 }
 
+pip install requests
+clear
 if [[ $(command -v instagram-py) ]]; then
         echo ""
 else
