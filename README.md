@@ -1,4 +1,3 @@
-
 <b>The best way to hack Instagram</b>
 
 <img src="https://media.tenor.com/qMER41oNWx8AAAAC/youve-been-hacked-gregory-brown.gif">
@@ -28,10 +27,6 @@ sudo bash setup.sh
 sudo gh05t
 ```
 
-
-
-`Dear friends, this tool works but to install some basic packages Can't For example, pip will not work on Termex`
-
 ### Termux {Installation}
 
 ```
@@ -52,10 +47,6 @@ bash setup.sh
 
 ```
 gh05t
-```
-
-```
-Don't worry, this problem is temporary
 ```
 
 <img src="https://a.top4top.io/p_258969ou50.jpg">
