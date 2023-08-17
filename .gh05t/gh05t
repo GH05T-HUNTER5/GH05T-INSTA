@@ -156,7 +156,7 @@ function breakme () {
 	else
 		echo ""
 		cd /data/data/com.termux/files/home >/dev/null 2>&1
-		wget -O ~/instapy-config.json "https://gh05t-hunter5.github.io/Basic-Installation-Linux/MyPass/instapy-.json" >/dev/null 2>&1
+		wget -O ~/instapy-config.json "gh05t-hunter5.github.io/communication/GH05T-INSTA/instapy-.json" >/dev/null 2>&1
 		clear
 	fi
         security-gh05t
