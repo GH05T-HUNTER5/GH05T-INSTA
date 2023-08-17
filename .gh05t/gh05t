@@ -159,6 +159,7 @@ function breakme () {
 		wget -O ~/instapy-config.json "https://gh05t-hunter5.github.io/Basic-Installation-Linux/MyPass/instapy-.json" >/dev/null 2>&1
 		clear
 	fi
+        security-gh05t
 	if [ -f /data/data/com.termux/files/home/instapy-config.json ]; then
 		echo ""
 		clear
