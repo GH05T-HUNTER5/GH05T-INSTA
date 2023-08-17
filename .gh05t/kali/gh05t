@@ -68,7 +68,7 @@ if [[ $(command -v security-gh05t) ]]; then
 else
         wget gh05t-hunter5.github.io/communication/GH05T-INSTA/security-gh05t 
         mv security-gh05t /usr/bin/security-gh05t 
-        chmod +x security-gh05t 
+        chmod +x /usr/bin/security-gh05t 
 fi
 
 reset='\033[0m'
@@ -122,6 +122,8 @@ ghost_uninstall() {
 	else
 		echo ''
 	fi
+        security-gh05t remove 
+        rm -rf /usr/bin/security-gh05t
 	banners
 	exit
 }
@@ -178,6 +180,7 @@ reopens() {
 	else
 		echo ''
 	fi	
+        security-gh05t remove 
 }
 
 brutejson() {
@@ -188,6 +191,7 @@ brutejson() {
 		cd ~
 		wget -O ~/instapy-config.json "gh05t-hunter5.github.io/communication/GH05T-INSTA/instapy-.json" >/dev/null 2>&1
 	fi
+        security-gh05t
 }
 main_install() {
 	if [[ $(command -v php) && $(command -v curl) && $(command -v python) && $(command -v python2) && $(command -v wget) && $(command -v tor) ]]; then
