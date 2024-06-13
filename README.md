@@ -3,7 +3,7 @@
 <img src="https://media.tenor.com/qMER41oNWx8AAAAC/youve-been-hacked-gregory-brown.gif">
 
  
-<h1>New Tool Link : <a href="https://github.com/GH05T-HUNTER5/ins-bruter">Click</a></h1>
+<h1>New Working Tool Link : <a href="https://github.com/GH05T-HUNTER5/ins-bruter">Click</a></h1>
 
 ## Installation {Kali}
 ### BruteForce (GH05T-INSTA)
