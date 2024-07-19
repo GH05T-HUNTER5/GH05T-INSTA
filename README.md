@@ -59,17 +59,17 @@ gh05t
 
 ### Why GH05T-INSTA
 
-<i>* You can find your Instagram account password.</i>
+* You can find your Instagram account password.
 
-<i>* This tool works on both rooted Android device and Non-rooted Android device</i>
+* This tool works on both rooted Android device and Non-rooted Android device
 
-<i>* Password is updated and uploaded every three months</i>
+* Password is updated and uploaded every three months
 
-<i>*  Your IP address will change automatically</i>
+*  Your IP address will change automatically
 
-<i>* Errors are automatically detected and resolved </i>
+* Errors are automatically detected and resolved 
 
-<i>* The gh05t tool is always an anonymous attack (Safe to use) <i>
+* The gh05t tool is always an anonymous attack (Safe to use) 
 
 ```
 If there are any errors, please uninstall {gh05t uninstall all} and reinstall gh05t {git clone https://github.com/GH05T-HUNTER5/GH05T-INSTA 
