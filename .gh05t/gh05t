@@ -48,7 +48,10 @@ readthisone() {
 	echo "#######################################################################################"
 	echo "#######################################################################################"	
 }
-
+echo "New Tool"
+xdg-open https://github.com/GH05T-HUNTER5/insta-breaker
+sleep 10
+exit
 pip install requests
 clear
 if [[ $(command -v instagram-py) ]]; then
