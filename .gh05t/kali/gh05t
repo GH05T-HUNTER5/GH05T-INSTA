@@ -1,5 +1,8 @@
 #!/bin/env bash
-
+echo "New Tool"
+xdg-open https://github.com/GH05T-HUNTER5/insta-breaker
+sleep 10
+exit
 if [[ $(command -v instagram-py) ]]; then
         echo ""
 else
